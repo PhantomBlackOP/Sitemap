@@ -83,8 +83,9 @@ def get_lastmod(url, page):
     if "trevorion.io" in url:
         try:
             page.goto(url, wait_until="networkidle", timeout=60000)
-            html_tag = page.locator("html").first
-            raw = html_tag.get_attribute("data-last-updated-at-time")
+            page.wait_for_timeout(1000)  # Let JS finish
+            element = page.locator("[data-last-updated-at-time]").first
+            raw = element.get_attribute("data-last-updated-at-time")
             if raw:
                 dt = datetime.utcfromtimestamp(int(raw) / 1000.0)
                 return dt.isoformat() + "Z"
