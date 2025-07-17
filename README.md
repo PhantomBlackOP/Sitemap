@@ -27,6 +27,12 @@ This repo powers a dynamic `sitemap.xml` generator that:
 - GitHub Actions for CI/CD automation
 
 ---
+## 🔥 Credits
+
+Created and curated by **Trevor Grech (@Trevorion)**  
+Home of the mythkeeper’s flame, daily experiments, and structured defiance.
+
+---
 
 ## ⚡ Usage
 
@@ -34,8 +40,3 @@ To run locally:
 
 ```bash
 python scripts/generate_sitemap.py
-
-## 🔥 Credits
-
-Created and curated by **Trevor Grech (@Trevorion)**  
-Home of the mythkeeper’s flame, daily experiments, and structured defiance.
