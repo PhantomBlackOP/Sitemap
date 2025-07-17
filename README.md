@@ -1,6 +1,6 @@
 # 🗺️ PhantomBlackOP Sitemap Generator
 
-[![Sitemap Build](https://github.com/PhantomBlackOP/Sitemap/actions/workflows/generate-sitemap.yml/badge.svg)](https://phantomblackop.github.io/Sitemap/sitemap.xml)  
+[![Sitemap Build](https://github.com/PhantomBlackOP/Sitemap/actions/workflows/generate-sitemap.yml/badge.svg)](https://github.com/PhantomBlackOP/Sitemap/actions/workflows/generate-sitemap.yml)
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)  
 ![Last Commit](https://img.shields.io/github/last-commit/PhantomBlackOP/Sitemap)  
 ![Repo Size](https://img.shields.io/github/repo-size/PhantomBlackOP/Sitemap)
