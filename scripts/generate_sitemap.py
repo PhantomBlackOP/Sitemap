@@ -80,27 +80,32 @@ def get_lastmod(url):
 
 def get_banner_image(url, page):
     try:
-        page.goto(url, wait_until="networkidle", timeout=60000)
-
-        # Target Google Sites banner container
-        bg_div = page.locator("div.IFuOkc").first
-        if not bg_div.count():
+        if not url.startswith("http"):
+            print(f"🧺 Skipping banner extraction for non-HTTP URL: {url}")
             return None
 
-        style = bg_div.get_attribute("style")
-        if style and "background-image" in style:
-            start = style.find('url("') + 5
-            end = style.find('")', start)
-            src = style[start:end]
+        page.goto(url, wait_until="networkidle", timeout=60000)
 
-            if src:
-                full_src = src if src.startswith("http") else urljoin(url, src)
-                title = "Site Banner"  # fallback title; optional enhancements later
-                return {"image_loc": full_src, "image_title": title}
+        # 🖼 Extract background image using computed style
+        src = page.evaluate("""
+            const el = document.querySelector("div.IFuOkc");
+            if (!el) return null;
+            const style = window.getComputedStyle(el);
+            const bg = style.backgroundImage;
+            if (!bg || !bg.includes("url(")) return null;
+            return bg.slice(5, -2); // removes url("...") wrapper
+        """)
+
+        if src:
+            full_src = src if src.startswith("http") else urljoin(url, src)
+            return {
+                "image_loc": full_src,
+                "image_title": "Site Banner"
+            }
 
         return None
     except Exception as e:
-        print(f"⚠️ Failed to extract banner from {url}: {e}")
+        print(f"⚠️ Failed to compute banner from {url}: {e}")
         return None
 
 def main():
