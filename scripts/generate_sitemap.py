@@ -20,6 +20,7 @@ def get_rendered_links():
         page = browser.new_page()
         page.goto(SITEMAP_URL, wait_until="networkidle")
 
+        print(page.content())
         content = page.locator("div.nWesDd.m1rHfc")
         if not content.count():
             print("⚠️ Main content div not found.")
