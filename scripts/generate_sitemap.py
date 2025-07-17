@@ -79,9 +79,9 @@ def get_changefreq(url):
         return "monthly"
     return "yearly"
 
-def get_lastmod(url):
-    if "trevorion.io" in URL:
-         try:
+def get_lastmod(url, page):
+    if "trevorion.io" in url:
+        try:
             page.goto(url, wait_until="networkidle", timeout=60000)
             html_tag = page.locator("html").first
             raw = html_tag.get_attribute("data-last-updated-at-time")
@@ -92,10 +92,9 @@ def get_lastmod(url):
             print(f"⚠️ Failed to extract lastmod from {url}: {e}")
             return datetime.utcnow().isoformat() + "Z"
 
-    if "x.com" in url and "/status/" in url:
+    elif "x.com" in url and "/status/" in url:
         try:
             tweet_id = int(url.split("/")[-1])
-            # X Snowflake timestamp (in ms), shifted right 22 bits
             timestamp_ms = (tweet_id >> 22) + 1288834974657
             dt = datetime.utcfromtimestamp(timestamp_ms / 1000.0)
             return dt.isoformat() + "Z"
@@ -111,17 +110,23 @@ def main():
         print("⚠️ No links to include in sitemap.")
         return
 
-    urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
 
-    for entry in links:
-        lm = get_lastmod(entry["url"])
-        print(f"{entry['url']} → lastmod: {lm}")
-              
-        url_el = ET.SubElement(urlset, "url")
-        ET.SubElement(url_el, "loc").text = entry["url"]
-        ET.SubElement(url_el, "lastmod").text = get_lastmod(entry["url"])
-        ET.SubElement(url_el, "priority").text = get_priority(entry["url"])
-        ET.SubElement(url_el, "changefreq").text = get_changefreq(entry["url"])
+        urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+
+        for entry in links:
+            lm = get_lastmod(entry["url"], page)
+            print(f"{entry['url']} → lastmod: {lm}")
+
+            url_el = ET.SubElement(urlset, "url")
+            ET.SubElement(url_el, "loc").text = entry["url"]
+            ET.SubElement(url_el, "lastmod").text = lm
+            ET.SubElement(url_el, "priority").text = get_priority(entry["url"])
+            ET.SubElement(url_el, "changefreq").text = get_changefreq(entry["url"])
+
+        browser.close()
 
     tree = ET.ElementTree(urlset)
     tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
