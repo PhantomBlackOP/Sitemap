@@ -48,8 +48,8 @@ def build_sitemap(links):
         lastmod.text = now
 
         # Optional enhancements:
-        # ET.SubElement(url_el, "priority").text = "0.5"
-        # ET.SubElement(url_el, "changefreq").text = "weekly"
+        ET.SubElement(url_el, "priority").text = "0.5"
+        ET.SubElement(url_el, "changefreq").text = "weekly"
 
     return ET.ElementTree(urlset)
 
