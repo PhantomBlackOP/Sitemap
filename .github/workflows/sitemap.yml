@@ -1,35 +1,36 @@
-name: Generate Sitemap
+name: Generate Sitemap from Rendered Page
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 2 * * *"  # Runs daily at 2 AM UTC
+    - cron: '0 3 * * *'  # every day at 3am UTC
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install beautifulsoup4 requests
+      - name: Install Python deps
+        run: |
+          pip install playwright beautifulsoup4
+          playwright install chromium
 
-      - name: Run sitemap script
+      - name: Run Sitemap Generator
         run: python scripts/generate_sitemap.py
 
-      - name: Commit and push sitemap
+      - name: Commit and Push sitemap.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add sitemap.xml
-          git commit -m "Update sitemap.xml" || echo "No changes to commit"
+          git commit -m "Update sitemap.xml" || echo "No changes"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
-
