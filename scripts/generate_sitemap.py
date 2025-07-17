@@ -20,9 +20,7 @@ def get_rendered_links():
         page = browser.new_page()
         page.goto(SITEMAP_URL, wait_until="networkidle")
 
-        # ✅ Target actual sitemap list container
         content = page.locator("ol.n8H08c.BKnRcf").first
-
         if not content.count():
             print("⚠️ Structured sitemap container not found.")
             browser.close()
@@ -81,6 +79,21 @@ def get_changefreq(url):
         return "monthly"
     return "yearly"
 
+def get_lastmod(url):
+    # Extract tweet timestamp from X (Twitter) Snowflake ID
+    if "x.com" in url and "/status/" in url:
+        try:
+            tweet_id = url.split("/")[-1]
+            timestamp_ms = int(tweet_id) >> 22
+            dt = datetime.utcfromtimestamp(timestamp_ms / 1000.0)
+            return dt.isoformat() + "Z"
+        except Exception as e:
+            print(f"⚠️ Failed to parse tweet timestamp from {url}")
+            return datetime.utcnow().isoformat() + "Z"
+    else:
+        # Fallback for non-Twitter URLs
+        return datetime.utcnow().isoformat() + "Z"
+
 def main():
     links = get_rendered_links()
     if not links:
@@ -88,12 +101,11 @@ def main():
         return
 
     urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
-    now = datetime.utcnow().isoformat() + "Z"
 
     for entry in links:
         url_el = ET.SubElement(urlset, "url")
         ET.SubElement(url_el, "loc").text = entry["url"]
-        ET.SubElement(url_el, "lastmod").text = now
+        ET.SubElement(url_el, "lastmod").text = get_lastmod(entry["url"])
         ET.SubElement(url_el, "priority").text = get_priority(entry["url"])
         ET.SubElement(url_el, "changefreq").text = get_changefreq(entry["url"])
 
