@@ -59,11 +59,11 @@ def get_priority(url):
 def get_changefreq(url):
     if url.endswith("/home") or url == BASE_URL:
         return "daily"
-    if "dailies" in url or "sitemap" in url or "/2025" in url:
+    if "dailies" in url or "sitemap" in url:
         return "daily"
     if "news" in url or "articles" in url or "status" in url or "comics" in url:
         return "weekly"
-    if "puzzles" in url:
+    if "puzzles" in url or "/2025" in url:
         return "monthly"
     return "yearly"
 
@@ -80,20 +80,24 @@ def get_lastmod(url):
 
 def get_banner_image(url, page):
     try:
-        page.goto(url, wait_until="networkidle")
-        selectors = [
-            "header img", ".hero img", ".banner img",
-            ".sites-layout-tile img", ".sites-embed-content-body img",
-            "img"
-        ]
-        for sel in selectors:
-            img = page.locator(sel).first
-            if img.count():
-                src = img.get_attribute("src")
-                alt = img.get_attribute("alt") or img.get_attribute("title") or "Banner"
-                if src:
-                    full_src = src if src.startswith("http") else urljoin(url, src)
-                    return {"image_loc": full_src, "image_title": alt}
+        page.goto(url, wait_until="networkidle", timeout=60000)
+
+        # Target Google Sites banner container
+        bg_div = page.locator("div.IFuOkc").first
+        if not bg_div.count():
+            return None
+
+        style = bg_div.get_attribute("style")
+        if style and "background-image" in style:
+            start = style.find('url("') + 5
+            end = style.find('")', start)
+            src = style[start:end]
+
+            if src:
+                full_src = src if src.startswith("http") else urljoin(url, src)
+                title = "Site Banner"  # fallback title; optional enhancements later
+                return {"image_loc": full_src, "image_title": title}
+
         return None
     except Exception as e:
         print(f"⚠️ Failed to extract banner from {url}: {e}")
