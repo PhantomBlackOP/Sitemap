@@ -49,39 +49,39 @@ def build_sitemap(links):
 
         # Optional enhancements:
         def get_priority(url):
-        if url.endswith("/home") or url == BASE_URL:
-            return "1.0"
-        if "/dailies" in url: 
-            return "1.0"        
-        if "status" in url: 
-            return "0.8"
-        if "/articles" in url or "/news" in url: 
-            return "0.8"
-        if "/2025" in url:  # assuming date-based dailies
-            return "0.6"
+		if url.endswith("/home") or url == BASE_URL:
+			return "1.0"
+		if "/dailies" in url:
+			return "1.0"
+		if "status" in url:
+			return "0.8"
+		if "/articles" in url or "/news" in url:
+			return "0.8"
+		if "/2025" in url:
+			return "0.6"
         return "0.5"
 
         ET.SubElement(url_el, "priority").text = get_priority(entry["url"])
 
         def get_changefreq(url):
         if url.endswith("/home") or url == BASE_URL:
-            return "daily"
-        if "dailies" in url or "/2025" in url:
-            return "daily"
-        if "sitemap" in url:
-            return "daily"
-        if "news" in url:
+			return "daily"
+		if "dailies" in url or "/2025" in url:
+			return "daily"
+		if "sitemap" in url:
+			return "daily"
+		if "news" in url:
+			return "weekly"
+		if "articles" in url:
+			return "weekly"
+		if "status" in url:
             return "weekly"
-        if "articles" in url:
-            return "weekly"
-        if "status" in url:
-            return "weekly"
-        if "comics" in url:
-            return "weekly"
-        if "puzzles" in url:
-            return "monthly"
-        if "2025" in url:
-            return "monthly"
+		if "comics" in url:
+			return "weekly"
+		if "puzzles" in url:
+			return "monthly"
+		if "2025" in url:
+			return "monthly"
         return "yearly"
 
         ET.SubElement(url_el, "changefreq").text = get_changefreq(entry["url"])
