@@ -1,1 +1,1 @@
-Sitemp.xml to use on googlesites.
+sitemp.xml to use on googlesites for SEO purposes.
