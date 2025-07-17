@@ -7,7 +7,7 @@ from playwright.sync_api import sync_playwright
 
 BASE_URL = "https://www.trevorion.io"
 SITEMAP_URL = f"{BASE_URL}/sitemap"
-OUTPUT_FILE = "sitemap.xml"
+OUTPUT_FILE = "sitemap.xml"  # Output directly to repo root
 
 def clean_google_redirect(url):
     if url.startswith("https://www.google.com/url?q="):
@@ -16,13 +16,15 @@ def clean_google_redirect(url):
 
 def get_rendered_links():
     with sync_playwright() as p:
-        browser = p.chromium.launch()
+        browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         page.goto(SITEMAP_URL, wait_until="networkidle")
-        content = page.locator("div.nWesDd.m1rHfc")
 
+        content = page.locator("div.nWesDd.m1rHfc")
         if not content.count():
-            raise Exception("Main content div not found")
+            print("⚠️ Main content div not found.")
+            browser.close()
+            return []
 
         anchors = content.locator("a").all()
         seen = set()
@@ -31,7 +33,6 @@ def get_rendered_links():
         for a in anchors:
             href = a.get_attribute("href")
             text = a.inner_text().strip()
-
             if not href:
                 continue
 
@@ -42,10 +43,7 @@ def get_rendered_links():
 
             if full_url not in seen:
                 seen.add(full_url)
-                links.append({
-                    "url": full_url,
-                    "title": text
-                })
+                links.append({"url": full_url, "title": text})
 
         browser.close()
         return links
@@ -66,26 +64,20 @@ def get_priority(url):
 def get_changefreq(url):
     if url.endswith("/home") or url == BASE_URL:
         return "daily"
-    if "dailies" in url or "/2025" in url:
+    if "dailies" in url or "/2025" in url or "sitemap" in url:
         return "daily"
-    if "sitemap" in url:
-        return "daily"
-    if "news" in url:
+    if "news" in url or "articles" in url or "status" in url or "comics" in url:
         return "weekly"
-    if "articles" in url:
-        return "weekly"
-    if "status" in url:
-        return "weekly"
-    if "comics" in url:
-        return "weekly"
-    if "puzzles" in url:
-        return "monthly"
-    if "2025" in url:
+    if "puzzles" in url or "2025" in url:
         return "monthly"
     return "yearly"
 
 def main():
     links = get_rendered_links()
+    if not links:
+        print("⚠️ No links extracted.")
+        return
+
     urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
     now = datetime.utcnow().isoformat() + "Z"
 
@@ -98,6 +90,7 @@ def main():
 
     tree = ET.ElementTree(urlset)
     tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
+    print(f"✅ Sitemap generated: {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
