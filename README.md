@@ -36,7 +36,7 @@ To run locally:
 python scripts/generate_sitemap.py
 ```
 
-Sample Output:
+Sample output:
 
 ```shell
 ✅ Extracted 57 links.
