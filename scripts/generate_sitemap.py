@@ -1,25 +1,33 @@
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
 import xml.etree.ElementTree as ET
 from datetime import datetime
+from urllib.parse import urljoin
 
 BASE_URL = "https://www.trevorion.io"
-SITEMAP_PAGE = f"{BASE_URL}/sitemap"
+SITEMAP_URL = f"{BASE_URL}/sitemap"
 
-def get_links():
-    response = requests.get(SITEMAP_PAGE)
+def get_all_links_from_content():
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+        )
+    }
+    response = requests.get(SITEMAP_URL, headers=headers)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
-    urls = set()
 
-    for link in soup.find_all("a", href=True):
-        href = link["href"]
-        if href.startswith("/"):
-            full_url = urljoin(BASE_URL, href)
-            urls.add(full_url)
-        elif href.startswith(BASE_URL):
-            urls.add(href)
+    content = soup.find("div", id="sites-canvas-main-content")
+    if not content:
+        raise Exception("Main content div not found.")
+
+    urls = set()
+    for a in content.find_all("a", href=True):
+        href = a["href"].strip()
+        # Leave all links intact, resolve relative URLs
+        full_url = urljoin(BASE_URL, href)
+        urls.add(full_url)
     return sorted(urls)
 
 def build_sitemap(urls):
@@ -33,7 +41,8 @@ def build_sitemap(urls):
     return ET.ElementTree(urlset)
 
 def main():
-    links = get_links()
+    links = get_all_links_from_content()
+    print(f"✅ Found {len(links)} total links inside main content.")
     sitemap = build_sitemap(links)
     sitemap.write("sitemap.xml", encoding="utf-8", xml_declaration=True)
 
