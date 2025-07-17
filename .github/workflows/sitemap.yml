@@ -20,7 +20,8 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install requests beautifulsoup4
+          pip install playwright beautifulsoup4 requests
+          playwright install chromium
 
       - name: Run Sitemap Generator
         run: python scripts/generate_sitemap.py
