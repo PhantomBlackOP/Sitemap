@@ -103,6 +103,9 @@ def main():
     urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
 
     for entry in links:
+        lm = get_lastmod(entry["url"])
+        print(f"{entry['url']} → lastmod: {lm}")
+              
         url_el = ET.SubElement(urlset, "url")
         ET.SubElement(url_el, "loc").text = entry["url"]
         ET.SubElement(url_el, "lastmod").text = get_lastmod(entry["url"])
