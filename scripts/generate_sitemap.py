@@ -88,6 +88,9 @@ def get_lastmod(url, page):
             if raw:
                 dt = datetime.utcfromtimestamp(int(raw) / 1000.0)
                 return dt.isoformat() + "Z"
+            else:
+                print(f"⚠️ No data-last-updated-at-time found on {url}")
+                return datetime.utcnow().isoformat() + "Z"
         except Exception as e:
             print(f"⚠️ Failed to extract lastmod from {url}: {e}")
             return datetime.utcnow().isoformat() + "Z"
