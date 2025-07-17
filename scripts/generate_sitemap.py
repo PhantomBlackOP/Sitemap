@@ -80,18 +80,17 @@ def get_changefreq(url):
     return "yearly"
 
 def get_lastmod(url):
-    # Extract tweet timestamp from X (Twitter) Snowflake ID
     if "x.com" in url and "/status/" in url:
         try:
-            tweet_id = url.split("/")[-1]
-            timestamp_ms = int(tweet_id) >> 22
+            tweet_id = int(url.split("/")[-1])
+            # X Snowflake timestamp (in ms), shifted right 22 bits
+            timestamp_ms = (tweet_id >> 22) + 1288834974657
             dt = datetime.utcfromtimestamp(timestamp_ms / 1000.0)
             return dt.isoformat() + "Z"
         except Exception as e:
             print(f"⚠️ Failed to parse tweet timestamp from {url}")
             return datetime.utcnow().isoformat() + "Z"
     else:
-        # Fallback for non-Twitter URLs
         return datetime.utcnow().isoformat() + "Z"
 
 def main():
