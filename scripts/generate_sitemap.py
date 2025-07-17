@@ -80,10 +80,13 @@ def get_changefreq(url):
     return "yearly"
 
 def get_lastmod(url, page):
+    if url.startswith("mailto:") or ".app" in url:
+        return datetime.utcnow().isoformat() + "Z"
+
     if "trevorion.io" in url:
         try:
             page.goto(url, wait_until="networkidle", timeout=60000)
-            page.wait_for_timeout(1000)  # Let JS finish
+            page.wait_for_timeout(1000)
             element = page.locator("[data-last-updated-at-time]").first
             raw = element.get_attribute("data-last-updated-at-time")
             if raw:
@@ -105,8 +108,8 @@ def get_lastmod(url, page):
         except Exception as e:
             print(f"⚠️ Failed to parse tweet timestamp from {url}")
             return datetime.utcnow().isoformat() + "Z"
-    else:
-        return datetime.utcnow().isoformat() + "Z"
+
+    return datetime.utcnow().isoformat() + "Z"
 
 def main():
     links = get_rendered_links()
