@@ -1,6 +1,5 @@
 import requests
-import os
-import subprocess
+from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urldefrag
 from datetime import datetime
 import xml.etree.ElementTree as ET
@@ -15,42 +14,57 @@ def clean_google_redirect(url):
         url = url.split("&")[0].replace("https://www.google.com/url?q=", "")
     return url
 
-def get_rendered_links(page):
-    page.goto(SITEMAP_URL, wait_until="networkidle")
-    content = page.locator("ol.n8H08c.BKnRcf").first
+def get_rendered_links():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        page.goto(SITEMAP_URL, wait_until="networkidle")
 
-    if not content.count():
-        print("⚠️ Structured sitemap container not found.")
-        return []
+        # ✅ Target actual sitemap list container
+        content = page.locator("ol.n8H08c.BKnRcf").first
 
-    anchors = content.locator("a").all()
-    seen = set()
-    links = []
+        if not content.count():
+            print("⚠️ Structured sitemap container not found.")
+            browser.close()
+            return []
 
-    for a in anchors:
-        href = a.get_attribute("href")
-        text = a.inner_text().strip()
-        if not href:
-            continue
+        anchors = content.locator("a").all()
+        if not anchors:
+            print("⚠️ No anchors inside sitemap container.")
+            browser.close()
+            return []
 
-        href = clean_google_redirect(href)
-        full_url = href if href.startswith("http") else urljoin(BASE_URL, href)
-        full_url, _ = urldefrag(full_url)
-        full_url = full_url.rstrip("/")
+        seen = set()
+        links = []
 
-        if full_url not in seen:
-            seen.add(full_url)
-            links.append({"url": full_url, "title": text})
+        for a in anchors:
+            href = a.get_attribute("href")
+            text = a.inner_text().strip()
 
-    print(f"✅ Extracted {len(links)} links.")
-    return links
+            if not href:
+                continue
+
+            href = clean_google_redirect(href)
+            full_url = href if href.startswith("http") else urljoin(BASE_URL, href)
+            full_url, _ = urldefrag(full_url)
+            full_url = full_url.rstrip("/")
+
+            if full_url not in seen:
+                seen.add(full_url)
+                links.append({"url": full_url, "title": text})
+
+        print(f"✅ Extracted {len(links)} links.")
+        browser.close()
+        return links
 
 def get_priority(url):
     if url.endswith("/home") or url == BASE_URL:
         return "1.0"
     if "/dailies" in url:
         return "1.0"
-    if "status" in url or "/news" in url or "/articles" in url:
+    if "status" in url:
+        return "0.8"
+    if "/articles" in url or "/news" in url:
         return "0.8"
     if "/2025" in url:
         return "0.6"
@@ -67,81 +81,25 @@ def get_changefreq(url):
         return "monthly"
     return "yearly"
 
-def get_lastmod(url):
-    path = url.replace(BASE_URL, "").lstrip("/")
-    if not path or url.startswith("http") and "://" not in path:
-        return datetime.utcnow().isoformat() + "Z"
-    try:
-        result = subprocess.run(["git", "log", "-1", "--format=%cI", "--", path], capture_output=True, text=True)
-        stamp = result.stdout.strip()
-        return stamp + "Z" if stamp else datetime.utcnow().isoformat() + "Z"
-    except Exception:
-        return datetime.utcnow().isoformat() + "Z"
-
-def get_banner_image(url, page):
-    try:
-        if not url.startswith("http"):
-            print(f"🧺 Skipping banner extraction for non-HTTP URL: {url}")
-            return None
-
-        page.goto(url, wait_until="networkidle", timeout=60000)
-
-        # 🖼 Extract background image using computed style
-        src = page.evaluate("""() => {
-            const el = document.querySelector("div.IFuOkc");
-            if (!el) return null;
-            const style = window.getComputedStyle(el);
-            const bg = style.backgroundImage;
-            if (!bg || !bg.includes("url(")) return null;
-            return bg.slice(5, -2);  // Removes 'url("...")'
-        }""")
-
-        if src:
-            full_src = src if src.startswith("http") else urljoin(url, src)
-            return {
-                "image_loc": full_src,
-                "image_title": "Site Banner"
-            }
-
-        return None
-    except Exception as e:
-        print(f"⚠️ Failed to compute banner from {url}: {e}")
-        return None
-
 def main():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        links = get_rendered_links(page)
-        if not links:
-            print("⚠️ No links extracted.")
-            return
+    links = get_rendered_links()
+    if not links:
+        print("⚠️ No links to include in sitemap.")
+        return
 
-        urlset = ET.Element("urlset", {
-            "xmlns": "http://www.sitemaps.org/schemas/sitemap/0.9",
-            "xmlns:image": "http://www.google.com/schemas/sitemap-image/1.1"
-        })
+    urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+    now = datetime.utcnow().isoformat() + "Z"
 
-        for entry in links:
-            url_el = ET.SubElement(urlset, "url")
-            ET.SubElement(url_el, "loc").text = entry["url"]
-            ET.SubElement(url_el, "lastmod").text = get_lastmod(entry["url"])
-            ET.SubElement(url_el, "priority").text = get_priority(entry["url"])
-            ET.SubElement(url_el, "changefreq").text = get_changefreq(entry["url"])
+    for entry in links:
+        url_el = ET.SubElement(urlset, "url")
+        ET.SubElement(url_el, "loc").text = entry["url"]
+        ET.SubElement(url_el, "lastmod").text = now
+        ET.SubElement(url_el, "priority").text = get_priority(entry["url"])
+        ET.SubElement(url_el, "changefreq").text = get_changefreq(entry["url"])
 
-            # 🖼️ Scrape banner image from the page
-            image_data = get_banner_image(entry["url"], page)
-            if image_data:
-                image_tag = ET.SubElement(url_el, "{http://www.google.com/schemas/sitemap-image/1.1}image")
-                ET.SubElement(image_tag, "{http://www.google.com/schemas/sitemap-image/1.1}loc").text = image_data["image_loc"]
-                ET.SubElement(image_tag, "{http://www.google.com/schemas/sitemap-image/1.1}title").text = image_data["image_title"]
-
-        tree = ET.ElementTree(urlset)
-        tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
-        browser.close()
-
-    print(f"✅ Sitemap written to: {OUTPUT_FILE}")
-    print("📡 Google ping deprecated — rely on accurate lastmod + Search Console.")
+    tree = ET.ElementTree(urlset)
+    tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
+    print(f"✅ Sitemap successfully written to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
