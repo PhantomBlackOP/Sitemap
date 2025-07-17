@@ -80,6 +80,18 @@ def get_changefreq(url):
     return "yearly"
 
 def get_lastmod(url):
+    if "trevorion.io" in URL:
+         try:
+            page.goto(url, wait_until="networkidle", timeout=60000)
+            html_tag = page.locator("html").first
+            raw = html_tag.get_attribute("data-last-updated-at-time")
+            if raw:
+                dt = datetime.utcfromtimestamp(int(raw) / 1000.0)
+                return dt.isoformat() + "Z"
+        except Exception as e:
+            print(f"⚠️ Failed to extract lastmod from {url}: {e}")
+            return datetime.utcnow().isoformat() + "Z"
+
     if "x.com" in url and "/status/" in url:
         try:
             tweet_id = int(url.split("/")[-1])
