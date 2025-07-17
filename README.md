@@ -9,7 +9,7 @@
 
 ## 🧠 Overview
 
-This repo powers a dynamic `sitemap.xml` generator that:
+This repo powers a dynamic [sitemap.xml](sitemap.xml) generator that:
 
 - 🚀 Crawls a rendered sitemap page built with Google Sites
 - 📅 Extracts precise last modified times from Google Sites metadata (`data-last-updated-at-time`)
@@ -42,12 +42,12 @@ Sample output:
 ✅ Extracted 57 links.
 https://www.trevorion.io/home → lastmod: 2025-07-16T17:34:08.726000Z
 ...
-✅ Sitemap successfully written to [sitemap.xml](sitemap.xml)
+✅ Sitemap successfully written to sitemap.xml
 ```
 
 ---
 
 ## 🔥 Credits
 
-Created and curated by **Trevor Grech (@Trevorion)**  
+Created and curated by **Trevor Grech ([@Trevorion](https://x.com/Trevorion))**  
 Home of the mythkeeper's flame, daily experiments, and structured defiance.
