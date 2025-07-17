@@ -34,7 +34,15 @@ To run locally:
 
 ```bash
 python scripts/generate_sitemap.py
-# ✅ Sitemap successfully written to sitemap.xml
+```
+
+## ✅ Sample Output
+
+```shell
+✅ Extracted 57 links.
+https://www.trevorion.io/home → lastmod: 2025-07-16T17:34:08.726000Z
+...
+✅ Sitemap successfully written to sitemap.xml
 ```
 ---
 
