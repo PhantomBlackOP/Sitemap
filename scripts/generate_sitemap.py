@@ -1,7 +1,6 @@
 import requests
 import os
 import subprocess
-from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urldefrag
 from datetime import datetime
 import xml.etree.ElementTree as ET
@@ -11,60 +10,40 @@ BASE_URL = "https://www.trevorion.io"
 SITEMAP_URL = f"{BASE_URL}/sitemap"
 OUTPUT_FILE = "sitemap.xml"
 
-IMAGE_DATA = {
-    f"{BASE_URL}/articles": {
-        "image_loc": f"{BASE_URL}/assets/articles-banner.jpg",
-        "image_title": "Anime & AI Articles"
-    },
-    f"{BASE_URL}/comics": {
-        "image_loc": f"{BASE_URL}/assets/comics-thumb.jpg",
-        "image_title": "Anime Comics & Figures"
-    },
-    f"{BASE_URL}/dailies": {
-        "image_loc": f"{BASE_URL}/assets/dailies-header.png",
-        "image_title": "Daily Fragments"
-    },
-}
-
 def clean_google_redirect(url):
     if url.startswith("https://www.google.com/url?q="):
         url = url.split("&")[0].replace("https://www.google.com/url?q=", "")
     return url
 
-def get_rendered_links():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        page.goto(SITEMAP_URL, wait_until="networkidle")
+def get_rendered_links(page):
+    page.goto(SITEMAP_URL, wait_until="networkidle")
+    content = page.locator("ol.n8H08c.BKnRcf").first
 
-        content = page.locator("ol.n8H08c.BKnRcf").first
-        if not content.count():
-            print("⚠️ Structured sitemap container not found.")
-            browser.close()
-            return []
+    if not content.count():
+        print("⚠️ Structured sitemap container not found.")
+        return []
 
-        anchors = content.locator("a").all()
-        seen = set()
-        links = []
+    anchors = content.locator("a").all()
+    seen = set()
+    links = []
 
-        for a in anchors:
-            href = a.get_attribute("href")
-            text = a.inner_text().strip()
-            if not href:
-                continue
+    for a in anchors:
+        href = a.get_attribute("href")
+        text = a.inner_text().strip()
+        if not href:
+            continue
 
-            href = clean_google_redirect(href)
-            full_url = href if href.startswith("http") else urljoin(BASE_URL, href)
-            full_url, _ = urldefrag(full_url)
-            full_url = full_url.rstrip("/")
+        href = clean_google_redirect(href)
+        full_url = href if href.startswith("http") else urljoin(BASE_URL, href)
+        full_url, _ = urldefrag(full_url)
+        full_url = full_url.rstrip("/")
 
-            if full_url not in seen:
-                seen.add(full_url)
-                links.append({"url": full_url, "title": text})
+        if full_url not in seen:
+            seen.add(full_url)
+            links.append({"url": full_url, "title": text})
 
-        browser.close()
-        print(f"✅ Extracted {len(links)} links.")
-        return links
+    print(f"✅ Extracted {len(links)} links.")
+    return links
 
 def get_priority(url):
     if url.endswith("/home") or url == BASE_URL:
@@ -80,11 +59,11 @@ def get_priority(url):
 def get_changefreq(url):
     if url.endswith("/home") or url == BASE_URL:
         return "daily"
-    if "dailies" in url or "sitemap" in url:
+    if "dailies" in url or "sitemap" in url or "/2025" in url:
         return "daily"
     if "news" in url or "articles" in url or "status" in url or "comics" in url:
         return "weekly"
-    if "puzzles" in url or "/2025" in url:
+    if "puzzles" in url:
         return "monthly"
     return "yearly"
 
@@ -99,37 +78,61 @@ def get_lastmod(url):
     except Exception:
         return datetime.utcnow().isoformat() + "Z"
 
+def get_banner_image(url, page):
+    try:
+        page.goto(url, wait_until="networkidle")
+        selectors = [
+            "header img", ".hero img", ".banner img",
+            ".sites-layout-tile img", ".sites-embed-content-body img",
+            "img"
+        ]
+        for sel in selectors:
+            img = page.locator(sel).first
+            if img.count():
+                src = img.get_attribute("src")
+                alt = img.get_attribute("alt") or img.get_attribute("title") or "Banner"
+                if src:
+                    full_src = src if src.startswith("http") else urljoin(url, src)
+                    return {"image_loc": full_src, "image_title": alt}
+        return None
+    except Exception as e:
+        print(f"⚠️ Failed to extract banner from {url}: {e}")
+        return None
+
 def main():
-    links = get_rendered_links()
-    if not links:
-        print("⚠️ No links extracted.")
-        return
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        links = get_rendered_links(page)
+        if not links:
+            print("⚠️ No links extracted.")
+            return
 
-    urlset = ET.Element("urlset", {
-        "xmlns": "http://www.sitemaps.org/schemas/sitemap/0.9",
-        "xmlns:image": "http://www.google.com/schemas/sitemap-image/1.1"
-    })
+        urlset = ET.Element("urlset", {
+            "xmlns": "http://www.sitemaps.org/schemas/sitemap/0.9",
+            "xmlns:image": "http://www.google.com/schemas/sitemap-image/1.1"
+        })
 
-    for entry in links:
-        url_el = ET.SubElement(urlset, "url")
-        ET.SubElement(url_el, "loc").text = entry["url"]
-        ET.SubElement(url_el, "lastmod").text = get_lastmod(entry["url"])
-        ET.SubElement(url_el, "priority").text = get_priority(entry["url"])
-        ET.SubElement(url_el, "changefreq").text = get_changefreq(entry["url"])
+        for entry in links:
+            url_el = ET.SubElement(urlset, "url")
+            ET.SubElement(url_el, "loc").text = entry["url"]
+            ET.SubElement(url_el, "lastmod").text = get_lastmod(entry["url"])
+            ET.SubElement(url_el, "priority").text = get_priority(entry["url"])
+            ET.SubElement(url_el, "changefreq").text = get_changefreq(entry["url"])
 
-        if entry["url"] in IMAGE_DATA:
-            image_tag = ET.SubElement(url_el, "{http://www.google.com/schemas/sitemap-image/1.1}image")
-            ET.SubElement(image_tag, "{http://www.google.com/schemas/sitemap-image/1.1}loc").text = IMAGE_DATA[entry["url"]]["image_loc"]
-            ET.SubElement(image_tag, "{http://www.google.com/schemas/sitemap-image/1.1}title").text = IMAGE_DATA[entry["url"]]["image_title"]
+            # 🖼️ Scrape banner image from the page
+            image_data = get_banner_image(entry["url"], page)
+            if image_data:
+                image_tag = ET.SubElement(url_el, "{http://www.google.com/schemas/sitemap-image/1.1}image")
+                ET.SubElement(image_tag, "{http://www.google.com/schemas/sitemap-image/1.1}loc").text = image_data["image_loc"]
+                ET.SubElement(image_tag, "{http://www.google.com/schemas/sitemap-image/1.1}title").text = image_data["image_title"]
 
-    tree = ET.ElementTree(urlset)
-    tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
+        tree = ET.ElementTree(urlset)
+        tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
+        browser.close()
+
     print(f"✅ Sitemap written to: {OUTPUT_FILE}")
-
-    # 🔔 Notify Google to re-crawl
-    ping_url = f"https://www.google.com/ping?sitemap=https://sitemap.trevorion.io/sitemap.xml"
-    os.system(f"curl -s {ping_url}")
-    print(f"📡 Pinged Google at: {ping_url}")
+    print("📡 Google ping deprecated — rely on accurate lastmod + Search Console.")
 
 if __name__ == "__main__":
     main()
