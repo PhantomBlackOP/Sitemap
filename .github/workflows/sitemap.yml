@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -17,10 +18,9 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Python deps
+      - name: Install Python dependencies
         run: |
-          pip install playwright beautifulsoup4
-          playwright install chromium
+          pip install requests beautifulsoup4
 
       - name: Run Sitemap Generator
         run: python scripts/generate_sitemap.py
