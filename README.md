@@ -9,7 +9,7 @@
 
 ## 🧠 Overview
 
-This repo powers a dynamic [sitemap.xml](sitemap.xml) generator that:
+This repo powers a dynamic "[sitemap.xml](sitemap.xml)" generator that:
 
 - 🚀 Crawls a rendered sitemap page built with Google Sites
 - 📅 Extracts precise last modified times from Google Sites metadata (`data-last-updated-at-time`)
