@@ -73,7 +73,7 @@ def get_priority(url):
 def get_changefreq(url):
     if url.endswith("/home") or url == BASE_URL:
         return "daily"
-    if "dailies" in url or "/2025" in url or "sitemap" in url:
+    if "dailies" in url or "sitemap" in url:
         return "daily"
     if "news" in url or "articles" in url or "status" in url or "comics" in url:
         return "weekly"
