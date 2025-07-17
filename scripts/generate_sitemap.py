@@ -1,48 +1,44 @@
-import requests
+from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 import xml.etree.ElementTree as ET
 from datetime import datetime
-from urllib.parse import urljoin
 
 BASE_URL = "https://www.trevorion.io"
 SITEMAP_URL = f"{BASE_URL}/sitemap"
 
-def get_all_links_from_content():
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-            "(KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
-        )
-    }
-    response = requests.get(SITEMAP_URL, headers=headers)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
+def get_rendered_links():
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page()
+        page.goto(SITEMAP_URL)
+        page.wait_for_load_state("networkidle")
+        html = page.content()
+        browser.close()
 
-    content = soup.find("div", id="sites-canvas-main-content")
-    if not content:
-        raise Exception("Main content div not found.")
+    soup = BeautifulSoup(html, "html.parser")
+    content = soup.find("div", id="sites-canvas-main-content") or soup
 
-    urls = set()
+    links = set()
     for a in content.find_all("a", href=True):
         href = a["href"].strip()
-        # Leave all links intact, resolve relative URLs
-        full_url = urljoin(BASE_URL, href)
-        urls.add(full_url)
-    return sorted(urls)
+        full_url = href if href.startswith("http") else urljoin(BASE_URL, href)
+        links.add(full_url)
+    return sorted(links)
 
 def build_sitemap(urls):
     urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
     for url in urls:
-        url_element = ET.SubElement(urlset, "url")
-        loc = ET.SubElement(url_element, "loc")
+        url_el = ET.SubElement(urlset, "url")
+        loc = ET.SubElement(url_el, "loc")
         loc.text = url
-        lastmod = ET.SubElement(url_element, "lastmod")
+        lastmod = ET.SubElement(url_el, "lastmod")
         lastmod.text = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     return ET.ElementTree(urlset)
 
 def main():
-    links = get_all_links_from_content()
-    print(f"✅ Found {len(links)} total links inside main content.")
+    links = get_rendered_links()
+    print(f"✅ Found {len(links)} links.")
     sitemap = build_sitemap(links)
     sitemap.write("sitemap.xml", encoding="utf-8", xml_declaration=True)
 
