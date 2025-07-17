@@ -87,14 +87,14 @@ def get_banner_image(url, page):
         page.goto(url, wait_until="networkidle", timeout=60000)
 
         # 🖼 Extract background image using computed style
-        src = page.evaluate("""
+        src = page.evaluate("""() => {
             const el = document.querySelector("div.IFuOkc");
             if (!el) return null;
             const style = window.getComputedStyle(el);
             const bg = style.backgroundImage;
             if (!bg || !bg.includes("url(")) return null;
-            return bg.slice(5, -2); // removes url("...") wrapper
-        """)
+            return bg.slice(5, -2);  // Removes 'url("...")'
+        }""")
 
         if src:
             full_src = src if src.startswith("http") else urljoin(url, src)
