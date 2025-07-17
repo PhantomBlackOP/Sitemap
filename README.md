@@ -35,3 +35,7 @@ To run locally:
 ```bash
 python scripts/generate_sitemap.py
 
+## 🔥 Credits
+
+Created and curated by **Trevor Grech (@Trevorion)**  
+Home of the mythkeeper’s flame, daily experiments, and structured defiance.
