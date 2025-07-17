@@ -7,7 +7,7 @@ from playwright.sync_api import sync_playwright
 
 BASE_URL = "https://www.trevorion.io"
 SITEMAP_URL = f"{BASE_URL}/sitemap"
-OUTPUT_FILE = "sitemap.xml"  # Output directly to repo root
+OUTPUT_FILE = "sitemap.xml"
 
 def clean_google_redirect(url):
     if url.startswith("https://www.google.com/url?q="):
@@ -20,20 +20,27 @@ def get_rendered_links():
         page = browser.new_page()
         page.goto(SITEMAP_URL, wait_until="networkidle")
 
-        print(page.content())
-        content = page.locator("div.nWesDd.m1rHfc")
+        # ✅ Target actual sitemap list container
+        content = page.locator("ol.n8H08c.BKnRcf").first
+
         if not content.count():
-            print("⚠️ Main content div not found.")
+            print("⚠️ Structured sitemap container not found.")
             browser.close()
             return []
 
         anchors = content.locator("a").all()
+        if not anchors:
+            print("⚠️ No anchors inside sitemap container.")
+            browser.close()
+            return []
+
         seen = set()
         links = []
 
         for a in anchors:
             href = a.get_attribute("href")
             text = a.inner_text().strip()
+
             if not href:
                 continue
 
@@ -46,6 +53,7 @@ def get_rendered_links():
                 seen.add(full_url)
                 links.append({"url": full_url, "title": text})
 
+        print(f"✅ Extracted {len(links)} links.")
         browser.close()
         return links
 
@@ -69,14 +77,14 @@ def get_changefreq(url):
         return "daily"
     if "news" in url or "articles" in url or "status" in url or "comics" in url:
         return "weekly"
-    if "puzzles" in url or "2025" in url:
+    if "puzzles" in url or "/2025" in url:
         return "monthly"
     return "yearly"
 
 def main():
     links = get_rendered_links()
     if not links:
-        print("⚠️ No links extracted.")
+        print("⚠️ No links to include in sitemap.")
         return
 
     urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
@@ -91,7 +99,7 @@ def main():
 
     tree = ET.ElementTree(urlset)
     tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
-    print(f"✅ Sitemap generated: {OUTPUT_FILE}")
+    print(f"✅ Sitemap successfully written to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
