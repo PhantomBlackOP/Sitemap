@@ -6,55 +6,144 @@
   <title>Trevorion Sitemap</title>
   <meta name="description" content="Trevorion sitemap hub for the main website and zine.">
   <style>
-    :root{color-scheme:dark;--bg:#0d0f12;--panel:#151920;--line:#2b313b;--text:#eef2f7;--muted:#9ba6b2;--link:#8ec5ff}
+    :root{color-scheme:dark;--bg:#0d0f12;--panel:#151920;--panel2:#10141a;--line:#2b313b;--text:#eef2f7;--muted:#9ba6b2;--link:#8ec5ff}
     *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-    main{width:min(960px,calc(100% - 32px));margin:48px auto}
-    h1{margin:0 0 8px;font-size:clamp(2rem,5vw,3.2rem)}
-    p{color:var(--muted)}
-    .master{display:inline-block;margin:10px 0 28px}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
-    section{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px}
-    h2{margin:0 0 12px;font-size:1.2rem}
-    ul{margin:0;padding-left:20px}
-    li{margin:7px 0}
+    body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    main{width:min(1100px,calc(100% - 32px));margin:42px auto 64px}
+    h1{margin:0 0 6px;font-size:clamp(2rem,5vw,3rem)}
+    .intro{margin:0 0 10px;color:var(--muted)}
+    .master{display:inline-block;margin:0 0 28px}
+    .group{margin:0 0 18px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+    .group>h2{margin:0 0 12px;font-size:1.25rem}
+    details{border-top:1px solid var(--line);padding:8px 0}
+    details:first-of-type{border-top:0}
+    details details{margin-left:18px}
+    summary{cursor:pointer;font-weight:650}
+    ul{margin:8px 0 4px;padding-left:22px}
+    li{margin:5px 0;overflow-wrap:anywhere}
     a{color:var(--link);text-decoration:none}
     a:hover{text-decoration:underline}
-    code{font:0.92em ui-monospace,SFMono-Regular,Consolas,monospace}
+    .label{color:var(--muted)}
+    .loading{color:var(--muted)}
+    .error{color:#ffb4b4}
+    code{font:.92em ui-monospace,SFMono-Regular,Consolas,monospace}
     footer{margin-top:28px;color:var(--muted);font-size:.9rem}
   </style>
 </head>
 <body>
 <main>
   <h1>Trevorion Sitemap</h1>
-  <p>Human-readable sitemap hub for Trevorion and the Zine.</p>
+  <p class="intro">Human-readable sitemap hub for Trevorion and the Zine.</p>
   <a class="master" href="/index.xml">Master XML sitemap index</a>
 
-  <div class="grid">
-    <section>
-      <h2>www</h2>
-      <ul>
-        <li><a href="/www/webpage.xml"><code>webpage.xml</code></a></li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>zine</h2>
-      <ul>
-        <li><a href="/zine/home.xml"><code>home.xml</code></a></li>
-        <li><a href="/zine/profile.xml"><code>profile.xml</code></a></li>
-        <li><a href="/zine/explore.xml"><code>explore.xml</code></a></li>
-        <li><a href="/zine/news.xml"><code>news.xml</code></a></li>
-        <li><a href="/zine/articles.xml"><code>articles.xml</code></a></li>
-        <li><a href="/zine/archive.xml"><code>archive.xml</code></a></li>
-        <li><a href="/zine/comics.xml"><code>comics.xml</code></a></li>
-        <li><a href="/zine/shop.xml"><code>shop.xml</code></a></li>
-        <li><a href="/zine/about.xml"><code>about.xml</code></a></li>
-      </ul>
-    </section>
-  </div>
-
+  <div id="sitemap"><p class="loading">Loading sitemap…</p></div>
   <footer>Trevorion sitemap hub</footer>
 </main>
+
+<script>
+const MONTHS = new Set([
+  "January","February","March","April","May","June",
+  "July","August","September","October","November","December"
+]);
+
+const SOURCES = [
+  {title:"www", path:"/www/webpage.xml", mode:"flat"},
+  {title:"zine / home", path:"/zine/home.xml", mode:"flat"},
+  {title:"zine / profile", path:"/zine/profile.xml", mode:"flat"},
+  {title:"zine / explore", path:"/zine/explore.xml", mode:"weeks"},
+  {title:"zine / news", path:"/zine/news.xml", mode:"months"},
+  {title:"zine / articles", path:"/zine/articles.xml", mode:"months"},
+  {title:"zine / archive", path:"/zine/archive.xml", mode:"months"},
+  {title:"zine / comics", path:"/zine/comics.xml", mode:"months"},
+  {title:"zine / shop", path:"/zine/shop.xml", mode:"months"},
+  {title:"zine / about", path:"/zine/about.xml", mode:"flat"}
+];
+
+function esc(s){
+  return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+}
+function pretty(loc){
+  try{
+    const u=new URL(loc);
+    const p=u.pathname.replace(/^\/+|\/+$/g,"");
+    if(!p) return u.hostname;
+    return decodeURIComponent(p.split("/").pop()).replace(/-/g," ");
+  }catch{return loc}
+}
+function parse(xmlText){
+  const doc=new DOMParser().parseFromString(xmlText,"application/xml");
+  if(doc.querySelector("parsererror")) throw new Error("Invalid XML");
+  return [...doc.documentElement.childNodes];
+}
+function urlFromNode(node){
+  const loc=node.getElementsByTagNameNS("*","loc")[0];
+  const last=node.getElementsByTagNameNS("*","lastmod")[0];
+  return loc ? {loc:loc.textContent.trim(), lastmod:last?.textContent.trim()||""} : null;
+}
+function flat(nodes){
+  let pending=null, out=[];
+  for(const n of nodes){
+    if(n.nodeType===8){ pending=n.nodeValue.trim(); continue; }
+    if(n.nodeType===1 && n.localName==="url"){
+      const u=urlFromNode(n);
+      if(u) out.push({label:pending||pretty(u.loc),...u});
+      pending=null;
+    }
+  }
+  if(pending) out.push({label:pending,loc:"",lastmod:""});
+  return '<ul>'+out.map(x=>x.loc
+    ? '<li><a href="'+esc(x.loc)+'">'+esc(x.label)+'</a></li>'
+    : '<li class="label">'+esc(x.label)+'</li>'
+  ).join("")+'</ul>';
+}
+function grouped(nodes, mode){
+  let year=null, bucket=null;
+  const years=new Map();
+  for(const n of nodes){
+    if(n.nodeType===8){
+      const c=n.nodeValue.trim();
+      if(/^\d{4}$/.test(c)){ year=c; bucket=null; if(!years.has(year)) years.set(year,new Map()); }
+      else if(mode==="months" && MONTHS.has(c)){ bucket=c; if(year){ const m=years.get(year); if(!m.has(bucket)) m.set(bucket,[]); } }
+      else if(mode==="weeks" && /^Week \d+$/.test(c)){ bucket=c; if(year){ const m=years.get(year); if(!m.has(bucket)) m.set(bucket,[]); } }
+      continue;
+    }
+    if(n.nodeType===1 && n.localName==="url"){
+      const u=urlFromNode(n);
+      if(!u || !year || !bucket) continue;
+      years.get(year).get(bucket).push(u);
+    }
+  }
+  let s="";
+  for(const [y,buckets] of years){
+    s+='<details open><summary>'+esc(y)+'</summary>';
+    for(const [b,urls] of buckets){
+      s+='<details><summary>'+esc(b)+' <span class="label">('+urls.length+')</span></summary><ul>';
+      for(const u of urls) s+='<li><a href="'+esc(u.loc)+'">'+esc(pretty(u.loc))+'</a></li>';
+      s+='</ul></details>';
+    }
+    s+='</details>';
+  }
+  return s || '<p class="label">No entries.</p>';
+}
+async function render(){
+  const root=document.getElementById("sitemap");
+  root.innerHTML="";
+  for(const src of SOURCES){
+    const section=document.createElement("section");
+    section.className="group";
+    section.innerHTML='<h2>'+esc(src.title)+'</h2><p class="loading">Loading…</p>';
+    root.appendChild(section);
+    try{
+      const res=await fetch(src.path,{cache:"no-store"});
+      if(!res.ok) throw new Error("HTTP "+res.status);
+      const nodes=parse(await res.text());
+      section.innerHTML='<h2>'+esc(src.title)+'</h2>'+(src.mode==="flat" ? flat(nodes) : grouped(nodes,src.mode));
+    }catch(e){
+      section.innerHTML='<h2>'+esc(src.title)+'</h2><p class="error">Could not load '+esc(src.path)+'.</p>';
+    }
+  }
+}
+render();
+</script>
 </body>
 </html>
