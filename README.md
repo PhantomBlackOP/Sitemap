@@ -1,11 +1,11 @@
 # 🗺️ Trevorion Sitemap Generator
 
-This repository publishes the curated sitemap hub at `https://sitemap.trevorion.io/`.
+This repository publishes the curated sitemap hub directly at `https://sitemap.trevorion.io/`.
 
 The public structure is fixed:
 
 ```text
-sitemap.xml
+index.html   ← served as https://sitemap.trevorion.io/
 
 www/
   webpage.xml
@@ -34,7 +34,7 @@ WordPress publication time controls chronological grouping. WordPress modificati
 
 ## Automation
 
-GitHub Actions runs the generator every day at **03:00 UTC** and can also be started manually with **Run workflow**. The generator validates its complete output before the workflow commits anything. If a required source cannot be read or the generated XML is invalid, the workflow fails and the previously committed sitemap remains live.
+The master sitemap index is written directly to the site root through `index.html`. GitHub Actions runs the generator every day at **03:00 UTC** and can also be started manually with **Run workflow**. The generator validates its complete output before the workflow commits anything. If a required source cannot be read or the generated XML is invalid, the workflow fails and the previously committed sitemap remains live.
 
 ## Local run
 
