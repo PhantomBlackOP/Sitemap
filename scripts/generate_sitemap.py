@@ -573,14 +573,14 @@ def write_index() -> None:
 
     ET.indent(root, space="  ")
     ET.ElementTree(root).write(
-        ROOT / "index.html",
+        ROOT / "index.xml",
         encoding="utf-8",
         xml_declaration=True,
     )
 
 
 def validate() -> None:
-    files = [ROOT / "index.html", *(ROOT / x for x in OUTPUTS)]
+    files = [ROOT / "index.xml", *(ROOT / x for x in OUTPUTS)]
     for path in files:
         if not path.exists() or not path.stat().st_size:
             raise SitemapError(f"Missing {path.relative_to(ROOT)}")
@@ -591,7 +591,7 @@ def validate() -> None:
                 f"Invalid XML in {path.relative_to(ROOT)}: {exc}"
             ) from exc
 
-        if path == ROOT / "index.html":
+        if path == ROOT / "index.xml":
             count = len(
                 root.findall(
                     "{http://www.sitemaps.org/schemas/sitemap/0.9}sitemap"
