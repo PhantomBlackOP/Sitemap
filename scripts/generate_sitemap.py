@@ -874,6 +874,8 @@ def write_index() -> None:
 
 def ui_title(item: Item) -> str:
     value = (item.title or item.loc).strip()
+    if value.casefold() == "trevorion.io":
+        return "Trevorion.io"
     if item.category in {"Page", "Webpage", "Section"} and value.islower():
         return value.title()
     return value
