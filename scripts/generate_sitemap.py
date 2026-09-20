@@ -872,16 +872,22 @@ def write_index() -> None:
     )
 
 
-def item_html(item: Item, show_meta: bool = True) -> str:
-    if not item.loc:
-        return (
-            f'<li class="label">{html.escape(item.title or "")}</li>'
-        )
+def ui_title(item: Item) -> str:
+    value = (item.title or item.loc).strip()
+    if item.category in {"Page", "Webpage", "Section"} and value.islower():
+        return value.title()
+    return value
 
-    title = html.escape(item.title or item.loc)
-    loc = html.escape(item.loc, quote=True)
+
+def item_link_html(item: Item, show_meta: bool = True) -> str:
+    title = html.escape(ui_title(item))
+    loc = html.escape(item.loc, quote=True) if item.loc else ""
+    link = f'<a href="{loc}">{title}</a>' if item.loc else f'<span class="label">{title}</span>'
+
+    if not show_meta:
+        return link
+
     details = []
-
     if item.published:
         stamp = lastmod(item.published) or ""
         details.append(
@@ -889,56 +895,56 @@ def item_html(item: Item, show_meta: bool = True) -> str:
             f'Published {html.escape(item.published.strftime("%d %b %Y %H:%M UTC"))}'
             f"</time>"
         )
-
     if item.lastmod:
         details.append(
             f'<time datetime="{html.escape(item.lastmod, quote=True)}">'
             f'Updated {html.escape(item.lastmod.replace("T", " ").replace("Z", " UTC"))}'
             f"</time>"
         )
-
     if item.category:
         details.append(html.escape(item.category))
 
-    meta_line = (
-        f'<span class="meta">{" · ".join(details)}</span>'
-        if show_meta and details
-        else ""
-    )
-    return f'<li><a href="{loc}">{title}</a>{meta_line}</li>'
+    if details:
+        link += f'<span class="meta">{" · ".join(details)}</span>'
+    return link
 
 
-def fixed_section_html(title: str, items: list[Item]) -> str:
-    rows = "".join(item_html(item) for item in items)
+def item_html(item: Item, show_meta: bool = True) -> str:
+    return f"<li>{item_link_html(item, show_meta)}</li>"
+
+
+def details_branch(
+    item: Item,
+    children_html: str,
+    css_class: str = "branch",
+) -> str:
     return (
-        '<section class="group">'
-        f"<h2>{html.escape(title)}</h2>"
-        f"<ul>{rows}</ul>"
-        "</section>"
+        f'<li class="{css_class}"><details>'
+        f"<summary>{item_link_html(item)}</summary>"
+        f"{children_html}"
+        "</details></li>"
     )
 
 
-def explore_section_html(items: list[Item]) -> str:
+def explore_tree_html(items: list[Item]) -> str:
     years: dict[str, list[Item]] = defaultdict(list)
     for item in items:
         if item.period:
             years[item.period.split("-W", 1)[0]].append(item)
 
-    parts = ['<section class="group"><h2>Explore</h2>']
+    parts = ['<ul class="tree nested">']
     for year in sorted(years, reverse=True):
         parts.append(
-            f'<details open><summary>{html.escape(year)}</summary><ul>'
+            f'<li class="branch"><details><summary>{html.escape(year)}</summary><ul>'
         )
         for item in years[year]:
             parts.append(item_html(item))
-        parts.append("</ul></details>")
-    parts.append("</section>")
+        parts.append("</ul></details></li>")
+    parts.append("</ul>")
     return "".join(parts)
 
 
-def monthly_section_html(
-    title: str, items: list[Item]
-) -> str:
+def monthly_tree_html(items: list[Item]) -> str:
     years: dict[int, dict[int, list[Item]]] = defaultdict(
         lambda: defaultdict(list)
     )
@@ -946,33 +952,41 @@ def monthly_section_html(
         if item.published:
             years[item.published.year][item.published.month].append(item)
 
-    parts = [
-        '<section class="group">',
-        f"<h2>{html.escape(title)}</h2>",
-    ]
-
     if not years:
-        parts.append('<p class="label">No entries.</p>')
-    else:
-        for year in sorted(years, reverse=True):
-            parts.append(
-                f'<details open><summary>{year}</summary>'
-            )
-            for month in sorted(years[year], reverse=True):
-                month_items = years[year][month]
-                parts.append(
-                    '<details>'
-                    f'<summary>{calendar.month_name[month]} '
-                    f'<span class="count">({len(month_items)})</span>'
-                    '</summary><ul>'
-                )
-                for item in month_items:
-                    parts.append(item_html(item))
-                parts.append("</ul></details>")
-            parts.append("</details>")
+        return '<p class="label nested-empty">No entries.</p>'
 
-    parts.append("</section>")
+    parts = ['<ul class="tree nested">']
+    for year in sorted(years, reverse=True):
+        parts.append(
+            f'<li class="branch"><details><summary>{year}</summary><ul>'
+        )
+        for month in sorted(years[year], reverse=True):
+            month_items = years[year][month]
+            parts.append(
+                '<li class="branch"><details>'
+                f'<summary>{calendar.month_name[month]} '
+                f'<span class="count">({len(month_items)})</span></summary><ul>'
+            )
+            for item in month_items:
+                parts.append(item_html(item))
+            parts.append("</ul></details></li>")
+        parts.append("</ul></details></li>")
+    parts.append("</ul>")
     return "".join(parts)
+
+
+def page_tree_html(items: list[Item]) -> str:
+    return '<ul class="tree nested">' + "".join(
+        item_html(item) for item in items
+    ) + "</ul>"
+
+
+def zine_home_map(items: list[Item]) -> dict[str, Item]:
+    result = {}
+    for item in items:
+        path = urlparse(item.loc).path.rstrip("/") or "/"
+        result[path] = item
+    return result
 
 
 def write_html_ui(
@@ -983,18 +997,72 @@ def write_html_ui(
     groups: dict[str, list[Item]],
     about: list[Item],
 ) -> None:
-    body = [
-        fixed_section_html("www", web),
-        fixed_section_html("Zine / Home", home),
-        fixed_section_html("Zine / Profile", profile),
-        explore_section_html(explore),
-        monthly_section_html("Zine / News", groups["news"]),
-        monthly_section_html("Zine / Articles", groups["articles"]),
-        monthly_section_html("Zine / Archive", groups["archive"]),
-        monthly_section_html("Zine / Comics", groups["comics"]),
-        monthly_section_html("Zine / Shop", groups["shop"]),
-        fixed_section_html("Zine / About", about),
+    web_items = [
+        item
+        for item in web
+        if urlparse(item.loc).netloc.lower() != "zine.trevorion.io"
     ]
+
+    zine = zine_home_map(home)
+    required = (
+        "/",
+        "/profile",
+        "/explore",
+        "/news",
+        "/articles",
+        "/archive",
+        "/comics",
+        "/shop",
+        "/about",
+        "/contact",
+        "/search",
+        "/sitemap",
+        "/copyright",
+    )
+    missing = [path for path in required if path not in zine]
+    if missing:
+        raise SitemapError(
+            "Human sitemap UI is missing Zine navigation entries: "
+            + ", ".join(missing)
+        )
+
+    zine_rows = [
+        item_html(zine["/"]),
+        details_branch(zine["/profile"], page_tree_html(profile)),
+        details_branch(zine["/explore"], explore_tree_html(explore)),
+        details_branch(zine["/news"], monthly_tree_html(groups["news"])),
+        details_branch(
+            zine["/articles"],
+            monthly_tree_html(groups["articles"]),
+        ),
+        details_branch(
+            zine["/archive"],
+            monthly_tree_html(groups["archive"]),
+        ),
+        details_branch(
+            zine["/comics"],
+            monthly_tree_html(groups["comics"]),
+        ),
+        details_branch(zine["/shop"], monthly_tree_html(groups["shop"])),
+        details_branch(zine["/about"], page_tree_html(about)),
+        item_html(zine["/contact"]),
+        item_html(zine["/search"]),
+        item_html(zine["/sitemap"]),
+        item_html(zine["/copyright"]),
+    ]
+
+    body = (
+        '<details class="group">'
+        '<summary class="group-title">Trevorion</summary>'
+        '<ul class="tree">'
+        + "".join(item_html(item) for item in web_items)
+        + "</ul></details>"
+        '<details class="group">'
+        '<summary class="group-title">Zine</summary>'
+        '<ul class="tree">'
+        + "".join(zine_rows)
+        + "</ul></details>"
+    )
 
     document = f"""<!doctype html>
 <html lang="en">
@@ -1012,17 +1080,20 @@ def write_html_ui(
     .intro{{margin:0 0 10px;color:var(--muted)}}
     .master{{display:inline-block;margin:0 0 28px}}
     .group{{margin:0 0 18px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px}}
-    .group>h2{{margin:0 0 12px;font-size:1.25rem}}
-    details{{border-top:1px solid var(--line);padding:8px 0}}
-    details:first-of-type{{border-top:0}}
-    details details{{margin-left:18px}}
+    .group-title{{font-size:1.25rem;font-weight:700}}
+    details{{padding:6px 0}}
+    details details{{margin-left:16px}}
     summary{{cursor:pointer;font-weight:650}}
-    ul{{margin:8px 0 4px;padding-left:22px}}
-    li{{margin:8px 0;overflow-wrap:anywhere}}
+    summary a{{position:relative;z-index:1}}
+    .tree{{margin:8px 0 4px;padding-left:22px}}
+    .tree.nested{{margin-top:6px}}
+    .tree li{{margin:8px 0;overflow-wrap:anywhere}}
+    .tree>.branch{{list-style:none;margin-left:-18px}}
     a{{color:var(--link);text-decoration:none}}
     a:hover{{text-decoration:underline}}
-    .meta{{display:block;color:var(--muted);font-size:.84rem;margin-top:1px}}
+    .meta{{display:block;color:var(--muted);font-size:.84rem;margin-top:1px;font-weight:400}}
     .label,.count{{color:var(--muted)}}
+    .nested-empty{{margin-left:22px}}
     footer{{margin-top:28px;color:var(--muted);font-size:.9rem}}
   </style>
 </head>
@@ -1031,14 +1102,14 @@ def write_html_ui(
   <h1>Trevorion Sitemap</h1>
   <p class="intro">Human-readable sitemap for Trevorion and the Zine.</p>
   <a class="master" href="/index.xml">Master XML sitemap index</a>
-  {"".join(body)}
+  {body}
   <footer>Trevorion sitemap hub</footer>
 </main>
 </body>
 </html>
 """
     (ROOT / "index.html").write_text(document, encoding="utf-8")
-    print("✅ index.html: human-facing sitemap UI generated")
+    print("✅ index.html: nested human-facing sitemap UI generated")
 
 
 def validate(paths: list[str]) -> None:
