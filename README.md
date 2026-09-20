@@ -72,6 +72,12 @@ Tag URLs are not imported. Tag Cloud remains a human section marker only.
 
 ## Automation
 
-GitHub Actions runs the generator every day at **03:00 UTC** and also supports manual dispatch.
+GitHub Actions runs at **03:00 UTC** every day.
+
+- **Monday-Saturday:** incremental update. Only posts/pages modified since the previous successful run are requested from WordPress; the existing inventory cache is reused for everything else.
+- **Sunday:** full reconciliation rebuild. This refresh catches deletions, unpublished posts, renamed terms, or other drift that an incremental published-content query cannot see immediately.
+- **Manual runs:** incremental by default, with a `full_rebuild` option when a complete reconciliation is wanted.
+
+The first run after this system is installed automatically performs a full rebuild to create `data/inventory.json`. Generated XML/HTML files are only rewritten when their actual content changes.
 
 The generator first establishes SiteGround browser clearance in headless Chromium, then reuses the cleared browser session for WordPress REST requests. Generation is fail-closed: if retrieval or validation fails, no generated changes are committed.
