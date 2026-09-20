@@ -1,2 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" />
+<sitemapindex xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!--2025-->
+  <sitemap>
+    <loc>https://sitemap.trevorion.io/zine/shop/2025-01.xml</loc>
+    <lastmod>2025-10-02T08:15:41Z</lastmod>
+    <meta:title>January 2025</meta:title>
+    <meta:section>Shop</meta:section>
+  </sitemap>
+</sitemapindex>
