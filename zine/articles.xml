@@ -1,183 +1,65 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemapindex xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!--2026-->
-  <!--June-->
-  <url>
-    <loc>https://zine.trevorion.io/article-41/</loc>
+  <sitemap>
+    <loc>https://sitemap.trevorion.io/zine/articles/2026-06.xml</loc>
     <lastmod>2026-06-13T17:04:38Z</lastmod>
-  </url>
-  <!--May-->
-  <url>
-    <loc>https://zine.trevorion.io/article-40/</loc>
+    <meta:title>June 2026</meta:title>
+    <meta:section>Articles</meta:section>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.trevorion.io/zine/articles/2026-05.xml</loc>
     <lastmod>2026-05-15T19:39:37Z</lastmod>
-  </url>
-  <!--January-->
-  <url>
-    <loc>https://zine.trevorion.io/article-39/</loc>
+    <meta:title>May 2026</meta:title>
+    <meta:section>Articles</meta:section>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.trevorion.io/zine/articles/2026-01.xml</loc>
     <lastmod>2026-01-04T23:19:56Z</lastmod>
-  </url>
+    <meta:title>January 2026</meta:title>
+    <meta:section>Articles</meta:section>
+  </sitemap>
   <!--2025-->
-  <!--October-->
-  <url>
-    <loc>https://zine.trevorion.io/article-38/</loc>
+  <sitemap>
+    <loc>https://sitemap.trevorion.io/zine/articles/2025-10.xml</loc>
     <lastmod>2025-10-30T16:06:31Z</lastmod>
-  </url>
-  <!--August-->
-  <url>
-    <loc>https://zine.trevorion.io/article-37/</loc>
+    <meta:title>October 2025</meta:title>
+    <meta:section>Articles</meta:section>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.trevorion.io/zine/articles/2025-08.xml</loc>
     <lastmod>2025-09-09T03:46:29Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-36/</loc>
-    <lastmod>2025-09-04T03:26:55Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-35/</loc>
-    <lastmod>2025-09-04T14:38:16Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-34/</loc>
-    <lastmod>2025-09-06T05:00:00Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-33/</loc>
-    <lastmod>2025-09-06T05:04:07Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-32/</loc>
-    <lastmod>2025-09-06T05:04:42Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-31/</loc>
-    <lastmod>2025-09-06T05:05:16Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-30/</loc>
-    <lastmod>2025-09-06T12:34:45Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-29/</loc>
-    <lastmod>2025-09-06T05:06:15Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-28/</loc>
-    <lastmod>2025-09-06T05:06:41Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-27/</loc>
-    <lastmod>2025-09-06T05:07:12Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-26/</loc>
-    <lastmod>2025-09-06T05:07:39Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-25/</loc>
-    <lastmod>2025-09-06T05:08:06Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-24/</loc>
-    <lastmod>2025-09-04T15:42:58Z</lastmod>
-  </url>
-  <!--July-->
-  <url>
-    <loc>https://zine.trevorion.io/article-23/</loc>
-    <lastmod>2025-09-04T15:47:10Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-22/</loc>
-    <lastmod>2025-09-04T15:58:57Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-21/</loc>
-    <lastmod>2025-10-08T15:17:25Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-20/</loc>
+    <meta:title>August 2025</meta:title>
+    <meta:section>Articles</meta:section>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.trevorion.io/zine/articles/2025-07.xml</loc>
     <lastmod>2025-10-08T15:52:44Z</lastmod>
-  </url>
-  <!--June-->
-  <url>
-    <loc>https://zine.trevorion.io/article-19/</loc>
-    <lastmod>2025-10-08T21:17:35Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-18/</loc>
-    <lastmod>2025-10-08T22:16:07Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-17/</loc>
+    <meta:title>July 2025</meta:title>
+    <meta:section>Articles</meta:section>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.trevorion.io/zine/articles/2025-06.xml</loc>
     <lastmod>2025-10-25T07:39:04Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-16/</loc>
-    <lastmod>2025-10-25T07:05:01Z</lastmod>
-  </url>
-  <!--May-->
-  <url>
-    <loc>https://zine.trevorion.io/article-15/</loc>
-    <lastmod>2025-10-25T07:31:09Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-14/</loc>
-    <lastmod>2025-10-25T08:52:02Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-13/</loc>
-    <lastmod>2025-10-25T12:49:15Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-12/</loc>
+    <meta:title>June 2025</meta:title>
+    <meta:section>Articles</meta:section>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.trevorion.io/zine/articles/2025-05.xml</loc>
     <lastmod>2026-02-21T05:41:28Z</lastmod>
-  </url>
-  <!--April-->
-  <url>
-    <loc>https://zine.trevorion.io/article-11/</loc>
-    <lastmod>2026-03-16T11:46:44Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-10/</loc>
-    <lastmod>2026-03-16T12:47:57Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-09/</loc>
-    <lastmod>2026-03-17T13:04:14Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-08/</loc>
-    <lastmod>2026-03-18T12:42:04Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-07/</loc>
-    <lastmod>2026-03-18T16:47:58Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-06/</loc>
-    <lastmod>2026-03-19T17:49:17Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-05/</loc>
-    <lastmod>2026-04-27T09:30:34Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/grok-fractal-art/</loc>
-    <lastmod>2026-02-14T10:59:52Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-04/</loc>
-    <lastmod>2026-04-27T09:32:48Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-03/</loc>
-    <lastmod>2026-04-27T09:52:35Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/article-02/</loc>
+    <meta:title>May 2025</meta:title>
+    <meta:section>Articles</meta:section>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.trevorion.io/zine/articles/2025-04.xml</loc>
     <lastmod>2026-06-21T07:51:35Z</lastmod>
-  </url>
-  <!--March-->
-  <url>
-    <loc>https://zine.trevorion.io/article-01/</loc>
+    <meta:title>April 2025</meta:title>
+    <meta:section>Articles</meta:section>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.trevorion.io/zine/articles/2025-03.xml</loc>
     <lastmod>2026-06-21T08:19:47Z</lastmod>
-  </url>
-</urlset>
+    <meta:title>March 2025</meta:title>
+    <meta:section>Articles</meta:section>
+  </sitemap>
+</sitemapindex>

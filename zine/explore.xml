@@ -1,455 +1,635 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!--2026-->
-  <!--Week 38-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W38&amp;dpage=1</loc>
     <lastmod>2026-09-20T05:24:00Z</lastmod>
+    <meta:title>Week 38</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W38</meta:period>
   </url>
-  <!--Week 37-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W37&amp;dpage=1</loc>
     <lastmod>2026-09-20T05:26:25Z</lastmod>
+    <meta:title>Week 37</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W37</meta:period>
   </url>
-  <!--Week 36-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W36&amp;dpage=1</loc>
     <lastmod>2026-09-19T18:41:55Z</lastmod>
+    <meta:title>Week 36</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W36</meta:period>
   </url>
-  <!--Week 35-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W35&amp;dpage=1</loc>
     <lastmod>2026-09-03T08:14:56Z</lastmod>
+    <meta:title>Week 35</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W35</meta:period>
   </url>
-  <!--Week 34-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W34&amp;dpage=1</loc>
     <lastmod>2026-08-26T07:10:04Z</lastmod>
+    <meta:title>Week 34</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W34</meta:period>
   </url>
-  <!--Week 33-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W33&amp;dpage=1</loc>
     <lastmod>2026-08-26T06:18:32Z</lastmod>
+    <meta:title>Week 33</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W33</meta:period>
   </url>
-  <!--Week 32-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W32&amp;dpage=1</loc>
     <lastmod>2026-08-29T08:27:07Z</lastmod>
+    <meta:title>Week 32</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W32</meta:period>
   </url>
-  <!--Week 31-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W31&amp;dpage=1</loc>
     <lastmod>2026-08-30T05:50:23Z</lastmod>
+    <meta:title>Week 31</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W31</meta:period>
   </url>
-  <!--Week 30-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W30&amp;dpage=1</loc>
     <lastmod>2026-07-31T18:37:50Z</lastmod>
+    <meta:title>Week 30</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W30</meta:period>
   </url>
-  <!--Week 29-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W29&amp;dpage=1</loc>
     <lastmod>2026-09-11T17:16:23Z</lastmod>
+    <meta:title>Week 29</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W29</meta:period>
   </url>
-  <!--Week 28-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W28&amp;dpage=1</loc>
     <lastmod>2026-09-08T15:27:46Z</lastmod>
+    <meta:title>Week 28</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W28</meta:period>
   </url>
-  <!--Week 27-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W27&amp;dpage=1</loc>
     <lastmod>2026-09-11T17:25:43Z</lastmod>
+    <meta:title>Week 27</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W27</meta:period>
   </url>
-  <!--Week 26-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W26&amp;dpage=1</loc>
     <lastmod>2026-08-30T07:34:19Z</lastmod>
+    <meta:title>Week 26</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W26</meta:period>
   </url>
-  <!--Week 25-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W25&amp;dpage=1</loc>
     <lastmod>2026-06-21T17:34:10Z</lastmod>
+    <meta:title>Week 25</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W25</meta:period>
   </url>
-  <!--Week 24-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W24&amp;dpage=1</loc>
     <lastmod>2026-08-22T08:12:14Z</lastmod>
+    <meta:title>Week 24</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W24</meta:period>
   </url>
-  <!--Week 23-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W23&amp;dpage=1</loc>
     <lastmod>2026-06-07T16:30:50Z</lastmod>
+    <meta:title>Week 23</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W23</meta:period>
   </url>
-  <!--Week 22-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W22&amp;dpage=1</loc>
     <lastmod>2026-05-31T20:58:15Z</lastmod>
+    <meta:title>Week 22</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W22</meta:period>
   </url>
-  <!--Week 21-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W21&amp;dpage=1</loc>
     <lastmod>2026-05-24T20:03:31Z</lastmod>
+    <meta:title>Week 21</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W21</meta:period>
   </url>
-  <!--Week 20-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W20&amp;dpage=1</loc>
     <lastmod>2026-05-17T18:42:06Z</lastmod>
+    <meta:title>Week 20</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W20</meta:period>
   </url>
-  <!--Week 19-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W19&amp;dpage=1</loc>
     <lastmod>2026-05-10T17:37:55Z</lastmod>
+    <meta:title>Week 19</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W19</meta:period>
   </url>
-  <!--Week 18-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W18&amp;dpage=1</loc>
     <lastmod>2026-05-03T21:05:47Z</lastmod>
+    <meta:title>Week 18</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W18</meta:period>
   </url>
-  <!--Week 17-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W17&amp;dpage=1</loc>
     <lastmod>2026-04-26T17:51:15Z</lastmod>
+    <meta:title>Week 17</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W17</meta:period>
   </url>
-  <!--Week 16-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W16&amp;dpage=1</loc>
     <lastmod>2026-04-24T21:24:11Z</lastmod>
+    <meta:title>Week 16</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W16</meta:period>
   </url>
-  <!--Week 15-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W15&amp;dpage=1</loc>
     <lastmod>2026-08-05T03:17:16Z</lastmod>
+    <meta:title>Week 15</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W15</meta:period>
   </url>
-  <!--Week 14-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W14&amp;dpage=1</loc>
     <lastmod>2026-04-24T20:45:22Z</lastmod>
+    <meta:title>Week 14</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W14</meta:period>
   </url>
-  <!--Week 13-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W13&amp;dpage=1</loc>
     <lastmod>2026-08-05T03:45:01Z</lastmod>
+    <meta:title>Week 13</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W13</meta:period>
   </url>
-  <!--Week 12-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W12&amp;dpage=1</loc>
     <lastmod>2026-03-22T18:56:01Z</lastmod>
+    <meta:title>Week 12</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W12</meta:period>
   </url>
-  <!--Week 11-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W11&amp;dpage=1</loc>
     <lastmod>2026-03-15T21:39:30Z</lastmod>
+    <meta:title>Week 11</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W11</meta:period>
   </url>
-  <!--Week 10-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W10&amp;dpage=1</loc>
     <lastmod>2026-09-02T16:38:33Z</lastmod>
+    <meta:title>Week 10</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W10</meta:period>
   </url>
-  <!--Week 09-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W09&amp;dpage=1</loc>
     <lastmod>2026-03-04T09:36:32Z</lastmod>
+    <meta:title>Week 09</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W09</meta:period>
   </url>
-  <!--Week 08-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W08&amp;dpage=1</loc>
     <lastmod>2026-02-22T22:59:56Z</lastmod>
+    <meta:title>Week 08</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W08</meta:period>
   </url>
-  <!--Week 07-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W07&amp;dpage=1</loc>
     <lastmod>2026-03-03T08:37:16Z</lastmod>
+    <meta:title>Week 07</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W07</meta:period>
   </url>
-  <!--Week 06-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W06&amp;dpage=1</loc>
     <lastmod>2026-03-04T07:03:40Z</lastmod>
+    <meta:title>Week 06</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W06</meta:period>
   </url>
-  <!--Week 05-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W05&amp;dpage=1</loc>
     <lastmod>2026-02-01T22:26:34Z</lastmod>
+    <meta:title>Week 05</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W05</meta:period>
   </url>
-  <!--Week 04-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W04&amp;dpage=1</loc>
     <lastmod>2026-03-04T09:18:48Z</lastmod>
+    <meta:title>Week 04</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W04</meta:period>
   </url>
-  <!--Week 03-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W03&amp;dpage=1</loc>
     <lastmod>2026-01-19T11:36:42Z</lastmod>
+    <meta:title>Week 03</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W03</meta:period>
   </url>
-  <!--Week 02-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W02&amp;dpage=1</loc>
     <lastmod>2026-01-19T10:55:02Z</lastmod>
+    <meta:title>Week 02</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W02</meta:period>
   </url>
-  <!--Week 01-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W01&amp;dpage=1</loc>
     <lastmod>2026-01-06T03:48:25Z</lastmod>
+    <meta:title>Week 01</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W01</meta:period>
   </url>
   <!--2025-->
-  <!--Week 52-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W52&amp;dpage=1</loc>
     <lastmod>2026-01-10T18:31:34Z</lastmod>
+    <meta:title>Week 52</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W52</meta:period>
   </url>
-  <!--Week 51-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W51&amp;dpage=1</loc>
     <lastmod>2025-12-21T20:31:40Z</lastmod>
+    <meta:title>Week 51</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W51</meta:period>
   </url>
-  <!--Week 50-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W50&amp;dpage=1</loc>
     <lastmod>2026-01-10T17:36:06Z</lastmod>
+    <meta:title>Week 50</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W50</meta:period>
   </url>
-  <!--Week 49-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W49&amp;dpage=1</loc>
     <lastmod>2026-01-12T17:39:26Z</lastmod>
+    <meta:title>Week 49</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W49</meta:period>
   </url>
-  <!--Week 48-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W48&amp;dpage=1</loc>
     <lastmod>2025-11-30T22:24:08Z</lastmod>
+    <meta:title>Week 48</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W48</meta:period>
   </url>
-  <!--Week 47-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W47&amp;dpage=1</loc>
     <lastmod>2026-01-07T20:22:05Z</lastmod>
+    <meta:title>Week 47</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W47</meta:period>
   </url>
-  <!--Week 46-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W46&amp;dpage=1</loc>
     <lastmod>2026-03-17T21:10:39Z</lastmod>
+    <meta:title>Week 46</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W46</meta:period>
   </url>
-  <!--Week 45-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W45&amp;dpage=1</loc>
     <lastmod>2026-01-12T18:09:27Z</lastmod>
+    <meta:title>Week 45</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W45</meta:period>
   </url>
-  <!--Week 44-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W44&amp;dpage=1</loc>
     <lastmod>2025-11-09T14:25:44Z</lastmod>
+    <meta:title>Week 44</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W44</meta:period>
   </url>
-  <!--Week 43-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W43&amp;dpage=1</loc>
     <lastmod>2025-11-03T17:30:39Z</lastmod>
+    <meta:title>Week 43</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W43</meta:period>
   </url>
-  <!--Week 42-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W42&amp;dpage=1</loc>
     <lastmod>2025-10-21T09:48:22Z</lastmod>
+    <meta:title>Week 42</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W42</meta:period>
   </url>
-  <!--Week 41-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W41&amp;dpage=1</loc>
     <lastmod>2025-10-21T07:41:11Z</lastmod>
+    <meta:title>Week 41</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W41</meta:period>
   </url>
-  <!--Week 40-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W40&amp;dpage=1</loc>
     <lastmod>2025-10-21T04:52:14Z</lastmod>
+    <meta:title>Week 40</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W40</meta:period>
   </url>
-  <!--Week 39-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W39&amp;dpage=1</loc>
     <lastmod>2025-11-03T16:05:38Z</lastmod>
+    <meta:title>Week 39</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W39</meta:period>
   </url>
-  <!--Week 38-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W38&amp;dpage=1</loc>
     <lastmod>2025-11-09T15:16:33Z</lastmod>
+    <meta:title>Week 38</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W38</meta:period>
   </url>
-  <!--Week 37-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W37&amp;dpage=1</loc>
     <lastmod>2026-04-25T05:18:51Z</lastmod>
+    <meta:title>Week 37</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W37</meta:period>
   </url>
-  <!--Week 36-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W36&amp;dpage=1</loc>
     <lastmod>2025-09-14T14:41:48Z</lastmod>
+    <meta:title>Week 36</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W36</meta:period>
   </url>
-  <!--Week 35-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W35&amp;dpage=1</loc>
     <lastmod>2026-09-02T16:34:35Z</lastmod>
+    <meta:title>Week 35</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W35</meta:period>
   </url>
-  <!--Week 34-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W34&amp;dpage=1</loc>
     <lastmod>2025-09-09T03:46:29Z</lastmod>
+    <meta:title>Week 34</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W34</meta:period>
   </url>
-  <!--Week 33-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W33&amp;dpage=1</loc>
     <lastmod>2025-09-29T01:57:01Z</lastmod>
+    <meta:title>Week 33</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W33</meta:period>
   </url>
-  <!--Week 32-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W32&amp;dpage=1</loc>
     <lastmod>2025-09-29T22:24:12Z</lastmod>
+    <meta:title>Week 32</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W32</meta:period>
   </url>
-  <!--Week 31-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W31&amp;dpage=1</loc>
     <lastmod>2026-02-09T17:19:35Z</lastmod>
+    <meta:title>Week 31</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W31</meta:period>
   </url>
-  <!--Week 30-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W30&amp;dpage=1</loc>
     <lastmod>2026-02-09T17:32:17Z</lastmod>
+    <meta:title>Week 30</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W30</meta:period>
   </url>
-  <!--Week 29-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W29&amp;dpage=1</loc>
     <lastmod>2026-02-09T17:43:32Z</lastmod>
+    <meta:title>Week 29</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W29</meta:period>
   </url>
-  <!--Week 28-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W28&amp;dpage=1</loc>
     <lastmod>2026-02-09T17:52:13Z</lastmod>
+    <meta:title>Week 28</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W28</meta:period>
   </url>
-  <!--Week 27-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W27&amp;dpage=1</loc>
     <lastmod>2026-02-09T20:31:46Z</lastmod>
+    <meta:title>Week 27</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W27</meta:period>
   </url>
-  <!--Week 26-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W26&amp;dpage=1</loc>
     <lastmod>2026-02-10T16:14:32Z</lastmod>
+    <meta:title>Week 26</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W26</meta:period>
   </url>
-  <!--Week 25-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W25&amp;dpage=1</loc>
     <lastmod>2026-02-10T16:18:57Z</lastmod>
+    <meta:title>Week 25</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W25</meta:period>
   </url>
-  <!--Week 24-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W24&amp;dpage=1</loc>
     <lastmod>2026-02-10T16:52:30Z</lastmod>
+    <meta:title>Week 24</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W24</meta:period>
   </url>
-  <!--Week 23-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W23&amp;dpage=1</loc>
     <lastmod>2026-02-10T17:16:10Z</lastmod>
+    <meta:title>Week 23</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W23</meta:period>
   </url>
-  <!--Week 22-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W22&amp;dpage=1</loc>
     <lastmod>2026-02-10T18:03:34Z</lastmod>
+    <meta:title>Week 22</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W22</meta:period>
   </url>
-  <!--Week 21-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W21&amp;dpage=1</loc>
     <lastmod>2026-02-10T18:20:45Z</lastmod>
+    <meta:title>Week 21</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W21</meta:period>
   </url>
-  <!--Week 20-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W20&amp;dpage=1</loc>
     <lastmod>2026-04-25T05:16:19Z</lastmod>
+    <meta:title>Week 20</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W20</meta:period>
   </url>
-  <!--Week 19-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W19&amp;dpage=1</loc>
     <lastmod>2026-06-22T16:29:22Z</lastmod>
+    <meta:title>Week 19</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W19</meta:period>
   </url>
-  <!--Week 18-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W18&amp;dpage=1</loc>
     <lastmod>2026-06-22T08:24:43Z</lastmod>
+    <meta:title>Week 18</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W18</meta:period>
   </url>
-  <!--Week 17-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W17&amp;dpage=1</loc>
     <lastmod>2026-06-22T08:20:22Z</lastmod>
+    <meta:title>Week 17</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W17</meta:period>
   </url>
-  <!--Week 16-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W16&amp;dpage=1</loc>
     <lastmod>2026-06-22T08:12:40Z</lastmod>
+    <meta:title>Week 16</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W16</meta:period>
   </url>
-  <!--Week 15-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W15&amp;dpage=1</loc>
     <lastmod>2026-06-22T07:59:35Z</lastmod>
+    <meta:title>Week 15</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W15</meta:period>
   </url>
-  <!--Week 14-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W14&amp;dpage=1</loc>
     <lastmod>2026-06-21T08:19:47Z</lastmod>
+    <meta:title>Week 14</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W14</meta:period>
   </url>
-  <!--Week 13-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W13&amp;dpage=1</loc>
     <lastmod>2026-02-12T12:35:27Z</lastmod>
+    <meta:title>Week 13</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W13</meta:period>
   </url>
-  <!--Week 12-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W12&amp;dpage=1</loc>
     <lastmod>2026-02-12T15:06:06Z</lastmod>
+    <meta:title>Week 12</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W12</meta:period>
   </url>
-  <!--Week 11-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W11&amp;dpage=1</loc>
     <lastmod>2026-02-12T15:11:20Z</lastmod>
+    <meta:title>Week 11</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W11</meta:period>
   </url>
-  <!--Week 10-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W10&amp;dpage=1</loc>
     <lastmod>2026-02-12T15:16:06Z</lastmod>
+    <meta:title>Week 10</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W10</meta:period>
   </url>
-  <!--Week 09-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W09&amp;dpage=1</loc>
     <lastmod>2026-02-13T19:35:20Z</lastmod>
+    <meta:title>Week 09</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W09</meta:period>
   </url>
-  <!--Week 08-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W08&amp;dpage=1</loc>
     <lastmod>2026-02-13T19:39:55Z</lastmod>
+    <meta:title>Week 08</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W08</meta:period>
   </url>
-  <!--Week 07-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W07&amp;dpage=1</loc>
     <lastmod>2026-02-13T19:44:24Z</lastmod>
+    <meta:title>Week 07</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W07</meta:period>
   </url>
-  <!--Week 06-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W06&amp;dpage=1</loc>
     <lastmod>2026-02-13T19:48:33Z</lastmod>
+    <meta:title>Week 06</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W06</meta:period>
   </url>
-  <!--Week 05-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W05&amp;dpage=1</loc>
     <lastmod>2026-02-14T09:07:13Z</lastmod>
+    <meta:title>Week 05</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W05</meta:period>
   </url>
-  <!--Week 04-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W04&amp;dpage=1</loc>
     <lastmod>2026-02-14T09:15:39Z</lastmod>
+    <meta:title>Week 04</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W04</meta:period>
   </url>
-  <!--Week 03-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W03&amp;dpage=1</loc>
     <lastmod>2026-02-14T09:17:54Z</lastmod>
+    <meta:title>Week 03</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W03</meta:period>
   </url>
-  <!--Week 02-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W02&amp;dpage=1</loc>
     <lastmod>2026-02-14T09:26:38Z</lastmod>
+    <meta:title>Week 02</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W02</meta:period>
   </url>
-  <!--Week 01-->
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W01&amp;dpage=1</loc>
     <lastmod>2026-02-14T09:24:06Z</lastmod>
+    <meta:title>Week 01</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2025-W01</meta:period>
   </url>
 </urlset>

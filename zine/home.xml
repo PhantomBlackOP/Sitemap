@@ -1,66 +1,102 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!--home-->
+<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!--Home-->
   <url>
     <loc>https://zine.trevorion.io/</loc>
     <lastmod>2026-04-25T06:46:40Z</lastmod>
+    <meta:title>Home</meta:title>
+    <meta:published>2025-08-19T03:50:57Z</meta:published>
+    <meta:category>Page</meta:category>
   </url>
-  <!--profile-->
+  <!--Profile-->
   <url>
     <loc>https://zine.trevorion.io/profile/</loc>
     <lastmod>2026-02-20T07:31:15Z</lastmod>
+    <meta:title>Profile</meta:title>
+    <meta:published>2025-08-19T03:51:29Z</meta:published>
+    <meta:category>Page</meta:category>
   </url>
-  <!--explore-->
+  <!--Explore-->
   <url>
     <loc>https://zine.trevorion.io/explore/</loc>
     <lastmod>2026-02-20T07:30:05Z</lastmod>
+    <meta:title>Explore</meta:title>
+    <meta:published>2025-08-19T03:51:51Z</meta:published>
+    <meta:category>Page</meta:category>
   </url>
-  <!--news-->
+  <!--News-->
   <url>
     <loc>https://zine.trevorion.io/news/</loc>
     <lastmod>2026-02-20T07:30:46Z</lastmod>
+    <meta:title>News</meta:title>
+    <meta:published>2025-08-19T03:52:23Z</meta:published>
+    <meta:category>Page</meta:category>
   </url>
-  <!--articles-->
+  <!--Articles-->
   <url>
     <loc>https://zine.trevorion.io/articles/</loc>
     <lastmod>2026-02-20T07:29:08Z</lastmod>
+    <meta:title>Articles</meta:title>
+    <meta:published>2025-08-19T03:52:50Z</meta:published>
+    <meta:category>Page</meta:category>
   </url>
-  <!--archive-->
+  <!--Archive-->
   <url>
     <loc>https://zine.trevorion.io/archive/</loc>
     <lastmod>2026-02-20T07:28:41Z</lastmod>
+    <meta:title>Archive</meta:title>
+    <meta:published>2025-08-19T03:57:41Z</meta:published>
+    <meta:category>Page</meta:category>
   </url>
-  <!--comics-->
+  <!--Comics-->
   <url>
     <loc>https://zine.trevorion.io/comics/</loc>
     <lastmod>2026-04-25T06:47:04Z</lastmod>
+    <meta:title>Comics</meta:title>
+    <meta:published>2026-04-25T04:47:23Z</meta:published>
+    <meta:category>Page</meta:category>
   </url>
-  <!--shop-->
+  <!--Shop-->
   <url>
     <loc>https://zine.trevorion.io/shop/</loc>
     <lastmod>2026-02-20T07:31:40Z</lastmod>
+    <meta:title>Shop</meta:title>
+    <meta:published>2025-08-19T03:55:18Z</meta:published>
+    <meta:category>Page</meta:category>
   </url>
-  <!--about-->
+  <!--About-->
   <url>
     <loc>https://zine.trevorion.io/about/</loc>
     <lastmod>2026-08-01T03:33:33Z</lastmod>
+    <meta:title>About</meta:title>
+    <meta:published>2025-08-19T03:55:45Z</meta:published>
+    <meta:category>Page</meta:category>
   </url>
-  <!--contact-->
+  <!--Contact-->
   <url>
     <loc>https://zine.trevorion.io/contact/</loc>
     <lastmod>2026-02-20T07:29:36Z</lastmod>
+    <meta:title>Contact</meta:title>
+    <meta:published>2025-08-19T03:56:11Z</meta:published>
+    <meta:category>Page</meta:category>
   </url>
   <!--search-->
   <url>
     <loc>https://zine.trevorion.io/search/</loc>
+    <meta:title>search</meta:title>
+    <meta:category>Page</meta:category>
   </url>
   <!--sitemap-->
   <url>
     <loc>https://zine.trevorion.io/sitemap/</loc>
+    <meta:title>sitemap</meta:title>
+    <meta:category>Page</meta:category>
   </url>
   <!--copyright-->
   <url>
     <loc>https://zine.trevorion.io/copyright/</loc>
     <lastmod>2026-04-25T09:25:50Z</lastmod>
+    <meta:title>copyright</meta:title>
+    <meta:category>Page</meta:category>
   </url>
 </urlset>

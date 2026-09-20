@@ -1,9 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!--welcome-->
+<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!--About-->
   <url>
     <loc>https://zine.trevorion.io/about/</loc>
     <lastmod>2026-08-01T03:33:33Z</lastmod>
+    <meta:title>About</meta:title>
+    <meta:published>2025-08-19T03:55:45Z</meta:published>
+    <meta:category>Page</meta:category>
   </url>
   <!--tag cloud-->
 </urlset>
