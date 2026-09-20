@@ -5,6 +5,7 @@ import calendar
 import html
 import json
 import re
+import shutil
 import sys
 import time
 import xml.etree.ElementTree as ET
@@ -28,7 +29,10 @@ WP_API = f"{ZINE_ROOT}/wp-json/wp/v2"
 START_DATE = date(2025, 1, 1)
 TIMEOUT = 60
 
-OUTPUTS = (
+META_NS = f"{SITEMAP_HOST}/ns/meta"
+ET.register_namespace("meta", META_NS)
+
+TOP_LEVEL_OUTPUTS = (
     "www/webpage.xml",
     "zine/home.xml",
     "zine/profile.xml",
@@ -40,6 +44,8 @@ OUTPUTS = (
     "zine/shop.xml",
     "zine/about.xml",
 )
+
+MONTHLY_SECTIONS = ("news", "articles", "archive", "comics", "shop")
 
 HOME_URLS = (
     ("home", f"{ZINE_ROOT}/"),
@@ -70,6 +76,7 @@ ABOUT_FIXED_SECTIONS = (
     ("welcome", f"{ZINE_ROOT}/about/"),
 )
 ABOUT_LABEL_ONLY_SECTIONS = ("tag cloud",)
+
 CATEGORY_OUTPUTS = {
     "news": {"news"},
     "articles": {"article", "articles"},
@@ -77,6 +84,14 @@ CATEGORY_OUTPUTS = {
     "comics": {"comic", "comics"},
     "shop": {"shop"},
 }
+CATEGORY_LABELS = {
+    "news": "News",
+    "articles": "Articles",
+    "archive": "Daily",
+    "comics": "Comics",
+    "shop": "Shop",
+}
+
 OWNED_HOSTS = {"trevorion.io", "www.trevorion.io", "zine.trevorion.io"}
 
 HTTP = requests.Session()
@@ -91,7 +106,9 @@ class Item:
     loc: str
     lastmod: str | None = None
     published: datetime | None = None
-    label: str | None = None
+    title: str | None = None
+    category: str | None = None
+    period: str | None = None
 
 
 class SitemapError(RuntimeError):
@@ -108,8 +125,15 @@ def normalize_url(value: str, base: str | None = None) -> str:
     if parsed.scheme not in {"http", "https"}:
         return ""
     path = re.sub(r"/{2,}", "/", parsed.path or "/")
-    query = parsed.query if parsed.netloc.lower() == "zine.trevorion.io" and path.rstrip("/") == "/explore" else ""
-    return urlunparse((parsed.scheme.lower(), parsed.netloc.lower(), path, "", query, ""))
+    query = (
+        parsed.query
+        if parsed.netloc.lower() == "zine.trevorion.io"
+        and path.rstrip("/") == "/explore"
+        else ""
+    )
+    return urlunparse(
+        (parsed.scheme.lower(), parsed.netloc.lower(), path, "", query, "")
+    )
 
 
 def dt(value: object) -> datetime | None:
@@ -126,7 +150,18 @@ def dt(value: object) -> datetime | None:
 
 
 def lastmod(value: datetime | None) -> str | None:
-    return value.replace(microsecond=0).isoformat().replace("+00:00", "Z") if value else None
+    return (
+        value.replace(microsecond=0).isoformat().replace("+00:00", "Z")
+        if value
+        else None
+    )
+
+
+def clean_title(value: object) -> str:
+    if isinstance(value, dict):
+        value = value.get("rendered") or ""
+    text = BeautifulSoup(str(value or ""), "html.parser").get_text(" ", strip=True)
+    return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
 
 def is_sg_challenge(response: requests.Response) -> bool:
@@ -138,12 +173,6 @@ def is_sg_challenge(response: requests.Response) -> bool:
 
 
 def establish_siteground_clearance() -> None:
-    """Use a real browser to complete SiteGround's JS proof-of-work challenge.
-
-    The resulting SiteGround cookies are copied into the requests session, so
-    the REST calls use the same cleared IP/browser session rather than trying
-    to bypass the challenge with a raw HTTP client.
-    """
     probe = f"{WP_API}/categories?per_page=1"
     print("ℹ️ Establishing SiteGround browser clearance…")
 
@@ -153,22 +182,18 @@ def establish_siteground_clearance() -> None:
         page = context.new_page()
         try:
             page.goto(probe, wait_until="domcontentloaded", timeout=120000)
-
             deadline = time.monotonic() + 90
             while time.monotonic() < deadline:
                 body = page.locator("body").inner_text(timeout=5000).strip()
-                url = page.url
-                if url.startswith(WP_API) and body[:1] in {"[", "{"}:
+                if page.url.startswith(WP_API) and body[:1] in {"[", "{"}:
                     break
                 page.wait_for_timeout(1000)
             else:
                 raise SitemapError(
-                    "SiteGround CAPTCHA did not clear automatically in Chromium within 90 seconds. "
-                    "The hosting layer is blocking the GitHub Actions runner before WordPress is reached."
+                    "SiteGround CAPTCHA did not clear automatically in Chromium within 90 seconds."
                 )
 
-            user_agent = page.evaluate("navigator.userAgent")
-            HTTP.headers["User-Agent"] = user_agent
+            HTTP.headers["User-Agent"] = page.evaluate("navigator.userAgent")
             for cookie in context.cookies():
                 HTTP.cookies.set(
                     cookie["name"],
@@ -179,24 +204,37 @@ def establish_siteground_clearance() -> None:
         finally:
             browser.close()
 
-    response = HTTP.get(probe, timeout=TIMEOUT, headers={"Accept": "application/json"})
+    response = HTTP.get(
+        probe, timeout=TIMEOUT, headers={"Accept": "application/json"}
+    )
     if is_sg_challenge(response):
         raise SitemapError(
             "SiteGround challenged the cleared browser session again when reused by the HTTP client."
         )
     if response.status_code >= 400:
-        raise SitemapError(f"WordPress REST probe returned HTTP {response.status_code}")
+        raise SitemapError(
+            f"WordPress REST probe returned HTTP {response.status_code}"
+        )
     try:
         response.json()
     except json.JSONDecodeError as exc:
         preview = response.text[:180].replace("\n", " ")
-        raise SitemapError(f"WordPress REST probe still returned non-JSON: {preview}") from exc
+        raise SitemapError(
+            f"WordPress REST probe still returned non-JSON: {preview}"
+        ) from exc
 
     print("✅ SiteGround clearance established; WordPress REST API is reachable.")
 
 
-def request_json(url: str, params: dict[str, object]) -> tuple[object, requests.Response]:
-    response = HTTP.get(url, params=params, timeout=TIMEOUT, headers={"Accept": "application/json"})
+def request_json(
+    url: str, params: dict[str, object]
+) -> tuple[object, requests.Response]:
+    response = HTTP.get(
+        url,
+        params=params,
+        timeout=TIMEOUT,
+        headers={"Accept": "application/json"},
+    )
     if is_sg_challenge(response):
         raise SitemapError(
             f"SiteGround CAPTCHA reappeared while requesting {response.url}. "
@@ -205,14 +243,16 @@ def request_json(url: str, params: dict[str, object]) -> tuple[object, requests.
     try:
         response.raise_for_status()
     except requests.RequestException as exc:
-        raise SitemapError(f"WordPress request failed for {response.url}: {exc}") from exc
+        raise SitemapError(
+            f"WordPress request failed for {response.url}: {exc}"
+        ) from exc
     try:
         return response.json(), response
     except json.JSONDecodeError as exc:
         preview = response.text[:180].replace("\n", " ")
         raise SitemapError(
-            f"WordPress returned {response.headers.get('content-type', '?')} instead of JSON "
-            f"for {response.url}: {preview}"
+            f"WordPress returned {response.headers.get('content-type', '?')} "
+            f"instead of JSON for {response.url}: {preview}"
         ) from exc
 
 
@@ -224,12 +264,19 @@ def fetch_all(endpoint: str, params: dict[str, object]) -> list[dict]:
             {**params, "per_page": 100, "page": page},
         )
         if not isinstance(payload, list):
-            raise SitemapError(f"WordPress returned invalid data for {endpoint}")
+            raise SitemapError(
+                f"WordPress returned invalid data for {endpoint}"
+            )
         rows.extend(x for x in payload if isinstance(x, dict))
         if total_pages is None:
             raw = response.headers.get("X-WP-TotalPages", "")
             total_pages = int(raw) if raw.isdigit() else None
-        if (total_pages is not None and page >= total_pages) or (total_pages is None and len(payload) < 100):
+        if (
+            total_pages is not None
+            and page >= total_pages
+        ) or (
+            total_pages is None and len(payload) < 100
+        ):
             return rows
         page += 1
         if page > 1000:
@@ -238,45 +285,71 @@ def fetch_all(endpoint: str, params: dict[str, object]) -> list[dict]:
 
 def wp_inventory() -> tuple[list[dict], list[dict], dict[int, dict]]:
     categories = fetch_all("categories", {"hide_empty": "false"})
-    category_by_id = {int(x["id"]): x for x in categories if "id" in x}
+    category_by_id = {
+        int(x["id"]): x for x in categories if "id" in x
+    }
 
-    posts = fetch_all("posts", {
-        "status": "publish",
-        "after": "2025-01-01T00:00:00Z",
-        "orderby": "date",
-        "order": "desc",
-        "_fields": "id,link,slug,date_gmt,modified_gmt,categories,status",
-    })
-    pages = fetch_all("pages", {
-        "status": "publish",
-        "orderby": "modified",
-        "order": "desc",
-        "_fields": "id,link,slug,date_gmt,modified_gmt,status",
-    })
+    posts = fetch_all(
+        "posts",
+        {
+            "status": "publish",
+            "after": "2025-01-01T00:00:00Z",
+            "orderby": "date",
+            "order": "desc",
+            "_fields": (
+                "id,link,slug,title,date_gmt,modified_gmt,"
+                "categories,status"
+            ),
+        },
+    )
+    pages = fetch_all(
+        "pages",
+        {
+            "status": "publish",
+            "orderby": "modified",
+            "order": "desc",
+            "_fields": "id,link,slug,title,date_gmt,modified_gmt,status",
+        },
+    )
 
     if not posts:
         raise SitemapError(
-            "WordPress returned zero published posts after 2025-01-01; refusing to overwrite the live sitemap"
+            "WordPress returned zero published posts after 2025-01-01; "
+            "refusing to overwrite the live sitemap"
         )
 
-    print(f"✅ WordPress inventory: {len(posts)} posts, {len(pages)} pages, {len(categories)} categories")
+    print(
+        f"✅ WordPress inventory: {len(posts)} posts, "
+        f"{len(pages)} pages, {len(categories)} categories"
+    )
     return posts, pages, category_by_id
 
 
-def page_modifications(pages: list[dict]) -> dict[str, str]:
-    result = {}
+def page_inventory(pages: list[dict]) -> dict[str, Item]:
+    result: dict[str, Item] = {}
     for page in pages:
-        loc = normalize_url(str(page.get("link") or "")).rstrip("/")
-        lm = lastmod(dt(page.get("modified_gmt")))
-        if loc and lm:
-            result[loc] = lm
+        loc = normalize_url(str(page.get("link") or ""))
+        if not loc:
+            continue
+        title = clean_title(page.get("title")) or str(page.get("slug") or "")
+        result[loc.rstrip("/")] = Item(
+            loc=loc,
+            lastmod=lastmod(dt(page.get("modified_gmt"))),
+            published=dt(page.get("date_gmt")),
+            title=title,
+            category="Page",
+        )
     return result
 
 
 def html_response(url: str) -> requests.Response:
-    response = HTTP.get(url, timeout=TIMEOUT, headers={"Accept": "text/html,*/*"})
+    response = HTTP.get(
+        url, timeout=TIMEOUT, headers={"Accept": "text/html,*/*"}
+    )
     if is_sg_challenge(response):
-        raise SitemapError(f"SiteGround CAPTCHA reappeared while requesting {url}")
+        raise SitemapError(
+            f"SiteGround CAPTCHA reappeared while requesting {url}"
+        )
     try:
         response.raise_for_status()
     except requests.RequestException as exc:
@@ -303,17 +376,45 @@ def html_lastmod(url: str) -> str | None:
     return None
 
 
-def page_lastmod(url: str, mods: dict[str, str]) -> str | None:
-    return mods.get(normalize_url(url).rstrip("/")) or html_lastmod(url)
+def page_item(
+    label: str,
+    url: str,
+    pages: dict[str, Item],
+    category: str = "Page",
+) -> Item:
+    loc = normalize_url(url)
+    known = pages.get(loc.rstrip("/"))
+    if known:
+        return Item(
+            loc=loc,
+            lastmod=known.lastmod,
+            published=known.published,
+            title=known.title or label,
+            category=category,
+        )
+    return Item(
+        loc=loc,
+        lastmod=html_lastmod(loc),
+        title=label,
+        category=category,
+    )
 
 
 def category_key(category: dict) -> str:
-    value = str(category.get("slug") or category.get("name") or "").strip().lower()
+    value = str(
+        category.get("slug") or category.get("name") or ""
+    ).strip().lower()
     return re.sub(r"[^a-z0-9]+", "-", value).strip("-")
 
 
-def group_posts(posts: list[dict], categories: dict[int, dict]) -> dict[str, list[Item]]:
-    aliases = {alias: output for output, names in CATEGORY_OUTPUTS.items() for alias in names}
+def group_posts(
+    posts: list[dict], categories: dict[int, dict]
+) -> dict[str, list[Item]]:
+    aliases = {
+        alias: output
+        for output, names in CATEGORY_OUTPUTS.items()
+        for alias in names
+    }
     groups = {name: [] for name in CATEGORY_OUTPUTS}
     skipped: defaultdict[str, int] = defaultdict(int)
 
@@ -321,11 +422,14 @@ def group_posts(posts: list[dict], categories: dict[int, dict]) -> dict[str, lis
         ids = post.get("categories") or []
         if len(ids) != 1:
             raise SitemapError(
-                f"Post {post.get('id')} has {len(ids)} categories; exactly one is required"
+                f"Post {post.get('id')} has {len(ids)} categories; "
+                "exactly one is required"
             )
         category = categories.get(int(ids[0]))
         if not category:
-            raise SitemapError(f"Post {post.get('id')} references unknown category {ids[0]}")
+            raise SitemapError(
+                f"Post {post.get('id')} references unknown category {ids[0]}"
+            )
 
         key = category_key(category)
         output = aliases.get(key)
@@ -335,29 +439,36 @@ def group_posts(posts: list[dict], categories: dict[int, dict]) -> dict[str, lis
 
         published = dt(post.get("date_gmt"))
         loc = normalize_url(str(post.get("link") or ""))
-        if not published or not loc:
+        title = clean_title(post.get("title"))
+        if not published or not loc or not title:
             raise SitemapError(
-                f"Post {post.get('id')} is missing its canonical URL or publication date"
+                f"Post {post.get('id')} is missing its canonical URL, "
+                "publication date, or title"
             )
+
         if published.date() >= START_DATE:
             groups[output].append(
                 Item(
-                    loc,
-                    lastmod(dt(post.get("modified_gmt"))),
-                    published,
-                    str(post.get("slug") or ""),
+                    loc=loc,
+                    lastmod=lastmod(dt(post.get("modified_gmt"))),
+                    published=published,
+                    title=title,
+                    category=CATEGORY_LABELS[output],
                 )
             )
 
     if skipped:
         print(
             "ℹ️ Categories outside the supplied sitemap structure were omitted: "
-            + ", ".join(f"{k}={v}" for k, v in sorted(skipped.items()))
+            + ", ".join(
+                f"{k}={v}" for k, v in sorted(skipped.items())
+            )
         )
 
     for values in groups.values():
         values.sort(
-            key=lambda x: x.published or datetime.min.replace(tzinfo=UTC),
+            key=lambda x: x.published
+            or datetime.min.replace(tzinfo=UTC),
             reverse=True,
         )
     return groups
@@ -375,7 +486,9 @@ def scrape_owned_links(url: str) -> list[tuple[str, str]]:
             or urlparse(loc).path.startswith("/tag/")
         ):
             continue
-        text = re.sub(r"\s+", " ", anchor.get_text(" ", strip=True)).strip()
+        text = re.sub(
+            r"\s+", " ", anchor.get_text(" ", strip=True)
+        ).strip()
         result.append((text, loc))
     return result
 
@@ -387,35 +500,59 @@ def named_sections(
 ) -> list[Item]:
     links = scrape_owned_links(url)
     result, used = [], set()
+
     for label, terms in sections.items():
         candidates = []
         for text, loc in links:
             t, u = text.casefold(), unquote(loc).casefold()
             score = sum(
-                (100 if term.casefold() == t else 40 if term.casefold() in t else 0)
-                + (25 if f"/{term.casefold().replace(' ', '-')}/" in u else 0)
+                (
+                    100
+                    if term.casefold() == t
+                    else 40
+                    if term.casefold() in t
+                    else 0
+                )
+                + (
+                    25
+                    if f"/{term.casefold().replace(' ', '-')}/" in u
+                    else 0
+                )
                 for term in terms
             )
             if score:
                 candidates.append((score, len(loc), loc))
+
         if not candidates:
-            raise SitemapError(f"Could not resolve '{label}' from {url}; refusing to guess")
-        loc = sorted(candidates, key=lambda x: (-x[0], x[1], x[2]))[0][2]
+            raise SitemapError(
+                f"Could not resolve '{label}' from {url}; refusing to guess"
+            )
+
+        loc = sorted(
+            candidates, key=lambda x: (-x[0], x[1], x[2])
+        )[0][2]
         if loc not in used:
             used.add(loc)
-            result.append(Item(loc, label=label))
+            result.append(
+                Item(loc=loc, title=label, category="Page")
+            )
+
     for label in label_only:
-        result.append(Item("", label=label))
+        result.append(Item(loc="", title=label, category="Section"))
+
     return result
 
 
 def webpage_items() -> list[Item]:
     found, seen = [], set()
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         try:
-            page.goto(WEB_HOME, wait_until="networkidle", timeout=90000)
+            page.goto(
+                WEB_HOME, wait_until="networkidle", timeout=90000
+            )
             page.wait_for_timeout(1000)
 
             for anchor in page.locator("a").all():
@@ -423,49 +560,96 @@ def webpage_items() -> list[Item]:
                 if not href:
                     continue
                 loc = normalize_url(href, WEB_HOME)
-                if not loc or urlparse(loc).netloc.lower() not in OWNED_HOSTS:
+                if (
+                    not loc
+                    or urlparse(loc).netloc.lower() not in OWNED_HOSTS
+                ):
                     continue
                 if (
                     urlparse(loc).path.startswith("/tag/")
-                    or re.search(r"\.(?:png|jpe?g|gif|webp|svg|avif)$", loc, re.I)
+                    or re.search(
+                        r"\.(?:png|jpe?g|gif|webp|svg|avif)$",
+                        loc,
+                        re.I,
+                    )
                 ):
                     continue
-                if loc.rstrip("/") in {WEB_ROOT.rstrip("/"), WEB_HOME.rstrip("/")}:
+
+                if loc.rstrip("/") in {
+                    WEB_ROOT.rstrip("/"),
+                    WEB_HOME.rstrip("/"),
+                }:
                     loc = WEB_HOME
+
                 if loc not in seen:
                     seen.add(loc)
+                    title = re.sub(
+                        r"\s+", " ", anchor.inner_text().strip()
+                    ) or loc
                     found.append(
                         Item(
-                            loc,
-                            label=re.sub(r"\s+", " ", anchor.inner_text().strip()) or None,
+                            loc=loc,
+                            title=title,
+                            category="Webpage",
                         )
                     )
 
-            for required, label in ((WEB_HOME, "home"), (WEB_CONTACT, "contact")):
+            for required, title in (
+                (WEB_HOME, "Home"),
+                (WEB_CONTACT, "Contact"),
+            ):
                 if required not in seen:
                     seen.add(required)
-                    found.append(Item(required, label=label))
+                    found.append(
+                        Item(
+                            loc=required,
+                            title=title,
+                            category="Webpage",
+                        )
+                    )
 
             output = []
             for item in found:
                 lm = None
                 if item.loc.startswith(WEB_ROOT):
                     try:
-                        page.goto(item.loc, wait_until="networkidle", timeout=90000)
+                        page.goto(
+                            item.loc,
+                            wait_until="networkidle",
+                            timeout=90000,
+                        )
                         page.wait_for_timeout(400)
-                        node = page.locator("[data-last-updated-at-time]").first
+                        node = page.locator(
+                            "[data-last-updated-at-time]"
+                        ).first
                         raw = (
-                            node.get_attribute("data-last-updated-at-time")
+                            node.get_attribute(
+                                "data-last-updated-at-time"
+                            )
                             if node.count()
                             else None
                         )
                         if raw and raw.isdigit():
                             lm = lastmod(
-                                datetime.fromtimestamp(int(raw) / 1000, tz=UTC)
+                                datetime.fromtimestamp(
+                                    int(raw) / 1000, tz=UTC
+                                )
                             )
                     except Exception as exc:
-                        print(f"⚠️ No Google Sites lastmod for {item.loc}: {exc}")
-                output.append(Item(item.loc, lm, label=item.label))
+                        print(
+                            f"⚠️ No Google Sites lastmod for "
+                            f"{item.loc}: {exc}"
+                        )
+
+                output.append(
+                    Item(
+                        loc=item.loc,
+                        lastmod=lm,
+                        title=item.title,
+                        category=item.category,
+                    )
+                )
+
             return output
         finally:
             browser.close()
@@ -473,6 +657,7 @@ def webpage_items() -> list[Item]:
 
 def explore_items(posts: list[dict]) -> list[Item]:
     weeks: dict[tuple[int, int], datetime] = {}
+
     for post in posts:
         published = dt(post.get("date_gmt"))
         modified = dt(post.get("modified_gmt")) or published
@@ -480,74 +665,179 @@ def explore_items(posts: list[dict]) -> list[Item]:
             continue
         iso = published.isocalendar()
         key = (iso.year, iso.week)
-        if modified and (key not in weeks or modified > weeks[key]):
+        if modified and (
+            key not in weeks or modified > weeks[key]
+        ):
             weeks[key] = modified
 
     result = []
-    for (year, week), modified in sorted(weeks.items(), reverse=True):
-        monday = datetime.fromisocalendar(year, week, 1).replace(tzinfo=UTC)
+    for (year, week), modified in sorted(
+        weeks.items(), reverse=True
+    ):
         result.append(
             Item(
-                f"{ZINE_ROOT}/explore/?digest={year}-W{week:02d}&dpage=1",
-                lastmod(modified),
-                monday,
-                f"week {week:02d}",
+                loc=(
+                    f"{ZINE_ROOT}/explore/"
+                    f"?digest={year}-W{week:02d}&dpage=1"
+                ),
+                lastmod=lastmod(modified),
+                title=f"Week {week:02d}",
+                category="Explore",
+                period=f"{year}-W{week:02d}",
             )
         )
     return result
 
 
+def meta(root: ET.Element, name: str, value: str | None) -> None:
+    if value:
+        ET.SubElement(root, f"{{{META_NS}}}{name}").text = value
+
+
 def add_url(root: ET.Element, item: Item) -> None:
     node = ET.SubElement(root, "url")
     ET.SubElement(node, "loc").text = item.loc
+
     if item.lastmod:
         ET.SubElement(node, "lastmod").text = item.lastmod
 
+    meta(node, "title", item.title)
+    if item.published:
+        meta(node, "published", lastmod(item.published))
+    meta(node, "category", item.category)
+    meta(node, "period", item.period)
 
-def write_urlset(path: str, items: list[Item], grouped: str | None = None) -> None:
+
+def write_urlset(
+    path: str,
+    items: list[Item],
+    comments: bool = False,
+) -> None:
     root = ET.Element(
         "urlset",
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9",
     )
-    year = month = None
 
     for item in items:
-        if grouped == "month" and item.published:
-            if item.published.year != year:
-                year, month = item.published.year, None
-                root.append(ET.Comment(str(year)))
-            if item.published.month != month:
-                month = item.published.month
-                root.append(ET.Comment(calendar.month_name[month]))
-        elif grouped == "week" and item.published:
-            iso = item.published.isocalendar()
-            if iso.year != year:
-                year = iso.year
-                root.append(ET.Comment(str(year)))
-            root.append(ET.Comment(f"Week {iso.week:02d}"))
-        elif item.label:
-            root.append(ET.Comment(item.label))
-
+        if comments and item.title:
+            root.append(ET.Comment(item.title))
         if item.loc:
             add_url(root, item)
 
     ET.indent(root, space="  ")
     target = ROOT / path
     target.parent.mkdir(parents=True, exist_ok=True)
-    ET.ElementTree(root).write(target, encoding="utf-8", xml_declaration=True)
-    url_count = sum(1 for item in items if item.loc)
-    print(f"✅ {path}: {url_count} URLs")
+    ET.ElementTree(root).write(
+        target, encoding="utf-8", xml_declaration=True
+    )
+
+    count = sum(1 for item in items if item.loc)
+    print(f"✅ {path}: {count} URLs")
+
+
+def write_explore(path: str, items: list[Item]) -> None:
+    root = ET.Element(
+        "urlset",
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9",
+    )
+    current_year = None
+
+    for item in items:
+        year = item.period.split("-W", 1)[0] if item.period else ""
+        if year and year != current_year:
+            current_year = year
+            root.append(ET.Comment(year))
+        add_url(root, item)
+
+    ET.indent(root, space="  ")
+    target = ROOT / path
+    target.parent.mkdir(parents=True, exist_ok=True)
+    ET.ElementTree(root).write(
+        target, encoding="utf-8", xml_declaration=True
+    )
+    print(f"✅ {path}: {len(items)} weekly report URLs")
+
+
+def max_lastmod(items: list[Item]) -> str | None:
+    values = [item.lastmod for item in items if item.lastmod]
+    return max(values) if values else None
+
+
+def add_sitemap_ref(
+    root: ET.Element,
+    path: str,
+    lm: str | None = None,
+    title: str | None = None,
+    section: str | None = None,
+) -> None:
+    node = ET.SubElement(root, "sitemap")
+    ET.SubElement(node, "loc").text = f"{SITEMAP_HOST}/{path}"
+    if lm:
+        ET.SubElement(node, "lastmod").text = lm
+    meta(node, "title", title)
+    meta(node, "section", section)
+
+
+def write_monthly_section(
+    section: str,
+    items: list[Item],
+) -> list[str]:
+    by_month: dict[tuple[int, int], list[Item]] = defaultdict(list)
+    for item in items:
+        if not item.published:
+            raise SitemapError(
+                f"{section} item {item.loc} has no publication date"
+            )
+        by_month[
+            (item.published.year, item.published.month)
+        ].append(item)
+
+    generated: list[str] = []
+    index_root = ET.Element(
+        "sitemapindex",
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9",
+    )
+    current_year = None
+
+    for (year, month), month_items in sorted(
+        by_month.items(), reverse=True
+    ):
+        if year != current_year:
+            current_year = year
+            index_root.append(ET.Comment(str(year)))
+
+        child = f"zine/{section}/{year}-{month:02d}.xml"
+        write_urlset(child, month_items)
+        generated.append(child)
+
+        add_sitemap_ref(
+            index_root,
+            child,
+            max_lastmod(month_items),
+            f"{calendar.month_name[month]} {year}",
+            CATEGORY_LABELS[section],
+        )
+
+    ET.indent(index_root, space="  ")
+    target = ROOT / f"zine/{section}.xml"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    ET.ElementTree(index_root).write(
+        target, encoding="utf-8", xml_declaration=True
+    )
+    print(
+        f"✅ zine/{section}.xml: "
+        f"{len(by_month)} monthly child sitemaps"
+    )
+    return generated
 
 
 def child_lastmod(path: Path) -> str | None:
     tree = ET.parse(path)
     values = [
-        x.text
-        for x in tree.getroot().findall(
-            "{http://www.sitemaps.org/schemas/sitemap/0.9}url/"
-            "{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod"
-        )
-        if x.text
+        str(node.text)
+        for node in tree.getroot().iter()
+        if node.tag == "{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod"
+        and node.text
     ]
     return max(values) if values else None
 
@@ -559,17 +849,20 @@ def write_index() -> None:
     )
     section = None
 
-    for output in OUTPUTS:
+    for output in TOP_LEVEL_OUTPUTS:
         next_section = output.split("/", 1)[0]
         if next_section != section:
             section = next_section
             root.append(ET.Comment(section))
 
-        node = ET.SubElement(root, "sitemap")
-        ET.SubElement(node, "loc").text = f"{SITEMAP_HOST}/{output}"
-        lm = child_lastmod(ROOT / output)
-        if lm:
-            ET.SubElement(node, "lastmod").text = lm
+        title = Path(output).stem.replace("-", " ").title()
+        add_sitemap_ref(
+            root,
+            output,
+            child_lastmod(ROOT / output),
+            title,
+            next_section,
+        )
 
     ET.indent(root, space="  ")
     ET.ElementTree(root).write(
@@ -579,121 +872,339 @@ def write_index() -> None:
     )
 
 
-def validate() -> None:
-    files = [ROOT / "index.xml", *(ROOT / x for x in OUTPUTS)]
-    for path in files:
+def item_html(item: Item, show_meta: bool = True) -> str:
+    if not item.loc:
+        return (
+            f'<li class="label">{html.escape(item.title or "")}</li>'
+        )
+
+    title = html.escape(item.title or item.loc)
+    loc = html.escape(item.loc, quote=True)
+    details = []
+
+    if item.published:
+        stamp = lastmod(item.published) or ""
+        details.append(
+            f'<time datetime="{html.escape(stamp, quote=True)}">'
+            f'Published {html.escape(item.published.strftime("%d %b %Y %H:%M UTC"))}'
+            f"</time>"
+        )
+
+    if item.lastmod:
+        details.append(
+            f'<time datetime="{html.escape(item.lastmod, quote=True)}">'
+            f'Updated {html.escape(item.lastmod.replace("T", " ").replace("Z", " UTC"))}'
+            f"</time>"
+        )
+
+    if item.category:
+        details.append(html.escape(item.category))
+
+    meta_line = (
+        f'<span class="meta">{" · ".join(details)}</span>'
+        if show_meta and details
+        else ""
+    )
+    return f'<li><a href="{loc}">{title}</a>{meta_line}</li>'
+
+
+def fixed_section_html(title: str, items: list[Item]) -> str:
+    rows = "".join(item_html(item) for item in items)
+    return (
+        '<section class="group">'
+        f"<h2>{html.escape(title)}</h2>"
+        f"<ul>{rows}</ul>"
+        "</section>"
+    )
+
+
+def explore_section_html(items: list[Item]) -> str:
+    years: dict[str, list[Item]] = defaultdict(list)
+    for item in items:
+        if item.period:
+            years[item.period.split("-W", 1)[0]].append(item)
+
+    parts = ['<section class="group"><h2>Explore</h2>']
+    for year in sorted(years, reverse=True):
+        parts.append(
+            f'<details open><summary>{html.escape(year)}</summary><ul>'
+        )
+        for item in years[year]:
+            parts.append(item_html(item))
+        parts.append("</ul></details>")
+    parts.append("</section>")
+    return "".join(parts)
+
+
+def monthly_section_html(
+    title: str, items: list[Item]
+) -> str:
+    years: dict[int, dict[int, list[Item]]] = defaultdict(
+        lambda: defaultdict(list)
+    )
+    for item in items:
+        if item.published:
+            years[item.published.year][item.published.month].append(item)
+
+    parts = [
+        '<section class="group">',
+        f"<h2>{html.escape(title)}</h2>",
+    ]
+
+    if not years:
+        parts.append('<p class="label">No entries.</p>')
+    else:
+        for year in sorted(years, reverse=True):
+            parts.append(
+                f'<details open><summary>{year}</summary>'
+            )
+            for month in sorted(years[year], reverse=True):
+                month_items = years[year][month]
+                parts.append(
+                    '<details>'
+                    f'<summary>{calendar.month_name[month]} '
+                    f'<span class="count">({len(month_items)})</span>'
+                    '</summary><ul>'
+                )
+                for item in month_items:
+                    parts.append(item_html(item))
+                parts.append("</ul></details>")
+            parts.append("</details>")
+
+    parts.append("</section>")
+    return "".join(parts)
+
+
+def write_html_ui(
+    web: list[Item],
+    home: list[Item],
+    profile: list[Item],
+    explore: list[Item],
+    groups: dict[str, list[Item]],
+    about: list[Item],
+) -> None:
+    body = [
+        fixed_section_html("www", web),
+        fixed_section_html("Zine / Home", home),
+        fixed_section_html("Zine / Profile", profile),
+        explore_section_html(explore),
+        monthly_section_html("Zine / News", groups["news"]),
+        monthly_section_html("Zine / Articles", groups["articles"]),
+        monthly_section_html("Zine / Archive", groups["archive"]),
+        monthly_section_html("Zine / Comics", groups["comics"]),
+        monthly_section_html("Zine / Shop", groups["shop"]),
+        fixed_section_html("Zine / About", about),
+    ]
+
+    document = f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Trevorion Sitemap</title>
+  <meta name="description" content="Trevorion human-readable sitemap.">
+  <style>
+    :root{{color-scheme:dark;--bg:#0d0f12;--panel:#151920;--line:#2b313b;--text:#eef2f7;--muted:#9ba6b2;--link:#8ec5ff}}
+    *{{box-sizing:border-box}}
+    body{{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}}
+    main{{width:min(1180px,calc(100% - 32px));margin:42px auto 64px}}
+    h1{{margin:0 0 6px;font-size:clamp(2rem,5vw,3rem)}}
+    .intro{{margin:0 0 10px;color:var(--muted)}}
+    .master{{display:inline-block;margin:0 0 28px}}
+    .group{{margin:0 0 18px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px}}
+    .group>h2{{margin:0 0 12px;font-size:1.25rem}}
+    details{{border-top:1px solid var(--line);padding:8px 0}}
+    details:first-of-type{{border-top:0}}
+    details details{{margin-left:18px}}
+    summary{{cursor:pointer;font-weight:650}}
+    ul{{margin:8px 0 4px;padding-left:22px}}
+    li{{margin:8px 0;overflow-wrap:anywhere}}
+    a{{color:var(--link);text-decoration:none}}
+    a:hover{{text-decoration:underline}}
+    .meta{{display:block;color:var(--muted);font-size:.84rem;margin-top:1px}}
+    .label,.count{{color:var(--muted)}}
+    footer{{margin-top:28px;color:var(--muted);font-size:.9rem}}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Trevorion Sitemap</h1>
+  <p class="intro">Human-readable sitemap for Trevorion and the Zine.</p>
+  <a class="master" href="/index.xml">Master XML sitemap index</a>
+  {"".join(body)}
+  <footer>Trevorion sitemap hub</footer>
+</main>
+</body>
+</html>
+"""
+    (ROOT / "index.html").write_text(document, encoding="utf-8")
+    print("✅ index.html: human-facing sitemap UI generated")
+
+
+def validate(paths: list[str]) -> None:
+    sitemap_ns = "http://www.sitemaps.org/schemas/sitemap/0.9"
+    meta_title = f"{{{META_NS}}}title"
+    meta_published = f"{{{META_NS}}}published"
+    meta_category = f"{{{META_NS}}}category"
+
+    all_paths = ["index.xml", *TOP_LEVEL_OUTPUTS, *paths]
+    if len(all_paths) != len(set(all_paths)):
+        raise SitemapError("Generated sitemap path list contains duplicates")
+
+    for rel in all_paths:
+        path = ROOT / rel
         if not path.exists() or not path.stat().st_size:
-            raise SitemapError(f"Missing {path.relative_to(ROOT)}")
+            raise SitemapError(f"Missing {rel}")
+
         try:
             root = ET.parse(path).getroot()
         except ET.ParseError as exc:
-            raise SitemapError(
-                f"Invalid XML in {path.relative_to(ROOT)}: {exc}"
-            ) from exc
+            raise SitemapError(f"Invalid XML in {rel}: {exc}") from exc
 
-        if path == ROOT / "index.xml":
-            count = len(
-                root.findall(
-                    "{http://www.sitemaps.org/schemas/sitemap/0.9}sitemap"
-                )
-            )
-            if count != len(OUTPUTS):
-                raise SitemapError(
-                    f"Master index has {count} child sitemaps; expected {len(OUTPUTS)}"
-                )
-        else:
+        local = root.tag.rsplit("}", 1)[-1]
+        if local == "sitemapindex":
+            nodes = root.findall(f"{{{sitemap_ns}}}sitemap")
             locs = [
-                x.text or ""
-                for x in root.findall(
-                    "{http://www.sitemaps.org/schemas/sitemap/0.9}url/"
-                    "{http://www.sitemaps.org/schemas/sitemap/0.9}loc"
-                )
+                (node.findtext(f"{{{sitemap_ns}}}loc") or "").strip()
+                for node in nodes
             ]
-            if len(locs) != len(set(locs)):
-                raise SitemapError(
-                    f"Duplicate URL inside {path.relative_to(ROOT)}"
-                )
-            if any(not x.startswith("https://") for x in locs):
-                raise SitemapError(
-                    f"Non-HTTPS URL inside {path.relative_to(ROOT)}"
-                )
+        elif local == "urlset":
+            nodes = root.findall(f"{{{sitemap_ns}}}url")
+            locs = [
+                (node.findtext(f"{{{sitemap_ns}}}loc") or "").strip()
+                for node in nodes
+            ]
+        else:
+            raise SitemapError(f"Unexpected root element in {rel}: {local}")
+
+        if len(locs) != len(set(locs)):
+            raise SitemapError(f"Duplicate URL inside {rel}")
+        if any(not loc.startswith("https://") for loc in locs):
+            raise SitemapError(f"Non-HTTPS URL inside {rel}")
+
+        if rel.startswith("zine/") and re.search(
+            r"/(?:news|articles|archive|comics|shop)/\d{4}-\d{2}\.xml$",
+            rel,
+        ):
+            for node in nodes:
+                if (
+                    node.find(meta_title) is None
+                    or node.find(meta_published) is None
+                    or node.find(meta_category) is None
+                ):
+                    raise SitemapError(
+                        f"Missing publication metadata inside {rel}"
+                    )
+
+    master = ET.parse(ROOT / "index.xml").getroot()
+    master_count = len(
+        master.findall(f"{{{sitemap_ns}}}sitemap")
+    )
+    if master_count != len(TOP_LEVEL_OUTPUTS):
+        raise SitemapError(
+            f"Master index has {master_count} child sitemaps; "
+            f"expected {len(TOP_LEVEL_OUTPUTS)}"
+        )
 
 
 def main() -> int:
     started = time.monotonic()
+
     try:
         establish_siteground_clearance()
         posts, pages, categories = wp_inventory()
-        mods = page_modifications(pages)
+        page_map = page_inventory(pages)
         groups = group_posts(posts, categories)
 
-        write_urlset("www/webpage.xml", webpage_items())
-        write_urlset(
-            "zine/home.xml",
-            [
-                Item(url, page_lastmod(url, mods), label=label)
-                for label, url in HOME_URLS
-            ],
-        )
+        web = webpage_items()
 
-        profile = named_sections(
+        home = [
+            page_item(label, url, page_map)
+            for label, url in HOME_URLS
+        ]
+
+        profile_raw = named_sections(
             f"{ZINE_ROOT}/profile/",
             PROFILE_SECTIONS,
             PROFILE_LABEL_ONLY_SECTIONS,
         )
-        write_urlset(
-            "zine/profile.xml",
-            [
-                Item(
-                    x.loc,
-                    page_lastmod(x.loc, mods) if x.loc else None,
-                    label=x.label,
+        profile = [
+            (
+                page_item(
+                    item.title or "",
+                    item.loc,
+                    page_map,
                 )
-                for x in profile
-            ],
-        )
+                if item.loc
+                else item
+            )
+            for item in profile_raw
+        ]
 
-        write_urlset("zine/explore.xml", explore_items(posts), "week")
-        write_urlset("zine/news.xml", groups["news"], "month")
-        write_urlset("zine/articles.xml", groups["articles"], "month")
-        write_urlset("zine/archive.xml", groups["archive"], "month")
-        write_urlset("zine/comics.xml", groups["comics"], "month")
-        write_urlset("zine/shop.xml", groups["shop"], "month")
+        explore = explore_items(posts)
 
         about = [
-            Item(url, page_lastmod(url, mods), label=label)
+            page_item(label, url, page_map)
             for label, url in ABOUT_FIXED_SECTIONS
         ]
         about.extend(
-            named_sections(
+            item
+            if not item.loc
+            else page_item(
+                item.title or "",
+                item.loc,
+                page_map,
+            )
+            for item in named_sections(
                 f"{ZINE_ROOT}/about/",
                 ABOUT_SECTIONS,
                 ABOUT_LABEL_ONLY_SECTIONS,
             )
         )
-        write_urlset(
-            "zine/about.xml",
-            [
-                Item(
-                    x.loc,
-                    x.lastmod if x.lastmod else (page_lastmod(x.loc, mods) if x.loc else None),
-                    label=x.label,
-                )
-                for x in about
-            ],
-        )
 
+        for section in MONTHLY_SECTIONS:
+            shutil.rmtree(
+                ROOT / "zine" / section,
+                ignore_errors=True,
+            )
+
+        write_urlset("www/webpage.xml", web, comments=True)
+        write_urlset("zine/home.xml", home, comments=True)
+        write_urlset("zine/profile.xml", profile, comments=True)
+        write_explore("zine/explore.xml", explore)
+
+        generated_children: list[str] = []
+        for section in MONTHLY_SECTIONS:
+            generated_children.extend(
+                write_monthly_section(section, groups[section])
+            )
+
+        write_urlset("zine/about.xml", about, comments=True)
         write_index()
-        validate()
+        write_html_ui(
+            web,
+            home,
+            profile,
+            explore,
+            groups,
+            about,
+        )
+        validate(generated_children)
+
         print(
-            f"✅ Sitemap rebuild complete in {time.monotonic() - started:.1f}s"
+            f"✅ Sitemap rebuild complete in "
+            f"{time.monotonic() - started:.1f}s"
         )
         return 0
 
     except SitemapError as exc:
-        print(f"❌ Sitemap generation aborted: {exc}", file=sys.stderr)
         print(
-            "No generated changes will be committed; the previous live sitemap remains intact.",
+            f"❌ Sitemap generation aborted: {exc}",
+            file=sys.stderr,
+        )
+        print(
+            "No generated changes will be committed; "
+            "the previous live sitemap remains intact.",
             file=sys.stderr,
         )
         return 1
