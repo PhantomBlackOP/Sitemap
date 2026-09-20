@@ -950,12 +950,13 @@ def item_link_html(item: Item, show_meta: bool = True) -> str:
     if item.tags:
         tag_links = []
         for tag in item.tags:
+            clean_tag = tag.lstrip("#")
             tag_url = html.escape(
-                f"{ZINE_ROOT}/tag/{tag.lower()}",
+                f"{ZINE_ROOT}/tag/{clean_tag.lower()}",
                 quote=True,
             )
             tag_links.append(
-                f'<a href="{tag_url}">#{html.escape(tag)}</a>'
+                f'<a href="{tag_url}">#{html.escape(clean_tag)}</a>'
             )
         link += f'<span class="tags">{" ".join(tag_links)}</span>'
 
