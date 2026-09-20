@@ -643,7 +643,11 @@ def main() -> int:
         write_urlset(
             "zine/profile.xml",
             [
-                Item(x.loc, page_lastmod(x.loc, mods), label=x.label)
+                Item(
+                    x.loc,
+                    page_lastmod(x.loc, mods) if x.loc else None,
+                    label=x.label,
+                )
                 for x in profile
             ],
         )
@@ -663,7 +667,11 @@ def main() -> int:
         write_urlset(
             "zine/about.xml",
             [
-                Item(x.loc, page_lastmod(x.loc, mods), label=x.label)
+                Item(
+                    x.loc,
+                    page_lastmod(x.loc, mods) if x.loc else None,
+                    label=x.label,
+                )
                 for x in about
             ],
         )
