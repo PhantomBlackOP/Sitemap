@@ -1,9 +1,9 @@
-name: Generate Sitemap from Rendered Page
+name: Generate Trevorion Sitemaps
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *'  # every day at 3am UTC
+    - cron: '0 3 * * *'  # every day at 03:00 UTC
 
 jobs:
   build:
@@ -20,21 +20,24 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: |
-          pip install playwright beautifulsoup4 requests
+          pip install requests beautifulsoup4 playwright
           playwright install chromium
 
-      - name: Run Sitemap Generator
+      - name: Generate and validate sitemaps
         run: python scripts/generate_sitemap.py
 
-      - name: Commit and Push sitemap.xml
+      - name: Commit changed sitemaps
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          test -f sitemap.xml && echo "✅ sitemap.xml exists" || exit 1
-          git add sitemap.xml
-          git commit -m "Update sitemap.xml" || echo "No changes"
+          git add sitemap.xml www/webpage.xml zine/home.xml zine/profile.xml zine/explore.xml zine/news.xml zine/articles.xml zine/archive.xml zine/comics.xml zine/shop.xml zine/about.xml
+          if git diff --cached --quiet; then
+            echo "No sitemap changes"
+            exit 0
+          fi
+          git commit -m "Update Trevorion sitemaps"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
