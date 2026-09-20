@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.xml index.html www/webpage.xml zine/home.xml zine/profile.xml zine/explore.xml zine/news.xml zine/articles.xml zine/archive.xml zine/comics.xml zine/shop.xml zine/about.xml
+          git add index.xml index.html www zine
           if git diff --cached --quiet; then
             echo "No sitemap changes"
             exit 0
