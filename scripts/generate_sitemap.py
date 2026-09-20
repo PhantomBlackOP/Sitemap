@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import calendar
 import html
 import json
@@ -11,7 +12,7 @@ import time
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import UTC, date, datetime
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import parse_qs, unquote, urljoin, urlparse, urlunparse
 
@@ -28,6 +29,8 @@ ZINE_ROOT = "https://zine.trevorion.io"
 WP_API = f"{ZINE_ROOT}/wp-json/wp/v2"
 START_DATE = date(2025, 1, 1)
 TIMEOUT = 60
+STATE_PATH = ROOT / "data/inventory.json"
+STATE_VERSION = 1
 
 META_NS = f"{SITEMAP_HOST}/ns/meta"
 ET.register_namespace("meta", META_NS)
@@ -165,6 +168,156 @@ def clean_title(value: object) -> str:
     return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
 
+def item_to_state(item: Item) -> dict[str, object]:
+    return {
+        "loc": item.loc,
+        "lastmod": item.lastmod,
+        "published": lastmod(item.published),
+        "title": item.title,
+        "category": item.category,
+        "period": item.period,
+        "tags": list(item.tags) if item.tags is not None else None,
+    }
+
+
+def item_from_state(value: dict[str, object]) -> Item:
+    raw_tags = value.get("tags")
+    return Item(
+        loc=str(value.get("loc") or ""),
+        lastmod=str(value.get("lastmod") or "") or None,
+        published=dt(value.get("published")),
+        title=str(value.get("title") or "") or None,
+        category=str(value.get("category") or "") or None,
+        period=str(value.get("period") or "") or None,
+        tags=tuple(str(x) for x in raw_tags) if isinstance(raw_tags, list) else None,
+    )
+
+
+def load_state() -> dict[str, object] | None:
+    if not STATE_PATH.exists():
+        return None
+    try:
+        value = json.loads(STATE_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SitemapError(f"Could not read incremental state: {exc}") from exc
+    if not isinstance(value, dict) or value.get("version") != STATE_VERSION:
+        return None
+    return value
+
+
+def write_text_if_changed(path: Path, content: str) -> bool:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists() and path.read_text(encoding="utf-8") == content:
+        return False
+    path.write_text(content, encoding="utf-8")
+    return True
+
+
+def write_xml_if_changed(path: Path, root: ET.Element) -> bool:
+    ET.indent(root, space="  ")
+    content = ET.tostring(
+        root,
+        encoding="unicode",
+        xml_declaration=True,
+    )
+    return write_text_if_changed(path, content)
+
+
+def save_state(
+    sync_started: datetime,
+    posts: list[dict],
+    pages: list[dict],
+    categories: dict[int, dict],
+    tags: dict[int, dict],
+    web: list[Item],
+    profile_raw: list[Item],
+    about_raw: list[Item],
+) -> None:
+    payload = {
+        "version": STATE_VERSION,
+        "last_sync": lastmod(sync_started),
+        "posts": {
+            str(int(row["id"])): row
+            for row in sorted(posts, key=lambda x: int(x["id"]))
+            if "id" in row
+        },
+        "pages": {
+            str(int(row["id"])): row
+            for row in sorted(pages, key=lambda x: int(x["id"]))
+            if "id" in row
+        },
+        "categories": {
+            str(key): value
+            for key, value in sorted(categories.items())
+        },
+        "tags": {
+            str(key): value
+            for key, value in sorted(tags.items())
+        },
+        "web": [item_to_state(item) for item in web],
+        "profile_raw": [item_to_state(item) for item in profile_raw],
+        "about_raw": [item_to_state(item) for item in about_raw],
+    }
+    content = json.dumps(
+        payload,
+        ensure_ascii=False,
+        indent=2,
+        sort_keys=True,
+    ) + "\n"
+    write_text_if_changed(STATE_PATH, content)
+
+
+def merge_rows(cached: object, changed: list[dict]) -> list[dict]:
+    result: dict[int, dict] = {}
+    if isinstance(cached, dict):
+        for key, value in cached.items():
+            if isinstance(value, dict):
+                try:
+                    result[int(key)] = value
+                except ValueError:
+                    continue
+    for row in changed:
+        if "id" in row:
+            result[int(row["id"])] = row
+    return list(result.values())
+
+
+def cached_terms(value: object) -> dict[int, dict]:
+    result: dict[int, dict] = {}
+    if isinstance(value, dict):
+        for key, row in value.items():
+            if isinstance(row, dict):
+                try:
+                    result[int(key)] = row
+                except ValueError:
+                    continue
+    return result
+
+
+def fetch_terms_by_ids(
+    endpoint: str,
+    ids: set[int],
+    fields: str,
+) -> dict[int, dict]:
+    if not ids:
+        return {}
+    result: dict[int, dict] = {}
+    ordered = sorted(ids)
+    for start in range(0, len(ordered), 100):
+        batch = ordered[start:start + 100]
+        rows = fetch_all(
+            endpoint,
+            {
+                "include": ",".join(str(x) for x in batch),
+                "_fields": fields,
+            },
+        )
+        for row in rows:
+            if "id" in row:
+                result[int(row["id"])] = row
+    return result
+
+
 def is_sg_challenge(response: requests.Response) -> bool:
     return (
         response.status_code == 202
@@ -284,7 +437,7 @@ def fetch_all(endpoint: str, params: dict[str, object]) -> list[dict]:
             raise SitemapError(f"Pagination limit reached for {endpoint}")
 
 
-def wp_inventory() -> tuple[
+def wp_inventory_full() -> tuple[
     list[dict],
     list[dict],
     dict[int, dict],
@@ -335,11 +488,99 @@ def wp_inventory() -> tuple[
         )
 
     print(
-        f"✅ WordPress inventory: {len(posts)} posts, "
+        f"✅ Full WordPress inventory: {len(posts)} posts, "
         f"{len(pages)} pages, {len(categories)} categories, "
         f"{len(tags)} tags"
     )
     return posts, pages, category_by_id, tag_by_id
+
+
+def wp_inventory_incremental(
+    state: dict[str, object],
+) -> tuple[
+    list[dict],
+    list[dict],
+    dict[int, dict],
+    dict[int, dict],
+]:
+    previous_sync = dt(state.get("last_sync"))
+    if not previous_sync:
+        raise SitemapError("Incremental state has no valid last_sync timestamp")
+
+    since = previous_sync - timedelta(minutes=5)
+    since_text = lastmod(since)
+    print(f"ℹ️ Incremental WordPress check since {since_text}")
+
+    changed_posts = fetch_all(
+        "posts",
+        {
+            "status": "publish",
+            "after": "2025-01-01T00:00:00Z",
+            "modified_after": since_text,
+            "orderby": "modified",
+            "order": "asc",
+            "_fields": (
+                "id,link,slug,title,date_gmt,modified_gmt,"
+                "categories,tags,status"
+            ),
+        },
+    )
+    changed_pages = fetch_all(
+        "pages",
+        {
+            "status": "publish",
+            "modified_after": since_text,
+            "orderby": "modified",
+            "order": "asc",
+            "_fields": "id,link,slug,title,date_gmt,modified_gmt,status",
+        },
+    )
+
+    categories = cached_terms(state.get("categories"))
+    tags = cached_terms(state.get("tags"))
+
+    category_ids = {
+        int(category_id)
+        for post in changed_posts
+        for category_id in (post.get("categories") or [])
+    }
+    tag_ids = {
+        int(tag_id)
+        for post in changed_posts
+        for tag_id in (post.get("tags") or [])
+    }
+
+    missing_categories = category_ids - set(categories)
+    missing_tags = tag_ids - set(tags)
+    categories.update(
+        fetch_terms_by_ids(
+            "categories",
+            missing_categories,
+            "id,name,slug",
+        )
+    )
+    tags.update(
+        fetch_terms_by_ids(
+            "tags",
+            missing_tags,
+            "id,name",
+        )
+    )
+
+    posts = merge_rows(state.get("posts"), changed_posts)
+    pages = merge_rows(state.get("pages"), changed_pages)
+
+    if not posts:
+        raise SitemapError(
+            "Incremental cache contains zero posts; a full rebuild is required"
+        )
+
+    print(
+        f"✅ Incremental inventory: {len(changed_posts)} changed posts, "
+        f"{len(changed_pages)} changed pages; "
+        f"{len(posts)} posts retained in cache"
+    )
+    return posts, pages, categories, tags
 
 
 def page_inventory(pages: list[dict]) -> dict[str, Item]:
@@ -762,15 +1003,12 @@ def write_urlset(
         if item.loc:
             add_url(root, item)
 
-    ET.indent(root, space="  ")
     target = ROOT / path
-    target.parent.mkdir(parents=True, exist_ok=True)
-    ET.ElementTree(root).write(
-        target, encoding="utf-8", xml_declaration=True
-    )
+    changed = write_xml_if_changed(target, root)
 
     count = sum(1 for item in items if item.loc)
-    print(f"✅ {path}: {count} URLs")
+    status = "updated" if changed else "unchanged"
+    print(f"✅ {path}: {count} URLs ({status})")
 
 
 def write_explore(path: str, items: list[Item]) -> None:
@@ -787,13 +1025,12 @@ def write_explore(path: str, items: list[Item]) -> None:
             root.append(ET.Comment(year))
         add_url(root, item)
 
-    ET.indent(root, space="  ")
     target = ROOT / path
-    target.parent.mkdir(parents=True, exist_ok=True)
-    ET.ElementTree(root).write(
-        target, encoding="utf-8", xml_declaration=True
+    changed = write_xml_if_changed(target, root)
+    status = "updated" if changed else "unchanged"
+    print(
+        f"✅ {path}: {len(items)} weekly report URLs ({status})"
     )
-    print(f"✅ {path}: {len(items)} weekly report URLs")
 
 
 def max_lastmod(items: list[Item]) -> str | None:
@@ -856,15 +1093,12 @@ def write_monthly_section(
             CATEGORY_LABELS[section],
         )
 
-    ET.indent(index_root, space="  ")
     target = ROOT / f"zine/{section}.xml"
-    target.parent.mkdir(parents=True, exist_ok=True)
-    ET.ElementTree(index_root).write(
-        target, encoding="utf-8", xml_declaration=True
-    )
+    changed = write_xml_if_changed(target, index_root)
+    status = "updated" if changed else "unchanged"
     print(
         f"✅ zine/{section}.xml: "
-        f"{len(by_month)} monthly child sitemaps"
+        f"{len(by_month)} monthly child sitemaps ({status})"
     )
     return generated
 
@@ -902,12 +1136,7 @@ def write_index() -> None:
             next_section,
         )
 
-    ET.indent(root, space="  ")
-    ET.ElementTree(root).write(
-        ROOT / "index.xml",
-        encoding="utf-8",
-        xml_declaration=True,
-    )
+    write_xml_if_changed(ROOT / "index.xml", root)
 
 
 def ui_title(item: Item) -> str:
@@ -1177,8 +1406,24 @@ def write_html_ui(
 </body>
 </html>
 """
-    (ROOT / "index.html").write_text(document, encoding="utf-8")
-    print("✅ index.html: nested human-facing sitemap UI generated")
+    changed = write_text_if_changed(ROOT / "index.html", document)
+    status = "updated" if changed else "unchanged"
+    print(
+        f"✅ index.html: nested human-facing sitemap UI generated "
+        f"({status})"
+    )
+
+
+def cleanup_monthly_children(paths: list[str]) -> None:
+    expected = {str(ROOT / path) for path in paths}
+    for section in MONTHLY_SECTIONS:
+        directory = ROOT / "zine" / section
+        if not directory.exists():
+            continue
+        for path in directory.glob("*.xml"):
+            if str(path) not in expected:
+                path.unlink()
+                print(f"🗑️ Removed stale sitemap {path.relative_to(ROOT)}")
 
 
 def validate(paths: list[str]) -> None:
@@ -1250,26 +1495,71 @@ def validate(paths: list[str]) -> None:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--full",
+        action="store_true",
+        help="Ignore the incremental cache and rebuild the complete inventory.",
+    )
+    args = parser.parse_args()
+
     started = time.monotonic()
+    sync_started = datetime.now(UTC)
 
     try:
         establish_siteground_clearance()
-        posts, pages, categories, tags = wp_inventory()
+
+        state = load_state()
+        full = args.full or state is None
+
+        if full:
+            if state is None and not args.full:
+                print("ℹ️ No incremental state found; performing initial full rebuild.")
+            else:
+                print("ℹ️ Performing full reconciliation rebuild.")
+            posts, pages, categories, tags = wp_inventory_full()
+            web = webpage_items()
+            profile_raw = named_sections(
+                f"{ZINE_ROOT}/profile/",
+                PROFILE_SECTIONS,
+                PROFILE_LABEL_ONLY_SECTIONS,
+            )
+            about_raw = named_sections(
+                f"{ZINE_ROOT}/about/",
+                ABOUT_SECTIONS,
+                ABOUT_LABEL_ONLY_SECTIONS,
+            )
+        else:
+            posts, pages, categories, tags = wp_inventory_incremental(state)
+            web = [
+                item_from_state(item)
+                for item in state.get("web", [])
+                if isinstance(item, dict)
+            ]
+            profile_raw = [
+                item_from_state(item)
+                for item in state.get("profile_raw", [])
+                if isinstance(item, dict)
+            ]
+            about_raw = [
+                item_from_state(item)
+                for item in state.get("about_raw", [])
+                if isinstance(item, dict)
+            ]
+            if not web or not profile_raw:
+                raise SitemapError(
+                    "Incremental state is missing cached navigation; "
+                    "run once with --full"
+                )
+
         page_map = page_inventory(pages)
         groups = group_posts(posts, categories, tags)
-
-        web = webpage_items()
 
         home = [
             page_item(label, url, page_map)
             for label, url in HOME_URLS
         ]
 
-        profile_raw = named_sections(
-            f"{ZINE_ROOT}/profile/",
-            PROFILE_SECTIONS,
-            PROFILE_LABEL_ONLY_SECTIONS,
-        )
         profile = [
             (
                 page_item(
@@ -1297,18 +1587,8 @@ def main() -> int:
                 item.loc,
                 page_map,
             )
-            for item in named_sections(
-                f"{ZINE_ROOT}/about/",
-                ABOUT_SECTIONS,
-                ABOUT_LABEL_ONLY_SECTIONS,
-            )
+            for item in about_raw
         )
-
-        for section in MONTHLY_SECTIONS:
-            shutil.rmtree(
-                ROOT / "zine" / section,
-                ignore_errors=True,
-            )
 
         write_urlset("www/webpage.xml", web, comments=True)
         write_urlset("zine/home.xml", home, comments=True)
@@ -1321,6 +1601,7 @@ def main() -> int:
                 write_monthly_section(section, groups[section])
             )
 
+        cleanup_monthly_children(generated_children)
         write_urlset("zine/about.xml", about, comments=True)
         write_index()
         write_html_ui(
@@ -1333,8 +1614,20 @@ def main() -> int:
         )
         validate(generated_children)
 
+        save_state(
+            sync_started,
+            posts,
+            pages,
+            categories,
+            tags,
+            web,
+            profile_raw,
+            about_raw,
+        )
+
+        mode = "full" if full else "incremental"
         print(
-            f"✅ Sitemap rebuild complete in "
+            f"✅ {mode.capitalize()} sitemap update complete in "
             f"{time.monotonic() - started:.1f}s"
         )
         return 0
