@@ -1,44 +1,60 @@
-<?xml version='1.0' encoding='utf-8'?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!--www-->
-  <sitemap>
-    <loc>https://sitemap.trevorion.io/www/webpage.xml</loc>
-    <lastmod>2026-02-03T20:43:48Z</lastmod>
-  </sitemap>
-  <!--zine-->
-  <sitemap>
-    <loc>https://sitemap.trevorion.io/zine/home.xml</loc>
-    <lastmod>2026-08-01T03:33:33Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://sitemap.trevorion.io/zine/profile.xml</loc>
-    <lastmod>2026-04-25T06:47:04Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://sitemap.trevorion.io/zine/explore.xml</loc>
-    <lastmod>2026-09-20T05:26:25Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://sitemap.trevorion.io/zine/news.xml</loc>
-    <lastmod>2026-09-20T05:26:25Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://sitemap.trevorion.io/zine/articles.xml</loc>
-    <lastmod>2026-06-21T08:19:47Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://sitemap.trevorion.io/zine/archive.xml</loc>
-    <lastmod>2026-09-19T20:58:47Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://sitemap.trevorion.io/zine/comics.xml</loc>
-    <lastmod>2026-09-11T22:33:14Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://sitemap.trevorion.io/zine/shop.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://sitemap.trevorion.io/zine/about.xml</loc>
-    <lastmod>2026-08-01T03:33:33Z</lastmod>
-  </sitemap>
-</sitemapindex>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Trevorion Sitemap</title>
+  <meta name="description" content="Trevorion sitemap hub for the main website and zine.">
+  <style>
+    :root{color-scheme:dark;--bg:#0d0f12;--panel:#151920;--line:#2b313b;--text:#eef2f7;--muted:#9ba6b2;--link:#8ec5ff}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    main{width:min(960px,calc(100% - 32px));margin:48px auto}
+    h1{margin:0 0 8px;font-size:clamp(2rem,5vw,3.2rem)}
+    p{color:var(--muted)}
+    .master{display:inline-block;margin:10px 0 28px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    section{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px}
+    h2{margin:0 0 12px;font-size:1.2rem}
+    ul{margin:0;padding-left:20px}
+    li{margin:7px 0}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    code{font:0.92em ui-monospace,SFMono-Regular,Consolas,monospace}
+    footer{margin-top:28px;color:var(--muted);font-size:.9rem}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Trevorion Sitemap</h1>
+  <p>Human-readable sitemap hub for Trevorion and the Zine.</p>
+  <a class="master" href="/index.xml">Master XML sitemap index</a>
+
+  <div class="grid">
+    <section>
+      <h2>www</h2>
+      <ul>
+        <li><a href="/www/webpage.xml"><code>webpage.xml</code></a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>zine</h2>
+      <ul>
+        <li><a href="/zine/home.xml"><code>home.xml</code></a></li>
+        <li><a href="/zine/profile.xml"><code>profile.xml</code></a></li>
+        <li><a href="/zine/explore.xml"><code>explore.xml</code></a></li>
+        <li><a href="/zine/news.xml"><code>news.xml</code></a></li>
+        <li><a href="/zine/articles.xml"><code>articles.xml</code></a></li>
+        <li><a href="/zine/archive.xml"><code>archive.xml</code></a></li>
+        <li><a href="/zine/comics.xml"><code>comics.xml</code></a></li>
+        <li><a href="/zine/shop.xml"><code>shop.xml</code></a></li>
+        <li><a href="/zine/about.xml"><code>about.xml</code></a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>Trevorion sitemap hub</footer>
+</main>
+</body>
+</html>
