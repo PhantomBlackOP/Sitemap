@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!--daily-->
+  <url>
+    <loc>https://zine.trevorion.io/archive/</loc>
+    <lastmod>2026-02-20T07:28:41Z</lastmod>
+  </url>
+  <!--articles-->
+  <url>
+    <loc>https://zine.trevorion.io/articles/</loc>
+    <lastmod>2026-02-20T07:29:08Z</lastmod>
+  </url>
+  <!--news-->
+  <url>
+    <loc>https://zine.trevorion.io/news/</loc>
+    <lastmod>2026-02-20T07:30:46Z</lastmod>
+  </url>
+  <!--comics-->
+  <url>
+    <loc>https://zine.trevorion.io/comics/</loc>
+    <lastmod>2026-04-25T06:47:04Z</lastmod>
+  </url>
+  <!--tag cloud-->
+</urlset>
