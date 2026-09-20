@@ -65,9 +65,10 @@ PROFILE_SECTIONS = {
 }
 PROFILE_LABEL_ONLY_SECTIONS = ("tag cloud",)
 
-ABOUT_SECTIONS = {
-    "welcome": ("welcome",),
-}
+ABOUT_SECTIONS: dict[str, tuple[str, ...]] = {}
+ABOUT_FIXED_SECTIONS = (
+    ("welcome", f"{ZINE_ROOT}/about/"),
+)
 ABOUT_LABEL_ONLY_SECTIONS = ("tag cloud",)
 CATEGORY_OUTPUTS = {
     "news": {"news"},
@@ -659,17 +660,23 @@ def main() -> int:
         write_urlset("zine/comics.xml", groups["comics"], "month")
         write_urlset("zine/shop.xml", groups["shop"], "month")
 
-        about = named_sections(
-            f"{ZINE_ROOT}/about/",
-            ABOUT_SECTIONS,
-            ABOUT_LABEL_ONLY_SECTIONS,
+        about = [
+            Item(url, page_lastmod(url, mods), label=label)
+            for label, url in ABOUT_FIXED_SECTIONS
+        ]
+        about.extend(
+            named_sections(
+                f"{ZINE_ROOT}/about/",
+                ABOUT_SECTIONS,
+                ABOUT_LABEL_ONLY_SECTIONS,
+            )
         )
         write_urlset(
             "zine/about.xml",
             [
                 Item(
                     x.loc,
-                    page_lastmod(x.loc, mods) if x.loc else None,
+                    x.lastmod if x.lastmod else (page_lastmod(x.loc, mods) if x.loc else None),
                     label=x.label,
                 )
                 for x in about
