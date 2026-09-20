@@ -82,7 +82,7 @@ CATEGORY_OUTPUTS = {
     "articles": {"article", "articles"},
     "archive": {"daily", "dailies", "daily-image", "daily-images", "archive"},
     "comics": {"comic", "comics"},
-    "shop": {"shop"},
+    "shop": {"advert"},
 }
 CATEGORY_LABELS = {
     "news": "News",
