@@ -8,7 +8,7 @@ import re
 import sys
 import time
 import xml.etree.ElementTree as ET
-from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import UTC, date, datetime
 from pathlib import Path
@@ -24,10 +24,11 @@ WEB_ROOT = "https://www.trevorion.io"
 WEB_HOME = f"{WEB_ROOT}/home"
 WEB_CONTACT = f"{WEB_ROOT}/contact"
 ZINE_ROOT = "https://zine.trevorion.io"
-WP_API = f"{ZINE_ROOT}/wp-json/wp/v2"
+ZINE_SITEMAP_INDEX = f"{ZINE_ROOT}/wp-sitemap.xml"
 START_DATE = date(2025, 1, 1)
 TIMEOUT = 60
-USER_AGENT = "Trevorion-Sitemap/2.0 (+https://sitemap.trevorion.io/)"
+MAX_WORKERS = 12
+USER_AGENT = "Trevorion-Sitemap/2.1 (+https://sitemap.trevorion.io/)"
 
 OUTPUTS = (
     "www/webpage.xml",
@@ -76,10 +77,11 @@ CATEGORY_OUTPUTS = {
     "comics": {"comic", "comics"},
     "shop": {"shop"},
 }
+CATEGORY_ALIAS = {alias: output for output, aliases in CATEGORY_OUTPUTS.items() for alias in aliases}
 OWNED_HOSTS = {"trevorion.io", "www.trevorion.io", "zine.trevorion.io"}
 
 HTTP = requests.Session()
-HTTP.headers.update({"User-Agent": USER_AGENT, "Accept": "application/json,text/html,*/*"})
+HTTP.headers.update({"User-Agent": USER_AGENT, "Accept": "application/xml,text/xml,text/html,*/*"})
 
 
 @dataclass(frozen=True)
@@ -88,6 +90,15 @@ class Item:
     lastmod: str | None = None
     published: datetime | None = None
     label: str | None = None
+
+
+@dataclass(frozen=True)
+class PostMeta:
+    loc: str
+    lastmod: str | None
+    published: datetime
+    category: str
+    slug: str
 
 
 class SitemapError(RuntimeError):
@@ -115,132 +126,285 @@ def dt(value: object) -> datetime | None:
     if text.endswith("Z"):
         text = text[:-1] + "+00:00"
     try:
-        value_dt = datetime.fromisoformat(text)
+        parsed = datetime.fromisoformat(text)
     except ValueError:
         return None
-    return (value_dt if value_dt.tzinfo else value_dt.replace(tzinfo=UTC)).astimezone(UTC)
+    return (parsed if parsed.tzinfo else parsed.replace(tzinfo=UTC)).astimezone(UTC)
 
 
 def lastmod(value: datetime | None) -> str | None:
     return value.replace(microsecond=0).isoformat().replace("+00:00", "Z") if value else None
 
 
-def fetch_all(endpoint: str, params: dict[str, object]) -> list[dict]:
-    page, rows, total_pages = 1, [], None
-    while True:
-        query = {**params, "per_page": 100, "page": page}
-        try:
-            response = HTTP.get(f"{WP_API}/{endpoint}", params=query, timeout=TIMEOUT)
-            response.raise_for_status()
-            payload = response.json()
-        except (requests.RequestException, json.JSONDecodeError) as exc:
-            raise SitemapError(f"WordPress request failed for {endpoint}: {exc}") from exc
-        if not isinstance(payload, list):
-            raise SitemapError(f"WordPress returned invalid data for {endpoint}")
-        rows.extend(x for x in payload if isinstance(x, dict))
-        if total_pages is None:
-            raw = response.headers.get("X-WP-TotalPages", "")
-            total_pages = int(raw) if raw.isdigit() else None
-        if (total_pages is not None and page >= total_pages) or (total_pages is None and len(payload) < 100):
-            return rows
-        page += 1
-        if page > 1000:
-            raise SitemapError(f"Pagination limit reached for {endpoint}")
+def get(url: str, *, accept: str | None = None) -> requests.Response:
+    headers = {"Accept": accept} if accept else None
+    try:
+        response = HTTP.get(url, timeout=TIMEOUT, headers=headers)
+        response.raise_for_status()
+        return response
+    except requests.RequestException as exc:
+        raise SitemapError(f"Failed to fetch {url}: {exc}") from exc
 
 
-def wp_inventory() -> tuple[list[dict], list[dict], dict[int, dict]]:
-    categories = fetch_all("categories", {"hide_empty": "false"})
-    category_by_id = {int(x["id"]): x for x in categories if "id" in x}
-    posts = fetch_all("posts", {
-        "status": "publish",
-        "after": "2025-01-01T00:00:00Z",
-        "orderby": "date",
-        "order": "desc",
-        "_fields": "id,link,slug,date_gmt,modified_gmt,categories,status",
-    })
-    pages = fetch_all("pages", {
-        "status": "publish",
-        "orderby": "modified",
-        "order": "desc",
-        "_fields": "id,link,slug,date_gmt,modified_gmt,status",
-    })
+def parse_xml(url: str) -> ET.Element:
+    response = get(url, accept="application/xml,text/xml,*/*")
+    try:
+        return ET.fromstring(response.content)
+    except ET.ParseError as exc:
+        preview = response.text[:160].replace("\n", " ")
+        raise SitemapError(f"Expected XML from {url}, got {response.headers.get('content-type', '?')}: {preview}") from exc
+
+
+def sitemap_rows(url: str) -> list[tuple[str, str | None]]:
+    root = parse_xml(url)
+    rows: list[tuple[str, str | None]] = []
+    for node in root.findall(".//{*}url"):
+        loc_node = node.find("{*}loc")
+        mod_node = node.find("{*}lastmod")
+        if loc_node is None or not loc_node.text:
+            continue
+        loc = normalize_url(loc_node.text)
+        if not loc:
+            continue
+        lm = lastmod(dt(mod_node.text)) if mod_node is not None and mod_node.text else None
+        rows.append((loc, lm))
+    return rows
+
+
+def public_wp_inventory() -> tuple[list[tuple[str, str | None]], dict[str, str]]:
+    index = parse_xml(ZINE_SITEMAP_INDEX)
+    child_urls = [
+        normalize_url(node.text or "")
+        for node in index.findall(".//{*}sitemap/{*}loc")
+        if node.text
+    ]
+    post_maps = [u for u in child_urls if re.search(r"/post-sitemap\d*\.xml$", urlparse(u).path)]
+    page_maps = [u for u in child_urls if re.search(r"/page-sitemap\d*\.xml$", urlparse(u).path)]
+    if not post_maps:
+        raise SitemapError("No post sitemap files were found in the live WordPress sitemap index")
+
+    posts: list[tuple[str, str | None]] = []
+    seen: set[str] = set()
+    for sitemap_url in post_maps:
+        for loc, lm in sitemap_rows(sitemap_url):
+            if loc not in seen:
+                seen.add(loc)
+                posts.append((loc, lm))
     if not posts:
-        raise SitemapError("WordPress returned zero published posts after 2025-01-01; refusing to overwrite the live sitemap")
-    return posts, pages, category_by_id
+        raise SitemapError("The live WordPress post sitemaps contained zero posts; refusing to overwrite the live sitemap")
+
+    page_mods: dict[str, str] = {}
+    for sitemap_url in page_maps:
+        for loc, lm in sitemap_rows(sitemap_url):
+            if lm:
+                page_mods[loc.rstrip("/")] = lm
+
+    print(f"✅ WordPress sitemap inventory: {len(posts)} posts across {len(post_maps)} post sitemap(s)")
+    return posts, page_mods
 
 
-def page_modifications(pages: list[dict]) -> dict[str, str]:
-    result = {}
-    for page in pages:
-        loc = normalize_url(str(page.get("link") or "")).rstrip("/")
-        lm = lastmod(dt(page.get("modified_gmt")))
-        if loc and lm:
-            result[loc] = lm
-    return result
+def category_slug(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", value.strip().lower()).strip("-")
+
+
+def jsonld_values(value: object, key: str) -> list[object]:
+    found: list[object] = []
+    if isinstance(value, dict):
+        for k, v in value.items():
+            if k == key:
+                found.append(v)
+            found.extend(jsonld_values(v, key))
+    elif isinstance(value, list):
+        for item in value:
+            found.extend(jsonld_values(item, key))
+    return found
+
+
+def parse_post_metadata(loc: str, lm: str | None) -> PostMeta:
+    response = get(loc, accept="text/html,*/*")
+    soup = BeautifulSoup(response.text, "html.parser")
+    canonical_node = soup.find("link", rel=lambda x: x and "canonical" in x)
+    canonical = normalize_url(canonical_node.get("href", "")) if canonical_node else loc
+    if not canonical:
+        canonical = loc
+    slug = urlparse(canonical).path.strip("/").split("/")[-1]
+
+    published: datetime | None = None
+    for attrs in (
+        {"property": "article:published_time"},
+        {"name": "article:published_time"},
+        {"itemprop": "datePublished"},
+    ):
+        node = soup.find(attrs=attrs)
+        if node and node.get("content"):
+            published = dt(node.get("content"))
+            if published:
+                break
+
+    jsonlds: list[object] = []
+    for script in soup.find_all("script", attrs={"type": re.compile("ld\+json", re.I)}):
+        raw = script.string or script.get_text()
+        if not raw.strip():
+            continue
+        try:
+            jsonlds.append(json.loads(raw))
+        except json.JSONDecodeError:
+            continue
+    if not published:
+        for payload in jsonlds:
+            for value in jsonld_values(payload, "datePublished"):
+                published = dt(value)
+                if published:
+                    break
+            if published:
+                break
+
+    if not published:
+        for node in soup.find_all("time"):
+            published = dt(node.get("datetime"))
+            if published:
+                break
+
+    if not published:
+        h1 = soup.find("h1")
+        if h1:
+            date_re = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)?\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(20\d{2})\b", re.I)
+            checked = 0
+            for text_node in h1.find_all_next(string=True):
+                text = re.sub(r"\s+", " ", str(text_node)).strip()
+                if not text:
+                    continue
+                checked += 1
+                match = date_re.search(text)
+                if match:
+                    published = datetime.strptime(f"{match.group(1)} {match.group(2)} {match.group(3)}", "%d %B %Y").replace(tzinfo=UTC)
+                    break
+                if checked >= 20:
+                    break
+
+    if not published:
+        raise SitemapError(f"Could not determine publication date for {loc}")
+
+    category_candidates: set[str] = set()
+    for anchor in soup.find_all("a", href=True):
+        path = urlparse(normalize_url(anchor.get("href", ""), loc)).path
+        match = re.search(r"/category/([^/]+)/?", path, re.I)
+        if match:
+            category_candidates.add(category_slug(unquote(match.group(1))))
+
+    for payload in jsonlds:
+        for value in jsonld_values(payload, "articleSection"):
+            if isinstance(value, str):
+                category_candidates.add(category_slug(value))
+            elif isinstance(value, list):
+                category_candidates.update(category_slug(str(x)) for x in value)
+
+    section = soup.find("meta", attrs={"property": "article:section"})
+    if section and section.get("content"):
+        category_candidates.add(category_slug(section.get("content")))
+
+    body = soup.find("body")
+    if body:
+        for cls in body.get("class") or []:
+            match = re.fullmatch(r"category-(.+)", str(cls), re.I)
+            if match:
+                category_candidates.add(category_slug(match.group(1)))
+
+    recognized = {CATEGORY_ALIAS[c] for c in category_candidates if c in CATEGORY_ALIAS}
+
+    # Reliable legacy fallbacks where the canonical URL itself encodes the section.
+    if not recognized and re.fullmatch(r"article-\d+", slug, re.I):
+        recognized.add("articles")
+    if not recognized and re.fullmatch(r"\d{8}-\d+", slug):
+        recognized.add("archive")
+
+    # Visible section labels are only a final fallback after structured/category links.
+    if not recognized:
+        text = soup.get_text(" ", strip=True).casefold()
+        if "anime & ai news" in text:
+            recognized.add("news")
+        if re.search(r"\bcomics?\b", text) and ("next comic" in text or "previous comic" in text):
+            recognized.add("comics")
+        if re.search(r"\bshop\b", text) and ("next shop" in text or "previous shop" in text):
+            recognized.add("shop")
+
+    if len(recognized) != 1:
+        raise SitemapError(
+            f"Could not resolve exactly one sitemap category for {loc}; "
+            f"recognized={sorted(recognized)}, raw={sorted(category_candidates)}"
+        )
+
+    return PostMeta(canonical, lm, published, next(iter(recognized)), slug)
+
+
+def build_post_inventory(rows: list[tuple[str, str | None]]) -> list[PostMeta]:
+    results: list[PostMeta] = []
+    errors: list[str] = []
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        futures = {pool.submit(parse_post_metadata, loc, lm): loc for loc, lm in rows}
+        done = 0
+        for future in as_completed(futures):
+            done += 1
+            loc = futures[future]
+            try:
+                meta = future.result()
+                if meta.published.date() >= START_DATE:
+                    results.append(meta)
+            except Exception as exc:
+                errors.append(f"{loc}: {exc}")
+            if done % 100 == 0:
+                print(f"… inspected {done}/{len(rows)} post pages")
+
+    if errors:
+        preview = "\n".join(errors[:12])
+        more = f"\n… and {len(errors) - 12} more" if len(errors) > 12 else ""
+        raise SitemapError(f"Post metadata scan failed for {len(errors)} page(s):\n{preview}{more}")
+    if not results:
+        raise SitemapError("No published posts dated 2025-01-01 or later were found")
+    results.sort(key=lambda x: x.published, reverse=True)
+    print(f"✅ Post metadata: {len(results)} posts dated {START_DATE.isoformat()} or later")
+    return results
+
+
+def group_posts(posts: list[PostMeta]) -> dict[str, list[Item]]:
+    groups = {name: [] for name in CATEGORY_OUTPUTS}
+    for post in posts:
+        groups[post.category].append(Item(post.loc, post.lastmod, post.published, post.slug))
+    return groups
 
 
 def html_lastmod(url: str) -> str | None:
     try:
-        response = HTTP.get(url, timeout=TIMEOUT)
-        response.raise_for_status()
-    except requests.RequestException:
+        response = get(url, accept="text/html,*/*")
+    except SitemapError:
         return None
     soup = BeautifulSoup(response.text, "html.parser")
-    node = soup.find("meta", attrs={"property": "article:modified_time"})
-    return lastmod(dt(node.get("content"))) if node and node.get("content") else None
+    for attrs in (
+        {"property": "article:modified_time"},
+        {"name": "article:modified_time"},
+        {"itemprop": "dateModified"},
+    ):
+        node = soup.find(attrs=attrs)
+        if node and node.get("content"):
+            value = lastmod(dt(node.get("content")))
+            if value:
+                return value
+    return None
 
 
 def page_lastmod(url: str, mods: dict[str, str]) -> str | None:
     return mods.get(normalize_url(url).rstrip("/")) or html_lastmod(url)
 
 
-def category_key(category: dict) -> str:
-    value = str(category.get("slug") or category.get("name") or "").strip().lower()
-    return re.sub(r"[^a-z0-9]+", "-", value).strip("-")
-
-
-def group_posts(posts: list[dict], categories: dict[int, dict]) -> dict[str, list[Item]]:
-    aliases = {alias: output for output, names in CATEGORY_OUTPUTS.items() for alias in names}
-    groups = {name: [] for name in CATEGORY_OUTPUTS}
-    skipped: defaultdict[str, int] = defaultdict(int)
-    for post in posts:
-        ids = post.get("categories") or []
-        if len(ids) != 1:
-            raise SitemapError(f"Post {post.get('id')} has {len(ids)} categories; exactly one is required")
-        category = categories.get(int(ids[0]))
-        if not category:
-            raise SitemapError(f"Post {post.get('id')} references unknown category {ids[0]}")
-        key = category_key(category)
-        output = aliases.get(key)
-        if not output:
-            skipped[key or "(unnamed)"] += 1
-            continue
-        published = dt(post.get("date_gmt"))
-        loc = normalize_url(str(post.get("link") or ""))
-        if not published or not loc:
-            raise SitemapError(f"Post {post.get('id')} is missing its canonical URL or publication date")
-        if published.date() >= START_DATE:
-            groups[output].append(Item(loc, lastmod(dt(post.get("modified_gmt"))), published, str(post.get("slug") or "")))
-    if skipped:
-        print("ℹ️ Unmapped categories intentionally omitted: " + ", ".join(f"{k}={v}" for k, v in sorted(skipped.items())))
-    for values in groups.values():
-        values.sort(key=lambda x: x.published or datetime.min.replace(tzinfo=UTC), reverse=True)
-    return groups
-
-
 def scrape_owned_links(url: str) -> list[tuple[str, str]]:
-    try:
-        response = HTTP.get(url, timeout=TIMEOUT)
-        response.raise_for_status()
-    except requests.RequestException as exc:
-        raise SitemapError(f"Failed to fetch {url}: {exc}") from exc
+    response = get(url, accept="text/html,*/*")
     soup = BeautifulSoup(response.text, "html.parser")
     result = []
     for anchor in soup.find_all("a", href=True):
         loc = normalize_url(anchor.get("href", ""), url)
         if not loc or urlparse(loc).netloc.lower() not in OWNED_HOSTS or urlparse(loc).path.startswith("/tag/"):
             continue
-        text = re.sub(r"s+", " ", anchor.get_text(" ", strip=True)).strip()
+        text = re.sub(r"\s+", " ", anchor.get_text(" ", strip=True)).strip()
         result.append((text, loc))
     return result
 
@@ -252,8 +416,11 @@ def named_sections(url: str, sections: dict[str, tuple[str, ...]]) -> list[Item]
         candidates = []
         for text, loc in links:
             t, u = text.casefold(), unquote(loc).casefold()
-            score = sum((100 if term.casefold() == t else 40 if term.casefold() in t else 0) +
-                        (25 if f"/{term.casefold().replace(' ', '-')}/" in u else 0) for term in terms)
+            score = sum(
+                (100 if term.casefold() == t else 40 if term.casefold() in t else 0)
+                + (25 if f"/{term.casefold().replace(' ', '-')}/" in u else 0)
+                for term in terms
+            )
             if score:
                 candidates.append((score, len(loc), loc))
         if not candidates:
@@ -280,13 +447,13 @@ def webpage_items() -> list[Item]:
                 loc = normalize_url(href, WEB_HOME)
                 if not loc or urlparse(loc).netloc.lower() not in OWNED_HOSTS:
                     continue
-                if urlparse(loc).path.startswith("/tag/") or re.search(r".(?:png|jpe?g|gif|webp|svg|avif)$", loc, re.I):
+                if urlparse(loc).path.startswith("/tag/") or re.search(r"\.(?:png|jpe?g|gif|webp|svg|avif)$", loc, re.I):
                     continue
                 if loc.rstrip("/") in {WEB_ROOT.rstrip("/"), WEB_HOME.rstrip("/")}:
                     loc = WEB_HOME
                 if loc not in seen:
                     seen.add(loc)
-                    found.append(Item(loc, label=re.sub(r"s+", " ", anchor.inner_text().strip()) or None))
+                    found.append(Item(loc, label=re.sub(r"\s+", " ", anchor.inner_text().strip()) or None))
             for required, label in ((WEB_HOME, "home"), (WEB_CONTACT, "contact")):
                 if required not in seen:
                     seen.add(required)
@@ -310,21 +477,23 @@ def webpage_items() -> list[Item]:
             browser.close()
 
 
-def explore_items(posts: list[dict]) -> list[Item]:
+def explore_items(posts: list[PostMeta]) -> list[Item]:
     weeks: dict[tuple[int, int], datetime] = {}
     for post in posts:
-        published = dt(post.get("date_gmt"))
-        modified = dt(post.get("modified_gmt")) or published
-        if not published or published.date() < START_DATE:
-            continue
-        iso = published.isocalendar()
+        iso = post.published.isocalendar()
+        modified = dt(post.lastmod) or post.published
         key = (iso.year, iso.week)
-        if modified and (key not in weeks or modified > weeks[key]):
+        if key not in weeks or modified > weeks[key]:
             weeks[key] = modified
     result = []
     for (year, week), modified in sorted(weeks.items(), reverse=True):
         monday = datetime.fromisocalendar(year, week, 1).replace(tzinfo=UTC)
-        result.append(Item(f"{ZINE_ROOT}/explore/?digest={year}-W{week:02d}&dpage=1", lastmod(modified), monday, f"week {week:02d}"))
+        result.append(Item(
+            f"{ZINE_ROOT}/explore/?digest={year}-W{week:02d}&dpage=1",
+            lastmod(modified),
+            monday,
+            f"week {week:02d}",
+        ))
     return result
 
 
@@ -364,7 +533,14 @@ def write_urlset(path: str, items: list[Item], grouped: str | None = None) -> No
 
 def child_lastmod(path: Path) -> str | None:
     tree = ET.parse(path)
-    values = [x.text for x in tree.getroot().findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod") if x.text]
+    values = [
+        x.text
+        for x in tree.getroot().findall(
+            "{http://www.sitemaps.org/schemas/sitemap/0.9}url/"
+            "{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod"
+        )
+        if x.text
+    ]
     return max(values) if values else None
 
 
@@ -399,7 +575,13 @@ def validate() -> None:
             if count != len(OUTPUTS):
                 raise SitemapError(f"Master index has {count} child sitemaps; expected {len(OUTPUTS)}")
         else:
-            locs = [x.text or "" for x in root.findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
+            locs = [
+                x.text or ""
+                for x in root.findall(
+                    "{http://www.sitemaps.org/schemas/sitemap/0.9}url/"
+                    "{http://www.sitemaps.org/schemas/sitemap/0.9}loc"
+                )
+            ]
             if len(locs) != len(set(locs)):
                 raise SitemapError(f"Duplicate URL inside {path.relative_to(ROOT)}")
             if any(not x.startswith("https://") for x in locs):
@@ -409,21 +591,35 @@ def validate() -> None:
 def main() -> int:
     started = time.monotonic()
     try:
-        posts, pages, categories = wp_inventory()
-        mods = page_modifications(pages)
-        groups = group_posts(posts, categories)
+        post_rows, page_mods = public_wp_inventory()
+        posts = build_post_inventory(post_rows)
+        groups = group_posts(posts)
+
         write_urlset("www/webpage.xml", webpage_items())
-        write_urlset("zine/home.xml", [Item(url, page_lastmod(url, mods), label=label) for label, url in HOME_URLS])
+        write_urlset(
+            "zine/home.xml",
+            [Item(url, page_lastmod(url, page_mods), label=label) for label, url in HOME_URLS],
+        )
+
         profile = named_sections(f"{ZINE_ROOT}/profile/", PROFILE_SECTIONS)
-        write_urlset("zine/profile.xml", [Item(x.loc, page_lastmod(x.loc, mods), label=x.label) for x in profile])
+        write_urlset(
+            "zine/profile.xml",
+            [Item(x.loc, page_lastmod(x.loc, page_mods), label=x.label) for x in profile],
+        )
+
         write_urlset("zine/explore.xml", explore_items(posts), "week")
         write_urlset("zine/news.xml", groups["news"], "month")
         write_urlset("zine/articles.xml", groups["articles"], "month")
         write_urlset("zine/archive.xml", groups["archive"], "month")
         write_urlset("zine/comics.xml", groups["comics"], "month")
         write_urlset("zine/shop.xml", groups["shop"], "month")
+
         about = named_sections(f"{ZINE_ROOT}/about/", ABOUT_SECTIONS)
-        write_urlset("zine/about.xml", [Item(x.loc, page_lastmod(x.loc, mods), label=x.label) for x in about])
+        write_urlset(
+            "zine/about.xml",
+            [Item(x.loc, page_lastmod(x.loc, page_mods), label=x.label) for x in about],
+        )
+
         write_index()
         validate()
         print(f"✅ Sitemap rebuild complete in {time.monotonic() - started:.1f}s")
