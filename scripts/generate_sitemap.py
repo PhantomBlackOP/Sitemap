@@ -62,12 +62,13 @@ PROFILE_SECTIONS = {
     "articles": ("articles", "article"),
     "news": ("news",),
     "comics": ("comics", "comic"),
-    "tag cloud": ("tag cloud", "tags"),
 }
+PROFILE_LABEL_ONLY_SECTIONS = ("tag cloud",)
+
 ABOUT_SECTIONS = {
     "welcome": ("welcome",),
-    "tag cloud": ("tag cloud", "tags"),
 }
+ABOUT_LABEL_ONLY_SECTIONS = ("tag cloud",)
 CATEGORY_OUTPUTS = {
     "news": {"news"},
     "articles": {"article", "articles"},
@@ -378,7 +379,11 @@ def scrape_owned_links(url: str) -> list[tuple[str, str]]:
     return result
 
 
-def named_sections(url: str, sections: dict[str, tuple[str, ...]]) -> list[Item]:
+def named_sections(
+    url: str,
+    sections: dict[str, tuple[str, ...]],
+    label_only: tuple[str, ...] = (),
+) -> list[Item]:
     links = scrape_owned_links(url)
     result, used = [], set()
     for label, terms in sections.items():
@@ -398,6 +403,8 @@ def named_sections(url: str, sections: dict[str, tuple[str, ...]]) -> list[Item]
         if loc not in used:
             used.add(loc)
             result.append(Item(loc, label=label))
+    for label in label_only:
+        result.append(Item("", label=label))
     return result
 
 
@@ -520,7 +527,8 @@ def write_urlset(path: str, items: list[Item], grouped: str | None = None) -> No
         elif item.label:
             root.append(ET.Comment(item.label))
 
-        add_url(root, item)
+        if item.loc:
+            add_url(root, item)
 
     ET.indent(root, space="  ")
     target = ROOT / path
@@ -626,7 +634,11 @@ def main() -> int:
             ],
         )
 
-        profile = named_sections(f"{ZINE_ROOT}/profile/", PROFILE_SECTIONS)
+        profile = named_sections(
+            f"{ZINE_ROOT}/profile/",
+            PROFILE_SECTIONS,
+            PROFILE_LABEL_ONLY_SECTIONS,
+        )
         write_urlset(
             "zine/profile.xml",
             [
@@ -642,7 +654,11 @@ def main() -> int:
         write_urlset("zine/comics.xml", groups["comics"], "month")
         write_urlset("zine/shop.xml", groups["shop"], "month")
 
-        about = named_sections(f"{ZINE_ROOT}/about/", ABOUT_SECTIONS)
+        about = named_sections(
+            f"{ZINE_ROOT}/about/",
+            ABOUT_SECTIONS,
+            ABOUT_LABEL_ONLY_SECTIONS,
+        )
         write_urlset(
             "zine/about.xml",
             [
