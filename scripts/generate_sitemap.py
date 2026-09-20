@@ -1,143 +1,438 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import calendar
+import html
+import json
+import re
+import sys
+import time
+import xml.etree.ElementTree as ET
+from collections import defaultdict
+from dataclasses import dataclass
+from datetime import UTC, date, datetime
+from pathlib import Path
+from urllib.parse import parse_qs, unquote, urljoin, urlparse, urlunparse
+
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin, urldefrag
-from datetime import datetime
-import xml.etree.ElementTree as ET
 from playwright.sync_api import sync_playwright
 
-BASE_URL = "https://www.trevorion.io"
-SITEMAP_URL = f"{BASE_URL}/sitemap"
-OUTPUT_FILE = "sitemap.xml"
+ROOT = Path(__file__).resolve().parents[1]
+SITEMAP_HOST = "https://sitemap.trevorion.io"
+WEB_ROOT = "https://www.trevorion.io"
+WEB_HOME = f"{WEB_ROOT}/home"
+WEB_CONTACT = f"{WEB_ROOT}/contact"
+ZINE_ROOT = "https://zine.trevorion.io"
+WP_API = f"{ZINE_ROOT}/wp-json/wp/v2"
+START_DATE = date(2025, 1, 1)
+TIMEOUT = 60
+USER_AGENT = "Trevorion-Sitemap/2.0 (+https://sitemap.trevorion.io/)"
 
-def clean_google_redirect(url):
-    if url.startswith("https://www.google.com/url?q="):
-        url = url.split("&")[0].replace("https://www.google.com/url?q=", "")
-    return url
+OUTPUTS = (
+    "www/webpage.xml",
+    "zine/home.xml",
+    "zine/profile.xml",
+    "zine/explore.xml",
+    "zine/news.xml",
+    "zine/articles.xml",
+    "zine/archive.xml",
+    "zine/comics.xml",
+    "zine/shop.xml",
+    "zine/about.xml",
+)
 
-def get_rendered_links():
+HOME_URLS = (
+    ("home", f"{ZINE_ROOT}/"),
+    ("profile", f"{ZINE_ROOT}/profile/"),
+    ("explore", f"{ZINE_ROOT}/explore/"),
+    ("news", f"{ZINE_ROOT}/news/"),
+    ("articles", f"{ZINE_ROOT}/articles/"),
+    ("archive", f"{ZINE_ROOT}/archive/"),
+    ("comics", f"{ZINE_ROOT}/comics/"),
+    ("shop", f"{ZINE_ROOT}/shop/"),
+    ("about", f"{ZINE_ROOT}/about/"),
+    ("contact", f"{ZINE_ROOT}/contact/"),
+    ("search", f"{ZINE_ROOT}/search/"),
+    ("sitemap", f"{ZINE_ROOT}/sitemap/"),
+    ("copyright", f"{ZINE_ROOT}/copyright/"),
+)
+
+PROFILE_SECTIONS = {
+    "daily": ("daily", "archive"),
+    "articles": ("articles", "article"),
+    "news": ("news",),
+    "comics": ("comics", "comic"),
+    "tag cloud": ("tag cloud", "tags"),
+}
+ABOUT_SECTIONS = {
+    "welcome": ("welcome",),
+    "tag cloud": ("tag cloud", "tags"),
+}
+CATEGORY_OUTPUTS = {
+    "news": {"news"},
+    "articles": {"article", "articles"},
+    "archive": {"daily", "dailies", "daily-image", "daily-images", "archive"},
+    "comics": {"comic", "comics"},
+    "shop": {"shop"},
+}
+OWNED_HOSTS = {"trevorion.io", "www.trevorion.io", "zine.trevorion.io"}
+
+HTTP = requests.Session()
+HTTP.headers.update({"User-Agent": USER_AGENT, "Accept": "application/json,text/html,*/*"})
+
+
+@dataclass(frozen=True)
+class Item:
+    loc: str
+    lastmod: str | None = None
+    published: datetime | None = None
+    label: str | None = None
+
+
+class SitemapError(RuntimeError):
+    pass
+
+
+def normalize_url(value: str, base: str | None = None) -> str:
+    value = html.unescape((value or "").strip())
+    if value.startswith("https://www.google.com/url?"):
+        value = unquote((parse_qs(urlparse(value).query).get("q") or [""])[0])
+    if base:
+        value = urljoin(base, value)
+    parsed = urlparse(value)
+    if parsed.scheme not in {"http", "https"}:
+        return ""
+    path = re.sub(r"/{2,}", "/", parsed.path or "/")
+    query = parsed.query if parsed.netloc.lower() == "zine.trevorion.io" and path.rstrip("/") == "/explore" else ""
+    return urlunparse((parsed.scheme.lower(), parsed.netloc.lower(), path, "", query, ""))
+
+
+def dt(value: object) -> datetime | None:
+    text = str(value or "").strip()
+    if not text:
+        return None
+    if text.endswith("Z"):
+        text = text[:-1] + "+00:00"
+    try:
+        value_dt = datetime.fromisoformat(text)
+    except ValueError:
+        return None
+    return (value_dt if value_dt.tzinfo else value_dt.replace(tzinfo=UTC)).astimezone(UTC)
+
+
+def lastmod(value: datetime | None) -> str | None:
+    return value.replace(microsecond=0).isoformat().replace("+00:00", "Z") if value else None
+
+
+def fetch_all(endpoint: str, params: dict[str, object]) -> list[dict]:
+    page, rows, total_pages = 1, [], None
+    while True:
+        query = {**params, "per_page": 100, "page": page}
+        try:
+            response = HTTP.get(f"{WP_API}/{endpoint}", params=query, timeout=TIMEOUT)
+            response.raise_for_status()
+            payload = response.json()
+        except (requests.RequestException, json.JSONDecodeError) as exc:
+            raise SitemapError(f"WordPress request failed for {endpoint}: {exc}") from exc
+        if not isinstance(payload, list):
+            raise SitemapError(f"WordPress returned invalid data for {endpoint}")
+        rows.extend(x for x in payload if isinstance(x, dict))
+        if total_pages is None:
+            raw = response.headers.get("X-WP-TotalPages", "")
+            total_pages = int(raw) if raw.isdigit() else None
+        if (total_pages is not None and page >= total_pages) or (total_pages is None and len(payload) < 100):
+            return rows
+        page += 1
+        if page > 1000:
+            raise SitemapError(f"Pagination limit reached for {endpoint}")
+
+
+def wp_inventory() -> tuple[list[dict], list[dict], dict[int, dict]]:
+    categories = fetch_all("categories", {"hide_empty": "false"})
+    category_by_id = {int(x["id"]): x for x in categories if "id" in x}
+    posts = fetch_all("posts", {
+        "status": "publish",
+        "after": "2025-01-01T00:00:00Z",
+        "orderby": "date",
+        "order": "desc",
+        "_fields": "id,link,slug,date_gmt,modified_gmt,categories,status",
+    })
+    pages = fetch_all("pages", {
+        "status": "publish",
+        "orderby": "modified",
+        "order": "desc",
+        "_fields": "id,link,slug,date_gmt,modified_gmt,status",
+    })
+    if not posts:
+        raise SitemapError("WordPress returned zero published posts after 2025-01-01; refusing to overwrite the live sitemap")
+    return posts, pages, category_by_id
+
+
+def page_modifications(pages: list[dict]) -> dict[str, str]:
+    result = {}
+    for page in pages:
+        loc = normalize_url(str(page.get("link") or "")).rstrip("/")
+        lm = lastmod(dt(page.get("modified_gmt")))
+        if loc and lm:
+            result[loc] = lm
+    return result
+
+
+def html_lastmod(url: str) -> str | None:
+    try:
+        response = HTTP.get(url, timeout=TIMEOUT)
+        response.raise_for_status()
+    except requests.RequestException:
+        return None
+    soup = BeautifulSoup(response.text, "html.parser")
+    node = soup.find("meta", attrs={"property": "article:modified_time"})
+    return lastmod(dt(node.get("content"))) if node and node.get("content") else None
+
+
+def page_lastmod(url: str, mods: dict[str, str]) -> str | None:
+    return mods.get(normalize_url(url).rstrip("/")) or html_lastmod(url)
+
+
+def category_key(category: dict) -> str:
+    value = str(category.get("slug") or category.get("name") or "").strip().lower()
+    return re.sub(r"[^a-z0-9]+", "-", value).strip("-")
+
+
+def group_posts(posts: list[dict], categories: dict[int, dict]) -> dict[str, list[Item]]:
+    aliases = {alias: output for output, names in CATEGORY_OUTPUTS.items() for alias in names}
+    groups = {name: [] for name in CATEGORY_OUTPUTS}
+    skipped: defaultdict[str, int] = defaultdict(int)
+    for post in posts:
+        ids = post.get("categories") or []
+        if len(ids) != 1:
+            raise SitemapError(f"Post {post.get('id')} has {len(ids)} categories; exactly one is required")
+        category = categories.get(int(ids[0]))
+        if not category:
+            raise SitemapError(f"Post {post.get('id')} references unknown category {ids[0]}")
+        key = category_key(category)
+        output = aliases.get(key)
+        if not output:
+            skipped[key or "(unnamed)"] += 1
+            continue
+        published = dt(post.get("date_gmt"))
+        loc = normalize_url(str(post.get("link") or ""))
+        if not published or not loc:
+            raise SitemapError(f"Post {post.get('id')} is missing its canonical URL or publication date")
+        if published.date() >= START_DATE:
+            groups[output].append(Item(loc, lastmod(dt(post.get("modified_gmt"))), published, str(post.get("slug") or "")))
+    if skipped:
+        print("ℹ️ Unmapped categories intentionally omitted: " + ", ".join(f"{k}={v}" for k, v in sorted(skipped.items())))
+    for values in groups.values():
+        values.sort(key=lambda x: x.published or datetime.min.replace(tzinfo=UTC), reverse=True)
+    return groups
+
+
+def scrape_owned_links(url: str) -> list[tuple[str, str]]:
+    try:
+        response = HTTP.get(url, timeout=TIMEOUT)
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        raise SitemapError(f"Failed to fetch {url}: {exc}") from exc
+    soup = BeautifulSoup(response.text, "html.parser")
+    result = []
+    for anchor in soup.find_all("a", href=True):
+        loc = normalize_url(anchor.get("href", ""), url)
+        if not loc or urlparse(loc).netloc.lower() not in OWNED_HOSTS or urlparse(loc).path.startswith("/tag/"):
+            continue
+        text = re.sub(r"s+", " ", anchor.get_text(" ", strip=True)).strip()
+        result.append((text, loc))
+    return result
+
+
+def named_sections(url: str, sections: dict[str, tuple[str, ...]]) -> list[Item]:
+    links = scrape_owned_links(url)
+    result, used = [], set()
+    for label, terms in sections.items():
+        candidates = []
+        for text, loc in links:
+            t, u = text.casefold(), unquote(loc).casefold()
+            score = sum((100 if term.casefold() == t else 40 if term.casefold() in t else 0) +
+                        (25 if f"/{term.casefold().replace(' ', '-')}/" in u else 0) for term in terms)
+            if score:
+                candidates.append((score, len(loc), loc))
+        if not candidates:
+            raise SitemapError(f"Could not resolve '{label}' from {url}; refusing to guess")
+        loc = sorted(candidates, key=lambda x: (-x[0], x[1], x[2]))[0][2]
+        if loc not in used:
+            used.add(loc)
+            result.append(Item(loc, label=label))
+    return result
+
+
+def webpage_items() -> list[Item]:
+    found, seen = [], set()
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        page.goto(SITEMAP_URL, wait_until="networkidle")
-
-        content = page.locator("ol.n8H08c.BKnRcf").first
-        if not content.count():
-            print("⚠️ Structured sitemap container not found.")
-            browser.close()
-            return []
-
-        anchors = content.locator("a").all()
-        if not anchors:
-            print("⚠️ No anchors inside sitemap container.")
-            browser.close()
-            return []
-
-        seen = set()
-        links = []
-
-        for a in anchors:
-            href = a.get_attribute("href")
-            text = a.inner_text().strip()
-
-            if not href:
-                continue
-
-            href = clean_google_redirect(href)
-            full_url = href if href.startswith("http") else urljoin(BASE_URL, href)
-            full_url, _ = urldefrag(full_url)
-            full_url = full_url.rstrip("/")
-
-            if full_url not in seen:
-                seen.add(full_url)
-                links.append({"url": full_url, "title": text})
-
-        print(f"✅ Extracted {len(links)} links.")
-        browser.close()
-        return links
-
-def get_priority(url):
-    if url.endswith("/home") or url == BASE_URL:
-        return "1.0"
-    if "/dailies" in url:
-        return "1.0"
-    if "status" in url:
-        return "0.8"
-    if "/articles" in url or "/news" in url:
-        return "0.8"
-    if "/2025" in url:
-        return "0.6"
-    return "0.5"
-
-def get_changefreq(url):
-    if url.endswith("/home") or url == BASE_URL:
-        return "daily"
-    if "dailies" in url or "sitemap" in url:
-        return "daily"
-    if "news" in url or "articles" in url or "status" in url or "comics" in url:
-        return "weekly"
-    if "puzzles" in url or "/2025" in url:
-        return "monthly"
-    return "yearly"
-
-def get_lastmod(url, page):
-    if url.startswith("mailto:") or ".app" in url:
-        return datetime.utcnow().isoformat() + "Z"
-
-    if "trevorion.io" in url:
+        page = browser.new_page(user_agent=USER_AGENT)
         try:
-            page.goto(url, wait_until="networkidle", timeout=60000)
+            page.goto(WEB_HOME, wait_until="networkidle", timeout=90000)
             page.wait_for_timeout(1000)
-            element = page.locator("[data-last-updated-at-time]").first
-            raw = element.get_attribute("data-last-updated-at-time")
-            if raw:
-                dt = datetime.utcfromtimestamp(int(raw) / 1000.0)
-                return dt.isoformat() + "Z"
-            else:
-                print(f"⚠️ No data-last-updated-at-time found on {url}")
-                return datetime.utcnow().isoformat() + "Z"
-        except Exception as e:
-            print(f"⚠️ Failed to extract lastmod from {url}: {e}")
-            return datetime.utcnow().isoformat() + "Z"
+            for anchor in page.locator("a").all():
+                href = anchor.get_attribute("href")
+                if not href:
+                    continue
+                loc = normalize_url(href, WEB_HOME)
+                if not loc or urlparse(loc).netloc.lower() not in OWNED_HOSTS:
+                    continue
+                if urlparse(loc).path.startswith("/tag/") or re.search(r".(?:png|jpe?g|gif|webp|svg|avif)$", loc, re.I):
+                    continue
+                if loc.rstrip("/") in {WEB_ROOT.rstrip("/"), WEB_HOME.rstrip("/")}:
+                    loc = WEB_HOME
+                if loc not in seen:
+                    seen.add(loc)
+                    found.append(Item(loc, label=re.sub(r"s+", " ", anchor.inner_text().strip()) or None))
+            for required, label in ((WEB_HOME, "home"), (WEB_CONTACT, "contact")):
+                if required not in seen:
+                    seen.add(required)
+                    found.append(Item(required, label=label))
+            output = []
+            for item in found:
+                lm = None
+                if item.loc.startswith(WEB_ROOT):
+                    try:
+                        page.goto(item.loc, wait_until="networkidle", timeout=90000)
+                        page.wait_for_timeout(400)
+                        node = page.locator("[data-last-updated-at-time]").first
+                        raw = node.get_attribute("data-last-updated-at-time") if node.count() else None
+                        if raw and raw.isdigit():
+                            lm = lastmod(datetime.fromtimestamp(int(raw) / 1000, tz=UTC))
+                    except Exception as exc:
+                        print(f"⚠️ No Google Sites lastmod for {item.loc}: {exc}")
+                output.append(Item(item.loc, lm, label=item.label))
+            return output
+        finally:
+            browser.close()
 
-    elif "x.com" in url and "/status/" in url:
+
+def explore_items(posts: list[dict]) -> list[Item]:
+    weeks: dict[tuple[int, int], datetime] = {}
+    for post in posts:
+        published = dt(post.get("date_gmt"))
+        modified = dt(post.get("modified_gmt")) or published
+        if not published or published.date() < START_DATE:
+            continue
+        iso = published.isocalendar()
+        key = (iso.year, iso.week)
+        if modified and (key not in weeks or modified > weeks[key]):
+            weeks[key] = modified
+    result = []
+    for (year, week), modified in sorted(weeks.items(), reverse=True):
+        monday = datetime.fromisocalendar(year, week, 1).replace(tzinfo=UTC)
+        result.append(Item(f"{ZINE_ROOT}/explore/?digest={year}-W{week:02d}&dpage=1", lastmod(modified), monday, f"week {week:02d}"))
+    return result
+
+
+def add_url(root: ET.Element, item: Item) -> None:
+    node = ET.SubElement(root, "url")
+    ET.SubElement(node, "loc").text = item.loc
+    if item.lastmod:
+        ET.SubElement(node, "lastmod").text = item.lastmod
+
+
+def write_urlset(path: str, items: list[Item], grouped: str | None = None) -> None:
+    root = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+    year = month = None
+    for item in items:
+        if grouped == "month" and item.published:
+            if item.published.year != year:
+                year, month = item.published.year, None
+                root.append(ET.Comment(str(year)))
+            if item.published.month != month:
+                month = item.published.month
+                root.append(ET.Comment(calendar.month_name[month]))
+        elif grouped == "week" and item.published:
+            iso = item.published.isocalendar()
+            if iso.year != year:
+                year = iso.year
+                root.append(ET.Comment(str(year)))
+            root.append(ET.Comment(f"Week {iso.week:02d}"))
+        elif item.label:
+            root.append(ET.Comment(item.label))
+        add_url(root, item)
+    ET.indent(root, space="  ")
+    target = ROOT / path
+    target.parent.mkdir(parents=True, exist_ok=True)
+    ET.ElementTree(root).write(target, encoding="utf-8", xml_declaration=True)
+    print(f"✅ {path}: {len(items)} URLs")
+
+
+def child_lastmod(path: Path) -> str | None:
+    tree = ET.parse(path)
+    values = [x.text for x in tree.getroot().findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod") if x.text]
+    return max(values) if values else None
+
+
+def write_index() -> None:
+    root = ET.Element("sitemapindex", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+    section = None
+    for output in OUTPUTS:
+        next_section = output.split("/", 1)[0]
+        if next_section != section:
+            section = next_section
+            root.append(ET.Comment(section))
+        node = ET.SubElement(root, "sitemap")
+        ET.SubElement(node, "loc").text = f"{SITEMAP_HOST}/{output}"
+        lm = child_lastmod(ROOT / output)
+        if lm:
+            ET.SubElement(node, "lastmod").text = lm
+    ET.indent(root, space="  ")
+    ET.ElementTree(root).write(ROOT / "sitemap.xml", encoding="utf-8", xml_declaration=True)
+
+
+def validate() -> None:
+    files = [ROOT / "sitemap.xml", *(ROOT / x for x in OUTPUTS)]
+    for path in files:
+        if not path.exists() or not path.stat().st_size:
+            raise SitemapError(f"Missing {path.relative_to(ROOT)}")
         try:
-            tweet_id = int(url.split("/")[-1])
-            timestamp_ms = (tweet_id >> 22) + 1288834974657
-            dt = datetime.utcfromtimestamp(timestamp_ms / 1000.0)
-            return dt.isoformat() + "Z"
-        except Exception as e:
-            print(f"⚠️ Failed to parse tweet timestamp from {url}")
-            return datetime.utcnow().isoformat() + "Z"
+            root = ET.parse(path).getroot()
+        except ET.ParseError as exc:
+            raise SitemapError(f"Invalid XML in {path.relative_to(ROOT)}: {exc}") from exc
+        if path == ROOT / "sitemap.xml":
+            count = len(root.findall("{http://www.sitemaps.org/schemas/sitemap/0.9}sitemap"))
+            if count != len(OUTPUTS):
+                raise SitemapError(f"Master index has {count} child sitemaps; expected {len(OUTPUTS)}")
+        else:
+            locs = [x.text or "" for x in root.findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
+            if len(locs) != len(set(locs)):
+                raise SitemapError(f"Duplicate URL inside {path.relative_to(ROOT)}")
+            if any(not x.startswith("https://") for x in locs):
+                raise SitemapError(f"Non-HTTPS URL inside {path.relative_to(ROOT)}")
 
-    return datetime.utcnow().isoformat() + "Z"
 
-def main():
-    links = get_rendered_links()
-    if not links:
-        print("⚠️ No links to include in sitemap.")
-        return
+def main() -> int:
+    started = time.monotonic()
+    try:
+        posts, pages, categories = wp_inventory()
+        mods = page_modifications(pages)
+        groups = group_posts(posts, categories)
+        write_urlset("www/webpage.xml", webpage_items())
+        write_urlset("zine/home.xml", [Item(url, page_lastmod(url, mods), label=label) for label, url in HOME_URLS])
+        profile = named_sections(f"{ZINE_ROOT}/profile/", PROFILE_SECTIONS)
+        write_urlset("zine/profile.xml", [Item(x.loc, page_lastmod(x.loc, mods), label=x.label) for x in profile])
+        write_urlset("zine/explore.xml", explore_items(posts), "week")
+        write_urlset("zine/news.xml", groups["news"], "month")
+        write_urlset("zine/articles.xml", groups["articles"], "month")
+        write_urlset("zine/archive.xml", groups["archive"], "month")
+        write_urlset("zine/comics.xml", groups["comics"], "month")
+        write_urlset("zine/shop.xml", groups["shop"], "month")
+        about = named_sections(f"{ZINE_ROOT}/about/", ABOUT_SECTIONS)
+        write_urlset("zine/about.xml", [Item(x.loc, page_lastmod(x.loc, mods), label=x.label) for x in about])
+        write_index()
+        validate()
+        print(f"✅ Sitemap rebuild complete in {time.monotonic() - started:.1f}s")
+        return 0
+    except SitemapError as exc:
+        print(f"❌ Sitemap generation aborted: {exc}", file=sys.stderr)
+        print("No generated changes will be committed; the previous live sitemap remains intact.", file=sys.stderr)
+        return 1
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-
-        urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
-
-        for entry in links:
-            lm = get_lastmod(entry["url"], page)
-            print(f"{entry['url']} → lastmod: {lm}")
-
-            url_el = ET.SubElement(urlset, "url")
-            ET.SubElement(url_el, "loc").text = entry["url"]
-            ET.SubElement(url_el, "lastmod").text = lm
-            ET.SubElement(url_el, "priority").text = get_priority(entry["url"])
-            ET.SubElement(url_el, "changefreq").text = get_changefreq(entry["url"])
-
-        browser.close()
-
-    tree = ET.ElementTree(urlset)
-    tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
-    print(f"✅ Sitemap successfully written to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
