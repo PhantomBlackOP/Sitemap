@@ -109,6 +109,7 @@ class Item:
     title: str | None = None
     category: str | None = None
     period: str | None = None
+    tags: tuple[str, ...] | None = None
 
 
 class SitemapError(RuntimeError):
@@ -283,10 +284,25 @@ def fetch_all(endpoint: str, params: dict[str, object]) -> list[dict]:
             raise SitemapError(f"Pagination limit reached for {endpoint}")
 
 
-def wp_inventory() -> tuple[list[dict], list[dict], dict[int, dict]]:
+def wp_inventory() -> tuple[
+    list[dict],
+    list[dict],
+    dict[int, dict],
+    dict[int, dict],
+]:
     categories = fetch_all("categories", {"hide_empty": "false"})
     category_by_id = {
         int(x["id"]): x for x in categories if "id" in x
+    }
+    tags = fetch_all(
+        "tags",
+        {
+            "hide_empty": "false",
+            "_fields": "id,name",
+        },
+    )
+    tag_by_id = {
+        int(x["id"]): x for x in tags if "id" in x
     }
 
     posts = fetch_all(
@@ -298,7 +314,7 @@ def wp_inventory() -> tuple[list[dict], list[dict], dict[int, dict]]:
             "order": "desc",
             "_fields": (
                 "id,link,slug,title,date_gmt,modified_gmt,"
-                "categories,status"
+                "categories,tags,status"
             ),
         },
     )
@@ -320,9 +336,10 @@ def wp_inventory() -> tuple[list[dict], list[dict], dict[int, dict]]:
 
     print(
         f"✅ WordPress inventory: {len(posts)} posts, "
-        f"{len(pages)} pages, {len(categories)} categories"
+        f"{len(pages)} pages, {len(categories)} categories, "
+        f"{len(tags)} tags"
     )
-    return posts, pages, category_by_id
+    return posts, pages, category_by_id, tag_by_id
 
 
 def page_inventory(pages: list[dict]) -> dict[str, Item]:
@@ -408,7 +425,9 @@ def category_key(category: dict) -> str:
 
 
 def group_posts(
-    posts: list[dict], categories: dict[int, dict]
+    posts: list[dict],
+    categories: dict[int, dict],
+    tags: dict[int, dict],
 ) -> dict[str, list[Item]]:
     aliases = {
         alias: output
@@ -440,6 +459,18 @@ def group_posts(
         published = dt(post.get("date_gmt"))
         loc = normalize_url(str(post.get("link") or ""))
         title = clean_title(post.get("title"))
+
+        tag_names = []
+        for tag_id in post.get("tags") or []:
+            tag = tags.get(int(tag_id))
+            if not tag:
+                raise SitemapError(
+                    f"Post {post.get('id')} references unknown tag {tag_id}"
+                )
+            tag_name = clean_title(tag.get("name"))
+            if tag_name:
+                tag_names.append(tag_name)
+
         if not published or not loc or not title:
             raise SitemapError(
                 f"Post {post.get('id')} is missing its canonical URL, "
@@ -454,6 +485,7 @@ def group_posts(
                     published=published,
                     title=title,
                     category=CATEGORY_LABELS[output],
+                    tags=tuple(tag_names),
                 )
             )
 
@@ -706,6 +738,12 @@ def add_url(root: ET.Element, item: Item) -> None:
         meta(node, "published", lastmod(item.published))
     meta(node, "category", item.category)
     meta(node, "period", item.period)
+    if item.tags is not None:
+        meta(
+            node,
+            "tags",
+            json.dumps(list(item.tags), ensure_ascii=False),
+        )
 
 
 def write_urlset(
@@ -908,6 +946,19 @@ def item_link_html(item: Item, show_meta: bool = True) -> str:
 
     if details:
         link += f'<span class="meta">{" · ".join(details)}</span>'
+
+    if item.tags:
+        tag_links = []
+        for tag in item.tags:
+            tag_url = html.escape(
+                f"{ZINE_ROOT}/tag/{tag.lower()}",
+                quote=True,
+            )
+            tag_links.append(
+                f'<a href="{tag_url}">#{html.escape(tag)}</a>'
+            )
+        link += f'<span class="tags">{" ".join(tag_links)}</span>'
+
     return link
 
 
@@ -1094,6 +1145,8 @@ def write_html_ui(
     a{{color:var(--link);text-decoration:none}}
     a:hover{{text-decoration:underline}}
     .meta{{display:block;color:var(--muted);font-size:.84rem;margin-top:1px;font-weight:400}}
+    .tags{{display:block;font-size:.84rem;margin-top:2px;font-weight:400}}
+    .tags a{{margin-right:8px}}
     .label,.count{{color:var(--muted)}}
     .nested-empty{{margin-left:22px}}
     footer{{margin-top:28px;color:var(--muted);font-size:.9rem}}
@@ -1119,6 +1172,7 @@ def validate(paths: list[str]) -> None:
     meta_title = f"{{{META_NS}}}title"
     meta_published = f"{{{META_NS}}}published"
     meta_category = f"{{{META_NS}}}category"
+    meta_tags = f"{{{META_NS}}}tags"
 
     all_paths = ["index.xml", *TOP_LEVEL_OUTPUTS, *paths]
     if len(all_paths) != len(set(all_paths)):
@@ -1164,6 +1218,7 @@ def validate(paths: list[str]) -> None:
                     node.find(meta_title) is None
                     or node.find(meta_published) is None
                     or node.find(meta_category) is None
+                    or node.find(meta_tags) is None
                 ):
                     raise SitemapError(
                         f"Missing publication metadata inside {rel}"
@@ -1185,9 +1240,9 @@ def main() -> int:
 
     try:
         establish_siteground_clearance()
-        posts, pages, categories = wp_inventory()
+        posts, pages, categories, tags = wp_inventory()
         page_map = page_inventory(pages)
-        groups = group_posts(posts, categories)
+        groups = group_posts(posts, categories, tags)
 
         web = webpage_items()
 
