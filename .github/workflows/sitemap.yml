@@ -2,8 +2,15 @@ name: Generate Trevorion Sitemaps
 
 on:
   workflow_dispatch:
+    inputs:
+      full_rebuild:
+        description: 'Force a full reconciliation rebuild'
+        required: false
+        default: false
+        type: boolean
   schedule:
-    - cron: '0 3 * * *'  # every day at 03:00 UTC
+    - cron: '0 3 * * 1-6'  # incremental: Monday-Saturday at 03:00 UTC
+    - cron: '0 3 * * 0'    # full reconciliation: Sunday at 03:00 UTC
 
 jobs:
   build:
@@ -26,7 +33,13 @@ jobs:
           playwright install chromium
 
       - name: Generate and validate sitemaps
-        run: python scripts/generate_sitemap.py
+        shell: bash
+        run: |
+          if [[ "${{ github.event.schedule }}" == "0 3 * * 0" || "${{ inputs.full_rebuild }}" == "true" ]]; then
+            python scripts/generate_sitemap.py --full
+          else
+            python scripts/generate_sitemap.py
+          fi
 
       - name: Commit changed sitemaps
         env:
@@ -34,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.xml index.html www zine
+          git add index.xml index.html www zine data
           if git diff --cached --quiet; then
             echo "No sitemap changes"
             exit 0
