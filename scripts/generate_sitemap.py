@@ -912,10 +912,23 @@ def write_index() -> None:
 
 def ui_title(item: Item) -> str:
     value = (item.title or item.loc).strip()
+
+    if re.match(r"^https?://", value, re.I):
+        parsed = urlparse(value)
+        path = unquote(parsed.path).strip("/")
+        if path:
+            label = path.rsplit("/", 1)[-1]
+            return label.replace("-", " ").replace("_", " ").title()
+        if parsed.netloc.lower() in OWNED_HOSTS:
+            return "Home"
+        return parsed.netloc
+
     if value.casefold() == "trevorion.io":
         return "Trevorion.io"
+
     if item.category in {"Page", "Webpage", "Section"} and value.islower():
         return value.title()
+
     return value
 
 
