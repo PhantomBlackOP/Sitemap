@@ -1,12 +1,15 @@
-# 🗺️ Trevorion Sitemap Generator
+# 🗺️ Trevorion Sitemap Hub
 
-This repository publishes the human-facing sitemap UI at `https://sitemap.trevorion.io/` and the master XML sitemap index at `https://sitemap.trevorion.io/index.xml`.
+This repository publishes:
 
-The public structure is fixed:
+- Human-facing sitemap UI: `https://sitemap.trevorion.io/`
+- Master XML sitemap index: `https://sitemap.trevorion.io/index.xml`
+
+## Structure
 
 ```text
-index.html   ← human-facing UI at https://sitemap.trevorion.io/
-index.xml    ← master XML sitemap index
+index.html
+index.xml
 
 www/
   webpage.xml
@@ -21,26 +24,54 @@ zine/
   comics.xml
   shop.xml
   about.xml
+
+  news/
+    YYYY-MM.xml
+
+  articles/
+    YYYY-MM.xml
+
+  archive/
+    YYYY-MM.xml
+
+  comics/
+    YYYY-MM.xml
+
+  shop/
+    YYYY-MM.xml
 ```
+
+The category-level XML files are sitemap indexes. They point to monthly child XML files so the post inventories are not dumped into one enormous file.
+
+`explore.xml` is different by design: each ISO week is itself the final report URL, so the weekly report links live directly in that file and are grouped only by year.
+
+## Metadata
+
+Post entries contain the normal sitemap fields plus lightweight namespaced metadata:
+
+- canonical URL
+- last modified timestamp
+- actual title
+- publication timestamp
+- category
+
+No post body, excerpt, tag inventory, or article content is copied into the sitemap.
+
+The human-facing `index.html` is generated from the same WordPress inventory, so it shows real titles and publication details rather than URL slugs. Dailies therefore display their actual post titles rather than identifiers such as `20260920-1`.
 
 ## Sources
 
-- `www/webpage.xml` reflects Trevorion-owned structural links on the main `www.trevorion.io` webpage, including its deliberate links into the Zine. External social/profile/image links are not imported.
-- `zine/home.xml` contains the fixed Zine page set defined for the site.
-- `zine/profile.xml` and `zine/about.xml` resolve only their named section destinations. The tag cloud itself is not crawled or copied into the sitemap.
-- `zine/explore.xml` contains one first-page URL per weekly digest: `?digest=YYYY-Www&dpage=1`.
-- `zine/news.xml`, `articles.xml`, `archive.xml`, `comics.xml`, and `shop.xml` are generated from published WordPress posts from 1 January 2025 onward. Each post is assigned through its single WordPress category.
+- Google Sites navigation for `www/webpage.xml`
+- WordPress REST API for Zine pages, posts, categories, titles, publication dates and modification dates
+- Zine page links for Profile and About section destinations
+- Explore weekly report URLs derived from ISO publication weeks
 
-WordPress publication time controls chronological grouping. WordPress modification time supplies `<lastmod>`.
+Posts are included from 2025-01-01 onward. Each included WordPress post must have exactly one category. Categories outside the supplied sitemap structure are omitted.
+
+Tag URLs are not imported. Tag Cloud remains a human section marker only.
 
 ## Automation
 
-The root `index.html` is the human-facing UI. The generator writes the master sitemap index to `index.xml`. GitHub Actions runs the generator every day at **03:00 UTC** and can also be started manually with **Run workflow**. The generator validates its complete output before the workflow commits anything. If a required source cannot be read or the generated XML is invalid, the workflow fails and the previously committed sitemap remains live.
+GitHub Actions runs the generator every day at **03:00 UTC** and also supports manual dispatch.
 
-## Local run
-
-```bash
-pip install requests beautifulsoup4 playwright
-playwright install chromium
-python scripts/generate_sitemap.py
-```
+The generator first establishes SiteGround browser clearance in headless Chromium, then reuses the cleared browser session for WordPress REST requests. Generation is fail-closed: if retrieval or validation fails, no generated changes are committed.
