@@ -1155,7 +1155,7 @@ def write_html_ui(
     .tree{{margin:8px 0 4px;padding-left:22px}}
     .tree.nested{{margin-top:6px}}
     .tree li{{margin:8px 0;overflow-wrap:anywhere}}
-    .tree>.branch{{list-style:none;margin-left:-18px}}
+    .branch{{list-style:none;margin-left:-18px}}
     a{{color:var(--link);text-decoration:none}}
     a:hover{{text-decoration:underline}}
     .meta{{display:block;color:var(--muted);font-size:.84rem;margin-top:1px;font-weight:400}}
