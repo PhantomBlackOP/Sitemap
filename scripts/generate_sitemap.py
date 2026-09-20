@@ -534,7 +534,8 @@ def write_urlset(path: str, items: list[Item], grouped: str | None = None) -> No
     target = ROOT / path
     target.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(root).write(target, encoding="utf-8", xml_declaration=True)
-    print(f"✅ {path}: {len(items)} URLs")
+    url_count = sum(1 for item in items if item.loc)
+    print(f"✅ {path}: {url_count} URLs")
 
 
 def child_lastmod(path: Path) -> str | None:
