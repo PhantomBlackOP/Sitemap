@@ -1,53 +1,45 @@
-# 🗺️ PhantomBlackOP Sitemap Generator
+# 🗺️ Trevorion Sitemap Generator
 
-[![Sitemap Build](https://github.com/PhantomBlackOP/Sitemap/actions/workflows/sitemap.yml/badge.svg)](https://github.com/PhantomBlackOP/Sitemap/actions/workflows/sitemap.yml)
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)  
-![Last Commit](https://img.shields.io/github/last-commit/PhantomBlackOP/Sitemap)  
-![Repo Size](https://img.shields.io/github/repo-size/PhantomBlackOP/Sitemap)
+This repository publishes the curated sitemap hub at `https://sitemap.trevorion.io/`.
 
----
+The public structure is fixed:
 
-## 🧠 Overview
+```text
+sitemap.xml
 
-This repo powers a dynamic "[sitemap.xml](sitemap.xml)" generator that:
+www/
+  webpage.xml
 
-- 🚀 Crawls a rendered sitemap page built with Google Sites
-- 📅 Extracts precise last modified times from Google Sites metadata (`data-last-updated-at-time`)
-- 🐦 Decodes tweet timestamps using Twitter/X Snowflake ID logic
-- ✨ Gracefully assigns UTC fallback dates to non-crawlable links (like `mailto:` or `.app`)
-- 🔁 Auto-generates and commits sitemap via GitHub Actions daily at **03:00 UTC**
+zine/
+  home.xml
+  profile.xml
+  explore.xml
+  news.xml
+  articles.xml
+  archive.xml
+  comics.xml
+  shop.xml
+  about.xml
+```
 
----
+## Sources
 
-## 🛠️ Tech Stack
+- `www/webpage.xml` reflects Trevorion-owned structural links on the main `www.trevorion.io` webpage, including its deliberate links into the Zine. External social/profile/image links are not imported.
+- `zine/home.xml` contains the fixed Zine page set defined for the site.
+- `zine/profile.xml` and `zine/about.xml` resolve only their named section destinations. The tag cloud itself is not crawled or copied into the sitemap.
+- `zine/explore.xml` contains one first-page URL per weekly digest: `?digest=YYYY-Www&dpage=1`.
+- `zine/news.xml`, `articles.xml`, `archive.xml`, `comics.xml`, and `shop.xml` are generated from published WordPress posts from 1 January 2025 onward. Each post is assigned through its single WordPress category.
 
-- **Python 3.11**
-- [Playwright](https://playwright.dev/python) for headless browsing and metadata scraping
-- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) for DOM parsing
-- GitHub Actions for CI/CD automation
+WordPress publication time controls chronological grouping. WordPress modification time supplies `<lastmod>`.
 
----
+## Automation
 
-## ⚡ Usage
+GitHub Actions runs the generator every day at **03:00 UTC** and can also be started manually with **Run workflow**. The generator validates its complete output before the workflow commits anything. If a required source cannot be read or the generated XML is invalid, the workflow fails and the previously committed sitemap remains live.
 
-To run locally:
+## Local run
 
 ```bash
+pip install requests beautifulsoup4 playwright
+playwright install chromium
 python scripts/generate_sitemap.py
 ```
-
-Sample output:
-
-```shell
-✅ Extracted 57 links.
-https://www.trevorion.io/home → lastmod: 2025-07-16T17:34:08.726000Z
-...
-✅ Sitemap successfully written to sitemap.xml
-```
-
----
-
-## 🔥 Credits
-
-Created and curated by **Trevor Grech ([@Trevorion](https://x.com/Trevorion))**  
-Home of the mythkeeper's flame, daily experiments, and structured defiance.
