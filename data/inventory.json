@@ -991,7 +991,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-09-21T08:31:08Z",
+  "last_sync": "2026-09-22T08:11:22Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -8708,6 +8708,28 @@
       ],
       "title": {
         "rendered": "AI Hallucination Nearly Triggered US Military Action"
+      }
+    },
+    "14728": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-09-21T10:30:00",
+      "id": 14728,
+      "link": "https://zine.trevorion.io/20260921-1/",
+      "modified_gmt": "2026-09-21T16:57:37",
+      "slug": "20260921-1",
+      "status": "publish",
+      "tags": [
+        36,
+        8255,
+        6895,
+        8252,
+        8254,
+        8253
+      ],
+      "title": {
+        "rendered": "629: Fashion Photoshoot 📸✨"
       }
     },
     "1808": {
@@ -67346,6 +67368,22 @@
     "8251": {
       "id": 8251,
       "name": "#Yura"
+    },
+    "8252": {
+      "id": 8252,
+      "name": "#Model"
+    },
+    "8253": {
+      "id": 8253,
+      "name": "#Studio"
+    },
+    "8254": {
+      "id": 8254,
+      "name": "#Photographer"
+    },
+    "8255": {
+      "id": 8255,
+      "name": "#Editorial"
     },
     "826": {
       "id": 826,
