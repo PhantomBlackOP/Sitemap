@@ -991,7 +991,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-09-22T08:11:22Z",
+  "last_sync": "2026-09-24T08:04:14Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -8730,6 +8730,92 @@
       ],
       "title": {
         "rendered": "629: Fashion Photoshoot 📸✨"
+      }
+    },
+    "14808": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-09-22T10:30:00",
+      "id": 14808,
+      "link": "https://zine.trevorion.io/20260922-1/",
+      "modified_gmt": "2026-09-22T17:10:18",
+      "slug": "20260922-1",
+      "status": "publish",
+      "tags": [
+        8326,
+        112,
+        8325,
+        8328,
+        8329,
+        8327
+      ],
+      "title": {
+        "rendered": "630: Premiere Night 🎬❤"
+      }
+    },
+    "14882": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-21T10:23:00",
+      "id": 14882,
+      "link": "https://zine.trevorion.io/googlebook-launches-with-five-models-from-899/",
+      "modified_gmt": "2026-09-23T06:59:23",
+      "slug": "googlebook-launches-with-five-models-from-899",
+      "status": "publish",
+      "tags": [
+        8293,
+        2023,
+        202,
+        311,
+        8365,
+        6701
+      ],
+      "title": {
+        "rendered": "Googlebook Launches With Five Models From $899"
+      }
+    },
+    "14884": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-21T10:24:00",
+      "id": 14884,
+      "link": "https://zine.trevorion.io/mediatek-unveils-55-tops-googlebook-chip/",
+      "modified_gmt": "2026-09-23T07:17:45",
+      "slug": "mediatek-unveils-55-tops-googlebook-chip",
+      "status": "publish",
+      "tags": [
+        8293,
+        311,
+        8366,
+        8365,
+        6489
+      ],
+      "title": {
+        "rendered": "MediaTek Unveils 55-TOPS Googlebook Chip"
+      }
+    },
+    "14935": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-09-23T10:30:00",
+      "id": 14935,
+      "link": "https://zine.trevorion.io/20260923-1/",
+      "modified_gmt": "2026-09-23T22:50:28",
+      "slug": "20260923-1",
+      "status": "publish",
+      "tags": [
+        670,
+        8369,
+        5730,
+        8368,
+        8367
+      ],
+      "title": {
+        "rendered": "631: The Glance 🍺️❤️"
       }
     },
     "1808": {
@@ -67401,6 +67487,10 @@
       "id": 829,
       "name": "#Orphan"
     },
+    "8293": {
+      "id": 8293,
+      "name": "#AITechnology"
+    },
     "83": {
       "id": 83,
       "name": "#ForgottenValley"
@@ -67417,6 +67507,26 @@
       "id": 832,
       "name": "#Fiction"
     },
+    "8325": {
+      "id": 8325,
+      "name": "#MainActors"
+    },
+    "8326": {
+      "id": 8326,
+      "name": "#Cinema"
+    },
+    "8327": {
+      "id": 8327,
+      "name": "#UnspokenLove"
+    },
+    "8328": {
+      "id": 8328,
+      "name": "#NeonNoir"
+    },
+    "8329": {
+      "id": 8329,
+      "name": "#RedCarpet"
+    },
     "833": {
       "id": 833,
       "name": "#HolyMagic"
@@ -67432,6 +67542,26 @@
     "836": {
       "id": 836,
       "name": "#MoltenEarth"
+    },
+    "8365": {
+      "id": 8365,
+      "name": "#Googlebook"
+    },
+    "8366": {
+      "id": 8366,
+      "name": "#Dimensity"
+    },
+    "8367": {
+      "id": 8367,
+      "name": "#TavernMaid"
+    },
+    "8368": {
+      "id": 8368,
+      "name": "#Swashbuckler"
+    },
+    "8369": {
+      "id": 8369,
+      "name": "#Encounter"
     },
     "837": {
       "id": 837,

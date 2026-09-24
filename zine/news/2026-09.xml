@@ -1,6 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/mediatek-unveils-55-tops-googlebook-chip/</loc>
+    <lastmod>2026-09-23T07:17:45Z</lastmod>
+    <meta:title>MediaTek Unveils 55-TOPS Googlebook Chip</meta:title>
+    <meta:published>2026-09-21T10:24:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AITechnology", "#DigitalTrends", "#Dimensity", "#Googlebook", "#Mediatek"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/googlebook-launches-with-five-models-from-899/</loc>
+    <lastmod>2026-09-23T06:59:23Z</lastmod>
+    <meta:title>Googlebook Launches With Five Models From $899</meta:title>
+    <meta:published>2026-09-21T10:23:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AITechnology", "#Android", "#Chrome", "#DigitalTrends", "#Googlebook", "#TechNews"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/ai-hallucination-nearly-triggered-us-military-action/</loc>
     <lastmod>2026-09-20T20:10:30Z</lastmod>
     <meta:title>AI Hallucination Nearly Triggered US Military Action</meta:title>
