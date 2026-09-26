@@ -1,6 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/20260925-1/</loc>
+    <lastmod>2026-09-25T17:58:30Z</lastmod>
+    <meta:title>633: Captain’s Respite ⚓🌅</meta:title>
+    <meta:published>2026-09-25T10:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#GoldenHour", "#Lantern", "#Stern", "#SwivelGun", "#Taffrail", "#WarGalleon"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/202609-24-1/</loc>
+    <lastmod>2026-09-24T19:00:21Z</lastmod>
+    <meta:title>632: Savanna Scavenger 🪶🌅</meta:title>
+    <meta:published>2026-09-24T10:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#Africa", "#BirdOfPrey", "#LappetFacedVulture", "#TorgosTracheliotos"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/20260923-1/</loc>
     <lastmod>2026-09-23T22:50:28Z</lastmod>
     <meta:title>631: The Glance 🍺️❤️</meta:title>

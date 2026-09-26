@@ -991,7 +991,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-09-24T08:04:14Z",
+  "last_sync": "2026-09-26T08:15:10Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -3135,6 +3135,28 @@
         "rendered": "Fortnite x One Punch Man Collaboration"
       }
     },
+    "10997": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-08-28T10:03:00",
+      "id": 10997,
+      "link": "https://zine.trevorion.io/the-ribbon-hero-gets-two-week-japanese-cinema-run/",
+      "modified_gmt": "2026-09-25T22:58:17",
+      "slug": "the-ribbon-hero-gets-two-week-japanese-cinema-run",
+      "status": "publish",
+      "tags": [
+        233,
+        6217,
+        216,
+        4479,
+        6215,
+        244
+      ],
+      "title": {
+        "rendered": "The Ribbon Hero Gets Two-Week Japanese Cinema Run"
+      }
+    },
     "11003": {
       "categories": [
         137
@@ -3640,6 +3662,27 @@
       ],
       "title": {
         "rendered": "Fambot introduces an &#8216;AI chief of staff&#8217; for families"
+      }
+    },
+    "11347": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-08-31T10:24:00",
+      "id": 11347,
+      "link": "https://zine.trevorion.io/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "modified_gmt": "2026-09-25T08:45:23",
+      "slug": "the-pentagon-now-has-its-own-version-of-chatgpt-and-grok",
+      "status": "publish",
+      "tags": [
+        2126,
+        1388,
+        1338,
+        88,
+        1921
+      ],
+      "title": {
+        "rendered": "The Pentagon now has its own version of ChatGPT and Grok"
       }
     },
     "11351": {
@@ -5966,7 +6009,7 @@
       "date_gmt": "2026-09-04T10:18:00",
       "id": 12361,
       "link": "https://zine.trevorion.io/boya-introduces-smaller-lower-cost-ai-notetaker/",
-      "modified_gmt": "2026-09-06T07:29:09",
+      "modified_gmt": "2026-09-26T04:34:22",
       "slug": "boya-introduces-smaller-lower-cost-ai-notetaker",
       "status": "publish",
       "tags": [
@@ -6086,6 +6129,27 @@
         "rendered": "AI Safety Fears Rise as Models Become More Powerful"
       }
     },
+    "12588": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-05T10:13:00",
+      "id": 12588,
+      "link": "https://zine.trevorion.io/google-brings-lyria-3-5-ai-music-to-gemini/",
+      "modified_gmt": "2026-09-25T08:17:33",
+      "slug": "google-brings-lyria-3-5-ai-music-to-gemini",
+      "status": "publish",
+      "tags": [
+        311,
+        2022,
+        6958,
+        6960,
+        6961
+      ],
+      "title": {
+        "rendered": "Google Brings Lyria 3.5 AI Music to Gemini"
+      }
+    },
     "1261": {
       "categories": [
         8
@@ -6145,6 +6209,27 @@
       ],
       "title": {
         "rendered": "Daniel Susskind Urges Parents to Teach AI and Core Skills Together"
+      }
+    },
+    "12628": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-06T10:05:00",
+      "id": 12628,
+      "link": "https://zine.trevorion.io/hikers-rescued-after-relying-on-gemini-for-mount-shasta-plan/",
+      "modified_gmt": "2026-09-25T08:10:21",
+      "slug": "hikers-rescued-after-relying-on-gemini-for-mount-shasta-plan",
+      "status": "publish",
+      "tags": [
+        762,
+        311,
+        2022,
+        6944,
+        6946
+      ],
+      "title": {
+        "rendered": "Hikers Rescued After Relying on Gemini for Mount Shasta Plan"
       }
     },
     "12641": {
@@ -6408,6 +6493,27 @@
         "rendered": "Cognition Raises $2B at $48B Valuation"
       }
     },
+    "12773": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-08T10:09:00",
+      "id": 12773,
+      "link": "https://zine.trevorion.io/google-cloud-and-accenture-form-enterprise-ai-deployment-unit/",
+      "modified_gmt": "2026-09-25T07:53:22",
+      "slug": "google-cloud-and-accenture-form-enterprise-ai-deployment-unit",
+      "status": "publish",
+      "tags": [
+        7115,
+        501,
+        7116,
+        7114,
+        1921
+      ],
+      "title": {
+        "rendered": "Google Cloud and Accenture Form Enterprise AI Deployment Unit"
+      }
+    },
     "12777": {
       "categories": [
         137
@@ -6479,7 +6585,7 @@
       "date_gmt": "2026-09-08T10:17:00",
       "id": 12789,
       "link": "https://zine.trevorion.io/ai-designed-drug-shows-preliminary-anti-aging-signal/",
-      "modified_gmt": "2026-09-10T15:33:22",
+      "modified_gmt": "2026-09-26T04:30:52",
       "slug": "ai-designed-drug-shows-preliminary-anti-aging-signal",
       "status": "publish",
       "tags": [
@@ -7940,7 +8046,7 @@
       "date_gmt": "2026-09-15T10:24:00",
       "id": 13895,
       "link": "https://zine.trevorion.io/reborn-as-a-space-mercenary-anime-sets-october-4-premiere/",
-      "modified_gmt": "2026-09-19T18:23:09",
+      "modified_gmt": "2026-09-25T23:27:26",
       "slug": "reborn-as-a-space-mercenary-anime-sets-october-4-premiere",
       "status": "publish",
       "tags": [
@@ -7973,6 +8079,27 @@
       ],
       "title": {
         "rendered": "244: 影魅 梨花 🖤🎭"
+      }
+    },
+    "13925": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-15T10:14:00",
+      "id": 13925,
+      "link": "https://zine.trevorion.io/no-big-deal-review-is-this-how-ai-ends-humanity-with-a-sitcom-so-bad-it-bores-you-to-death/",
+      "modified_gmt": "2026-09-26T07:12:58",
+      "slug": "no-big-deal-review-is-this-how-ai-ends-humanity-with-a-sitcom-so-bad-it-bores-you-to-death",
+      "status": "publish",
+      "tags": [
+        910,
+        8691,
+        8690,
+        8692,
+        327
+      ],
+      "title": {
+        "rendered": "No Big Deal review &#8211; is this how AI ends humanity … with a sitcom so bad it bores you to death?"
       }
     },
     "13943": {
@@ -8518,6 +8645,28 @@
         "rendered": "627: Reiko Terayama 🏍️🔥"
       }
     },
+    "14562": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-18T10:16:00",
+      "id": 14562,
+      "link": "https://zine.trevorion.io/ai-leaders-debate-how-to-pace-frontier-development/",
+      "modified_gmt": "2026-09-26T08:01:48",
+      "slug": "ai-leaders-debate-how-to-pace-frontier-development",
+      "status": "publish",
+      "tags": [
+        973,
+        1108,
+        762,
+        387,
+        1622,
+        1921
+      ],
+      "title": {
+        "rendered": "AI Leaders Debate How to Pace Frontier Development"
+      }
+    },
     "14578": {
       "categories": [
         137
@@ -8732,6 +8881,27 @@
         "rendered": "629: Fashion Photoshoot 📸✨"
       }
     },
+    "14756": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-20T10:00:00",
+      "id": 14756,
+      "link": "https://zine.trevorion.io/google-gemini-breakout-raises-ai-security-concerns/",
+      "modified_gmt": "2026-09-25T07:35:47",
+      "slug": "google-gemini-breakout-raises-ai-security-concerns",
+      "status": "publish",
+      "tags": [
+        8573,
+        6605,
+        6373,
+        326,
+        136
+      ],
+      "title": {
+        "rendered": "Google Gemini Breakout Raises AI Security Concerns"
+      }
+    },
     "14808": {
       "categories": [
         8
@@ -8761,7 +8931,7 @@
       "date_gmt": "2026-09-21T10:23:00",
       "id": 14882,
       "link": "https://zine.trevorion.io/googlebook-launches-with-five-models-from-899/",
-      "modified_gmt": "2026-09-23T06:59:23",
+      "modified_gmt": "2026-09-25T21:29:22",
       "slug": "googlebook-launches-with-five-models-from-899",
       "status": "publish",
       "tags": [
@@ -8783,7 +8953,7 @@
       "date_gmt": "2026-09-21T10:24:00",
       "id": 14884,
       "link": "https://zine.trevorion.io/mediatek-unveils-55-tops-googlebook-chip/",
-      "modified_gmt": "2026-09-23T07:17:45",
+      "modified_gmt": "2026-09-25T21:28:05",
       "slug": "mediatek-unveils-55-tops-googlebook-chip",
       "status": "publish",
       "tags": [
@@ -8816,6 +8986,370 @@
       ],
       "title": {
         "rendered": "631: The Glance 🍺️❤️"
+      }
+    },
+    "15009": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-09-24T10:30:00",
+      "id": 15009,
+      "link": "https://zine.trevorion.io/202609-24-1/",
+      "modified_gmt": "2026-09-24T19:00:21",
+      "slug": "202609-24-1",
+      "status": "publish",
+      "tags": [
+        1706,
+        1693,
+        8498,
+        8499
+      ],
+      "title": {
+        "rendered": "632: Savanna Scavenger 🪶🌅"
+      }
+    },
+    "15091": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-23T10:26:00",
+      "id": 15091,
+      "link": "https://zine.trevorion.io/gemini-adds-adobe-and-more-connected-apps/",
+      "modified_gmt": "2026-09-25T07:09:17",
+      "slug": "gemini-adds-adobe-and-more-connected-apps",
+      "status": "publish",
+      "tags": [
+        8522,
+        311,
+        326,
+        133,
+        846
+      ],
+      "title": {
+        "rendered": "Gemini Adds Adobe and More Connected Apps"
+      }
+    },
+    "15095": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-23T10:28:00",
+      "id": 15095,
+      "link": "https://zine.trevorion.io/claude-max-phishing-scam-targets-ai-users/",
+      "modified_gmt": "2026-09-25T21:25:16",
+      "slug": "claude-max-phishing-scam-targets-ai-users",
+      "status": "publish",
+      "tags": [
+        387,
+        8563,
+        8565,
+        311,
+        8566,
+        8564
+      ],
+      "title": {
+        "rendered": "Claude Max Phishing Scam Targets AI Users"
+      }
+    },
+    "15150": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-09-25T10:30:00",
+      "id": 15150,
+      "link": "https://zine.trevorion.io/20260925-1/",
+      "modified_gmt": "2026-09-25T17:58:30",
+      "slug": "20260925-1",
+      "status": "publish",
+      "tags": [
+        1734,
+        8575,
+        8576,
+        8577,
+        8578,
+        8574
+      ],
+      "title": {
+        "rendered": "633: Captain&#8217;s Respite ⚓🌅"
+      }
+    },
+    "15182": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:15:00",
+      "id": 15182,
+      "link": "https://zine.trevorion.io/meta-unveils-camera-free-ai-glasses-and-new-vr-wearables/",
+      "modified_gmt": "2026-09-25T21:43:21",
+      "slug": "meta-unveils-camera-free-ai-glasses-and-new-vr-wearables",
+      "status": "publish",
+      "tags": [
+        7465,
+        2111,
+        8596,
+        966,
+        327,
+        1021
+      ],
+      "title": {
+        "rendered": "Meta Unveils Camera-Free AI Glasses and New VR Wearables"
+      }
+    },
+    "15217": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:35:00",
+      "id": 15217,
+      "link": "https://zine.trevorion.io/meta-lets-users-build-mobile-games-with-ai-prompts/",
+      "modified_gmt": "2026-09-26T06:59:53",
+      "slug": "meta-lets-users-build-mobile-games-with-ai-prompts",
+      "status": "publish",
+      "tags": [
+        311,
+        2213,
+        8624,
+        8625,
+        143
+      ],
+      "title": {
+        "rendered": "Meta Lets Users Build Mobile Games With AI Prompts"
+      }
+    },
+    "15219": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:36:00",
+      "id": 15219,
+      "link": "https://zine.trevorion.io/__trashed/",
+      "modified_gmt": "2026-09-26T06:47:45",
+      "slug": "__trashed",
+      "status": "publish",
+      "tags": [
+        8626,
+        8629,
+        311,
+        326,
+        7119,
+        8628
+      ],
+      "title": {
+        "rendered": "Gemini in Chrome Adds Interactive Study Quizzes"
+      }
+    },
+    "15221": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:37:00",
+      "id": 15221,
+      "link": "https://zine.trevorion.io/razer-kiyo-v2-pro-adds-4k60-and-ai-framing/",
+      "modified_gmt": "2026-09-26T06:32:35",
+      "slug": "razer-kiyo-v2-pro-adds-4k60-and-ai-framing",
+      "status": "publish",
+      "tags": [
+        8632,
+        8633,
+        311,
+        8630,
+        2088,
+        8631
+      ],
+      "title": {
+        "rendered": "Razer Kiyo V2 Pro Adds 4K60 and AI Framing"
+      }
+    },
+    "15223": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:38:00",
+      "id": 15223,
+      "link": "https://zine.trevorion.io/eth-zurich-robot-hand-learns-to-walk-on-its-fingers/",
+      "modified_gmt": "2026-09-26T06:29:19",
+      "slug": "eth-zurich-robot-hand-learns-to-walk-on-its-fingers",
+      "status": "publish",
+      "tags": [
+        8639,
+        311,
+        8635,
+        8636,
+        8638
+      ],
+      "title": {
+        "rendered": "ETH Zurich Robot Hand Learns to Walk on Its Fingers"
+      }
+    },
+    "15225": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:39:00",
+      "id": 15225,
+      "link": "https://zine.trevorion.io/pixel-11-tests-gemini-calls-on-users-behalf/",
+      "modified_gmt": "2026-09-26T06:22:38",
+      "slug": "pixel-11-tests-gemini-calls-on-users-behalf",
+      "status": "publish",
+      "tags": [
+        190,
+        2023,
+        311,
+        326,
+        8068,
+        8640
+      ],
+      "title": {
+        "rendered": "Pixel 11 Tests Gemini Calls on Users&#8217; Behalf"
+      }
+    },
+    "15227": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:40:00",
+      "id": 15227,
+      "link": "https://zine.trevorion.io/google-prepares-first-project-suncatcher-ai-satellite/",
+      "modified_gmt": "2026-09-26T05:57:01",
+      "slug": "google-prepares-first-project-suncatcher-ai-satellite",
+      "status": "publish",
+      "tags": [
+        8580,
+        311,
+        133,
+        8645,
+        8642,
+        8644
+      ],
+      "title": {
+        "rendered": "Google Prepares First Project Suncatcher AI Satellite"
+      }
+    },
+    "15229": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:41:00",
+      "id": 15229,
+      "link": "https://zine.trevorion.io/snapdragon-sound-elite-gen-2-targets-ai-earbuds/",
+      "modified_gmt": "2026-09-26T05:50:51",
+      "slug": "snapdragon-sound-elite-gen-2-targets-ai-earbuds",
+      "status": "publish",
+      "tags": [
+        311,
+        8646,
+        8558,
+        1021
+      ],
+      "title": {
+        "rendered": "Snapdragon Sound Elite Gen 2 Targets AI Earbuds"
+      }
+    },
+    "15235": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:44:00",
+      "id": 15235,
+      "link": "https://zine.trevorion.io/adobe-brings-acrobat-tools-directly-into-claude/",
+      "modified_gmt": "2026-09-26T05:24:27",
+      "slug": "adobe-brings-acrobat-tools-directly-into-claude",
+      "status": "publish",
+      "tags": [
+        8653,
+        388,
+        311,
+        8652,
+        846
+      ],
+      "title": {
+        "rendered": "Adobe Brings Acrobat Tools Directly Into Claude"
+      }
+    },
+    "15237": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:45:00",
+      "id": 15237,
+      "link": "https://zine.trevorion.io/gemini-3-8-tts-adds-custom-voices-and-acting-controls/",
+      "modified_gmt": "2026-09-26T04:58:55",
+      "slug": "gemini-3-8-tts-adds-custom-voices-and-acting-controls",
+      "status": "publish",
+      "tags": [
+        311,
+        326,
+        8603,
+        6772,
+        7777
+      ],
+      "title": {
+        "rendered": "Gemini 3.8 TTS Adds Custom Voices and Acting Controls"
+      }
+    },
+    "15243": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:48:00",
+      "id": 15243,
+      "link": "https://zine.trevorion.io/google-opens-ai-video-generation-in-vids-to-everyone/",
+      "modified_gmt": "2026-09-26T05:23:48",
+      "slug": "google-opens-ai-video-generation-in-vids-to-everyone",
+      "status": "publish",
+      "tags": [
+        938,
+        7952,
+        311,
+        381,
+        977
+      ],
+      "title": {
+        "rendered": "Google Opens AI Video Generation in Vids to Everyone"
+      }
+    },
+    "15245": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:49:00",
+      "id": 15245,
+      "link": "https://zine.trevorion.io/meta-muse-charm-puts-ai-on-a-keychain/",
+      "modified_gmt": "2026-09-25T21:23:47",
+      "slug": "meta-muse-charm-puts-ai-on-a-keychain",
+      "status": "publish",
+      "tags": [
+        311,
+        8658,
+        143,
+        7465,
+        8599,
+        1258
+      ],
+      "title": {
+        "rendered": "Meta Muse Charm Puts AI on a Keychain"
+      }
+    },
+    "15247": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-24T10:50:00",
+      "id": 15247,
+      "link": "https://zine.trevorion.io/meta-launches-smart-glasses-collection-designed-by-lisa/",
+      "modified_gmt": "2026-09-26T04:36:06",
+      "slug": "meta-launches-smart-glasses-collection-designed-by-lisa",
+      "status": "publish",
+      "tags": [
+        311,
+        7754,
+        4139,
+        8659,
+        966,
+        1021
+      ],
+      "title": {
+        "rendered": "Meta Launches Smart Glasses Collection Designed by LISA"
       }
     },
     "1808": {
@@ -67611,6 +68145,14 @@
       "id": 849,
       "name": "#CloudComputing"
     },
+    "8498": {
+      "id": 8498,
+      "name": "#LappetFacedVulture"
+    },
+    "8499": {
+      "id": 8499,
+      "name": "#TorgosTracheliotos"
+    },
     "85": {
       "id": 85,
       "name": "#AI"
@@ -67627,6 +68169,10 @@
       "id": 852,
       "name": "#GiottoAI"
     },
+    "8522": {
+      "id": 8522,
+      "name": "#ConnectedApps"
+    },
     "853": {
       "id": 853,
       "name": "#Startups"
@@ -67639,17 +68185,73 @@
       "id": 855,
       "name": "#AIResearch"
     },
+    "8558": {
+      "id": 8558,
+      "name": "#SnapdragonSound"
+    },
     "856": {
       "id": 856,
       "name": "#BankOfEngland"
+    },
+    "8563": {
+      "id": 8563,
+      "name": "#ClaudeMax"
+    },
+    "8564": {
+      "id": 8564,
+      "name": "#Phishing"
+    },
+    "8565": {
+      "id": 8565,
+      "name": "#CredentialTheft"
+    },
+    "8566": {
+      "id": 8566,
+      "name": "#OnlineScams"
     },
     "857": {
       "id": 857,
       "name": "#Finance"
     },
+    "8573": {
+      "id": 8573,
+      "name": "#AIHack"
+    },
+    "8574": {
+      "id": 8574,
+      "name": "#WarGalleon"
+    },
+    "8575": {
+      "id": 8575,
+      "name": "#Lantern"
+    },
+    "8576": {
+      "id": 8576,
+      "name": "#Stern"
+    },
+    "8577": {
+      "id": 8577,
+      "name": "#SwivelGun"
+    },
+    "8578": {
+      "id": 8578,
+      "name": "#Taffrail"
+    },
     "858": {
       "id": 858,
       "name": "#DataScience"
+    },
+    "8580": {
+      "id": 8580,
+      "name": "#Datacenter"
+    },
+    "8596": {
+      "id": 8596,
+      "name": "#RayBanMeta"
+    },
+    "8599": {
+      "id": 8599,
+      "name": "#MuseCharm"
     },
     "86": {
       "id": 86,
@@ -67659,17 +68261,109 @@
       "id": 860,
       "name": "#FallAnime2025"
     },
+    "8603": {
+      "id": 8603,
+      "name": "#TextToSpeech"
+    },
     "862": {
       "id": 862,
       "name": "#Variety"
+    },
+    "8624": {
+      "id": 8624,
+      "name": "#HorizonCreate"
+    },
+    "8625": {
+      "id": 8625,
+      "name": "#HorizonStudio"
+    },
+    "8626": {
+      "id": 8626,
+      "name": "#AIStudy"
+    },
+    "8628": {
+      "id": 8628,
+      "name": "#InteractiveQuiz"
+    },
+    "8629": {
+      "id": 8629,
+      "name": "#BrowserTools"
+    },
+    "8630": {
+      "id": 8630,
+      "name": "#KiyoV2Pro"
+    },
+    "8631": {
+      "id": 8631,
+      "name": "#Webcam"
+    },
+    "8632": {
+      "id": 8632,
+      "name": "#AutoFraming"
+    },
+    "8633": {
+      "id": 8633,
+      "name": "#CreatorTech"
+    },
+    "8635": {
+      "id": 8635,
+      "name": "#ETHZurich"
+    },
+    "8636": {
+      "id": 8636,
+      "name": "#RobotHand"
+    },
+    "8638": {
+      "id": 8638,
+      "name": "#SoftRobotics"
+    },
+    "8639": {
+      "id": 8639,
+      "name": "#AutonomousRobots"
     },
     "864": {
       "id": 864,
       "name": "#AnimeEcosystem"
     },
+    "8640": {
+      "id": 8640,
+      "name": "#Pixel11"
+    },
+    "8642": {
+      "id": 8642,
+      "name": "#ProjectSuncatcher"
+    },
+    "8644": {
+      "id": 8644,
+      "name": "#TPU"
+    },
+    "8645": {
+      "id": 8645,
+      "name": "#OrbitalAI"
+    },
+    "8646": {
+      "id": 8646,
+      "name": "#SmartEarbuds"
+    },
     "865": {
       "id": 865,
       "name": "#Mocopi"
+    },
+    "8652": {
+      "id": 8652,
+      "name": "#PDFEditing"
+    },
+    "8653": {
+      "id": 8653,
+      "name": "#AdobeExpress"
+    },
+    "8658": {
+      "id": 8658,
+      "name": "#KeychainTech"
+    },
+    "8659": {
+      "id": 8659,
+      "name": "#MetaGlasses"
     },
     "866": {
       "id": 866,
@@ -67686,6 +68380,18 @@
     "869": {
       "id": 869,
       "name": "#Animeta"
+    },
+    "8690": {
+      "id": 8690,
+      "name": "#NoBigDeal"
+    },
+    "8691": {
+      "id": 8691,
+      "name": "#AISitcom"
+    },
+    "8692": {
+      "id": 8692,
+      "name": "#Review"
     },
     "87": {
       "id": 87,

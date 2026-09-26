@@ -1,8 +1,128 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/meta-launches-smart-glasses-collection-designed-by-lisa/</loc>
+    <lastmod>2026-09-26T04:36:06Z</lastmod>
+    <meta:title>Meta Launches Smart Glasses Collection Designed by LISA</meta:title>
+    <meta:published>2026-09-24T10:50:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#DigitalTrends", "#FashionTech", "#Lisa", "#MetaGlasses", "#SmartGlasses", "#WearableTech"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/meta-muse-charm-puts-ai-on-a-keychain/</loc>
+    <lastmod>2026-09-25T21:23:47Z</lastmod>
+    <meta:title>Meta Muse Charm Puts AI on a Keychain</meta:title>
+    <meta:published>2026-09-24T10:49:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#DigitalTrends", "#KeychainTech", "#Meta", "#MuseAI", "#MuseCharm", "#WearableAI"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/google-opens-ai-video-generation-in-vids-to-everyone/</loc>
+    <lastmod>2026-09-26T05:23:48Z</lastmod>
+    <meta:title>Google Opens AI Video Generation in Vids to Everyone</meta:title>
+    <meta:published>2026-09-24T10:48:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIVideo", "#CreatorTools", "#DigitalTrends", "#GoogleVids", "#VideoGeneration"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/gemini-3-8-tts-adds-custom-voices-and-acting-controls/</loc>
+    <lastmod>2026-09-26T04:58:55Z</lastmod>
+    <meta:title>Gemini 3.8 TTS Adds Custom Voices and Acting Controls</meta:title>
+    <meta:published>2026-09-24T10:45:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#DigitalTrends", "#Gemini", "#TextToSpeech", "#VoiceAI", "#VoiceCloning"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/adobe-brings-acrobat-tools-directly-into-claude/</loc>
+    <lastmod>2026-09-26T05:24:27Z</lastmod>
+    <meta:title>Adobe Brings Acrobat Tools Directly Into Claude</meta:title>
+    <meta:published>2026-09-24T10:44:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AdobeExpress", "#Claude", "#DigitalTrends", "#PDFEditing", "#Productivity"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/snapdragon-sound-elite-gen-2-targets-ai-earbuds/</loc>
+    <lastmod>2026-09-26T05:50:51Z</lastmod>
+    <meta:title>Snapdragon Sound Elite Gen 2 Targets AI Earbuds</meta:title>
+    <meta:published>2026-09-24T10:41:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#DigitalTrends", "#SmartEarbuds", "#SnapdragonSound", "#WearableTech"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/google-prepares-first-project-suncatcher-ai-satellite/</loc>
+    <lastmod>2026-09-26T05:57:01Z</lastmod>
+    <meta:title>Google Prepares First Project Suncatcher AI Satellite</meta:title>
+    <meta:published>2026-09-24T10:40:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Datacenter", "#DigitalTrends", "#Google", "#OrbitalAI", "#ProjectSuncatcher", "#TPU"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/pixel-11-tests-gemini-calls-on-users-behalf/</loc>
+    <lastmod>2026-09-26T06:22:38Z</lastmod>
+    <meta:title>Pixel 11 Tests Gemini Calls on Users’ Behalf</meta:title>
+    <meta:published>2026-09-24T10:39:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIAgents", "#Android", "#DigitalTrends", "#Gemini", "#PhoneCalls", "#Pixel11"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/eth-zurich-robot-hand-learns-to-walk-on-its-fingers/</loc>
+    <lastmod>2026-09-26T06:29:19Z</lastmod>
+    <meta:title>ETH Zurich Robot Hand Learns to Walk on Its Fingers</meta:title>
+    <meta:published>2026-09-24T10:38:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AutonomousRobots", "#DigitalTrends", "#ETHZurich", "#RobotHand", "#SoftRobotics"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/razer-kiyo-v2-pro-adds-4k60-and-ai-framing/</loc>
+    <lastmod>2026-09-26T06:32:35Z</lastmod>
+    <meta:title>Razer Kiyo V2 Pro Adds 4K60 and AI Framing</meta:title>
+    <meta:published>2026-09-24T10:37:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AutoFraming", "#CreatorTech", "#DigitalTrends", "#KiyoV2Pro", "#Razer", "#Webcam"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/__trashed/</loc>
+    <lastmod>2026-09-26T06:47:45Z</lastmod>
+    <meta:title>Gemini in Chrome Adds Interactive Study Quizzes</meta:title>
+    <meta:published>2026-09-24T10:36:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIStudy", "#BrowserTools", "#DigitalTrends", "#Gemini", "#GoogleChrome", "#InteractiveQuiz"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/meta-lets-users-build-mobile-games-with-ai-prompts/</loc>
+    <lastmod>2026-09-26T06:59:53Z</lastmod>
+    <meta:title>Meta Lets Users Build Mobile Games With AI Prompts</meta:title>
+    <meta:published>2026-09-24T10:35:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#DigitalTrends", "#GameDevelopment", "#HorizonCreate", "#HorizonStudio", "#Meta"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/meta-unveils-camera-free-ai-glasses-and-new-vr-wearables/</loc>
+    <lastmod>2026-09-25T21:43:21Z</lastmod>
+    <meta:title>Meta Unveils Camera-Free AI Glasses and New VR Wearables</meta:title>
+    <meta:published>2026-09-24T10:15:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#MuseAI", "#Privacy", "#RayBanMeta", "#SmartGlasses", "#TheGuardian", "#WearableTech"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/claude-max-phishing-scam-targets-ai-users/</loc>
+    <lastmod>2026-09-25T21:25:16Z</lastmod>
+    <meta:title>Claude Max Phishing Scam Targets AI Users</meta:title>
+    <meta:published>2026-09-23T10:28:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Anthropic", "#ClaudeMax", "#CredentialTheft", "#DigitalTrends", "#OnlineScams", "#Phishing"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/gemini-adds-adobe-and-more-connected-apps/</loc>
+    <lastmod>2026-09-25T07:09:17Z</lastmod>
+    <meta:title>Gemini Adds Adobe and More Connected Apps</meta:title>
+    <meta:published>2026-09-23T10:26:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#ConnectedApps", "#DigitalTrends", "#Gemini", "#Google", "#Productivity"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/mediatek-unveils-55-tops-googlebook-chip/</loc>
-    <lastmod>2026-09-23T07:17:45Z</lastmod>
+    <lastmod>2026-09-25T21:28:05Z</lastmod>
     <meta:title>MediaTek Unveils 55-TOPS Googlebook Chip</meta:title>
     <meta:published>2026-09-21T10:24:00Z</meta:published>
     <meta:category>News</meta:category>
@@ -10,11 +130,19 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/googlebook-launches-with-five-models-from-899/</loc>
-    <lastmod>2026-09-23T06:59:23Z</lastmod>
+    <lastmod>2026-09-25T21:29:22Z</lastmod>
     <meta:title>Googlebook Launches With Five Models From $899</meta:title>
     <meta:published>2026-09-21T10:23:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AITechnology", "#Android", "#Chrome", "#DigitalTrends", "#Googlebook", "#TechNews"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/google-gemini-breakout-raises-ai-security-concerns/</loc>
+    <lastmod>2026-09-25T07:35:47Z</lastmod>
+    <meta:title>Google Gemini Breakout Raises AI Security Concerns</meta:title>
+    <meta:published>2026-09-20T10:00:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIHack", "#AIModels", "#Cybersecurity", "#Gemini", "#Reuters"]</meta:tags>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ai-hallucination-nearly-triggered-us-military-action/</loc>
@@ -55,6 +183,14 @@
     <meta:published>2026-09-19T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CharacterTrailer", "#Crunchyroll", "#Grid", "#JCStaff", "#Overgeared", "#Yura"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/ai-leaders-debate-how-to-pace-frontier-development/</loc>
+    <lastmod>2026-09-26T08:01:48Z</lastmod>
+    <meta:title>AI Leaders Debate How to Pace Frontier Development</meta:title>
+    <meta:published>2026-09-18T10:16:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIGovernance", "#AIRegulation", "#AISafety", "#Anthropic", "#JensenHuang", "#TechCrunch"]</meta:tags>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ai-agents-can-now-operate-google-home-devices/</loc>
@@ -98,7 +234,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/reborn-as-a-space-mercenary-anime-sets-october-4-premiere/</loc>
-    <lastmod>2026-09-19T18:23:09Z</lastmod>
+    <lastmod>2026-09-25T23:27:26Z</lastmod>
     <meta:title>Reborn as a Space Mercenary Anime Sets October 4 Premiere</meta:title>
     <meta:published>2026-09-15T10:24:00Z</meta:published>
     <meta:category>News</meta:category>
@@ -119,6 +255,14 @@
     <meta:published>2026-09-15T10:23:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIAgents", "#AIHotline", "#Cybersecurity", "#DigitalPolicy", "#TechCrunch"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/no-big-deal-review-is-this-how-ai-ends-humanity-with-a-sitcom-so-bad-it-bores-you-to-death/</loc>
+    <lastmod>2026-09-26T07:12:58Z</lastmod>
+    <meta:title>No Big Deal review – is this how AI ends humanity … with a sitcom so bad it bores you to death?</meta:title>
+    <meta:published>2026-09-15T10:14:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIActor", "#AISitcom", "#NoBigDeal", "#Review", "#TheGuardian"]</meta:tags>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ace-of-diamond-second-cour-reveals-theme-songs/</loc>
@@ -394,7 +538,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/ai-designed-drug-shows-preliminary-anti-aging-signal/</loc>
-    <lastmod>2026-09-10T15:33:22Z</lastmod>
+    <lastmod>2026-09-26T04:30:52Z</lastmod>
     <meta:title>AI-Designed Drug Shows Preliminary Anti-Aging Signal</meta:title>
     <meta:published>2026-09-08T10:17:00Z</meta:published>
     <meta:category>News</meta:category>
@@ -449,6 +593,14 @@
     <meta:tags>["#AIInfrastructure", "#EuropeanAI", "#MistralAI", "#SovereignAI", "#TechCrunch", "#TechFunding"]</meta:tags>
   </url>
   <url>
+    <loc>https://zine.trevorion.io/google-cloud-and-accenture-form-enterprise-ai-deployment-unit/</loc>
+    <lastmod>2026-09-25T07:53:22Z</lastmod>
+    <meta:title>Google Cloud and Accenture Form Enterprise AI Deployment Unit</meta:title>
+    <meta:published>2026-09-08T10:09:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Accenture", "#EnterpriseAI", "#GeminiEnterprise", "#GoogleCloud", "#TechCrunch"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/cognition-raises-2b-at-48b-valuation/</loc>
     <lastmod>2026-09-18T20:52:46Z</lastmod>
     <meta:title>Cognition Raises $2B at $48B Valuation</meta:title>
@@ -473,6 +625,14 @@
     <meta:tags>["#Crunchyroll", "#FelixFilm", "#KeyVisual", "#SecretSaint", "#Trailer"]</meta:tags>
   </url>
   <url>
+    <loc>https://zine.trevorion.io/hikers-rescued-after-relying-on-gemini-for-mount-shasta-plan/</loc>
+    <lastmod>2026-09-25T08:10:21Z</lastmod>
+    <meta:title>Hikers Rescued After Relying on Gemini for Mount Shasta Plan</meta:title>
+    <meta:published>2026-09-06T10:05:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AISafety", "#DigitalTrends", "#GoogleGemini", "#MountShasta", "#TripPlanning"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/persona-4-revival-character-videos-spotlight-investigation-team/</loc>
     <lastmod>2026-09-11T05:14:19Z</lastmod>
     <meta:title>Persona 4 Revival Character Videos Spotlight Investigation Team</meta:title>
@@ -487,6 +647,14 @@
     <meta:published>2026-09-06T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIEducation", "#DigitalLearning", "#FutureSkills", "#Parenting", "#TheGuardian"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/google-brings-lyria-3-5-ai-music-to-gemini/</loc>
+    <lastmod>2026-09-25T08:17:33Z</lastmod>
+    <meta:title>Google Brings Lyria 3.5 AI Music to Gemini</meta:title>
+    <meta:published>2026-09-05T10:13:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#DigitalTrends", "#GoogleGemini", "#Lyria35", "#MusicGeneration", "#SynthID"]</meta:tags>
   </url>
   <url>
     <loc>https://zine.trevorion.io/star-detective-precure-film-reveals-miracle-light-trailer-and-future-forms/</loc>
@@ -570,7 +738,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/boya-introduces-smaller-lower-cost-ai-notetaker/</loc>
-    <lastmod>2026-09-06T07:29:09Z</lastmod>
+    <lastmod>2026-09-26T04:34:22Z</lastmod>
     <meta:title>Boya Introduces Smaller Lower-Cost AI Notetaker</meta:title>
     <meta:published>2026-09-04T10:18:00Z</meta:published>
     <meta:category>News</meta:category>
