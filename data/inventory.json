@@ -991,7 +991,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-09-26T08:15:10Z",
+  "last_sync": "2026-09-28T09:17:08Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -8652,7 +8652,7 @@
       "date_gmt": "2026-09-18T10:16:00",
       "id": 14562,
       "link": "https://zine.trevorion.io/ai-leaders-debate-how-to-pace-frontier-development/",
-      "modified_gmt": "2026-09-26T08:01:48",
+      "modified_gmt": "2026-09-26T08:39:27",
       "slug": "ai-leaders-debate-how-to-pace-frontier-development",
       "status": "publish",
       "tags": [
@@ -9350,6 +9350,176 @@
       ],
       "title": {
         "rendered": "Meta Launches Smart Glasses Collection Designed by LISA"
+      }
+    },
+    "15442": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2025-06-23T10:00:00",
+      "id": 15442,
+      "link": "https://zine.trevorion.io/john-oliver-warns-ai-slop-is-corroding-online-reality/",
+      "modified_gmt": "2026-09-26T08:47:13",
+      "slug": "john-oliver-warns-ai-slop-is-corroding-online-reality",
+      "status": "publish",
+      "tags": [
+        1261,
+        8693,
+        8694,
+        1208,
+        327
+      ],
+      "title": {
+        "rendered": "John Oliver Warns AI Slop Is Corroding Online Reality"
+      }
+    },
+    "15469": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-09-26T10:30:00",
+      "id": 15469,
+      "link": "https://zine.trevorion.io/20260926-1/",
+      "modified_gmt": "2026-09-26T21:40:52",
+      "slug": "20260926-1",
+      "status": "publish",
+      "tags": [
+        8695,
+        8697,
+        1744,
+        1746,
+        8696
+      ],
+      "title": {
+        "rendered": "634: White-Faced Capuchin 🐒🌿"
+      }
+    },
+    "15584": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-26T10:02:00",
+      "id": 15584,
+      "link": "https://zine.trevorion.io/vampire-princess-miyu-blu-ray-packaging-gets-approved-artwork/",
+      "modified_gmt": "2026-09-28T07:16:53",
+      "slug": "vampire-princess-miyu-blu-ray-packaging-gets-approved-artwork",
+      "status": "publish",
+      "tags": [
+        3971,
+        358,
+        4647,
+        8770,
+        8768
+      ],
+      "title": {
+        "rendered": "Vampire Princess Miyu Blu-ray Packaging Gets Approved Artwork"
+      }
+    },
+    "15586": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-26T10:03:00",
+      "id": 15586,
+      "link": "https://zine.trevorion.io/magical-explorer-highlights-yukine-in-new-character-trailer/",
+      "modified_gmt": "2026-09-28T07:10:27",
+      "slug": "magical-explorer-highlights-yukine-in-new-character-trailer",
+      "status": "publish",
+      "tags": [
+        358,
+        243,
+        4522,
+        244,
+        697
+      ],
+      "title": {
+        "rendered": "Magical Explorer Highlights Yukine in New Character Trailer"
+      }
+    },
+    "15590": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-26T10:05:00",
+      "id": 15590,
+      "link": "https://zine.trevorion.io/code-geass-star-chaser-aspal-teaser-confirms-2027-debut/",
+      "modified_gmt": "2026-09-28T06:46:19",
+      "slug": "code-geass-star-chaser-aspal-teaser-confirms-2027-debut",
+      "status": "publish",
+      "tags": [
+        358,
+        8706,
+        243,
+        8707,
+        640,
+        218
+      ],
+      "title": {
+        "rendered": "Code Geass Star Chaser Aspal Teaser Confirms 2027 Debut"
+      }
+    },
+    "15607": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-26T10:08:00",
+      "id": 15607,
+      "link": "https://zine.trevorion.io/techcrunch-reporter-builds-interactive-synthesia-ai-avatar/",
+      "modified_gmt": "2026-09-28T06:32:47",
+      "slug": "techcrunch-reporter-builds-interactive-synthesia-ai-avatar",
+      "status": "publish",
+      "tags": [
+        617,
+        8789,
+        496,
+        8787,
+        1921
+      ],
+      "title": {
+        "rendered": "TechCrunch Reporter Builds Interactive Synthesia AI Avatar"
+      }
+    },
+    "15619": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-26T10:14:00",
+      "id": 15619,
+      "link": "https://zine.trevorion.io/walmart-says-ai-will-not-set-personalized-prices/",
+      "modified_gmt": "2026-09-28T05:56:26",
+      "slug": "walmart-says-ai-will-not-set-personalized-prices",
+      "status": "publish",
+      "tags": [
+        8796,
+        311,
+        8794,
+        8795,
+        8793
+      ],
+      "title": {
+        "rendered": "Walmart Says AI Will Not Set Personalized Prices"
+      }
+    },
+    "15621": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-09-27T10:30:00",
+      "id": 15621,
+      "link": "https://zine.trevorion.io/20260927-1/",
+      "modified_gmt": "2026-09-27T19:58:30",
+      "slug": "20260927-1",
+      "status": "publish",
+      "tags": [
+        8800,
+        1863,
+        8798,
+        8799,
+        3806,
+        830
+      ],
+      "title": {
+        "rendered": "635: The Brougham 🐎🎩"
       }
     },
     "1808": {
@@ -68393,6 +68563,26 @@
       "id": 8692,
       "name": "#Review"
     },
+    "8693": {
+      "id": 8693,
+      "name": "#JohnOliver"
+    },
+    "8694": {
+      "id": 8694,
+      "name": "#LastWeekTonight"
+    },
+    "8695": {
+      "id": 8695,
+      "name": "#CebusCapucinus"
+    },
+    "8696": {
+      "id": 8696,
+      "name": "#TreeDweller"
+    },
+    "8697": {
+      "id": 8697,
+      "name": "#Monkey"
+    },
     "87": {
       "id": 87,
       "name": "#ChatGPT"
@@ -68400,6 +68590,14 @@
     "870": {
       "id": 870,
       "name": "#WebProNews"
+    },
+    "8706": {
+      "id": 8706,
+      "name": "#CodeGeass"
+    },
+    "8707": {
+      "id": 8707,
+      "name": "#StarChaserAspal"
     },
     "872": {
       "id": 872,
@@ -68417,13 +68615,53 @@
       "id": 875,
       "name": "#AIPolicy"
     },
+    "8768": {
+      "id": 8768,
+      "name": "#VampirePrincessMiyu"
+    },
+    "8770": {
+      "id": 8770,
+      "name": "#PonyCanyon"
+    },
     "878": {
       "id": 878,
       "name": "#LawEducation"
     },
+    "8787": {
+      "id": 8787,
+      "name": "#Synthesia"
+    },
+    "8789": {
+      "id": 8789,
+      "name": "#DigitalTwin"
+    },
     "879": {
       "id": 879,
       "name": "#SportsAnime"
+    },
+    "8793": {
+      "id": 8793,
+      "name": "#WalmartSparky"
+    },
+    "8794": {
+      "id": 8794,
+      "name": "#PersonalizedPricing"
+    },
+    "8795": {
+      "id": 8795,
+      "name": "#RetailAI"
+    },
+    "8796": {
+      "id": 8796,
+      "name": "#ConsumerPrivacy"
+    },
+    "8798": {
+      "id": 8798,
+      "name": "#Coachman"
+    },
+    "8799": {
+      "id": 8799,
+      "name": "#HorseDrawn"
     },
     "88": {
       "id": 88,
@@ -68432,6 +68670,10 @@
     "880": {
       "id": 880,
       "name": "#ComicBook"
+    },
+    "8800": {
+      "id": 8800,
+      "name": "#19thC"
     },
     "882": {
       "id": 882,

@@ -1,6 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/20260927-1/</loc>
+    <lastmod>2026-09-27T19:58:30Z</lastmod>
+    <meta:title>635: The Brougham 🐎🎩</meta:title>
+    <meta:published>2026-09-27T10:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#19thC", "#Carriage", "#Coachman", "#HorseDrawn", "#Transport", "#VictorianEra"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/20260926-1/</loc>
+    <lastmod>2026-09-26T21:40:52Z</lastmod>
+    <meta:title>634: White-Faced Capuchin 🐒🌿</meta:title>
+    <meta:published>2026-09-26T10:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#CebusCapucinus", "#Monkey", "#Primate", "#Rainforest", "#TreeDweller"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/20260925-1/</loc>
     <lastmod>2026-09-25T17:58:30Z</lastmod>
     <meta:title>633: Captain’s Respite ⚓🌅</meta:title>

@@ -3,7 +3,7 @@
   <!--2026-->
   <sitemap>
     <loc>https://sitemap.trevorion.io/zine/news/2026-09.xml</loc>
-    <lastmod>2026-09-26T08:01:48Z</lastmod>
+    <lastmod>2026-09-28T07:16:53Z</lastmod>
     <meta:title>September 2026</meta:title>
     <meta:section>News</meta:section>
   </sitemap>
@@ -84,6 +84,12 @@
     <loc>https://sitemap.trevorion.io/zine/news/2025-07.xml</loc>
     <lastmod>2026-01-10T18:10:08Z</lastmod>
     <meta:title>July 2025</meta:title>
+    <meta:section>News</meta:section>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.trevorion.io/zine/news/2025-06.xml</loc>
+    <lastmod>2026-09-26T08:47:13Z</lastmod>
+    <meta:title>June 2025</meta:title>
     <meta:section>News</meta:section>
   </sitemap>
   <sitemap>
