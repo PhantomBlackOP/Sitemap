@@ -991,7 +991,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-09-28T09:17:08Z",
+  "last_sync": "2026-09-29T09:24:30Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -6385,6 +6385,28 @@
         "rendered": "617: Saeko Nogami 🌃🚓"
       }
     },
+    "12735": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-08T10:06:00",
+      "id": 12735,
+      "link": "https://zine.trevorion.io/atelier-karia-launches-worldwide-february-25/",
+      "modified_gmt": "2026-09-29T08:55:00",
+      "slug": "atelier-karia-launches-worldwide-february-25",
+      "status": "publish",
+      "tags": [
+        7073,
+        152,
+        7072,
+        243,
+        422,
+        244
+      ],
+      "title": {
+        "rendered": "Atelier Karia Launches Worldwide February 25"
+      }
+    },
     "12745": {
       "categories": [
         137
@@ -9394,6 +9416,27 @@
         "rendered": "634: White-Faced Capuchin 🐒🌿"
       }
     },
+    "15583": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-26T10:01:00",
+      "id": 15583,
+      "link": "https://zine.trevorion.io/the-fake-alchemist-reveals-main-cast-and-production-staff/",
+      "modified_gmt": "2026-09-29T08:47:30",
+      "slug": "the-fake-alchemist-reveals-main-cast-and-production-staff",
+      "status": "publish",
+      "tags": [
+        262,
+        243,
+        413,
+        4097,
+        8702
+      ],
+      "title": {
+        "rendered": "The Fake Alchemist Reveals Main Cast and Production Staff"
+      }
+    },
     "15584": {
       "categories": [
         137
@@ -9520,6 +9563,156 @@
       ],
       "title": {
         "rendered": "635: The Brougham 🐎🎩"
+      }
+    },
+    "15675": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-09-28T10:30:00",
+      "id": 15675,
+      "link": "https://zine.trevorion.io/20260928-1/",
+      "modified_gmt": "2026-09-28T21:36:53",
+      "slug": "20260928-1",
+      "status": "publish",
+      "tags": [
+        36,
+        8801,
+        8803,
+        5971,
+        4340,
+        8802,
+        1684
+      ],
+      "title": {
+        "rendered": "636: Windsurfing 🌊💨"
+      }
+    },
+    "15684": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-27T10:03:00",
+      "id": 15684,
+      "link": "https://zine.trevorion.io/mushoku-tensei-season-3-cour-2-set-for-2027/",
+      "modified_gmt": "2026-09-29T08:34:29",
+      "slug": "mushoku-tensei-season-3-cour-2-set-for-2027",
+      "status": "publish",
+      "tags": [
+        152,
+        4067,
+        243,
+        2224,
+        218
+      ],
+      "title": {
+        "rendered": "Mushoku Tensei Season 3 Cour 2 Set for 2027"
+      }
+    },
+    "15686": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-27T10:04:00",
+      "id": 15686,
+      "link": "https://zine.trevorion.io/monster-strike-launches-mera-x-death-anime-in-january-2027/",
+      "modified_gmt": "2026-09-29T08:08:48",
+      "slug": "monster-strike-launches-mera-x-death-anime-in-january-2027",
+      "status": "publish",
+      "tags": [
+        152,
+        8812,
+        8813,
+        8811,
+        209,
+        5495
+      ],
+      "title": {
+        "rendered": "Monster Strike Launches Mera x Death Anime in January 2027"
+      }
+    },
+    "15690": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-27T10:06:00",
+      "id": 15690,
+      "link": "https://zine.trevorion.io/millennium-family-casts-lynn-as-eve-benfield/",
+      "modified_gmt": "2026-09-29T08:03:15",
+      "slug": "millennium-family-casts-lynn-as-eve-benfield",
+      "status": "publish",
+      "tags": [
+        3851,
+        152,
+        8805,
+        4387,
+        4391
+      ],
+      "title": {
+        "rendered": "Millennium Family Casts Lynn as Eve Benfield"
+      }
+    },
+    "15692": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-27T10:07:00",
+      "id": 15692,
+      "link": "https://zine.trevorion.io/iruma-kun-theatrical-film-project-announced/",
+      "modified_gmt": "2026-09-29T07:54:04",
+      "slug": "iruma-kun-theatrical-film-project-announced",
+      "status": "publish",
+      "tags": [
+        262,
+        8809,
+        8814,
+        8806,
+        8807
+      ],
+      "title": {
+        "rendered": "Iruma-kun Theatrical Film Project Announced"
+      }
+    },
+    "15714": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-27T10:10:00",
+      "id": 15714,
+      "link": "https://zine.trevorion.io/snl-parodies-anthropic-ceo-dario-amodei/",
+      "modified_gmt": "2026-09-29T06:02:16",
+      "slug": "snl-parodies-anthropic-ceo-dario-amodei",
+      "status": "publish",
+      "tags": [
+        387,
+        1418,
+        7624,
+        8828,
+        1921
+      ],
+      "title": {
+        "rendered": "SNL Parodies Anthropic CEO Dario Amodei"
+      }
+    },
+    "15732": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-04-27T10:00:00",
+      "id": 15732,
+      "link": "https://zine.trevorion.io/john-oliver-warns-ai-chatbots-are-built-for-engagement-not-friendship/",
+      "modified_gmt": "2026-09-29T06:24:31",
+      "slug": "john-oliver-warns-ai-chatbots-are-built-for-engagement-not-friendship",
+      "status": "publish",
+      "tags": [
+        6939,
+        8693,
+        8694,
+        6711,
+        327
+      ],
+      "title": {
+        "rendered": "John Oliver Warns AI Chatbots Are Built for Engagement, Not Friendship"
       }
     },
     "1808": {
@@ -19116,7 +19309,7 @@
       "date_gmt": "2026-01-10T11:07:00",
       "id": 4668,
       "link": "https://zine.trevorion.io/mushoku-tensei-season-3-sets-july-2026-premiere-with-new-visual-and-mobile-game/",
-      "modified_gmt": "2026-01-10T19:04:37",
+      "modified_gmt": "2026-09-29T08:30:36",
       "slug": "mushoku-tensei-season-3-sets-july-2026-premiere-with-new-visual-and-mobile-game",
       "status": "publish",
       "tags": [
@@ -68591,6 +68784,10 @@
       "id": 870,
       "name": "#WebProNews"
     },
+    "8702": {
+      "id": 8702,
+      "name": "#TheFakeAlchemist"
+    },
     "8706": {
       "id": 8706,
       "name": "#CodeGeass"
@@ -68675,9 +68872,57 @@
       "id": 8800,
       "name": "#19thC"
     },
+    "8801": {
+      "id": 8801,
+      "name": "#Sail"
+    },
+    "8802": {
+      "id": 8802,
+      "name": "#Surfboard"
+    },
+    "8803": {
+      "id": 8803,
+      "name": "#SeaSport"
+    },
+    "8805": {
+      "id": 8805,
+      "name": "#EveBenfield"
+    },
+    "8806": {
+      "id": 8806,
+      "name": "#IrumaKun"
+    },
+    "8807": {
+      "id": 8807,
+      "name": "#TheatricalProject"
+    },
+    "8809": {
+      "id": 8809,
+      "name": "#DemonSchool"
+    },
+    "8811": {
+      "id": 8811,
+      "name": "#MonsterStrike"
+    },
+    "8812": {
+      "id": 8812,
+      "name": "#MeraDeath"
+    },
+    "8813": {
+      "id": 8813,
+      "name": "#MIXI"
+    },
+    "8814": {
+      "id": 8814,
+      "name": "#DevilsParty"
+    },
     "882": {
       "id": 882,
       "name": "#BlueLock"
+    },
+    "8828": {
+      "id": 8828,
+      "name": "#SaturdayNightLive"
     },
     "883": {
       "id": 883,

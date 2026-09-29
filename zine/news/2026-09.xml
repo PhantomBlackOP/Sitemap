@@ -1,6 +1,46 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/snl-parodies-anthropic-ceo-dario-amodei/</loc>
+    <lastmod>2026-09-29T06:02:16Z</lastmod>
+    <meta:title>SNL Parodies Anthropic CEO Dario Amodei</meta:title>
+    <meta:published>2026-09-27T10:10:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Anthropic", "#Comedy", "#DarioAmodei", "#SaturdayNightLive", "#TechCrunch"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/iruma-kun-theatrical-film-project-announced/</loc>
+    <lastmod>2026-09-29T07:54:04Z</lastmod>
+    <meta:title>Iruma-kun Theatrical Film Project Announced</meta:title>
+    <meta:published>2026-09-27T10:07:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeCorner", "#DemonSchool", "#DevilsParty", "#IrumaKun", "#TheatricalProject"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/millennium-family-casts-lynn-as-eve-benfield/</loc>
+    <lastmod>2026-09-29T08:03:15Z</lastmod>
+    <meta:title>Millennium Family Casts Lynn as Eve Benfield</meta:title>
+    <meta:published>2026-09-27T10:06:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeCast", "#AnimeNewsNetwork", "#EveBenfield", "#MillenniumFamily", "#PartsCraft"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/monster-strike-launches-mera-x-death-anime-in-january-2027/</loc>
+    <lastmod>2026-09-29T08:08:48Z</lastmod>
+    <meta:title>Monster Strike Launches Mera x Death Anime in January 2027</meta:title>
+    <meta:published>2026-09-27T10:04:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#MeraDeath", "#MIXI", "#MonsterStrike", "#Qzilla", "#StudioKeel"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/mushoku-tensei-season-3-cour-2-set-for-2027/</loc>
+    <lastmod>2026-09-29T08:34:29Z</lastmod>
+    <meta:title>Mushoku Tensei Season 3 Cour 2 Set for 2027</meta:title>
+    <meta:published>2026-09-27T10:03:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#JoblessReincarnation", "#KeyVisual", "#MushokuTensei", "#Teaser"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/walmart-says-ai-will-not-set-personalized-prices/</loc>
     <lastmod>2026-09-28T05:56:26Z</lastmod>
     <meta:title>Walmart Says AI Will Not Set Personalized Prices</meta:title>
@@ -39,6 +79,14 @@
     <meta:published>2026-09-26T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeBluRay", "#AnimeTrending", "#MediaOCD", "#PonyCanyon", "#VampirePrincessMiyu"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/the-fake-alchemist-reveals-main-cast-and-production-staff/</loc>
+    <lastmod>2026-09-29T08:47:30Z</lastmod>
+    <meta:title>The Fake Alchemist Reveals Main Cast and Production Staff</meta:title>
+    <meta:published>2026-09-26T10:01:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeCorner", "#KeyVisual", "#PV", "#StudioPassione", "#TheFakeAlchemist"]</meta:tags>
   </url>
   <url>
     <loc>https://zine.trevorion.io/meta-launches-smart-glasses-collection-designed-by-lisa/</loc>
@@ -647,6 +695,14 @@
     <meta:published>2026-09-08T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CodingAgents", "#Cognition", "#DevinAI", "#TechCrunch", "#VentureCapital"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/atelier-karia-launches-worldwide-february-25/</loc>
+    <lastmod>2026-09-29T08:55:00Z</lastmod>
+    <meta:title>Atelier Karia Launches Worldwide February 25</meta:title>
+    <meta:published>2026-09-08T10:06:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AlchemyRPG", "#AnimeNewsNetwork", "#AtelierKaria", "#KeyVisual", "#KoeiTecmo", "#Trailer"]</meta:tags>
   </url>
   <url>
     <loc>https://zine.trevorion.io/artificial-teaser-casts-andrew-garfield-as-sam-altman/</loc>
