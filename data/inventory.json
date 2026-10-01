@@ -991,7 +991,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-09-30T09:14:33Z",
+  "last_sync": "2026-10-01T09:42:29Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -9608,6 +9608,49 @@
         "rendered": "Code Geass Star Chaser Aspal Teaser Confirms 2027 Debut"
       }
     },
+    "15595": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-26T10:02:00",
+      "id": 15595,
+      "link": "https://zine.trevorion.io/oxford-bodleian-library-material-used-for-openai-training/",
+      "modified_gmt": "2026-10-01T05:12:38",
+      "slug": "oxford-bodleian-library-material-used-for-openai-training",
+      "status": "publish",
+      "tags": [
+        8773,
+        88,
+        8772,
+        327,
+        7647
+      ],
+      "title": {
+        "rendered": "Oxford Bodleian Library Material Used for OpenAI Training"
+      }
+    },
+    "15601": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-26T10:05:00",
+      "id": 15601,
+      "link": "https://zine.trevorion.io/openai-agents-leaked-53-chatgpt-user-images/",
+      "modified_gmt": "2026-10-01T05:00:40",
+      "slug": "openai-agents-leaked-53-chatgpt-user-images",
+      "status": "publish",
+      "tags": [
+        8780,
+        87,
+        2183,
+        88,
+        327,
+        7647
+      ],
+      "title": {
+        "rendered": "OpenAI Agents Leaked 53 ChatGPT User Images"
+      }
+    },
     "15607": {
       "categories": [
         137
@@ -9945,6 +9988,115 @@
       ],
       "title": {
         "rendered": "Oh Boy, Was I Wrong About Her Releases Special Trailer"
+      }
+    },
+    "15927": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-28T10:23:00",
+      "id": 15927,
+      "link": "https://zine.trevorion.io/nvidia-adds-layered-security-for-ai-agents/",
+      "modified_gmt": "2026-10-01T04:39:09",
+      "slug": "nvidia-adds-layered-security-for-ai-agents",
+      "status": "publish",
+      "tags": [
+        190,
+        762,
+        6373,
+        311,
+        69,
+        8872
+      ],
+      "title": {
+        "rendered": "Nvidia Adds Layered Security for AI Agents"
+      }
+    },
+    "15939": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-29T10:05:00",
+      "id": 15939,
+      "link": "https://zine.trevorion.io/monster-hunter-outlanders-launches-october-29/",
+      "modified_gmt": "2026-10-01T05:38:13",
+      "slug": "monster-hunter-outlanders-launches-october-29",
+      "status": "publish",
+      "tags": [
+        152,
+        220,
+        6100,
+        6101,
+        6103
+      ],
+      "title": {
+        "rendered": "Monster Hunter Outlanders Launches October 29"
+      }
+    },
+    "15941": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-09-30T10:30:00",
+      "id": 15941,
+      "link": "https://zine.trevorion.io/20260930-1/",
+      "modified_gmt": "2026-09-30T20:39:21",
+      "slug": "20260930-1",
+      "status": "publish",
+      "tags": [
+        8909,
+        8911,
+        8912,
+        8908,
+        8910
+      ],
+      "title": {
+        "rendered": "638: Pappus 🌬️🌱"
+      }
+    },
+    "15950": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-29T10:04:00",
+      "id": 15950,
+      "link": "https://zine.trevorion.io/openai-adds-spaces-pages-and-collaborative-slides/",
+      "modified_gmt": "2026-10-01T04:21:59",
+      "slug": "openai-adds-spaces-pages-and-collaborative-slides",
+      "status": "publish",
+      "tags": [
+        190,
+        87,
+        294,
+        8914,
+        88,
+        846,
+        1921
+      ],
+      "title": {
+        "rendered": "OpenAI Adds Spaces Pages and Collaborative Slides"
+      }
+    },
+    "15964": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-29T10:11:00",
+      "id": 15964,
+      "link": "https://zine.trevorion.io/openai-introduces-always-on-dots/",
+      "modified_gmt": "2026-10-01T04:04:38",
+      "slug": "openai-introduces-always-on-dots",
+      "status": "publish",
+      "tags": [
+        190,
+        1193,
+        8913,
+        6779,
+        88,
+        8916
+      ],
+      "title": {
+        "rendered": "OpenAI Introduces Always-On Dots"
       }
     },
     "1808": {
@@ -69060,9 +69212,21 @@
       "id": 8770,
       "name": "#PonyCanyon"
     },
+    "8772": {
+      "id": 8772,
+      "name": "#OxfordUniversity"
+    },
+    "8773": {
+      "id": 8773,
+      "name": "#BodleianLibrary"
+    },
     "878": {
       "id": 878,
       "name": "#LawEducation"
+    },
+    "8780": {
+      "id": 8780,
+      "name": "#AILeak"
     },
     "8787": {
       "id": 8787,
@@ -69204,6 +69368,10 @@
       "id": 887,
       "name": "#Lionsgate"
     },
+    "8872": {
+      "id": 8872,
+      "name": "#OpenShell"
+    },
     "888": {
       "id": 888,
       "name": "#FilmIndustry"
@@ -69216,9 +69384,41 @@
       "id": 890,
       "name": "#TheWrap"
     },
+    "8908": {
+      "id": 8908,
+      "name": "#Dandelion"
+    },
+    "8909": {
+      "id": 8909,
+      "name": "#AirborneSeed"
+    },
     "891": {
       "id": 891,
       "name": "#RunwayAI"
+    },
+    "8910": {
+      "id": 8910,
+      "name": "#MacroCloseUp"
+    },
+    "8911": {
+      "id": 8911,
+      "name": "#Anemochory"
+    },
+    "8912": {
+      "id": 8912,
+      "name": "#Cypsela"
+    },
+    "8913": {
+      "id": 8913,
+      "name": "#Dots"
+    },
+    "8914": {
+      "id": 8914,
+      "name": "#DevDay"
+    },
+    "8916": {
+      "id": 8916,
+      "name": "#Plugins"
     },
     "892": {
       "id": 892,

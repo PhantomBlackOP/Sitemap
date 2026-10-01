@@ -1,6 +1,38 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/openai-introduces-always-on-dots/</loc>
+    <lastmod>2026-10-01T04:04:38Z</lastmod>
+    <meta:title>OpenAI Introduces Always-On Dots</meta:title>
+    <meta:published>2026-09-29T10:11:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIAgents", "#Automation", "#Dots", "#GPT6Astra", "#OpenAI", "#Plugins"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/monster-hunter-outlanders-launches-october-29/</loc>
+    <lastmod>2026-10-01T05:38:13Z</lastmod>
+    <meta:title>Monster Hunter Outlanders Launches October 29</meta:title>
+    <meta:published>2026-09-29T10:05:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#Capcom", "#MonsterHunter", "#Outlanders", "#TimiStudio"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/openai-adds-spaces-pages-and-collaborative-slides/</loc>
+    <lastmod>2026-10-01T04:21:59Z</lastmod>
+    <meta:title>OpenAI Adds Spaces Pages and Collaborative Slides</meta:title>
+    <meta:published>2026-09-29T10:04:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIAgents", "#ChatGPT", "#Collaboration", "#DevDay", "#OpenAI", "#Productivity", "#TechCrunch"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/nvidia-adds-layered-security-for-ai-agents/</loc>
+    <lastmod>2026-10-01T04:39:09Z</lastmod>
+    <meta:title>Nvidia Adds Layered Security for AI Agents</meta:title>
+    <meta:published>2026-09-28T10:23:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIAgents", "#AISafety", "#Cybersecurity", "#DigitalTrends", "#Nvidia", "#OpenShell"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/oh-boy-was-i-wrong-about-her-releases-special-trailer/</loc>
     <lastmod>2026-09-30T05:08:48Z</lastmod>
     <meta:title>Oh Boy, Was I Wrong About Her Releases Special Trailer</meta:title>
@@ -105,6 +137,14 @@
     <meta:tags>["#AnimeTrending", "#CodeGeass", "#KeyVisual", "#StarChaserAspal", "#Sunrise", "#Teaser"]</meta:tags>
   </url>
   <url>
+    <loc>https://zine.trevorion.io/openai-agents-leaked-53-chatgpt-user-images/</loc>
+    <lastmod>2026-10-01T05:00:40Z</lastmod>
+    <meta:title>OpenAI Agents Leaked 53 ChatGPT User Images</meta:title>
+    <meta:published>2026-09-26T10:05:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AILeak", "#ChatGPT", "#DataPrivacy", "#OpenAI", "#TheGuardian", "#TrainingData"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/magical-explorer-highlights-yukine-in-new-character-trailer/</loc>
     <lastmod>2026-09-28T07:10:27Z</lastmod>
     <meta:title>Magical Explorer Highlights Yukine in New Character Trailer</meta:title>
@@ -119,6 +159,14 @@
     <meta:published>2026-09-26T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeBluRay", "#AnimeTrending", "#MediaOCD", "#PonyCanyon", "#VampirePrincessMiyu"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/oxford-bodleian-library-material-used-for-openai-training/</loc>
+    <lastmod>2026-10-01T05:12:38Z</lastmod>
+    <meta:title>Oxford Bodleian Library Material Used for OpenAI Training</meta:title>
+    <meta:published>2026-09-26T10:02:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#BodleianLibrary", "#OpenAI", "#OxfordUniversity", "#TheGuardian", "#TrainingData"]</meta:tags>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-fake-alchemist-reveals-main-cast-and-production-staff/</loc>
