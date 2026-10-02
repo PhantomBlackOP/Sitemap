@@ -991,7 +991,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-01T09:42:29Z",
+  "last_sync": "2026-10-02T09:16:28Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -10097,6 +10097,28 @@
       ],
       "title": {
         "rendered": "OpenAI Introduces Always-On Dots"
+      }
+    },
+    "16140": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-01T10:30:00",
+      "id": 16140,
+      "link": "https://zine.trevorion.io/20261001-1/",
+      "modified_gmt": "2026-10-01T19:21:51",
+      "slug": "20261001-1",
+      "status": "publish",
+      "tags": [
+        9028,
+        9026,
+        44,
+        9025,
+        9027,
+        1780
+      ],
+      "title": {
+        "rendered": "639: Castle Warden 🛡️🏰"
       }
     },
     "1808": {
@@ -69463,6 +69485,22 @@
     "902": {
       "id": 902,
       "name": "#GamingChair"
+    },
+    "9025": {
+      "id": 9025,
+      "name": "#MailHauberk"
+    },
+    "9026": {
+      "id": 9026,
+      "name": "#FurCloak"
+    },
+    "9027": {
+      "id": 9027,
+      "name": "#MedievalCastle"
+    },
+    "9028": {
+      "id": 9028,
+      "name": "#Bracers"
     },
     "903": {
       "id": 903,
