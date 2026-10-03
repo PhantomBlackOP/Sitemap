@@ -991,7 +991,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-02T09:16:28Z",
+  "last_sync": "2026-10-03T08:48:27Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -10119,6 +10119,28 @@
       ],
       "title": {
         "rendered": "639: Castle Warden 🛡️🏰"
+      }
+    },
+    "16217": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-02T10:30:00",
+      "id": 16217,
+      "link": "https://zine.trevorion.io/20261002-1/",
+      "modified_gmt": "2026-10-02T19:40:54",
+      "slug": "20261002-1",
+      "status": "publish",
+      "tags": [
+        9106,
+        9103,
+        5705,
+        9104,
+        9107,
+        9105
+      ],
+      "title": {
+        "rendered": "640: Scupper 🌧️🏰"
       }
     },
     "1808": {
@@ -69533,6 +69555,26 @@
     "910": {
       "id": 910,
       "name": "#AIActor"
+    },
+    "9103": {
+      "id": 9103,
+      "name": "#Drainage"
+    },
+    "9104": {
+      "id": 9104,
+      "name": "#Stonework"
+    },
+    "9105": {
+      "id": 9105,
+      "name": "#WaterSpout"
+    },
+    "9106": {
+      "id": 9106,
+      "name": "#Architecture"
+    },
+    "9107": {
+      "id": 9107,
+      "name": "#WaterFlow"
     },
     "911": {
       "id": 911,
