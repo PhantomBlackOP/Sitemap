@@ -1,12 +1,44 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/meta-opens-muse-agent-to-diy-hardware-projects/</loc>
+    <lastmod>2026-10-05T08:01:31Z</lastmod>
+    <meta:title>Meta Opens Muse Agent to DIY Hardware Projects</meta:title>
+    <meta:published>2026-10-03T10:08:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIGadgets", "#DIY", "#Meta", "#Muse", "#OpenSource", "#SmartHome", "#TechCrunch"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/antiquarian-bookshop-biblia-anime-sets-april-2027-premiere/</loc>
+    <lastmod>2026-10-05T06:48:44Z</lastmod>
+    <meta:title>Antiquarian Bookshop Biblia Anime Sets April 2027 Premiere</meta:title>
+    <meta:published>2026-10-03T10:05:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#BibliaCaseFiles", "#CloverWorks", "#KeyVisual", "#PV"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/eliza-stage-play-revisits-the-birth-of-ai/</loc>
+    <lastmod>2026-10-05T07:05:39Z</lastmod>
+    <meta:title>Eliza Stage Play Revisits the Birth of AI</meta:title>
+    <meta:published>2026-10-03T10:05:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIHistory", "#ELIZA", "#JosephWeizenbaum", "#MelbourneTheatre", "#TheGuardian"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/magical-explorer-trailer-showcases-maid-knight-nanami/</loc>
     <lastmod>2026-10-04T08:22:24Z</lastmod>
     <meta:title>Magical Explorer Trailer Showcases Maid-Knight Nanami</meta:title>
     <meta:published>2026-10-02T10:21:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#KenichiroSuehiro", "#MagicalExplorer", "#MAO", "#Nanami", "#WHITEFOX"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/moon-flower-kingdom-releases-more-character-trailers/</loc>
+    <lastmod>2026-10-05T08:14:47Z</lastmod>
+    <meta:title>Moon Flower Kingdom Releases more Character Trailers</meta:title>
+    <meta:published>2026-10-02T10:20:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeTrending", "#CharacterTrailer", "#MoonFlowerKingdom", "#Shiei", "#Singdam"]</meta:tags>
   </url>
   <url>
     <loc>https://zine.trevorion.io/be-forever-yamato-3199-film-reveals-junko-yagami-ending-theme/</loc>
@@ -41,6 +73,14 @@
     <meta:tags>["#Crunchyroll", "#DevilsCrest", "#KeyVisual", "#ProductionIG", "#ReaL", "#Soala", "#Trailer"]</meta:tags>
   </url>
   <url>
+    <loc>https://zine.trevorion.io/the-apothecary-diaries-season-3-shares-creditless-themes/</loc>
+    <lastmod>2026-10-05T09:41:11Z</lastmod>
+    <meta:title>The Apothecary Diaries Season 3 Shares Creditless Themes</meta:title>
+    <meta:published>2026-10-02T10:08:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#ApothecaryDiaries", "#CreditlessEnding", "#CreditlessOpening", "#Eve", "#OLM", "#Yorushika"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/from-far-away-introduces-main-character-trailers/</loc>
     <lastmod>2026-10-04T01:03:21Z</lastmod>
     <meta:title>From Far Away Introduces Main Character Trailers</meta:title>
@@ -73,12 +113,28 @@
     <meta:tags>["#Accessibility", "#AssistiveAI", "#DigitalTrends", "#GeminiLive", "#GoogleAI", "#GuidedVision"]</meta:tags>
   </url>
   <url>
+    <loc>https://zine.trevorion.io/legato-launches-ai-hearing-glasses/</loc>
+    <lastmod>2026-10-05T07:25:49Z</lastmod>
+    <meta:title>Legato Launches AI Hearing Glasses</meta:title>
+    <meta:published>2026-10-01T10:16:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AssistiveTech", "#HearingTech", "#LegatoFrames", "#SmartGlasses", "#TechCrunch"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/chatgpt-adds-global-virtual-try-on-and-favorites/</loc>
     <lastmod>2026-10-04T00:11:53Z</lastmod>
     <meta:title>ChatGPT Adds Global Virtual Try-On and Favorites</meta:title>
     <meta:published>2026-10-01T10:09:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIShopping", "#ChatGPTImages", "#OpenAI", "#TechCrunch", "#VirtualTryOn"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/looks-like-a-job-for-a-maid-novels-get-tv-anime/</loc>
+    <lastmod>2026-10-05T07:32:09Z</lastmod>
+    <meta:title>Looks like a Job for a Maid! Novels Get TV Anime</meta:title>
+    <meta:published>2026-10-01T10:09:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeAdaptation", "#AnimeNewsNetwork", "#DismissedSupermaid", "#YasuakiMikami"]</meta:tags>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kentaro-kumagai-joins-bless-anime-as-mm/</loc>
