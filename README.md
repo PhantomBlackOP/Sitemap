@@ -4,6 +4,7 @@ This repository publishes:
 
 - Human-facing sitemap UI: `https://sitemap.trevorion.io/`
 - Master XML sitemap index: `https://sitemap.trevorion.io/index.xml`
+- Legacy compatibility URL: `https://sitemap.trevorion.io/sitemap.xml` (kept byte-for-byte synchronized with `index.xml` for old links and crawlers)
 
 ## Structure
 
