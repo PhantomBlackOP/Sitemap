@@ -1136,7 +1136,14 @@ def write_index() -> None:
             next_section,
         )
 
-    write_xml_if_changed(ROOT / "index.xml", root)
+    ET.indent(root, space="  ")
+    content = ET.tostring(
+        root,
+        encoding="unicode",
+        xml_declaration=True,
+    )
+    write_text_if_changed(ROOT / "index.xml", content)
+    write_text_if_changed(ROOT / "sitemap.xml", content)
 
 
 def ui_title(item: Item) -> str:
@@ -1433,7 +1440,7 @@ def validate(paths: list[str]) -> None:
     meta_category = f"{{{META_NS}}}category"
     meta_tags = f"{{{META_NS}}}tags"
 
-    all_paths = ["index.xml", *TOP_LEVEL_OUTPUTS, *paths]
+    all_paths = ["index.xml", "sitemap.xml", *TOP_LEVEL_OUTPUTS, *paths]
     if len(all_paths) != len(set(all_paths)):
         raise SitemapError("Generated sitemap path list contains duplicates")
 
@@ -1482,6 +1489,9 @@ def validate(paths: list[str]) -> None:
                     raise SitemapError(
                         f"Missing publication metadata inside {rel}"
                     )
+
+    if (ROOT / "sitemap.xml").read_text(encoding="utf-8") != (ROOT / "index.xml").read_text(encoding="utf-8"):
+        raise SitemapError("Legacy sitemap.xml is not identical to index.xml")
 
     master = ET.parse(ROOT / "index.xml").getroot()
     master_count = len(
