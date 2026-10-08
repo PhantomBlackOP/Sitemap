@@ -1,6 +1,46 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/openai-adds-visual-ads-beside-chatgpt-image-results/</loc>
+    <lastmod>2026-10-07T11:35:41Z</lastmod>
+    <meta:title>OpenAI Adds Visual Ads Beside ChatGPT Image Results</meta:title>
+    <meta:published>2026-10-05T10:10:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Ads", "#Advertising", "#ChatGPT", "#DigitalMarketing", "#OpenAI", "#TechCrunch"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/hackerrank-launches-chakra-ai-interviewer/</loc>
+    <lastmod>2026-10-07T07:25:22Z</lastmod>
+    <meta:title>HackerRank Launches Chakra AI Interviewer</meta:title>
+    <meta:published>2026-10-05T10:09:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIHiring", "#Chakra", "#HackerRank", "#JobInterview", "#TechCrunch"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/hot-girl-hotline-brings-guardrails-to-ai-dating-advice/</loc>
+    <lastmod>2026-10-07T07:39:42Z</lastmod>
+    <meta:title>Hot Girl Hotline Brings Guardrails to AI Dating Advice</meta:title>
+    <meta:published>2026-10-05T10:08:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Chatbot", "#DatingAdvice", "#HotGirlHotline", "#RelationshipAI", "#TechCrunch"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/instinct-adds-ai-agent-to-group-chats/</loc>
+    <lastmod>2026-10-07T07:55:07Z</lastmod>
+    <meta:title>Instinct Adds AI Agent to Group Chats</meta:title>
+    <meta:published>2026-10-05T10:06:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIAgents", "#Collaboration", "#GroupChat", "#InstinctAI", "#Privacy", "#TechCrunch"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/red-riding-hood-detective-anime-sets-january-2027-premiere/</loc>
+    <lastmod>2026-10-07T11:54:04Z</lastmod>
+    <meta:title>Red Riding Hood Detective Anime Sets January 2027 Premiere</meta:title>
+    <meta:published>2026-10-05T10:00:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#BentenFilm", "#KeyVisual", "#RedRidingHood", "#Trailer"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/my-sweet-marriage-to-my-ex-nemesis-gets-tv-anime/</loc>
     <lastmod>2026-10-06T07:45:18Z</lastmod>
     <meta:title>My Sweet Marriage to My Ex-Nemesis Gets TV Anime</meta:title>
@@ -17,12 +57,12 @@
     <meta:tags>["#AnimeTrending", "#MythAndRoid", "#PrincessKnight", "#SajouNoHana", "#Trailer"]</meta:tags>
   </url>
   <url>
-    <loc>https://zine.trevorion.io/trump-announces-new-super-intelligence-force/</loc>
-    <lastmod>2026-10-06T05:41:10Z</lastmod>
-    <meta:title>Trump Announces New Super Intelligence Force</meta:title>
-    <meta:published>2026-10-04T10:05:00Z</meta:published>
+    <loc>https://zine.trevorion.io/true-saint-anime-reveals-teaser-and-january-2027-debut/</loc>
+    <lastmod>2026-10-06T14:12:29Z</lastmod>
+    <meta:title>True Saint Anime Reveals Teaser and January 2027 Debut</meta:title>
+    <meta:published>2026-10-04T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
-    <meta:tags>["#AIPolicy", "#JayClayton", "#NationalSecurity", "#Superintelligence", "#TechCrunch", "#UnitedStates"]</meta:tags>
+    <meta:tags>["#AnimeTrending", "#KeyVisual", "#Teaser", "#TrueSaint", "#TsumugiAkita"]</meta:tags>
   </url>
   <url>
     <loc>https://zine.trevorion.io/spice-and-wolf-season-2-teaser-previews-holo-and-lawrence/</loc>
@@ -33,12 +73,28 @@
     <meta:tags>["#AnimeTrending", "#KeyVisual", "#Passione", "#SpiceAndWolf", "#Teaser"]</meta:tags>
   </url>
   <url>
+    <loc>https://zine.trevorion.io/trump-announces-new-super-intelligence-force/</loc>
+    <lastmod>2026-10-06T05:41:10Z</lastmod>
+    <meta:title>Trump Announces New Super Intelligence Force</meta:title>
+    <meta:published>2026-10-04T10:05:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIPolicy", "#JayClayton", "#NationalSecurity", "#Superintelligence", "#TechCrunch", "#UnitedStates"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/blue-box-season-2-releases-creditless-opening-and-ending/</loc>
     <lastmod>2026-10-06T05:16:05Z</lastmod>
     <meta:title>Blue Box Season 2 Releases Creditless Opening and Ending</meta:title>
     <meta:published>2026-10-04T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Aiko", "#AnimeCorner", "#Bluebox", "#ElectricCircus", "#ElsewhereKikou", "#MusicVideo"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/rascal-does-not-dream-of-a-dear-friend-streams-first-four-minutes/</loc>
+    <lastmod>2026-10-06T13:57:37Z</lastmod>
+    <meta:title>Rascal Does Not Dream of a Dear Friend Streams First Four Minutes</meta:title>
+    <meta:published>2026-10-04T10:03:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#CloverWorks", "#DearFriend", "#RascalDoesNotDream", "#Teaser"]</meta:tags>
   </url>
   <url>
     <loc>https://zine.trevorion.io/jay-clayton-named-white-house-ai-czar/</loc>
@@ -97,6 +153,22 @@
     <meta:tags>["#AnimeTrending", "#CharacterTrailer", "#MoonFlowerKingdom", "#Shiei", "#Singdam"]</meta:tags>
   </url>
   <url>
+    <loc>https://zine.trevorion.io/ninja-scroll-4k-shares-exclusive-remastered-clip/</loc>
+    <lastmod>2026-10-07T09:58:33Z</lastmod>
+    <meta:title>Ninja Scroll 4K Shares Exclusive Remastered Clip</meta:title>
+    <meta:published>2026-10-02T10:17:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeCorner", "#HIDIVE", "#Madhouse", "#NinjaScroll", "#Teaser", "#TheatricalRelease"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/nvidia-launches-64gb-dgx-spark-for-local-ai-development/</loc>
+    <lastmod>2026-10-07T11:22:27Z</lastmod>
+    <meta:title>Nvidia Launches 64GB DGX Spark for Local AI Development</meta:title>
+    <meta:published>2026-10-02T10:17:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIHardware", "#DGXSpark", "#DigitalTrends", "#GraceBlackwell", "#LocalAI", "#Nvidia"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/be-forever-yamato-3199-film-reveals-junko-yagami-ending-theme/</loc>
     <lastmod>2026-10-03T23:49:02Z</lastmod>
     <meta:title>Be Forever Yamato 3199 Film Reveals Junko Yagami Ending Theme</meta:title>
@@ -151,6 +223,14 @@
     <meta:published>2026-10-02T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#ExiledHeavyKnight", "#MusicVideo", "#PompadollS", "#TowaTokoyami"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/the-ramparts-of-ice-season-2-shares-creditless-ending/</loc>
+    <lastmod>2026-10-06T13:50:59Z</lastmod>
+    <meta:title>The Ramparts of Ice Season 2 Shares Creditless Ending</meta:title>
+    <meta:published>2026-10-02T10:03:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#CreditlessEnding", "#Crunchyroll", "#Hanakage", "#RampartsOfIce", "#StudioKai", "#Superfly"]</meta:tags>
   </url>
   <url>
     <loc>https://zine.trevorion.io/audible-adds-ai-character-chats-and-visual-explorer/</loc>

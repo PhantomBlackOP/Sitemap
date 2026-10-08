@@ -1,6 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/20261007-1/</loc>
+    <lastmod>2026-10-07T20:21:28Z</lastmod>
+    <meta:title>645: Moonlit Revenant 💀🌕</meta:title>
+    <meta:published>2026-10-07T10:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#AncientRuins", "#DarkFantasy", "#GothicArmor", "#Skeleton", "#UndeadKnight"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/20261006-1/</loc>
+    <lastmod>2026-10-06T19:06:40Z</lastmod>
+    <meta:title>644: Caravanette Coffee ☕🚐</meta:title>
+    <meta:published>2026-10-06T10:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#BritishCaravan", "#CoffeeBreak", "#CountryRoad", "#Retro", "#Trailer"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/20261005-1/</loc>
     <lastmod>2026-10-05T15:51:46Z</lastmod>
     <meta:title>643: Rite of Renewal 💦🌿</meta:title>

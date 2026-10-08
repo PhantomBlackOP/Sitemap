@@ -10,7 +10,7 @@
   <!--zine-->
   <sitemap>
     <loc>https://sitemap.trevorion.io/zine/home.xml</loc>
-    <lastmod>2026-08-01T03:33:33Z</lastmod>
+    <lastmod>2026-10-07T09:25:05Z</lastmod>
     <meta:title>Home</meta:title>
     <meta:section>zine</meta:section>
   </sitemap>
@@ -22,13 +22,13 @@
   </sitemap>
   <sitemap>
     <loc>https://sitemap.trevorion.io/zine/explore.xml</loc>
-    <lastmod>2026-10-06T09:04:42Z</lastmod>
+    <lastmod>2026-10-07T20:21:28Z</lastmod>
     <meta:title>Explore</meta:title>
     <meta:section>zine</meta:section>
   </sitemap>
   <sitemap>
     <loc>https://sitemap.trevorion.io/zine/news.xml</loc>
-    <lastmod>2026-10-06T09:04:42Z</lastmod>
+    <lastmod>2026-10-07T11:54:04Z</lastmod>
     <meta:title>News</meta:title>
     <meta:section>zine</meta:section>
   </sitemap>
@@ -40,7 +40,7 @@
   </sitemap>
   <sitemap>
     <loc>https://sitemap.trevorion.io/zine/archive.xml</loc>
-    <lastmod>2026-10-05T15:51:46Z</lastmod>
+    <lastmod>2026-10-07T20:21:28Z</lastmod>
     <meta:title>Archive</meta:title>
     <meta:section>zine</meta:section>
   </sitemap>
@@ -58,7 +58,7 @@
   </sitemap>
   <sitemap>
     <loc>https://sitemap.trevorion.io/zine/about.xml</loc>
-    <lastmod>2026-08-01T03:33:33Z</lastmod>
+    <lastmod>2026-10-07T09:14:22Z</lastmod>
     <meta:title>About</meta:title>
     <meta:section>zine</meta:section>
   </sitemap>

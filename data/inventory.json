@@ -991,7 +991,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-06T09:42:37Z",
+  "last_sync": "2026-10-08T09:51:22Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -1063,7 +1063,7 @@
       "date_gmt": "2025-08-19T03:55:45",
       "id": 132,
       "link": "https://zine.trevorion.io/about/",
-      "modified_gmt": "2026-08-01T03:33:33",
+      "modified_gmt": "2026-10-07T09:14:22",
       "slug": "about",
       "status": "publish",
       "title": {
@@ -1092,6 +1092,17 @@
         "rendered": "Archive"
       }
     },
+    "16906": {
+      "date_gmt": "2026-10-07T09:15:17",
+      "id": 16906,
+      "link": "https://zine.trevorion.io/sitemap/",
+      "modified_gmt": "2026-10-07T09:25:05",
+      "slug": "sitemap",
+      "status": "publish",
+      "title": {
+        "rendered": "Sitemap"
+      }
+    },
     "6642": {
       "date_gmt": "2026-04-25T04:47:23",
       "id": 6642,
@@ -1107,7 +1118,7 @@
       "date_gmt": "2026-04-25T09:19:36",
       "id": 6677,
       "link": "https://zine.trevorion.io/copyright-usage-policy/",
-      "modified_gmt": "2026-04-25T09:25:50",
+      "modified_gmt": "2026-10-07T09:22:25",
       "slug": "copyright-usage-policy",
       "status": "publish",
       "title": {
@@ -3155,6 +3166,29 @@
       ],
       "title": {
         "rendered": "Fortnite x One Punch Man Collaboration"
+      }
+    },
+    "10993": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-08-28T10:01:00",
+      "id": 10993,
+      "link": "https://zine.trevorion.io/sage-mode-naruto-joins-shinobi-striker/",
+      "modified_gmt": "2026-10-07T10:11:48",
+      "slug": "sage-mode-naruto-joins-shinobi-striker",
+      "status": "publish",
+      "tags": [
+        2275,
+        6214,
+        233,
+        4282,
+        552,
+        6212,
+        6211
+      ],
+      "title": {
+        "rendered": "Sage Mode Naruto Joins Shinobi Striker"
       }
     },
     "10997": {
@@ -7780,6 +7814,27 @@
         "rendered": "A Wild Last Boss Appeared Season 2 Streams September 26"
       }
     },
+    "13656": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-11T10:20:00",
+      "id": 13656,
+      "link": "https://zine.trevorion.io/black-torch-prepares-for-finale-with-new-trailer/",
+      "modified_gmt": "2026-10-07T11:07:26",
+      "slug": "black-torch-prepares-for-finale-with-new-trailer",
+      "status": "publish",
+      "tags": [
+        262,
+        5079,
+        233,
+        7588,
+        7438
+      ],
+      "title": {
+        "rendered": "BLACK TORCH Prepares for Finale With New Trailer"
+      }
+    },
     "13658": {
       "categories": [
         8
@@ -10358,6 +10413,27 @@
         "rendered": "OpenAI Introduces Always-On Dots"
       }
     },
+    "16053": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-30T10:01:00",
+      "id": 16053,
+      "link": "https://zine.trevorion.io/seirei-gensouki-season-3-officially-announced/",
+      "modified_gmt": "2026-10-06T13:38:37",
+      "slug": "seirei-gensouki-season-3-officially-announced",
+      "status": "publish",
+      "tags": [
+        3839,
+        233,
+        8933,
+        3084,
+        5244
+      ],
+      "title": {
+        "rendered": "Seirei Gensouki Season 3 Officially Announced"
+      }
+    },
     "16140": {
       "categories": [
         8
@@ -10616,6 +10692,28 @@
         "rendered": "640: Scupper 🌧️🏰"
       }
     },
+    "16228": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-02T10:03:00",
+      "id": 16228,
+      "link": "https://zine.trevorion.io/the-ramparts-of-ice-season-2-shares-creditless-ending/",
+      "modified_gmt": "2026-10-06T13:50:59",
+      "slug": "the-ramparts-of-ice-season-2-shares-creditless-ending",
+      "status": "publish",
+      "tags": [
+        3982,
+        233,
+        9111,
+        6178,
+        2138,
+        9042
+      ],
+      "title": {
+        "rendered": "The Ramparts of Ice Season 2 Shares Creditless Ending"
+      }
+    },
     "16230": {
       "categories": [
         137
@@ -10766,6 +10864,28 @@
         "rendered": "Be Forever Yamato 3199 Film Reveals Junko Yagami Ending Theme"
       }
     },
+    "16255": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-02T10:17:00",
+      "id": 16255,
+      "link": "https://zine.trevorion.io/ninja-scroll-4k-shares-exclusive-remastered-clip/",
+      "modified_gmt": "2026-10-07T09:58:33",
+      "slug": "ninja-scroll-4k-shares-exclusive-remastered-clip",
+      "status": "publish",
+      "tags": [
+        262,
+        735,
+        289,
+        5338,
+        218,
+        7238
+      ],
+      "title": {
+        "rendered": "Ninja Scroll 4K Shares Exclusive Remastered Clip"
+      }
+    },
     "16261": {
       "categories": [
         137
@@ -10807,6 +10927,28 @@
       ],
       "title": {
         "rendered": "Magical Explorer Trailer Showcases Maid-Knight Nanami"
+      }
+    },
+    "16303": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-02T10:17:00",
+      "id": 16303,
+      "link": "https://zine.trevorion.io/nvidia-launches-64gb-dgx-spark-for-local-ai-development/",
+      "modified_gmt": "2026-10-07T11:22:27",
+      "slug": "nvidia-launches-64gb-dgx-spark-for-local-ai-development",
+      "status": "publish",
+      "tags": [
+        6907,
+        9166,
+        311,
+        9167,
+        718,
+        69
+      ],
+      "title": {
+        "rendered": "Nvidia Launches 64GB DGX Spark for Local AI Development"
       }
     },
     "16309": {
@@ -10959,6 +11101,27 @@
         "rendered": "643: Rite of Renewal 💦🌿"
       }
     },
+    "16632": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-04T10:03:00",
+      "id": 16632,
+      "link": "https://zine.trevorion.io/rascal-does-not-dream-of-a-dear-friend-streams-first-four-minutes/",
+      "modified_gmt": "2026-10-06T13:57:37",
+      "slug": "rascal-does-not-dream-of-a-dear-friend-streams-first-four-minutes",
+      "status": "publish",
+      "tags": [
+        152,
+        420,
+        6301,
+        6300,
+        218
+      ],
+      "title": {
+        "rendered": "Rascal Does Not Dream of a Dear Friend Streams First Four Minutes"
+      }
+    },
     "16634": {
       "categories": [
         137
@@ -11000,6 +11163,27 @@
       ],
       "title": {
         "rendered": "Spice and Wolf Season 2 Teaser Previews Holo and Lawrence"
+      }
+    },
+    "16638": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-04T10:06:00",
+      "id": 16638,
+      "link": "https://zine.trevorion.io/true-saint-anime-reveals-teaser-and-january-2027-debut/",
+      "modified_gmt": "2026-10-06T14:12:29",
+      "slug": "true-saint-anime-reveals-teaser-and-january-2027-debut",
+      "status": "publish",
+      "tags": [
+        358,
+        243,
+        218,
+        9198,
+        9200
+      ],
+      "title": {
+        "rendered": "True Saint Anime Reveals Teaser and January 2027 Debut"
       }
     },
     "16642": {
@@ -11086,6 +11270,155 @@
       ],
       "title": {
         "rendered": "Trump Announces New Super Intelligence Force"
+      }
+    },
+    "16825": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-06T10:30:00",
+      "id": 16825,
+      "link": "https://zine.trevorion.io/20261006-1/",
+      "modified_gmt": "2026-10-06T19:06:40",
+      "slug": "20261006-1",
+      "status": "publish",
+      "tags": [
+        9240,
+        9238,
+        9239,
+        3630,
+        244
+      ],
+      "title": {
+        "rendered": "644: Caravanette Coffee ☕🚐"
+      }
+    },
+    "16828": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-05T10:00:00",
+      "id": 16828,
+      "link": "https://zine.trevorion.io/red-riding-hood-detective-anime-sets-january-2027-premiere/",
+      "modified_gmt": "2026-10-07T11:54:04",
+      "slug": "red-riding-hood-detective-anime-sets-january-2027-premiere",
+      "status": "publish",
+      "tags": [
+        152,
+        5426,
+        243,
+        5424,
+        244
+      ],
+      "title": {
+        "rendered": "Red Riding Hood Detective Anime Sets January 2027 Premiere"
+      }
+    },
+    "16850": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-05T10:06:00",
+      "id": 16850,
+      "link": "https://zine.trevorion.io/instinct-adds-ai-agent-to-group-chats/",
+      "modified_gmt": "2026-10-07T07:55:07",
+      "slug": "instinct-adds-ai-agent-to-group-chats",
+      "status": "publish",
+      "tags": [
+        190,
+        294,
+        9260,
+        7294,
+        2111,
+        1921
+      ],
+      "title": {
+        "rendered": "Instinct Adds AI Agent to Group Chats"
+      }
+    },
+    "16853": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-05T10:08:00",
+      "id": 16853,
+      "link": "https://zine.trevorion.io/hot-girl-hotline-brings-guardrails-to-ai-dating-advice/",
+      "modified_gmt": "2026-10-07T07:39:42",
+      "slug": "hot-girl-hotline-brings-guardrails-to-ai-dating-advice",
+      "status": "publish",
+      "tags": [
+        148,
+        9263,
+        9281,
+        9264,
+        1921
+      ],
+      "title": {
+        "rendered": "Hot Girl Hotline Brings Guardrails to AI Dating Advice"
+      }
+    },
+    "16855": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-05T10:09:00",
+      "id": 16855,
+      "link": "https://zine.trevorion.io/hackerrank-launches-chakra-ai-interviewer/",
+      "modified_gmt": "2026-10-07T07:25:22",
+      "slug": "hackerrank-launches-chakra-ai-interviewer",
+      "status": "publish",
+      "tags": [
+        9267,
+        9280,
+        9266,
+        9268,
+        1921
+      ],
+      "title": {
+        "rendered": "HackerRank Launches Chakra AI Interviewer"
+      }
+    },
+    "16857": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-05T10:10:00",
+      "id": 16857,
+      "link": "https://zine.trevorion.io/openai-adds-visual-ads-beside-chatgpt-image-results/",
+      "modified_gmt": "2026-10-07T11:35:41",
+      "slug": "openai-adds-visual-ads-beside-chatgpt-image-results",
+      "status": "publish",
+      "tags": [
+        9282,
+        8977,
+        87,
+        7954,
+        88,
+        1921
+      ],
+      "title": {
+        "rendered": "OpenAI Adds Visual Ads Beside ChatGPT Image Results"
+      }
+    },
+    "17030": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-07T10:30:00",
+      "id": 17030,
+      "link": "https://zine.trevorion.io/20261007-1/",
+      "modified_gmt": "2026-10-07T20:21:28",
+      "slug": "20261007-1",
+      "status": "publish",
+      "tags": [
+        82,
+        299,
+        9285,
+        9283,
+        9284
+      ],
+      "title": {
+        "rendered": "645: Moonlit Revenant 💀🌕"
       }
     },
     "1808": {
@@ -34645,6 +34978,28 @@
       "tags": [],
       "title": {
         "rendered": "Monday News &#8211; 21st July 2025: Updates, Tensions, &amp; Maneuvers"
+      }
+    },
+    "8438": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-06-26T10:05:00",
+      "id": 8438,
+      "link": "https://zine.trevorion.io/black-torch-releases-creditless-opening-video/",
+      "modified_gmt": "2026-10-07T10:41:38",
+      "slug": "black-torch-releases-creditless-opening-video",
+      "status": "publish",
+      "tags": [
+        5079,
+        4589,
+        3981,
+        233,
+        5081,
+        5080
+      ],
+      "title": {
+        "rendered": "BLACK TORCH Releases Creditless Opening Video"
       }
     },
     "845": {
@@ -73836,6 +74191,10 @@
       "id": 9192,
       "name": "#BibliaCaseFiles"
     },
+    "9198": {
+      "id": 9198,
+      "name": "#TrueSaint"
+    },
     "92": {
       "id": 92,
       "name": "#AIEthics"
@@ -73843,6 +74202,10 @@
     "920": {
       "id": 920,
       "name": "#DisneyPlus"
+    },
+    "9200": {
+      "id": 9200,
+      "name": "#TsumugiAkita"
     },
     "9208": {
       "id": 9208,
@@ -73916,9 +74279,21 @@
       "id": 9237,
       "name": "#ShinEi"
     },
+    "9238": {
+      "id": 9238,
+      "name": "#CoffeeBreak"
+    },
+    "9239": {
+      "id": 9239,
+      "name": "#CountryRoad"
+    },
     "924": {
       "id": 924,
       "name": "#Bones"
+    },
+    "9240": {
+      "id": 9240,
+      "name": "#BritishCaravan"
     },
     "925": {
       "id": 925,
@@ -73928,6 +74303,30 @@
       "id": 926,
       "name": "#Qrendi"
     },
+    "9260": {
+      "id": 9260,
+      "name": "#GroupChat"
+    },
+    "9263": {
+      "id": 9263,
+      "name": "#DatingAdvice"
+    },
+    "9264": {
+      "id": 9264,
+      "name": "#RelationshipAI"
+    },
+    "9266": {
+      "id": 9266,
+      "name": "#HackerRank"
+    },
+    "9267": {
+      "id": 9267,
+      "name": "#AIHiring"
+    },
+    "9268": {
+      "id": 9268,
+      "name": "#JobInterview"
+    },
     "927": {
       "id": 927,
       "name": "#Landscape"
@@ -73935,6 +74334,30 @@
     "928": {
       "id": 928,
       "name": "#Sinkhole"
+    },
+    "9280": {
+      "id": 9280,
+      "name": "#Chakra"
+    },
+    "9281": {
+      "id": 9281,
+      "name": "#HotGirlHotline"
+    },
+    "9282": {
+      "id": 9282,
+      "name": "#Ads"
+    },
+    "9283": {
+      "id": 9283,
+      "name": "#Skeleton"
+    },
+    "9284": {
+      "id": 9284,
+      "name": "#UndeadKnight"
+    },
+    "9285": {
+      "id": 9285,
+      "name": "#GothicArmor"
     },
     "929": {
       "id": 929,
