@@ -1,6 +1,70 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/google-opens-synthid-detection-site-to-the-public/</loc>
+    <lastmod>2026-10-09T05:46:12Z</lastmod>
+    <meta:title>Google Opens SynthID Detection Site to the Public</meta:title>
+    <meta:published>2026-10-07T10:22:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#DeepfakeDetection", "#DigitalVerification", "#Google", "#SynthID", "#TechCrunch"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/google-labs-introduces-prompt-based-game-creator-playground/</loc>
+    <lastmod>2026-10-09T05:29:19Z</lastmod>
+    <meta:title>Google Labs Introduces Prompt-Based Game Creator Playground</meta:title>
+    <meta:published>2026-10-07T10:18:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#GameDevelopment", "#GoogleLabs", "#Playground", "#PromptEngineering", "#TechCrunch"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/grotesqqque-trailer-spotlights-nocturne-short-and-kairi-yagi-song/</loc>
+    <lastmod>2026-10-09T06:43:19Z</lastmod>
+    <meta:title>GROTESQQQUE Trailer Spotlights NOCTURNE Short and Kairi Yagi Song</meta:title>
+    <meta:published>2026-10-07T10:07:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeTrending", "#CloverWorks", "#GROTESQQQUE", "#KeyVisual", "#Trailer"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/100-meters-collectors-edition-blu-ray-includes-rotoscoping-workshop/</loc>
+    <lastmod>2026-10-09T04:27:02Z</lastmod>
+    <meta:title>100 Meters Collector’s Edition Blu-ray Includes Rotoscoping Workshop</meta:title>
+    <meta:published>2026-10-07T10:06:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeTrending", "#BluRay", "#CollectorEdition", "#GKIDS", "#OneHundredMeters"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/otome-heroine-survival-anime-gets-teaser-and-july-2027-start/</loc>
+    <lastmod>2026-10-09T07:28:23Z</lastmod>
+    <meta:title>Otome Heroine Survival Anime Gets Teaser and July 2027 Start</meta:title>
+    <meta:published>2026-10-06T10:06:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeTrending", "#KeyVisual", "#OtomeHeroine", "#StudioClutch", "#StudioSeven", "#Teaser"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/fledgling-demon-lord-anime-reveals-new-trailer-and-visual/</loc>
+    <lastmod>2026-10-09T06:17:02Z</lastmod>
+    <meta:title>Fledgling Demon Lord Anime Reveals New Trailer and Visual</meta:title>
+    <meta:published>2026-10-06T10:05:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeTrending", "#FledglingDemonLord", "#KeyVisual", "#ProjectNo9", "#Trailer"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/ai-meme-copyright-fight-tests-human-authorship-rules/</loc>
+    <lastmod>2026-10-09T04:48:54Z</lastmod>
+    <meta:title>AI Meme Copyright Fight Tests Human Authorship Rules</meta:title>
+    <meta:published>2026-10-06T10:04:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#CopyrightLaw", "#DigitalRights", "#InternetCulture", "#OpenAI", "#Roblox", "#TheGuardian"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/gundam-rogue-orbit-trailer-shows-combat-and-customisation/</loc>
+    <lastmod>2026-10-09T06:53:17Z</lastmod>
+    <meta:title>Gundam Rogue Orbit Trailer Shows Combat and Customisation</meta:title>
+    <meta:published>2026-10-06T10:02:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#BandaiNamco", "#Gundam", "#RogueOrbit", "#Trailer"]</meta:tags>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/openai-adds-visual-ads-beside-chatgpt-image-results/</loc>
     <lastmod>2026-10-07T11:35:41Z</lastmod>
     <meta:title>OpenAI Adds Visual Ads Beside ChatGPT Image Results</meta:title>

@@ -991,7 +991,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-08T09:51:22Z",
+  "last_sync": "2026-10-09T09:55:25Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -11419,6 +11419,198 @@
       ],
       "title": {
         "rendered": "645: Moonlit Revenant 💀🌕"
+      }
+    },
+    "17037": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-06T10:02:00",
+      "id": 17037,
+      "link": "https://zine.trevorion.io/gundam-rogue-orbit-trailer-shows-combat-and-customisation/",
+      "modified_gmt": "2026-10-09T06:53:17",
+      "slug": "gundam-rogue-orbit-trailer-shows-combat-and-customisation",
+      "status": "publish",
+      "tags": [
+        152,
+        2275,
+        48,
+        6626,
+        244
+      ],
+      "title": {
+        "rendered": "Gundam Rogue Orbit Trailer Shows Combat and Customisation"
+      }
+    },
+    "17043": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-06T10:05:00",
+      "id": 17043,
+      "link": "https://zine.trevorion.io/fledgling-demon-lord-anime-reveals-new-trailer-and-visual/",
+      "modified_gmt": "2026-10-09T06:17:02",
+      "slug": "fledgling-demon-lord-anime-reveals-new-trailer-and-visual",
+      "status": "publish",
+      "tags": [
+        358,
+        3865,
+        243,
+        3867,
+        244
+      ],
+      "title": {
+        "rendered": "Fledgling Demon Lord Anime Reveals New Trailer and Visual"
+      }
+    },
+    "17045": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-06T10:06:00",
+      "id": 17045,
+      "link": "https://zine.trevorion.io/otome-heroine-survival-anime-gets-teaser-and-july-2027-start/",
+      "modified_gmt": "2026-10-09T07:28:23",
+      "slug": "otome-heroine-survival-anime-gets-teaser-and-july-2027-start",
+      "status": "publish",
+      "tags": [
+        358,
+        243,
+        9293,
+        9295,
+        9296,
+        218
+      ],
+      "title": {
+        "rendered": "Otome Heroine Survival Anime Gets Teaser and July 2027 Start"
+      }
+    },
+    "17054": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-06T10:04:00",
+      "id": 17054,
+      "link": "https://zine.trevorion.io/ai-meme-copyright-fight-tests-human-authorship-rules/",
+      "modified_gmt": "2026-10-09T04:48:54",
+      "slug": "ai-meme-copyright-fight-tests-human-authorship-rules",
+      "status": "publish",
+      "tags": [
+        3258,
+        6568,
+        3261,
+        88,
+        613,
+        327
+      ],
+      "title": {
+        "rendered": "AI Meme Copyright Fight Tests Human Authorship Rules"
+      }
+    },
+    "17098": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-08T10:30:00",
+      "id": 17098,
+      "link": "https://zine.trevorion.io/20261008-1/",
+      "modified_gmt": "2026-10-08T12:29:46",
+      "slug": "20261008-1",
+      "status": "publish",
+      "tags": [
+        1898,
+        9351,
+        9348,
+        3018,
+        9349,
+        9350
+      ],
+      "title": {
+        "rendered": "646: Master of the Rift 🎸🌀"
+      }
+    },
+    "17113": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-07T10:06:00",
+      "id": 17113,
+      "link": "https://zine.trevorion.io/100-meters-collectors-edition-blu-ray-includes-rotoscoping-workshop/",
+      "modified_gmt": "2026-10-09T04:27:02",
+      "slug": "100-meters-collectors-edition-blu-ray-includes-rotoscoping-workshop",
+      "status": "publish",
+      "tags": [
+        358,
+        4572,
+        4861,
+        175,
+        9356
+      ],
+      "title": {
+        "rendered": "100 Meters Collector&#8217;s Edition Blu-ray Includes Rotoscoping Workshop"
+      }
+    },
+    "17115": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-07T10:07:00",
+      "id": 17115,
+      "link": "https://zine.trevorion.io/grotesqqque-trailer-spotlights-nocturne-short-and-kairi-yagi-song/",
+      "modified_gmt": "2026-10-09T06:43:19",
+      "slug": "grotesqqque-trailer-spotlights-nocturne-short-and-kairi-yagi-song",
+      "status": "publish",
+      "tags": [
+        358,
+        420,
+        5839,
+        243,
+        244
+      ],
+      "title": {
+        "rendered": "GROTESQQQUE Trailer Spotlights NOCTURNE Short and Kairi Yagi Song"
+      }
+    },
+    "17156": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-07T10:18:00",
+      "id": 17156,
+      "link": "https://zine.trevorion.io/google-labs-introduces-prompt-based-game-creator-playground/",
+      "modified_gmt": "2026-10-09T05:29:19",
+      "slug": "google-labs-introduces-prompt-based-game-creator-playground",
+      "status": "publish",
+      "tags": [
+        2213,
+        7555,
+        9438,
+        1950,
+        1921
+      ],
+      "title": {
+        "rendered": "Google Labs Introduces Prompt-Based Game Creator Playground"
+      }
+    },
+    "17163": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-07T10:22:00",
+      "id": 17163,
+      "link": "https://zine.trevorion.io/google-opens-synthid-detection-site-to-the-public/",
+      "modified_gmt": "2026-10-09T05:46:12",
+      "slug": "google-opens-synthid-detection-site-to-the-public",
+      "status": "publish",
+      "tags": [
+        8889,
+        9446,
+        133,
+        6961,
+        1921
+      ],
+      "title": {
+        "rendered": "Google Opens SynthID Detection Site to the Public"
       }
     },
     "1808": {
@@ -34639,6 +34831,26 @@
         "rendered": "Anime: Japan&#8217;s Ambassador to the Western World &#8211; Part IV &#8211; 05 &#8211; My Neighbor Totoro"
       }
     },
+    "8261": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-07-10T10:01:00",
+      "id": 8261,
+      "link": "https://zine.trevorion.io/dragon-ball-xenoverse-3-trailer-details-combat-systems/",
+      "modified_gmt": "2026-10-09T05:14:39",
+      "slug": "dragon-ball-xenoverse-3-trailer-details-combat-systems",
+      "status": "publish",
+      "tags": [
+        2275,
+        233,
+        4751,
+        4752
+      ],
+      "title": {
+        "rendered": "Dragon Ball Xenoverse 3 Trailer Details Combat Systems"
+      }
+    },
     "827": {
       "categories": [
         84
@@ -34859,6 +35071,27 @@
       ],
       "title": {
         "rendered": "Anime: Japan&#8217;s Ambassador to the Western World &#8211; Part III of IV &#8211; Misconceptions &amp; Bridges"
+      }
+    },
+    "8376": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-07-03T10:01:00",
+      "id": 8376,
+      "link": "https://zine.trevorion.io/yamato-3199-and-gundam-unicorn-share-collaboration-visual/",
+      "modified_gmt": "2026-10-09T07:03:38",
+      "slug": "yamato-3199-and-gundam-unicorn-share-collaboration-visual",
+      "status": "publish",
+      "tags": [
+        4943,
+        233,
+        4940,
+        243,
+        3196
+      ],
+      "title": {
+        "rendered": "Yamato 3199 and Gundam Unicorn Share Collaboration Visual"
       }
     },
     "8384": {
@@ -74363,6 +74596,18 @@
       "id": 929,
       "name": "#Legend"
     },
+    "9293": {
+      "id": 9293,
+      "name": "#OtomeHeroine"
+    },
+    "9295": {
+      "id": 9295,
+      "name": "#StudioClutch"
+    },
+    "9296": {
+      "id": 9296,
+      "name": "#StudioSeven"
+    },
     "93": {
       "id": 93,
       "name": "#AICulture"
@@ -74387,9 +74632,29 @@
       "id": 934,
       "name": "#Coding"
     },
+    "9348": {
+      "id": 9348,
+      "name": "#Starblaze"
+    },
+    "9349": {
+      "id": 9349,
+      "name": "#Warvenger"
+    },
     "935": {
       "id": 935,
       "name": "#Turbo25"
+    },
+    "9350": {
+      "id": 9350,
+      "name": "#Xarkhan"
+    },
+    "9351": {
+      "id": 9351,
+      "name": "#RockBand"
+    },
+    "9356": {
+      "id": 9356,
+      "name": "#OneHundredMeters"
     },
     "936": {
       "id": 936,
@@ -74427,9 +74692,17 @@
       "id": 943,
       "name": "#TeacherTools"
     },
+    "9438": {
+      "id": 9438,
+      "name": "#Playground"
+    },
     "944": {
       "id": 944,
       "name": "#SmartAssistant"
+    },
+    "9446": {
+      "id": 9446,
+      "name": "#DigitalVerification"
     },
     "945": {
       "id": 945,
