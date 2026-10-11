@@ -57,7 +57,7 @@
           "link": "https://zine.trevorion.io/category/uncategorised/"
         }
       ],
-      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.2.1 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/uncategorised/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.2.1\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/uncategorised\\/#listItem\",\"name\":\"Uncategorised\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/uncategorised\\/#listItem\",\"position\":2,\"name\":\"Uncategorised\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Uncategorised - zine.trevorion.io\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.3 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/uncategorised/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.3\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/uncategorised\\/#listItem\",\"name\":\"Uncategorised\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/uncategorised\\/#listItem\",\"position\":2,\"name\":\"Uncategorised\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Uncategorised - zine.trevorion.io\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
       "aioseo_head_json": {
         "canonical_url": "https://zine.trevorion.io/category/uncategorised/",
         "description": "",
@@ -196,7 +196,7 @@
           "link": "https://zine.trevorion.io/category/system/"
         }
       ],
-      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.2.1 - aioseo.com -->\n\t<meta name=\"description\" content=\"Classified\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/system/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.2.1\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/system\\/#listItem\",\"name\":\"System Infrastructure\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/system\\/#listItem\",\"position\":2,\"name\":\"System Infrastructure\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"System Infrastructure - zine.trevorion.io\",\"description\":\"Classified\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.3 - aioseo.com -->\n\t<meta name=\"description\" content=\"Classified\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/system/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.3\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/system\\/#listItem\",\"name\":\"System Infrastructure\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/system\\/#listItem\",\"position\":2,\"name\":\"System Infrastructure\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"System Infrastructure - zine.trevorion.io\",\"description\":\"Classified\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
       "aioseo_head_json": {
         "canonical_url": "https://zine.trevorion.io/category/system/",
         "description": "Classified",
@@ -336,7 +336,7 @@
           "link": "https://zine.trevorion.io/category/news/"
         }
       ],
-      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.2.1 - aioseo.com -->\n\t<meta name=\"description\" content=\"Trevorion’s News section, where cutting-edge AI breakthroughs collide with the ever-evolving anime universe. @Trevorion curates and deciphers the most critical developments shaping technology, creativity, and fandom every week. From experimental tools and policy shifts to stunning premieres and cultural debates, this is news with soul, signal, and spark.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/news/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.2.1\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/news\\/#listItem\",\"name\":\"Anime &amp; AI News\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/news\\/#listItem\",\"position\":2,\"name\":\"Anime &amp; AI News\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Anime & AI News - zine.trevorion.io\",\"description\":\"Trevorion\\u2019s News section, where cutting-edge AI breakthroughs collide with the ever-evolving anime universe. @Trevorion curates and deciphers the most critical developments shaping technology, creativity, and fandom every week. From experimental tools and policy shifts to stunning premieres and cultural debates, this is news with soul, signal, and spark.\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.3 - aioseo.com -->\n\t<meta name=\"description\" content=\"Trevorion’s News section, where cutting-edge AI breakthroughs collide with the ever-evolving anime universe. @Trevorion curates and deciphers the most critical developments shaping technology, creativity, and fandom every week. From experimental tools and policy shifts to stunning premieres and cultural debates, this is news with soul, signal, and spark.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/news/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.3\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/news\\/#listItem\",\"name\":\"Anime &amp; AI News\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/news\\/#listItem\",\"position\":2,\"name\":\"Anime &amp; AI News\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Anime & AI News - zine.trevorion.io\",\"description\":\"Trevorion\\u2019s News section, where cutting-edge AI breakthroughs collide with the ever-evolving anime universe. @Trevorion curates and deciphers the most critical developments shaping technology, creativity, and fandom every week. From experimental tools and policy shifts to stunning premieres and cultural debates, this is news with soul, signal, and spark.\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
       "aioseo_head_json": {
         "canonical_url": "https://zine.trevorion.io/category/news/",
         "description": "Trevorion’s News section, where cutting-edge AI breakthroughs collide with the ever-evolving anime universe. @Trevorion curates and deciphers the most critical developments shaping technology, creativity, and fandom every week. From experimental tools and policy shifts to stunning premieres and cultural debates, this is news with soul, signal, and spark.",
@@ -420,7 +420,7 @@
           "miscellaneous": ""
         }
       },
-      "count": 1010,
+      "count": 1075,
       "description": "Trevorion's News section, where cutting-edge AI breakthroughs collide with the ever-evolving anime universe. @Trevorion curates and deciphers the most critical developments shaping technology, creativity, and fandom every week. From experimental tools and policy shifts to stunning premieres and cultural debates, this is news with soul, signal, and spark.",
       "id": 137,
       "link": "https://zine.trevorion.io/category/news/",
@@ -476,7 +476,7 @@
           "link": "https://zine.trevorion.io/category/advert/"
         }
       ],
-      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.2.1 - aioseo.com -->\n\t<meta name=\"description\" content=\"TeePublic is a marketplace for independent creators, paying artists since 2013. Purchases directly support them. Explore over 1.2 million designs across 75+ products including tees, hoodies, stickers, mugs, phone cases, and tapestries. Quality matters, backed by 15 years of production standards and customer ratings. Art meets community, profit, and passion.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/advert/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.2.1\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/advert\\/#listItem\",\"name\":\"TeePublic Advert\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/advert\\/#listItem\",\"position\":2,\"name\":\"TeePublic Advert\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"TeePublic Advert - zine.trevorion.io\",\"description\":\"TeePublic is a marketplace for independent creators, paying artists since 2013. Purchases directly support them. Explore over 1.2 million designs across 75+ products including tees, hoodies, stickers, mugs, phone cases, and tapestries. Quality matters, backed by 15 years of production standards and customer ratings. Art meets community, profit, and passion.\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.3 - aioseo.com -->\n\t<meta name=\"description\" content=\"TeePublic is a marketplace for independent creators, paying artists since 2013. Purchases directly support them. Explore over 1.2 million designs across 75+ products including tees, hoodies, stickers, mugs, phone cases, and tapestries. Quality matters, backed by 15 years of production standards and customer ratings. Art meets community, profit, and passion.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/advert/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.3\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/advert\\/#listItem\",\"name\":\"TeePublic Advert\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/advert\\/#listItem\",\"position\":2,\"name\":\"TeePublic Advert\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"TeePublic Advert - zine.trevorion.io\",\"description\":\"TeePublic is a marketplace for independent creators, paying artists since 2013. Purchases directly support them. Explore over 1.2 million designs across 75+ products including tees, hoodies, stickers, mugs, phone cases, and tapestries. Quality matters, backed by 15 years of production standards and customer ratings. Art meets community, profit, and passion.\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
       "aioseo_head_json": {
         "canonical_url": "https://zine.trevorion.io/category/advert/",
         "description": "TeePublic is a marketplace for independent creators, paying artists since 2013. Purchases directly support them. Explore over 1.2 million designs across 75+ products including tees, hoodies, stickers, mugs, phone cases, and tapestries. Quality matters, backed by 15 years of production standards and customer ratings. Art meets community, profit, and passion.",
@@ -616,7 +616,7 @@
           "link": "https://zine.trevorion.io/category/comic/"
         }
       ],
-      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.2.1 - aioseo.com -->\n\t<meta name=\"description\" content=\"A collection of original webcomics, anime-inspired memes, and the fan-favorite Papa Pun! series. Whether it’s sharp satire, nostalgic references, or painfully perfect puns, each panel is crafted to entertain fans of anime, gaming, and internet culture. Explore visual gags, chibi-style illustrations, and punchlines that bridge dad jokes with otaku energy.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/comic/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.2.1\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/comic\\/#listItem\",\"name\":\"Comics &amp; Memes\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/comic\\/#listItem\",\"position\":2,\"name\":\"Comics &amp; Memes\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Comics & Memes - zine.trevorion.io\",\"description\":\"A collection of original webcomics, anime-inspired memes, and the fan-favorite Papa Pun! series. Whether it\\u2019s sharp satire, nostalgic references, or painfully perfect puns, each panel is crafted to entertain fans of anime, gaming, and internet culture. Explore visual gags, chibi-style illustrations, and punchlines that bridge dad jokes with otaku energy.\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.3 - aioseo.com -->\n\t<meta name=\"description\" content=\"A collection of original webcomics, anime-inspired memes, and the fan-favorite Papa Pun! series. Whether it’s sharp satire, nostalgic references, or painfully perfect puns, each panel is crafted to entertain fans of anime, gaming, and internet culture. Explore visual gags, chibi-style illustrations, and punchlines that bridge dad jokes with otaku energy.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/comic/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.3\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/comic\\/#listItem\",\"name\":\"Comics &amp; Memes\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/comic\\/#listItem\",\"position\":2,\"name\":\"Comics &amp; Memes\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Comics & Memes - zine.trevorion.io\",\"description\":\"A collection of original webcomics, anime-inspired memes, and the fan-favorite Papa Pun! series. Whether it\\u2019s sharp satire, nostalgic references, or painfully perfect puns, each panel is crafted to entertain fans of anime, gaming, and internet culture. Explore visual gags, chibi-style illustrations, and punchlines that bridge dad jokes with otaku energy.\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
       "aioseo_head_json": {
         "canonical_url": "https://zine.trevorion.io/category/comic/",
         "description": "A collection of original webcomics, anime-inspired memes, and the fan-favorite Papa Pun! series. Whether it’s sharp satire, nostalgic references, or painfully perfect puns, each panel is crafted to entertain fans of anime, gaming, and internet culture. Explore visual gags, chibi-style illustrations, and punchlines that bridge dad jokes with otaku energy.",
@@ -756,7 +756,7 @@
           "link": "https://zine.trevorion.io/category/daily/"
         }
       ],
-      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.2.1 - aioseo.com -->\n\t<meta name=\"description\" content=\"Daily anime-style images, each one a unique fusion of AI imagination, emotion, and aesthetic craft. From surreal cityscapes and quiet countryside moments to mythic portraits and whimsical creatures, no two days are alike. Every image is a standalone story, designed to evoke curiosity, comfort, or a sense of awe.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/daily/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.2.1\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/daily\\/#listItem\",\"name\":\"Daily Anime AI Image\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/daily\\/#listItem\",\"position\":2,\"name\":\"Daily Anime AI Image\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Daily Anime AI Image - zine.trevorion.io\",\"description\":\"Daily anime-style images, each one a unique fusion of AI imagination, emotion, and aesthetic craft. From surreal cityscapes and quiet countryside moments to mythic portraits and whimsical creatures, no two days are alike. Every image is a standalone story, designed to evoke curiosity, comfort, or a sense of awe.\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.3 - aioseo.com -->\n\t<meta name=\"description\" content=\"Daily anime-style images, each one a unique fusion of AI imagination, emotion, and aesthetic craft. From surreal cityscapes and quiet countryside moments to mythic portraits and whimsical creatures, no two days are alike. Every image is a standalone story, designed to evoke curiosity, comfort, or a sense of awe.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/daily/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.3\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/daily\\/#listItem\",\"name\":\"Daily Anime AI Image\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/daily\\/#listItem\",\"position\":2,\"name\":\"Daily Anime AI Image\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Daily Anime AI Image - zine.trevorion.io\",\"description\":\"Daily anime-style images, each one a unique fusion of AI imagination, emotion, and aesthetic craft. From surreal cityscapes and quiet countryside moments to mythic portraits and whimsical creatures, no two days are alike. Every image is a standalone story, designed to evoke curiosity, comfort, or a sense of awe.\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
       "aioseo_head_json": {
         "canonical_url": "https://zine.trevorion.io/category/daily/",
         "description": "Daily anime-style images, each one a unique fusion of AI imagination, emotion, and aesthetic craft. From surreal cityscapes and quiet countryside moments to mythic portraits and whimsical creatures, no two days are alike. Every image is a standalone story, designed to evoke curiosity, comfort, or a sense of awe.",
@@ -840,7 +840,7 @@
           "miscellaneous": ""
         }
       },
-      "count": 661,
+      "count": 668,
       "description": "Daily anime-style images, each one a unique fusion of AI imagination, emotion, and aesthetic craft. From surreal cityscapes and quiet countryside moments to mythic portraits and whimsical creatures, no two days are alike. Every image is a standalone story, designed to evoke curiosity, comfort, or a sense of awe.",
       "id": 8,
       "link": "https://zine.trevorion.io/category/daily/",
@@ -896,7 +896,7 @@
           "link": "https://zine.trevorion.io/category/article/"
         }
       ],
-      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.2.1 - aioseo.com -->\n\t<meta name=\"description\" content=\"Trevorion’s cosmic dispatches explore anime, AI, and media through myth-infused, rebellious clarity. No clickbait—just deep dives into digital avatars, meme culture, and AGI. If you seek substance over spectacle, insight over hype, this curated collection delivers fire-forged thought from solitude and vision.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/article/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.2.1\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/article\\/#listItem\",\"name\":\"Anime &amp; AI Articles\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/article\\/#listItem\",\"position\":2,\"name\":\"Anime &amp; AI Articles\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Anime & AI Articles - zine.trevorion.io\",\"description\":\"Trevorion\\u2019s cosmic dispatches explore anime, AI, and media through myth-infused, rebellious clarity. No clickbait\\u2014just deep dives into digital avatars, meme culture, and AGI. If you seek substance over spectacle, insight over hype, this curated collection delivers fire-forged thought from solitude and vision.\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+      "aioseo_head": "\n\t\t<!-- All in One SEO 5.0.3 - aioseo.com -->\n\t<meta name=\"description\" content=\"Trevorion’s cosmic dispatches explore anime, AI, and media through myth-infused, rebellious clarity. No clickbait—just deep dives into digital avatars, meme culture, and AGI. If you seek substance over spectacle, insight over hype, this curated collection delivers fire-forged thought from solitude and vision.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"6CZP27Msy3Nki__wee2IqqDuYExrdCGIUzeq0vEy2Cc\" />\n\t<link rel=\"canonical\" href=\"https://zine.trevorion.io/category/article/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 5.0.3\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/zine.trevorion.io\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/article\\/#listItem\",\"name\":\"Anime &amp; AI Articles\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/category\\/article\\/#listItem\",\"position\":2,\"name\":\"Anime &amp; AI Articles\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Anime & AI Articles - zine.trevorion.io\",\"description\":\"Trevorion\\u2019s cosmic dispatches explore anime, AI, and media through myth-infused, rebellious clarity. No clickbait\\u2014just deep dives into digital avatars, meme culture, and AGI. If you seek substance over spectacle, insight over hype, this curated collection delivers fire-forged thought from solitude and vision.\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\",\"name\":\"Trevorion\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/wp-json\\/wp\\/v2\\/categories\\/#personImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/35c5ed904204b6087f880eaca9eee4938d5383df59c0dac424beb88c367fb76b?s=96&d=wavatar&r=g\",\"width\":96,\"height\":96,\"caption\":\"Trevorion\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/zine.trevorion.io\\/#website\",\"url\":\"https:\\/\\/zine.trevorion.io\\/\",\"name\":\"zine.trevorion.io\",\"description\":\"Existence Publications\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/zine.trevorion.io\\/#person\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
       "aioseo_head_json": {
         "canonical_url": "https://zine.trevorion.io/category/article/",
         "description": "Trevorion’s cosmic dispatches explore anime, AI, and media through myth-infused, rebellious clarity. No clickbait—just deep dives into digital avatars, meme culture, and AGI. If you seek substance over spectacle, insight over hype, this curated collection delivers fire-forged thought from solitude and vision.",
@@ -991,7 +991,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-09T09:55:25Z",
+  "last_sync": "2026-10-11T09:37:19Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -3720,6 +3720,27 @@
         "rendered": "The Strongest Man, Born From Misfortune Releases Image Trailer"
       }
     },
+    "11291": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-08-31T10:20:00",
+      "id": 11291,
+      "link": "https://zine.trevorion.io/the-ura-files-romcom-launches-on-manga-plus/",
+      "modified_gmt": "2026-10-09T11:56:48",
+      "slug": "the-ura-files-romcom-launches-on-manga-plus",
+      "status": "publish",
+      "tags": [
+        358,
+        6366,
+        413,
+        6365,
+        5056
+      ],
+      "title": {
+        "rendered": "The Ura Files Romcom Launches on Manga PLUS"
+      }
+    },
     "11293": {
       "categories": [
         8
@@ -3957,6 +3978,28 @@
       ],
       "title": {
         "rendered": "Runway&#8217;s Solaris previews the no-code internet"
+      }
+    },
+    "11381": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-08-28T10:41:00",
+      "id": 11381,
+      "link": "https://zine.trevorion.io/every-machine-is-about-to-speak-claude/",
+      "modified_gmt": "2026-10-10T07:54:45",
+      "slug": "every-machine-is-about-to-speak-claude",
+      "status": "publish",
+      "tags": [
+        3148,
+        608,
+        708,
+        9607,
+        342,
+        8552
+      ],
+      "title": {
+        "rendered": "Every machine is about to speak Claude"
       }
     },
     "1139": {
@@ -6165,6 +6208,28 @@
         "rendered": "Boya Introduces Smaller Lower-Cost AI Notetaker"
       }
     },
+    "12367": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-04T10:21:00",
+      "id": 12367,
+      "link": "https://zine.trevorion.io/lingverse-ikairos-works-as-a-desktop-robot-or-wearable-ai-companion/",
+      "modified_gmt": "2026-10-10T08:20:58",
+      "slug": "lingverse-ikairos-works-as-a-desktop-robot-or-wearable-ai-companion",
+      "status": "publish",
+      "tags": [
+        619,
+        311,
+        6609,
+        6905,
+        6904,
+        6882
+      ],
+      "title": {
+        "rendered": "Lingverse iKairos Works as a Desktop Robot or Wearable AI Companion"
+      }
+    },
     "12549": {
       "categories": [
         8
@@ -6823,6 +6888,27 @@
       ],
       "title": {
         "rendered": "Nintendo Direct Reveals Kirby, Metroid and Major Anime Game News"
+      }
+    },
+    "12809": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-09T10:05:00",
+      "id": 12809,
+      "link": "https://zine.trevorion.io/toshiya-miyata-becomes-super-psychic-policeman-chojo-ambassador/",
+      "modified_gmt": "2026-10-09T11:02:17",
+      "slug": "toshiya-miyata-becomes-super-psychic-policeman-chojo-ambassador",
+      "status": "publish",
+      "tags": [
+        3066,
+        233,
+        243,
+        413,
+        7172
+      ],
+      "title": {
+        "rendered": "Toshiya Miyata Becomes Super Psychic Policeman Chojo Ambassador"
       }
     },
     "12825": {
@@ -9365,6 +9451,48 @@
         "rendered": "631: The Glance 🍺️❤️"
       }
     },
+    "14939": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-22T10:00:00",
+      "id": 14939,
+      "link": "https://zine.trevorion.io/super-psychic-policeman-chojo-trailer-reveals-theme-songs/",
+      "modified_gmt": "2026-10-09T11:09:21",
+      "slug": "super-psychic-policeman-chojo-trailer-reveals-theme-songs",
+      "status": "publish",
+      "tags": [
+        233,
+        8370,
+        8371,
+        7172,
+        244
+      ],
+      "title": {
+        "rendered": "Super Psychic Policeman Chojo Trailer Reveals Theme Songs"
+      }
+    },
+    "14983": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-22T10:19:00",
+      "id": 14983,
+      "link": "https://zine.trevorion.io/stretch-4-robot-demo/",
+      "modified_gmt": "2026-10-10T08:40:46",
+      "slug": "stretch-4-robot-demo",
+      "status": "publish",
+      "tags": [
+        8444,
+        8442,
+        343,
+        8443,
+        7456
+      ],
+      "title": {
+        "rendered": "Stretch 4 Robot Demo"
+      }
+    },
     "15009": {
       "categories": [
         8
@@ -9812,6 +9940,27 @@
       ],
       "title": {
         "rendered": "634: White-Faced Capuchin 🐒🌿"
+      }
+    },
+    "15503": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-25T10:16:00",
+      "id": 15503,
+      "link": "https://zine.trevorion.io/red-river-cour-2-reveals-main-trailer-and-visual/",
+      "modified_gmt": "2026-10-09T13:50:27",
+      "slug": "red-river-cour-2-reveals-main-trailer-and-visual",
+      "status": "publish",
+      "tags": [
+        358,
+        243,
+        4738,
+        3803,
+        244
+      ],
+      "title": {
+        "rendered": "Red River Cour 2 Reveals Main Trailer and Visual"
       }
     },
     "15509": {
@@ -10605,6 +10754,27 @@
         "rendered": "ChatGPT Adds Global Virtual Try-On and Favorites"
       }
     },
+    "16190": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-01T10:13:00",
+      "id": 16190,
+      "link": "https://zine.trevorion.io/shopify-canvas-builds-stores-through-ai-chat/",
+      "modified_gmt": "2026-10-09T14:05:41",
+      "slug": "shopify-canvas-builds-stores-through-ai-chat",
+      "status": "publish",
+      "tags": [
+        8830,
+        9474,
+        8882,
+        1921,
+        9070
+      ],
+      "title": {
+        "rendered": "Shopify Canvas Builds Stores Through AI Chat"
+      }
+    },
     "16196": {
       "categories": [
         137
@@ -10973,6 +11143,27 @@
         "rendered": "641: Common Guillemot 🐦🌊"
       }
     },
+    "16462": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-03T10:00:00",
+      "id": 16462,
+      "link": "https://zine.trevorion.io/red-river-cour-2-releases-creditless-opening-and-ending/",
+      "modified_gmt": "2026-10-09T13:50:35",
+      "slug": "red-river-cour-2-releases-creditless-opening-and-ending",
+      "status": "publish",
+      "tags": [
+        3982,
+        3981,
+        233,
+        4063,
+        9182
+      ],
+      "title": {
+        "rendered": "Red River Cour 2 Releases Creditless Opening and Ending"
+      }
+    },
     "16471": {
       "categories": [
         137
@@ -11314,6 +11505,49 @@
         "rendered": "Red Riding Hood Detective Anime Sets January 2027 Premiere"
       }
     },
+    "16836": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-05T10:04:00",
+      "id": 16836,
+      "link": "https://zine.trevorion.io/the-science-notes-by-delta-and-gamma-gets-anime-adaptation/",
+      "modified_gmt": "2026-10-09T13:13:39",
+      "slug": "the-science-notes-by-delta-and-gamma-gets-anime-adaptation",
+      "status": "publish",
+      "tags": [
+        358,
+        5035,
+        243,
+        9183,
+        218
+      ],
+      "title": {
+        "rendered": "The Science Notes by Delta and Gamma Gets Anime Adaptation"
+      }
+    },
+    "16837": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-05T10:05:00",
+      "id": 16837,
+      "link": "https://zine.trevorion.io/the-record-of-a-fallen-vampire-reveals-2027-anime-teaser/",
+      "modified_gmt": "2026-10-09T12:55:04",
+      "slug": "the-record-of-a-fallen-vampire-reveals-2027-anime-teaser",
+      "status": "publish",
+      "tags": [
+        358,
+        9241,
+        243,
+        8356,
+        218,
+        1117
+      ],
+      "title": {
+        "rendered": "The Record of a Fallen Vampire Reveals 2027 Anime Teaser"
+      }
+    },
     "16850": {
       "categories": [
         137
@@ -11514,7 +11748,7 @@
       "date_gmt": "2026-10-08T10:30:00",
       "id": 17098,
       "link": "https://zine.trevorion.io/20261008-1/",
-      "modified_gmt": "2026-10-08T12:29:46",
+      "modified_gmt": "2026-10-11T08:39:51",
       "slug": "20261008-1",
       "status": "publish",
       "tags": [
@@ -11527,6 +11761,27 @@
       ],
       "title": {
         "rendered": "646: Master of the Rift 🎸🌀"
+      }
+    },
+    "17101": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-07T10:00:00",
+      "id": 17101,
+      "link": "https://zine.trevorion.io/super-psychic-policeman-chojo-releases-music-theme-trailers/",
+      "modified_gmt": "2026-10-09T11:45:57",
+      "slug": "super-psychic-policeman-chojo-releases-music-theme-trailers",
+      "status": "publish",
+      "tags": [
+        233,
+        5196,
+        488,
+        8371,
+        7172
+      ],
+      "title": {
+        "rendered": "Super Psychic Policeman Chojo Releases Music Theme Trailers"
       }
     },
     "17113": {
@@ -11571,6 +11826,28 @@
         "rendered": "GROTESQQQUE Trailer Spotlights NOCTURNE Short and Kairi Yagi Song"
       }
     },
+    "17117": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-07T10:08:00",
+      "id": 17117,
+      "link": "https://zine.trevorion.io/the-moon-on-a-rainy-night-reveals-subtitled-trailer-and-main-cast/",
+      "modified_gmt": "2026-10-09T12:37:01",
+      "slug": "the-moon-on-a-rainy-night-reveals-subtitled-trailer-and-main-cast",
+      "status": "publish",
+      "tags": [
+        9365,
+        358,
+        9367,
+        243,
+        244,
+        4480
+      ],
+      "title": {
+        "rendered": "The Moon on a Rainy Night Reveals Subtitled Trailer and Main Cast"
+      }
+    },
     "17156": {
       "categories": [
         137
@@ -11611,6 +11888,71 @@
       ],
       "title": {
         "rendered": "Google Opens SynthID Detection Site to the Public"
+      }
+    },
+    "17557": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-09T10:30:00",
+      "id": 17557,
+      "link": "https://zine.trevorion.io/20261009-1/",
+      "modified_gmt": "2026-10-09T18:56:30",
+      "slug": "20261009-1",
+      "status": "publish",
+      "tags": [
+        9475,
+        9476,
+        9477,
+        9478,
+        9479
+      ],
+      "title": {
+        "rendered": "647: Nixie Tubes 🔢💡"
+      }
+    },
+    "17653": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-08T10:22:00",
+      "id": 17653,
+      "link": "https://zine.trevorion.io/claude-adds-live-dashboards-and-editable-animations/",
+      "modified_gmt": "2026-10-10T11:52:57",
+      "slug": "claude-adds-live-dashboards-and-editable-animations",
+      "status": "publish",
+      "tags": [
+        387,
+        388,
+        9593,
+        9422,
+        311,
+        9608
+      ],
+      "title": {
+        "rendered": "Claude Adds Live Dashboards and Editable Animations"
+      }
+    },
+    "17732": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-10T10:30:00",
+      "id": 17732,
+      "link": "https://zine.trevorion.io/20261010-1/",
+      "modified_gmt": "2026-10-10T17:07:22",
+      "slug": "20261010-1",
+      "status": "publish",
+      "tags": [
+        9611,
+        9610,
+        9609,
+        475,
+        6203,
+        9612
+      ],
+      "title": {
+        "rendered": "648: Throne of Naggaroth 👑🌩️"
       }
     },
     "1808": {
@@ -34807,6 +35149,28 @@
         "rendered": "Anime: Japan&#8217;s Ambassador to the Western World &#8211; Part IV &#8211; 06 &#8211; Naruto"
       }
     },
+    "8245": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-07-12T10:01:00",
+      "id": 8245,
+      "link": "https://zine.trevorion.io/mob-psycho-100-marks-10th-anniversary-with-special-video/",
+      "modified_gmt": "2026-10-09T12:08:45",
+      "slug": "mob-psycho-100-marks-10th-anniversary-with-special-video",
+      "status": "publish",
+      "tags": [
+        2226,
+        233,
+        4727,
+        4732,
+        651,
+        4728
+      ],
+      "title": {
+        "rendered": "Mob Psycho 100 Marks 10th Anniversary with Special Video"
+      }
+    },
     "825": {
       "categories": [
         84
@@ -34829,6 +35193,27 @@
       ],
       "title": {
         "rendered": "Anime: Japan&#8217;s Ambassador to the Western World &#8211; Part IV &#8211; 05 &#8211; My Neighbor Totoro"
+      }
+    },
+    "8251": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-07-11T10:01:00",
+      "id": 8251,
+      "link": "https://zine.trevorion.io/red-river-anime-releases-creditless-opening-video/",
+      "modified_gmt": "2026-10-09T13:42:56",
+      "slug": "red-river-anime-releases-creditless-opening-video",
+      "status": "publish",
+      "tags": [
+        3981,
+        243,
+        4738,
+        3803,
+        244
+      ],
+      "title": {
+        "rendered": "Red River Anime Releases Creditless Opening Video"
       }
     },
     "8261": {
@@ -74416,17 +74801,77 @@
       "id": 9181,
       "name": "#NobuhikoOkamoto"
     },
+    "9182": {
+      "id": 9182,
+      "name": "#RyuMatsuyama"
+    },
+    "9183": {
+      "id": 9183,
+      "name": "#ScienceNotes"
+    },
+    "9184": {
+      "id": 9184,
+      "name": "#KannaNakamura"
+    },
+    "9185": {
+      "id": 9185,
+      "name": "#ScienceClub"
+    },
+    "9186": {
+      "id": 9186,
+      "name": "#StagnationCommittee"
+    },
+    "9187": {
+      "id": 9187,
+      "name": "#Ogipote"
+    },
+    "9188": {
+      "id": 9188,
+      "name": "#ApocalypseAnime"
+    },
     "9189": {
       "id": 9189,
       "name": "#SweetMarriage"
+    },
+    "9190": {
+      "id": 9190,
+      "name": "#AnkichiKobo"
+    },
+    "9191": {
+      "id": 9191,
+      "name": "#EnemiesToLovers"
     },
     "9192": {
       "id": 9192,
       "name": "#BibliaCaseFiles"
     },
+    "9193": {
+      "id": 9193,
+      "name": "#MamoruKanbe"
+    },
+    "9194": {
+      "id": 9194,
+      "name": "#AntiquarianBooks"
+    },
+    "9195": {
+      "id": 9195,
+      "name": "#GameOfTheGoddess"
+    },
+    "9196": {
+      "id": 9196,
+      "name": "#VICGameStudios"
+    },
+    "9197": {
+      "id": 9197,
+      "name": "#RocketShokai"
+    },
     "9198": {
       "id": 9198,
       "name": "#TrueSaint"
+    },
+    "9199": {
+      "id": 9199,
+      "name": "#MasumiTazawa"
     },
     "92": {
       "id": 92,
@@ -74439,6 +74884,34 @@
     "9200": {
       "id": 9200,
       "name": "#TsumugiAkita"
+    },
+    "9201": {
+      "id": 9201,
+      "name": "#BLADEStudio"
+    },
+    "9202": {
+      "id": 9202,
+      "name": "#DigitalCompanions"
+    },
+    "9203": {
+      "id": 9203,
+      "name": "#HumanAI"
+    },
+    "9204": {
+      "id": 9204,
+      "name": "#ChatbotSafety"
+    },
+    "9205": {
+      "id": 9205,
+      "name": "#DavidRobinson"
+    },
+    "9206": {
+      "id": 9206,
+      "name": "#WorkersRights"
+    },
+    "9207": {
+      "id": 9207,
+      "name": "#DataReview"
     },
     "9208": {
       "id": 9208,
@@ -74455,6 +74928,30 @@
     "9210": {
       "id": 9210,
       "name": "#MelbourneTheatre"
+    },
+    "9211": {
+      "id": 9211,
+      "name": "#AmazonWebServices"
+    },
+    "9212": {
+      "id": 9212,
+      "name": "#TextMessaging"
+    },
+    "9213": {
+      "id": 9213,
+      "name": "#RaspberryPi"
+    },
+    "9214": {
+      "id": 9214,
+      "name": "#ESP32"
+    },
+    "9215": {
+      "id": 9215,
+      "name": "#Replika"
+    },
+    "9216": {
+      "id": 9216,
+      "name": "#MuseAgent"
     },
     "9217": {
       "id": 9217,
@@ -74496,13 +74993,49 @@
       "id": 9225,
       "name": "#MysticRitual"
     },
+    "9226": {
+      "id": 9226,
+      "name": "#Metalverse"
+    },
+    "9227": {
+      "id": 9227,
+      "name": "#Joen"
+    },
+    "9228": {
+      "id": 9228,
+      "name": "#BlueRoad"
+    },
+    "9229": {
+      "id": 9229,
+      "name": "#LoveTriangle"
+    },
     "923": {
       "id": 923,
       "name": "#Marriagetoxin"
     },
+    "9230": {
+      "id": 9230,
+      "name": "#Aobuta"
+    },
+    "9231": {
+      "id": 9231,
+      "name": "#BibliaBookstore"
+    },
     "9232": {
       "id": 9232,
       "name": "#JayClayton"
+    },
+    "9233": {
+      "id": 9233,
+      "name": "#WomenInTech"
+    },
+    "9234": {
+      "id": 9234,
+      "name": "#GenderGap"
+    },
+    "9235": {
+      "id": 9235,
+      "name": "#TechCareers"
     },
     "9236": {
       "id": 9236,
@@ -74528,9 +75061,85 @@
       "id": 9240,
       "name": "#BritishCaravan"
     },
+    "9241": {
+      "id": 9241,
+      "name": "#FallenVampire"
+    },
+    "9242": {
+      "id": 9242,
+      "name": "#VampireAnime"
+    },
+    "9243": {
+      "id": 9243,
+      "name": "#AinoShimada"
+    },
+    "9244": {
+      "id": 9244,
+      "name": "#EvanCall"
+    },
+    "9245": {
+      "id": 9245,
+      "name": "#Riou"
+    },
+    "9246": {
+      "id": 9246,
+      "name": "#Jowy"
+    },
+    "9247": {
+      "id": 9247,
+      "name": "#TakumaSakai"
+    },
+    "9248": {
+      "id": 9248,
+      "name": "#AsagiTosaka"
+    },
+    "9249": {
+      "id": 9249,
+      "name": "#Mankyu"
+    },
     "925": {
       "id": 925,
       "name": "#Malta"
+    },
+    "9250": {
+      "id": 9250,
+      "name": "#DigitalAbuse"
+    },
+    "9251": {
+      "id": 9251,
+      "name": "#G20"
+    },
+    "9252": {
+      "id": 9252,
+      "name": "#ClimateAction"
+    },
+    "9253": {
+      "id": 9253,
+      "name": "#Governance"
+    },
+    "9254": {
+      "id": 9254,
+      "name": "#Watermarking"
+    },
+    "9255": {
+      "id": 9255,
+      "name": "#ReflectionAI"
+    },
+    "9256": {
+      "id": 9256,
+      "name": "#BeamAI"
+    },
+    "9257": {
+      "id": 9257,
+      "name": "#OpenWeights"
+    },
+    "9258": {
+      "id": 9258,
+      "name": "#AIModelling"
+    },
+    "9259": {
+      "id": 9259,
+      "name": "#DeepLearning"
     },
     "926": {
       "id": 926,
@@ -74540,6 +75149,14 @@
       "id": 9260,
       "name": "#GroupChat"
     },
+    "9261": {
+      "id": 9261,
+      "name": "#ShoppingAssistant"
+    },
+    "9262": {
+      "id": 9262,
+      "name": "#SocialCommerce"
+    },
     "9263": {
       "id": 9263,
       "name": "#DatingAdvice"
@@ -74547,6 +75164,10 @@
     "9264": {
       "id": 9264,
       "name": "#RelationshipAI"
+    },
+    "9265": {
+      "id": 9265,
+      "name": "#BehavioralScience"
     },
     "9266": {
       "id": 9266,
@@ -74560,9 +75181,53 @@
       "id": 9268,
       "name": "#JobInterview"
     },
+    "9269": {
+      "id": 9269,
+      "name": "#AIAssessment"
+    },
     "927": {
       "id": 927,
       "name": "#Landscape"
+    },
+    "9270": {
+      "id": 9270,
+      "name": "#OpenAIModels"
+    },
+    "9271": {
+      "id": 9271,
+      "name": "#MultiModelAI"
+    },
+    "9272": {
+      "id": 9272,
+      "name": "#Tencent"
+    },
+    "9273": {
+      "id": 9273,
+      "name": "#Amap"
+    },
+    "9274": {
+      "id": 9274,
+      "name": "#CyberResearch"
+    },
+    "9275": {
+      "id": 9275,
+      "name": "#InternetSecurity"
+    },
+    "9276": {
+      "id": 9276,
+      "name": "#Utah"
+    },
+    "9277": {
+      "id": 9277,
+      "name": "#NollaHealth"
+    },
+    "9278": {
+      "id": 9278,
+      "name": "#Dermatology"
+    },
+    "9279": {
+      "id": 9279,
+      "name": "#TextWatermark"
     },
     "928": {
       "id": 928,
@@ -74592,13 +75257,45 @@
       "id": 9285,
       "name": "#GothicArmor"
     },
+    "9286": {
+      "id": 9286,
+      "name": "#Urashimasakatasen"
+    },
+    "9287": {
+      "id": 9287,
+      "name": "#Nocturne"
+    },
+    "9288": {
+      "id": 9288,
+      "name": "#KairiYagi"
+    },
+    "9289": {
+      "id": 9289,
+      "name": "#Nogizaka46"
+    },
     "929": {
       "id": 929,
       "name": "#Legend"
     },
+    "9290": {
+      "id": 9290,
+      "name": "#SudachiNoMaojo"
+    },
+    "9291": {
+      "id": 9291,
+      "name": "#ReijiKawashima"
+    },
+    "9292": {
+      "id": 9292,
+      "name": "#RumiOkubo"
+    },
     "9293": {
       "id": 9293,
       "name": "#OtomeHeroine"
+    },
+    "9294": {
+      "id": 9294,
+      "name": "#NoriyoshiSasaki"
     },
     "9295": {
       "id": 9295,
@@ -74608,6 +75305,18 @@
       "id": 9296,
       "name": "#StudioSeven"
     },
+    "9297": {
+      "id": 9297,
+      "name": "#July2027"
+    },
+    "9298": {
+      "id": 9298,
+      "name": "#IlyaSutskever"
+    },
+    "9299": {
+      "id": 9299,
+      "name": "#TechSatire"
+    },
     "93": {
       "id": 93,
       "name": "#AICulture"
@@ -74616,21 +75325,213 @@
       "id": 930,
       "name": "#KPopDemonHunters"
     },
+    "9300": {
+      "id": 9300,
+      "name": "#RiskAnalysis"
+    },
+    "9301": {
+      "id": 9301,
+      "name": "#SafetyCases"
+    },
+    "9302": {
+      "id": 9302,
+      "name": "#PersonalFinance"
+    },
+    "9303": {
+      "id": 9303,
+      "name": "#FinancialTech"
+    },
+    "9304": {
+      "id": 9304,
+      "name": "#UserExperience"
+    },
+    "9305": {
+      "id": 9305,
+      "name": "#AICopyright"
+    },
+    "9306": {
+      "id": 9306,
+      "name": "#SchoolPhotos"
+    },
+    "9307": {
+      "id": 9307,
+      "name": "#ImageEditing"
+    },
+    "9308": {
+      "id": 9308,
+      "name": "#Watermarks"
+    },
+    "9309": {
+      "id": 9309,
+      "name": "#Perfumery"
+    },
     "931": {
       "id": 931,
       "name": "#FinalWarArc"
+    },
+    "9310": {
+      "id": 9310,
+      "name": "#Fragrance"
+    },
+    "9311": {
+      "id": 9311,
+      "name": "#EndangeredPlants"
+    },
+    "9312": {
+      "id": 9312,
+      "name": "#LaborMarket"
+    },
+    "9313": {
+      "id": 9313,
+      "name": "#TechPolitics"
+    },
+    "9314": {
+      "id": 9314,
+      "name": "#Digitalization"
+    },
+    "9315": {
+      "id": 9315,
+      "name": "#CorporateRisk"
+    },
+    "9316": {
+      "id": 9316,
+      "name": "#BrandReputation"
+    },
+    "9317": {
+      "id": 9317,
+      "name": "#PublicTrust"
+    },
+    "9318": {
+      "id": 9318,
+      "name": "#Drax"
+    },
+    "9319": {
+      "id": 9319,
+      "name": "#Biomass"
     },
     "932": {
       "id": 932,
       "name": "#Benchmarks"
     },
+    "9320": {
+      "id": 9320,
+      "name": "#CarbonEmissions"
+    },
+    "9321": {
+      "id": 9321,
+      "name": "#AIInquiry"
+    },
+    "9322": {
+      "id": 9322,
+      "name": "#AIProtest"
+    },
+    "9323": {
+      "id": 9323,
+      "name": "#TechActivism"
+    },
+    "9324": {
+      "id": 9324,
+      "name": "#DirectAction"
+    },
+    "9325": {
+      "id": 9325,
+      "name": "#DataRetention"
+    },
+    "9326": {
+      "id": 9326,
+      "name": "#GovernmentInquiry"
+    },
+    "9327": {
+      "id": 9327,
+      "name": "#HarkPro"
+    },
+    "9328": {
+      "id": 9328,
+      "name": "#HumanBehavior"
+    },
+    "9329": {
+      "id": 9329,
+      "name": "#StartupAI"
+    },
     "933": {
       "id": 933,
       "name": "#Sonnet45"
     },
+    "9330": {
+      "id": 9330,
+      "name": "#ConsumerInsights"
+    },
+    "9331": {
+      "id": 9331,
+      "name": "#APICredits"
+    },
+    "9332": {
+      "id": 9332,
+      "name": "#ClaudeTeam"
+    },
+    "9333": {
+      "id": 9333,
+      "name": "#StartupPrograms"
+    },
+    "9334": {
+      "id": 9334,
+      "name": "#LibreOffice"
+    },
+    "9335": {
+      "id": 9335,
+      "name": "#DataControl"
+    },
+    "9336": {
+      "id": 9336,
+      "name": "#SoftwareDesign"
+    },
+    "9337": {
+      "id": 9337,
+      "name": "#MistralLarge4"
+    },
+    "9338": {
+      "id": 9338,
+      "name": "#VisualAI"
+    },
+    "9339": {
+      "id": 9339,
+      "name": "#HairStyle"
+    },
     "934": {
       "id": 934,
       "name": "#Coding"
+    },
+    "9340": {
+      "id": 9340,
+      "name": "#NailArt"
+    },
+    "9341": {
+      "id": 9341,
+      "name": "#InferenceAI"
+    },
+    "9342": {
+      "id": 9342,
+      "name": "#GoogleSheets"
+    },
+    "9343": {
+      "id": 9343,
+      "name": "#GoogleSlides"
+    },
+    "9344": {
+      "id": 9344,
+      "name": "#FitbitEdge"
+    },
+    "9345": {
+      "id": 9345,
+      "name": "#FitnessTracker"
+    },
+    "9346": {
+      "id": 9346,
+      "name": "#GoogleHealth"
+    },
+    "9347": {
+      "id": 9347,
+      "name": "#Wikimedia"
     },
     "9348": {
       "id": 9348,
@@ -74652,25 +75553,213 @@
       "id": 9351,
       "name": "#RockBand"
     },
+    "9352": {
+      "id": 9352,
+      "name": "#Chojo"
+    },
+    "9353": {
+      "id": 9353,
+      "name": "#SuperPsychicPoliceman"
+    },
+    "9354": {
+      "id": 9354,
+      "name": "#OpeningAnimation"
+    },
+    "9355": {
+      "id": 9355,
+      "name": "#ShunNuma"
+    },
     "9356": {
       "id": 9356,
       "name": "#OneHundredMeters"
+    },
+    "9357": {
+      "id": 9357,
+      "name": "#Hyakuemu"
+    },
+    "9358": {
+      "id": 9358,
+      "name": "#KenjiIwaisawa"
+    },
+    "9359": {
+      "id": 9359,
+      "name": "#Rotoscoping"
     },
     "936": {
       "id": 936,
       "name": "#KlingLab"
     },
+    "9360": {
+      "id": 9360,
+      "name": "#Uoto"
+    },
+    "9361": {
+      "id": 9361,
+      "name": "#FightingSouls"
+    },
+    "9362": {
+      "id": 9362,
+      "name": "#PhoenixCyclops"
+    },
+    "9363": {
+      "id": 9363,
+      "name": "#RayChase"
+    },
+    "9364": {
+      "id": 9364,
+      "name": "#MoonOnARainyNight"
+    },
+    "9365": {
+      "id": 9365,
+      "name": "#AmayoNoTsuki"
+    },
+    "9366": {
+      "id": 9366,
+      "name": "#Kuzushiro"
+    },
+    "9367": {
+      "id": 9367,
+      "name": "#CompTown"
+    },
+    "9368": {
+      "id": 9368,
+      "name": "#AkiraToriyama"
+    },
+    "9369": {
+      "id": 9369,
+      "name": "#TrackAndField"
+    },
     "937": {
       "id": 937,
       "name": "#KlingAI"
+    },
+    "9370": {
+      "id": 9370,
+      "name": "#NocturneNuitGrotesque"
+    },
+    "9371": {
+      "id": 9371,
+      "name": "#AnimeAnthology"
+    },
+    "9372": {
+      "id": 9372,
+      "name": "#SubtitledTrailer"
+    },
+    "9373": {
+      "id": 9373,
+      "name": "#Longevity"
+    },
+    "9374": {
+      "id": 9374,
+      "name": "#MedicalTechnology"
+    },
+    "9375": {
+      "id": 9375,
+      "name": "#HealthResearch"
+    },
+    "9376": {
+      "id": 9376,
+      "name": "#VideoReport"
+    },
+    "9377": {
+      "id": 9377,
+      "name": "#ProofVerification"
+    },
+    "9378": {
+      "id": 9378,
+      "name": "#AcademicResearch"
+    },
+    "9379": {
+      "id": 9379,
+      "name": "#PeerReview"
     },
     "938": {
       "id": 938,
       "name": "#AIVideo"
     },
+    "9380": {
+      "id": 9380,
+      "name": "#Mumsnet"
+    },
+    "9381": {
+      "id": 9381,
+      "name": "#AIPrompts"
+    },
+    "9382": {
+      "id": 9382,
+      "name": "#OnlineForums"
+    },
+    "9383": {
+      "id": 9383,
+      "name": "#ContentAuthenticity"
+    },
+    "9384": {
+      "id": 9384,
+      "name": "#CommunityTrust"
+    },
+    "9385": {
+      "id": 9385,
+      "name": "#HousingSupply"
+    },
+    "9386": {
+      "id": 9386,
+      "name": "#BuildingIndustry"
+    },
+    "9387": {
+      "id": 9387,
+      "name": "#Hollywood"
+    },
+    "9388": {
+      "id": 9388,
+      "name": "#TechDocumentaries"
+    },
+    "9389": {
+      "id": 9389,
+      "name": "#StuartHall"
+    },
     "939": {
       "id": 939,
       "name": "#GPT41"
+    },
+    "9390": {
+      "id": 9390,
+      "name": "#CulturalStudies"
+    },
+    "9391": {
+      "id": 9391,
+      "name": "#UniversityOfBirmingham"
+    },
+    "9392": {
+      "id": 9392,
+      "name": "#DigitalHeritage"
+    },
+    "9393": {
+      "id": 9393,
+      "name": "#AlgorithmicPricing"
+    },
+    "9394": {
+      "id": 9394,
+      "name": "#Franchising"
+    },
+    "9395": {
+      "id": 9395,
+      "name": "#ConsumerPrices"
+    },
+    "9396": {
+      "id": 9396,
+      "name": "#USLaw"
+    },
+    "9397": {
+      "id": 9397,
+      "name": "#CompetitionPolicy"
+    },
+    "9398": {
+      "id": 9398,
+      "name": "#InternationalMonetaryFund"
+    },
+    "9399": {
+      "id": 9399,
+      "name": "#GlobalDebt"
     },
     "94": {
       "id": 94,
@@ -74680,49 +75769,441 @@
       "id": 940,
       "name": "#Education"
     },
+    "9400": {
+      "id": 9400,
+      "name": "#KristalinaGeorgieva"
+    },
+    "9401": {
+      "id": 9401,
+      "name": "#InterestRates"
+    },
+    "9402": {
+      "id": 9402,
+      "name": "#GovernmentSpending"
+    },
+    "9403": {
+      "id": 9403,
+      "name": "#WorldEconomy"
+    },
+    "9404": {
+      "id": 9404,
+      "name": "#FiscalPolicy"
+    },
+    "9405": {
+      "id": 9405,
+      "name": "#PrivacyInvestigation"
+    },
+    "9406": {
+      "id": 9406,
+      "name": "#HeyCyan"
+    },
+    "9407": {
+      "id": 9407,
+      "name": "#Kmart"
+    },
+    "9408": {
+      "id": 9408,
+      "name": "#WearableTechnology"
+    },
+    "9409": {
+      "id": 9409,
+      "name": "#ParliamentaryInquiry"
+    },
     "941": {
       "id": 941,
       "name": "#SchoolAI"
+    },
+    "9410": {
+      "id": 9410,
+      "name": "#TobyWalsh"
+    },
+    "9411": {
+      "id": 9411,
+      "name": "#NousResearch"
+    },
+    "9412": {
+      "id": 9412,
+      "name": "#HermesAgent"
+    },
+    "9413": {
+      "id": 9413,
+      "name": "#SurfaceLaptopUltra"
+    },
+    "9414": {
+      "id": 9414,
+      "name": "#ComputerHardware"
+    },
+    "9415": {
+      "id": 9415,
+      "name": "#IPad"
+    },
+    "9416": {
+      "id": 9416,
+      "name": "#AppConnectors"
+    },
+    "9417": {
+      "id": 9417,
+      "name": "#TaskAutomation"
+    },
+    "9418": {
+      "id": 9418,
+      "name": "#CommonSenseMedia"
+    },
+    "9419": {
+      "id": 9419,
+      "name": "#ParentalControls"
     },
     "942": {
       "id": 942,
       "name": "#ClassroomAI"
     },
+    "9420": {
+      "id": 9420,
+      "name": "#IntelligentUI"
+    },
+    "9421": {
+      "id": 9421,
+      "name": "#InteractiveAnswers"
+    },
+    "9422": {
+      "id": 9422,
+      "name": "#DataVisualization"
+    },
+    "9423": {
+      "id": 9423,
+      "name": "#AIInterface"
+    },
+    "9424": {
+      "id": 9424,
+      "name": "#ProductUpdate"
+    },
+    "9425": {
+      "id": 9425,
+      "name": "#ContentModeration"
+    },
+    "9426": {
+      "id": 9426,
+      "name": "#AbusePrevention"
+    },
+    "9427": {
+      "id": 9427,
+      "name": "#DigitalAdvertising"
+    },
+    "9428": {
+      "id": 9428,
+      "name": "#Healthleap"
+    },
+    "9429": {
+      "id": 9429,
+      "name": "#HospitalTechnology"
+    },
     "943": {
       "id": 943,
       "name": "#TeacherTools"
+    },
+    "9430": {
+      "id": 9430,
+      "name": "#HealthcareStartups"
+    },
+    "9431": {
+      "id": 9431,
+      "name": "#ClinicalResearch"
+    },
+    "9432": {
+      "id": 9432,
+      "name": "#TonyFadell"
+    },
+    "9433": {
+      "id": 9433,
+      "name": "#ConsumerHardware"
+    },
+    "9434": {
+      "id": 9434,
+      "name": "#ProductDesign"
+    },
+    "9435": {
+      "id": 9435,
+      "name": "#MITFutureFest"
+    },
+    "9436": {
+      "id": 9436,
+      "name": "#PersonalAssistants"
+    },
+    "9437": {
+      "id": 9437,
+      "name": "#TechInnovation"
     },
     "9438": {
       "id": 9438,
       "name": "#Playground"
     },
+    "9439": {
+      "id": 9439,
+      "name": "#BrowserGames"
+    },
     "944": {
       "id": 944,
       "name": "#SmartAssistant"
+    },
+    "9440": {
+      "id": 9440,
+      "name": "#NoCode"
+    },
+    "9441": {
+      "id": 9441,
+      "name": "#AlexanderEmbiricos"
+    },
+    "9442": {
+      "id": 9442,
+      "name": "#Roundtables"
+    },
+    "9443": {
+      "id": 9443,
+      "name": "#StartupEcosystem"
+    },
+    "9444": {
+      "id": 9444,
+      "name": "#StartupEvents"
+    },
+    "9445": {
+      "id": 9445,
+      "name": "#AIWatermarking"
     },
     "9446": {
       "id": 9446,
       "name": "#DigitalVerification"
     },
+    "9447": {
+      "id": 9447,
+      "name": "#MediaAuthenticity"
+    },
+    "9448": {
+      "id": 9448,
+      "name": "#Melius"
+    },
+    "9449": {
+      "id": 9449,
+      "name": "#MarketingAutomation"
+    },
     "945": {
       "id": 945,
       "name": "#ProactiveAI"
+    },
+    "9450": {
+      "id": 9450,
+      "name": "#FormalProofs"
+    },
+    "9451": {
+      "id": 9451,
+      "name": "#Lean"
+    },
+    "9452": {
+      "id": 9452,
+      "name": "#TheoremProving"
+    },
+    "9453": {
+      "id": 9453,
+      "name": "#ResearchVerification"
+    },
+    "9454": {
+      "id": 9454,
+      "name": "#FrontierModels"
+    },
+    "9455": {
+      "id": 9455,
+      "name": "#InteractiveTools"
+    },
+    "9456": {
+      "id": 9456,
+      "name": "#UserInterface"
+    },
+    "9457": {
+      "id": 9457,
+      "name": "#TechnologyUpdate"
+    },
+    "9458": {
+      "id": 9458,
+      "name": "#CollegePlanner"
+    },
+    "9459": {
+      "id": 9459,
+      "name": "#TeenLearning"
     },
     "946": {
       "id": 946,
       "name": "#ChatGPTPulse"
     },
+    "9460": {
+      "id": 9460,
+      "name": "#StudyTools"
+    },
+    "9461": {
+      "id": 9461,
+      "name": "#Flashcards"
+    },
+    "9462": {
+      "id": 9462,
+      "name": "#InteractiveQuizzes"
+    },
+    "9463": {
+      "id": 9463,
+      "name": "#PrestigeN16Flip"
+    },
+    "9464": {
+      "id": 9464,
+      "name": "#AILaptops"
+    },
+    "9465": {
+      "id": 9465,
+      "name": "#ConvertibleLaptop"
+    },
+    "9466": {
+      "id": 9466,
+      "name": "#OLED"
+    },
+    "9467": {
+      "id": 9467,
+      "name": "#ParentalAlerts"
+    },
+    "9468": {
+      "id": 9468,
+      "name": "#SafetyTesting"
+    },
+    "9469": {
+      "id": 9469,
+      "name": "#AIWatermarks"
+    },
     "947": {
       "id": 947,
       "name": "#Cameos"
+    },
+    "9470": {
+      "id": 9470,
+      "name": "#MediaVerification"
+    },
+    "9471": {
+      "id": 9471,
+      "name": "#GooglePlayground"
+    },
+    "9472": {
+      "id": 9472,
+      "name": "#GameCreation"
+    },
+    "9473": {
+      "id": 9473,
+      "name": "#PromptBasedTools"
+    },
+    "9474": {
+      "id": 9474,
+      "name": "#Canvas"
+    },
+    "9475": {
+      "id": 9475,
+      "name": "#ClockDisplay"
+    },
+    "9476": {
+      "id": 9476,
+      "name": "#ColdCathode"
+    },
+    "9477": {
+      "id": 9477,
+      "name": "#GasDischarge"
+    },
+    "9478": {
+      "id": 9478,
+      "name": "#NeonGlow"
+    },
+    "9479": {
+      "id": 9479,
+      "name": "#RetroElectronics"
     },
     "948": {
       "id": 948,
       "name": "#CreativeTools"
     },
+    "9480": {
+      "id": 9480,
+      "name": "#TheBoxer"
+    },
+    "9481": {
+      "id": 9481,
+      "name": "#Boxing"
+    },
+    "9482": {
+      "id": 9482,
+      "name": "#JH"
+    },
+    "9483": {
+      "id": 9483,
+      "name": "#Breccia"
+    },
+    "9484": {
+      "id": 9484,
+      "name": "#StudioJemi"
+    },
+    "9485": {
+      "id": 9485,
+      "name": "#TeenageMercenary"
+    },
+    "9486": {
+      "id": 9486,
+      "name": "#ManabuOno"
+    },
+    "9487": {
+      "id": 9487,
+      "name": "#GundamSeed"
+    },
+    "9488": {
+      "id": 9488,
+      "name": "#FreedomZero"
+    },
+    "9489": {
+      "id": 9489,
+      "name": "#ShinnAsuka"
+    },
     "949": {
       "id": 949,
       "name": "#AIAudio"
+    },
+    "9490": {
+      "id": 9490,
+      "name": "#StrikeFreedom"
+    },
+    "9491": {
+      "id": 9491,
+      "name": "#MitsuoFukuda"
+    },
+    "9492": {
+      "id": 9492,
+      "name": "#Mercenary"
+    },
+    "9493": {
+      "id": 9493,
+      "name": "#MagicalBuffs"
+    },
+    "9494": {
+      "id": 9494,
+      "name": "#EcstaticBuffer"
+    },
+    "9495": {
+      "id": 9495,
+      "name": "#WimStrauss"
+    },
+    "9496": {
+      "id": 9496,
+      "name": "#SupportMage"
+    },
+    "9497": {
+      "id": 9497,
+      "name": "#EveryonesDarlingHasASecret"
+    },
+    "9498": {
+      "id": 9498,
+      "name": "#KashikoAmane"
+    },
+    "9499": {
+      "id": 9499,
+      "name": "#Gekkou"
     },
     "95": {
       "id": 95,
@@ -74732,37 +76213,437 @@
       "id": 950,
       "name": "#Sora2"
     },
+    "9500": {
+      "id": 9500,
+      "name": "#HikaruSato"
+    },
+    "9501": {
+      "id": 9501,
+      "name": "#KenichiIshikura"
+    },
+    "9502": {
+      "id": 9502,
+      "name": "#TheGuySheWasInterestedInWasntAGuyAtAll"
+    },
+    "9503": {
+      "id": 9503,
+      "name": "#SumikoArai"
+    },
+    "9504": {
+      "id": 9504,
+      "name": "#Nirvana"
+    },
+    "9505": {
+      "id": 9505,
+      "name": "#MitsukiKoga"
+    },
+    "9506": {
+      "id": 9506,
+      "name": "#AyaOsawa"
+    },
+    "9507": {
+      "id": 9507,
+      "name": "#GirlsLove"
+    },
+    "9508": {
+      "id": 9508,
+      "name": "#Bless"
+    },
+    "9509": {
+      "id": 9509,
+      "name": "#YoshikiNakajima"
+    },
     "951": {
       "id": 951,
       "name": "#VirtualPartners"
+    },
+    "9510": {
+      "id": 9510,
+      "name": "#JoeOsaki"
+    },
+    "9511": {
+      "id": 9511,
+      "name": "#MakeupArtistry"
+    },
+    "9512": {
+      "id": 9512,
+      "name": "#Fashion"
+    },
+    "9513": {
+      "id": 9513,
+      "name": "#PurpleBubble"
+    },
+    "9514": {
+      "id": 9514,
+      "name": "#KanSawada"
+    },
+    "9515": {
+      "id": 9515,
+      "name": "#AlienComedy"
+    },
+    "9516": {
+      "id": 9516,
+      "name": "#MySwordSaintMasterIsTooCuteToLiveWith"
+    },
+    "9517": {
+      "id": 9517,
+      "name": "#Wolfsbane"
+    },
+    "9518": {
+      "id": 9518,
+      "name": "#Lightbox"
+    },
+    "9519": {
+      "id": 9519,
+      "name": "#SwordTraining"
+    },
+    "9520": {
+      "id": 9520,
+      "name": "#HikaruTono"
+    },
+    "9521": {
+      "id": 9521,
+      "name": "#IoriNoguchi"
+    },
+    "9522": {
+      "id": 9522,
+      "name": "#LingTositeSigure"
+    },
+    "9523": {
+      "id": 9523,
+      "name": "#HAYATE"
+    },
+    "9524": {
+      "id": 9524,
+      "name": "#TheRemarriedEmpress"
+    },
+    "9525": {
+      "id": 9525,
+      "name": "#Navier"
+    },
+    "9526": {
+      "id": 9526,
+      "name": "#Alphatart"
+    },
+    "9527": {
+      "id": 9527,
+      "name": "#FathomEntertainment"
+    },
+    "9528": {
+      "id": 9528,
+      "name": "#TetsuyaYanagisawa"
+    },
+    "9529": {
+      "id": 9529,
+      "name": "#Greed"
     },
     "953": {
       "id": 953,
       "name": "#AIWorkers"
     },
+    "9530": {
+      "id": 9530,
+      "name": "#HereUAre"
+    },
+    "9531": {
+      "id": 9531,
+      "name": "#DJUN"
+    },
+    "9532": {
+      "id": 9532,
+      "name": "#ShinyaKiyozuka"
+    },
+    "9533": {
+      "id": 9533,
+      "name": "#Rouseact"
+    },
+    "9534": {
+      "id": 9534,
+      "name": "#YukiInoue"
+    },
+    "9535": {
+      "id": 9535,
+      "name": "#MasashiIshihama"
+    },
+    "9536": {
+      "id": 9536,
+      "name": "#Shochiku"
+    },
+    "9537": {
+      "id": 9537,
+      "name": "#HisashiHirai"
+    },
+    "9538": {
+      "id": 9538,
+      "name": "#FiveCentimetersPerSecond"
+    },
+    "9539": {
+      "id": 9539,
+      "name": "#YoshiyukiOkuyama"
+    },
     "954": {
       "id": 954,
       "name": "#GoogleAI"
+    },
+    "9540": {
+      "id": 9540,
+      "name": "#GoWithTheCloudsNorthByNorthwest"
+    },
+    "9541": {
+      "id": 9541,
+      "name": "#AkiIrie"
+    },
+    "9542": {
+      "id": 9542,
+      "name": "#Iceland"
+    },
+    "9543": {
+      "id": 9543,
+      "name": "#PrivateDetective"
+    },
+    "9544": {
+      "id": 9544,
+      "name": "#ShotaroKitamura"
+    },
+    "9545": {
+      "id": 9545,
+      "name": "#SkullDragonsPreciousDaughter"
+    },
+    "9546": {
+      "id": 9546,
+      "name": "#KazuhikoInoue"
+    },
+    "9547": {
+      "id": 9547,
+      "name": "#IchiYukishiro"
+    },
+    "9548": {
+      "id": 9548,
+      "name": "#Nemu"
+    },
+    "9549": {
+      "id": 9549,
+      "name": "#Hiking"
     },
     "955": {
       "id": 955,
       "name": "#PublicProcurement"
     },
+    "9550": {
+      "id": 9550,
+      "name": "#MountainRescue"
+    },
+    "9551": {
+      "id": 9551,
+      "name": "#OutdoorSafety"
+    },
+    "9552": {
+      "id": 9552,
+      "name": "#RentalMarket"
+    },
+    "9553": {
+      "id": 9553,
+      "name": "#UrbanPolicy"
+    },
+    "9554": {
+      "id": 9554,
+      "name": "#CostOfLiving"
+    },
+    "9555": {
+      "id": 9555,
+      "name": "#TenantRights"
+    },
+    "9556": {
+      "id": 9556,
+      "name": "#ElectionIntegrity"
+    },
+    "9557": {
+      "id": 9557,
+      "name": "#PoliticalAdvertising"
+    },
+    "9558": {
+      "id": 9558,
+      "name": "#WorkplaceMonitoring"
+    },
+    "9559": {
+      "id": 9559,
+      "name": "#Coop"
+    },
     "956": {
       "id": 956,
       "name": "#AIGovernment"
+    },
+    "9560": {
+      "id": 9560,
+      "name": "#EmployeeRights"
+    },
+    "9561": {
+      "id": 9561,
+      "name": "#CallAnalytics"
+    },
+    "9562": {
+      "id": 9562,
+      "name": "#DataAnnotation"
+    },
+    "9563": {
+      "id": 9563,
+      "name": "#EconomicOpportunity"
+    },
+    "9564": {
+      "id": 9564,
+      "name": "#IncidentResponse"
+    },
+    "9565": {
+      "id": 9565,
+      "name": "#Theranos"
+    },
+    "9566": {
+      "id": 9566,
+      "name": "#ElizabethHolmes"
+    },
+    "9567": {
+      "id": 9567,
+      "name": "#Extend"
+    },
+    "9568": {
+      "id": 9568,
+      "name": "#PublicRecords"
+    },
+    "9569": {
+      "id": 9569,
+      "name": "#Workplace"
     },
     "957": {
       "id": 957,
       "name": "#eAlbania"
     },
+    "9570": {
+      "id": 9570,
+      "name": "#BenAffleck"
+    },
+    "9571": {
+      "id": 9571,
+      "name": "#AIFilmmaking"
+    },
+    "9572": {
+      "id": 9572,
+      "name": "#InterPositive"
+    },
+    "9573": {
+      "id": 9573,
+      "name": "#VisualEffects"
+    },
+    "9574": {
+      "id": 9574,
+      "name": "#FilmProduction"
+    },
+    "9575": {
+      "id": 9575,
+      "name": "#ModelAlignment"
+    },
+    "9576": {
+      "id": 9576,
+      "name": "#FinancialReporting"
+    },
+    "9577": {
+      "id": 9577,
+      "name": "#AIUsagePolicy"
+    },
+    "9578": {
+      "id": 9578,
+      "name": "#FormalVerification"
+    },
+    "9579": {
+      "id": 9579,
+      "name": "#Natura"
+    },
     "958": {
       "id": 958,
       "name": "#DiellaAI"
     },
+    "9580": {
+      "id": 9580,
+      "name": "#HealthTracking"
+    },
+    "9581": {
+      "id": 9581,
+      "name": "#Goodfire"
+    },
+    "9582": {
+      "id": 9582,
+      "name": "#ModelInterpretability"
+    },
+    "9583": {
+      "id": 9583,
+      "name": "#Baseten"
+    },
+    "9584": {
+      "id": 9584,
+      "name": "#Monitoring"
+    },
+    "9585": {
+      "id": 9585,
+      "name": "#Foresight"
+    },
+    "9586": {
+      "id": 9586,
+      "name": "#Gemma"
+    },
+    "9587": {
+      "id": 9587,
+      "name": "#Mac"
+    },
+    "9588": {
+      "id": 9588,
+      "name": "#ButterflyEffect"
+    },
+    "9589": {
+      "id": 9589,
+      "name": "#Singapore"
+    },
     "959": {
       "id": 959,
       "name": "#Dependence"
+    },
+    "9590": {
+      "id": 9590,
+      "name": "#Biohub"
+    },
+    "9591": {
+      "id": 9591,
+      "name": "#VirtualCells"
+    },
+    "9592": {
+      "id": 9592,
+      "name": "#ScientificData"
+    },
+    "9593": {
+      "id": 9593,
+      "name": "#Dashboards"
+    },
+    "9594": {
+      "id": 9594,
+      "name": "#BusinessIntelligence"
+    },
+    "9595": {
+      "id": 9595,
+      "name": "#InterfaceRing"
+    },
+    "9596": {
+      "id": 9596,
+      "name": "#BloodPressure"
+    },
+    "9597": {
+      "id": 9597,
+      "name": "#MedicalDevices"
+    },
+    "9598": {
+      "id": 9598,
+      "name": "#Validation"
+    },
+    "9599": {
+      "id": 9599,
+      "name": "#Tablets"
     },
     "96": {
       "id": 96,
@@ -74772,41 +76653,441 @@
       "id": 960,
       "name": "#Toy"
     },
+    "9600": {
+      "id": 9600,
+      "name": "#ScreenIntelligence"
+    },
+    "9601": {
+      "id": 9601,
+      "name": "#AISeal"
+    },
+    "9602": {
+      "id": 9602,
+      "name": "#Virtualization"
+    },
+    "9603": {
+      "id": 9603,
+      "name": "#Cartoons"
+    },
+    "9604": {
+      "id": 9604,
+      "name": "#Authorship"
+    },
+    "9605": {
+      "id": 9605,
+      "name": "#Recruiting"
+    },
+    "9606": {
+      "id": 9606,
+      "name": "#SoftwareEngineering"
+    },
+    "9607": {
+      "id": 9607,
+      "name": "#MHS"
+    },
+    "9608": {
+      "id": 9608,
+      "name": "#Motion"
+    },
+    "9609": {
+      "id": 9609,
+      "name": "#Druchii"
+    },
     "961": {
       "id": 961,
       "name": "#CO2Emissions"
+    },
+    "9610": {
+      "id": 9610,
+      "name": "#Dreadlord"
+    },
+    "9611": {
+      "id": 9611,
+      "name": "#DarkElves"
+    },
+    "9612": {
+      "id": 9612,
+      "name": "#Warhammer"
+    },
+    "9613": {
+      "id": 9613,
+      "name": "#Iremono"
+    },
+    "9614": {
+      "id": 9614,
+      "name": "#MeiyoDensetsu"
+    },
+    "9615": {
+      "id": 9615,
+      "name": "#OrekoTachibana"
+    },
+    "9616": {
+      "id": 9616,
+      "name": "#RomanticSuspense"
+    },
+    "9617": {
+      "id": 9617,
+      "name": "#Drama2027"
+    },
+    "9618": {
+      "id": 9618,
+      "name": "#TankCarnival"
+    },
+    "9619": {
+      "id": 9619,
+      "name": "#BokosukaRush"
     },
     "962": {
       "id": 962,
       "name": "#Essex"
     },
+    "9620": {
+      "id": 9620,
+      "name": "#GHoldings"
+    },
+    "9621": {
+      "id": 9621,
+      "name": "#TankBattles"
+    },
+    "9622": {
+      "id": 9622,
+      "name": "#FashionManga"
+    },
+    "9623": {
+      "id": 9623,
+      "name": "#TheLateLadysTreasure"
+    },
+    "9624": {
+      "id": 9624,
+      "name": "#Hyuganatsu"
+    },
+    "9625": {
+      "id": 9625,
+      "name": "#JobCuts"
+    },
+    "9626": {
+      "id": 9626,
+      "name": "#LawEnforcement"
+    },
+    "9627": {
+      "id": 9627,
+      "name": "#FilmDirectors"
+    },
+    "9628": {
+      "id": 9628,
+      "name": "#RidleyScott"
+    },
+    "9629": {
+      "id": 9629,
+      "name": "#WPP"
+    },
     "963": {
       "id": 963,
       "name": "#Datacentre"
+    },
+    "9630": {
+      "id": 9630,
+      "name": "#CreativeCareers"
+    },
+    "9631": {
+      "id": 9631,
+      "name": "#BritishCinema"
+    },
+    "9632": {
+      "id": 9632,
+      "name": "#AILiability"
+    },
+    "9633": {
+      "id": 9633,
+      "name": "#ClimateRisk"
+    },
+    "9634": {
+      "id": 9634,
+      "name": "#CorporateAccountability"
+    },
+    "9635": {
+      "id": 9635,
+      "name": "#RevenueForecast"
+    },
+    "9636": {
+      "id": 9636,
+      "name": "#CloudPartners"
+    },
+    "9637": {
+      "id": 9637,
+      "name": "#TechnologyStocks"
+    },
+    "9638": {
+      "id": 9638,
+      "name": "#TomWatson"
+    },
+    "9639": {
+      "id": 9639,
+      "name": "#PublicContracts"
     },
     "964": {
       "id": 964,
       "name": "#AR"
     },
+    "9640": {
+      "id": 9640,
+      "name": "#DataGovernance"
+    },
+    "9641": {
+      "id": 9641,
+      "name": "#GovernmentProcurement"
+    },
+    "9642": {
+      "id": 9642,
+      "name": "#PoliceTechnology"
+    },
+    "9643": {
+      "id": 9643,
+      "name": "#BritishPolitics"
+    },
+    "9644": {
+      "id": 9644,
+      "name": "#GordonBrown"
+    },
+    "9645": {
+      "id": 9645,
+      "name": "#BritishInnovation"
+    },
+    "9646": {
+      "id": 9646,
+      "name": "#ResearchInvestment"
+    },
+    "9647": {
+      "id": 9647,
+      "name": "#RegionalGrowth"
+    },
+    "9648": {
+      "id": 9648,
+      "name": "#QuantumComputing"
+    },
+    "9649": {
+      "id": 9649,
+      "name": "#SyntheticBiology"
+    },
     "965": {
       "id": 965,
       "name": "#HUD"
+    },
+    "9650": {
+      "id": 9650,
+      "name": "#ASX"
+    },
+    "9651": {
+      "id": 9651,
+      "name": "#PrivateCapital"
+    },
+    "9652": {
+      "id": 9652,
+      "name": "#UsagePolicy"
+    },
+    "9653": {
+      "id": 9653,
+      "name": "#ModelWelfare"
+    },
+    "9654": {
+      "id": 9654,
+      "name": "#MachineConsciousness"
+    },
+    "9655": {
+      "id": 9655,
+      "name": "#InnovationSummit"
+    },
+    "9656": {
+      "id": 9656,
+      "name": "#NationalMedalOfScience"
+    },
+    "9657": {
+      "id": 9657,
+      "name": "#LisaSu"
+    },
+    "9658": {
+      "id": 9658,
+      "name": "#TechnologyLeadership"
+    },
+    "9659": {
+      "id": 9659,
+      "name": "#SciencePolicy"
     },
     "966": {
       "id": 966,
       "name": "#SmartGlasses"
     },
+    "9660": {
+      "id": 9660,
+      "name": "#TransformerModels"
+    },
+    "9661": {
+      "id": 9661,
+      "name": "#PhiladelphiaPolice"
+    },
+    "9662": {
+      "id": 9662,
+      "name": "#FalseInformation"
+    },
+    "9663": {
+      "id": 9663,
+      "name": "#LocalGovernment"
+    },
+    "9664": {
+      "id": 9664,
+      "name": "#PersonalAIAgents"
+    },
+    "9665": {
+      "id": 9665,
+      "name": "#PersonalAgents"
+    },
+    "9666": {
+      "id": 9666,
+      "name": "#DataCentreDeals"
+    },
+    "9667": {
+      "id": 9667,
+      "name": "#GhostComputer"
+    },
+    "9668": {
+      "id": 9668,
+      "name": "#StartupBusiness"
+    },
+    "9669": {
+      "id": 9669,
+      "name": "#DanuRobotics"
+    },
     "967": {
       "id": 967,
       "name": "#Wearable"
+    },
+    "9670": {
+      "id": 9670,
+      "name": "#Recycling"
+    },
+    "9671": {
+      "id": 9671,
+      "name": "#WasteSorting"
+    },
+    "9672": {
+      "id": 9672,
+      "name": "#AmyMa"
+    },
+    "9673": {
+      "id": 9673,
+      "name": "#CircularEconomy"
+    },
+    "9674": {
+      "id": 9674,
+      "name": "#EnvironmentalTechnology"
+    },
+    "9675": {
+      "id": 9675,
+      "name": "#SherryTurkle"
+    },
+    "9676": {
+      "id": 9676,
+      "name": "#ArtificialIntimacy"
+    },
+    "9677": {
+      "id": 9677,
+      "name": "#SocialRobotics"
+    },
+    "9678": {
+      "id": 9678,
+      "name": "#EmotionalAttachment"
+    },
+    "9679": {
+      "id": 9679,
+      "name": "#CyborgPsychology"
     },
     "968": {
       "id": 968,
       "name": "#Ray-Ban"
     },
+    "9680": {
+      "id": 9680,
+      "name": "#OliviaMoore"
+    },
+    "9681": {
+      "id": 9681,
+      "name": "#BusinessModels"
+    },
+    "9682": {
+      "id": 9682,
+      "name": "#Suno"
+    },
+    "9683": {
+      "id": 9683,
+      "name": "#AIApplications"
+    },
+    "9684": {
+      "id": 9684,
+      "name": "#StartupOpportunities"
+    },
+    "9685": {
+      "id": 9685,
+      "name": "#SafetyResearchers"
+    },
+    "9686": {
+      "id": 9686,
+      "name": "#TomekKorbak"
+    },
+    "9687": {
+      "id": 9687,
+      "name": "#JasmineWang"
+    },
+    "9688": {
+      "id": 9688,
+      "name": "#MikitaBalesni"
+    },
+    "9689": {
+      "id": 9689,
+      "name": "#ModelMonitorability"
+    },
     "969": {
       "id": 969,
       "name": "#FantasyJourney"
+    },
+    "9690": {
+      "id": 9690,
+      "name": "#ExternalAuditors"
+    },
+    "9691": {
+      "id": 9691,
+      "name": "#AISafetyCulture"
+    },
+    "9692": {
+      "id": 9692,
+      "name": "#AICybersecurity"
+    },
+    "9693": {
+      "id": 9693,
+      "name": "#RogueAgents"
+    },
+    "9694": {
+      "id": 9694,
+      "name": "#AIBias"
+    },
+    "9695": {
+      "id": 9695,
+      "name": "#SensitiveTraits"
+    },
+    "9696": {
+      "id": 9696,
+      "name": "#GPTImage"
+    },
+    "9697": {
+      "id": 9697,
+      "name": "#SyntheticFaces"
+    },
+    "9698": {
+      "id": 9698,
+      "name": "#GoogleAMIE"
+    },
+    "9699": {
+      "id": 9699,
+      "name": "#PatientHistory"
     },
     "97": {
       "id": 97,
@@ -74816,9 +77097,85 @@
       "id": 970,
       "name": "#Adventurers"
     },
+    "9700": {
+      "id": 9700,
+      "name": "#PhysicianOversight"
+    },
+    "9701": {
+      "id": 9701,
+      "name": "#HealthcareTechnology"
+    },
+    "9702": {
+      "id": 9702,
+      "name": "#DiagnosticSupport"
+    },
+    "9703": {
+      "id": 9703,
+      "name": "#BethIsraelDeaconess"
+    },
+    "9704": {
+      "id": 9704,
+      "name": "#BogusBylines"
+    },
+    "9705": {
+      "id": 9705,
+      "name": "#InfluenceOperations"
+    },
+    "9706": {
+      "id": 9706,
+      "name": "#FakeJournalists"
+    },
+    "9707": {
+      "id": 9707,
+      "name": "#NewsroomVerification"
+    },
+    "9708": {
+      "id": 9708,
+      "name": "#UsageRules"
+    },
+    "9709": {
+      "id": 9709,
+      "name": "#AIWelfare"
+    },
     "971": {
       "id": 971,
       "name": "#Pilgrimage"
+    },
+    "9710": {
+      "id": 9710,
+      "name": "#SurveillanceRestrictions"
+    },
+    "9711": {
+      "id": 9711,
+      "name": "#ResponsibleDeployment"
+    },
+    "9712": {
+      "id": 9712,
+      "name": "#Sophos"
+    },
+    "9713": {
+      "id": 9713,
+      "name": "#OpenAIDaybreak"
+    },
+    "9714": {
+      "id": 9714,
+      "name": "#ThreatResponse"
+    },
+    "9715": {
+      "id": 9715,
+      "name": "#ManagedDetection"
+    },
+    "9716": {
+      "id": 9716,
+      "name": "#SecurityAgents"
+    },
+    "9717": {
+      "id": 9717,
+      "name": "#CyberDefence"
+    },
+    "9718": {
+      "id": 9718,
+      "name": "#SecurityOperations"
     },
     "972": {
       "id": 972,
