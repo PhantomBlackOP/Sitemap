@@ -56,7 +56,7 @@ Post entries contain the normal sitemap fields plus lightweight namespaced metad
 - publication timestamp
 - category
 
-No post body, excerpt, tag inventory, or article content is copied into the sitemap.
+No post body, excerpt, or article content is copied into the sitemap. Each post can carry an `image:image/image:loc` entry (standard XML sitemap image extension) and `meta:og_image`, resolved by the Sitemap generator from WordPress featured media, with an Open Graph fallback for Dailies. Image metadata is stored in the incremental inventory and is intended for read-only consumers such as `PhantomBlackOP/RSS`; these consumers must never query WordPress directly. Missing images are omitted rather than fabricated.
 
 The human-facing `index.html` is generated from the same WordPress inventory, so it shows real titles and publication details rather than URL slugs. Dailies therefore display their actual post titles rather than identifiers such as `20260920-1`.
 
