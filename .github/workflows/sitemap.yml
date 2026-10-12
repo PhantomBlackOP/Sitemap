@@ -1,6 +1,10 @@
 name: Generate Trevorion Sitemaps
 
 on:
+  push:
+    paths:
+      - 'scripts/generate_sitemap.py'
+      - 'README.md'
   workflow_dispatch:
     inputs:
       full_rebuild:
