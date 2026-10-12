@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/anime-memes-copyright-a-quick-legal-guide/</loc>
     <lastmod>2026-04-25T05:14:34Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2025-04-30T10:50:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#AnimeMemes", "#Copyright", "#FairUse", "#Guide", "#LegalAction", "#SafeUse"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/Poster-scaled.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/Poster-scaled.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/papa-pun-4/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2025-04-28T10:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#Comic", "#Dad", "#DadJoke", "#PapaPun", "#RetroStyle", "#Run", "#Son", "#Wordplay"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/06/Papa-Run-2-scaled.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/06/Papa-Run-2-scaled.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/trevorions-48th-stargazing-birthday-on-dingli-cliffs/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2025-04-24T08:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#Birthday", "#Gundam", "#Malta", "#Moon", "#Saturn", "#Trevorion", "#Venus"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/image-22.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/image-22.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/papa-pun-3/</loc>
@@ -31,6 +43,10 @@
     <meta:published>2025-04-21T10:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#Comic", "#Dad", "#DadJoke", "#PapaPun", "#RetroStyle", "#Run", "#Son", "#Wordplay"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/06/Papa-Run-1-scaled.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/06/Papa-Run-1-scaled.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-princess-and-the-frog/</loc>
@@ -39,6 +55,10 @@
     <meta:published>2025-04-20T10:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#Comic", "#Disney", "#Frog", "#Joke", "#Manga", "#NaoKodaka", "#Princess"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/04/frog-4.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/04/frog-4.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/tarzan/</loc>
@@ -47,6 +67,10 @@
     <meta:published>2025-04-20T06:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#Comic", "#Joke", "#Manga", "#OsamuTezuka", "#Tarzan"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/04/tarzan-4.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/04/tarzan-4.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/warlock-action-figure/</loc>
@@ -55,6 +79,10 @@
     <meta:published>2025-04-15T15:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#ActionFigure", "#BusinessLife", "#Consultant", "#Stereotype", "#Warlock"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/image-10.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/image-10.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/papa-pun-2/</loc>
@@ -63,6 +91,10 @@
     <meta:published>2025-04-14T10:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#Comic", "#Dad", "#DadJoke", "#PapaPun", "#RetroStyle", "#Run", "#Squirrel", "#Wordplay"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/06/Papa-Run-scaled.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/06/Papa-Run-scaled.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/trevorion-actionfigure/</loc>
@@ -71,6 +103,10 @@
     <meta:published>2025-04-08T09:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#ActionFigure", "#ExistentialCrisis", "#PhotographyLife", "#Stereotype"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/image-9.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/image-9.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/papa-pun-1/</loc>
@@ -79,6 +115,10 @@
     <meta:published>2025-04-07T12:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#Comic", "#Construction", "#Dad", "#DadJoke", "#PapaPun", "#RetroStyle", "#Son", "#Wordplay"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/08/Papa-Pun.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/08/Papa-Pun.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/this-is-a-concept-for-a-new-webtoon-would-you-enjoy-it-what-would-you-expect-%f0%9f%98%80/</loc>
@@ -87,6 +127,10 @@
     <meta:published>2025-04-04T09:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#AnimeArt", "#SciFiArt", "#WebtoonCanvas"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/image-3.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/image-3.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-rose-of-versailles-premieres-on-april-30th-on-netflixanime-%f0%9f%8c%b9%e2%9c%a8/</loc>
@@ -95,6 +139,10 @@
     <meta:published>2025-04-03T16:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#AnimeJapan2025", "#AnimeRemake", "#FrenchRevolution", "#MAPPA", "#Shoujo"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/image-2.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/image-2.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/occasionally-this-pops-to-mind/</loc>
@@ -103,5 +151,9 @@
     <meta:published>2025-04-01T16:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#Anime", "#Bluebox", "#Hina", "#Netflix", "#Precious"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/image-1.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/image-1.png</image:loc>
+    </image:image>
   </url>
 </urlset>

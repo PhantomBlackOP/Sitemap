@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://zine.trevorion.io/20261011-1/</loc>
+    <lastmod>2026-10-11T18:22:12Z</lastmod>
+    <meta:title>649: Artemis, Goddess of the Hunt 🏹🌙</meta:title>
+    <meta:published>2026-10-11T10:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#GreekMythology", "#OlympianGod", "#SacredStag", "#WildlifeProtector"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/649-Artemis-Goddess-of-the-Hunt-🏹🌙.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/649-Artemis-Goddess-of-the-Hunt-🏹🌙.png</image:loc>
+    </image:image>
+  </url>
   <url>
     <loc>https://zine.trevorion.io/20261010-1/</loc>
     <lastmod>2026-10-10T17:07:22Z</lastmod>
@@ -7,6 +19,10 @@
     <meta:published>2026-10-10T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#DarkElves", "#Dreadlord", "#Druchii", "#Fantasy", "#RoyalCourt", "#Warhammer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/648-Throne-of-Naggaroth-👑🌩️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/648-Throne-of-Naggaroth-👑🌩️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261009-1/</loc>
@@ -15,6 +31,10 @@
     <meta:published>2026-10-09T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#ClockDisplay", "#ColdCathode", "#GasDischarge", "#NeonGlow", "#RetroElectronics"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/647-Nixie-Tubes-🔢💡.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/647-Nixie-Tubes-🔢💡.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261008-1/</loc>
@@ -23,6 +43,10 @@
     <meta:published>2026-10-08T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Aurelia", "#RockBand", "#Starblaze", "#Trevorion", "#Warvenger", "#Xarkhan"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/646-Master-of-the-Rift-🎸🌀.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/646-Master-of-the-Rift-🎸🌀.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261007-1/</loc>
@@ -31,6 +55,10 @@
     <meta:published>2026-10-07T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AncientRuins", "#DarkFantasy", "#GothicArmor", "#Skeleton", "#UndeadKnight"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/645-Moonlit-Revenant-💀🌕.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/645-Moonlit-Revenant-💀🌕.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261006-1/</loc>
@@ -39,6 +67,10 @@
     <meta:published>2026-10-06T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#BritishCaravan", "#CoffeeBreak", "#CountryRoad", "#Retro", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/644-Caravanette-Coffee-☕🚐.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/644-Caravanette-Coffee-☕🚐.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261005-1/</loc>
@@ -47,6 +79,10 @@
     <meta:published>2026-10-05T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#ElvenPriestess", "#Fantasy", "#MysticRitual", "#SacredSpring", "#Waterfall"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/643-Rite-of-Renewal-💦🌿.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/643-Rite-of-Renewal-💦🌿.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261004-1/</loc>
@@ -55,6 +91,10 @@
     <meta:published>2026-10-04T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Babylon", "#IshtarGate", "#Mesopotamia", "#Royalty", "#SunlitPalace"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/642-Babylonian-Princess-👑☀️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/642-Babylonian-Princess-👑☀️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261003-1/</loc>
@@ -63,6 +103,10 @@
     <meta:published>2026-10-03T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Alcids", "#AtlanticCoast", "#Auk", "#CommonMurre", "#Seabird", "#UriaAalge"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/641-Common-Guillemot-🐦🌊.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/641-Common-Guillemot-🐦🌊.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261002-1/</loc>
@@ -71,6 +115,10 @@
     <meta:published>2026-10-02T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Architecture", "#Drainage", "#Limestone", "#Stonework", "#WaterFlow", "#WaterSpout"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/640-Scupper-🌧️🏰.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/640-Scupper-🌧️🏰.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261001-1/</loc>
@@ -79,5 +127,9 @@
     <meta:published>2026-10-01T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Bracers", "#FurCloak", "#Knight", "#MailHauberk", "#MedievalCastle", "#Sword"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/639-Castle-Warden-🛡️🏰.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/639-Castle-Warden-🛡️🏰.png</image:loc>
+    </image:image>
   </url>
 </urlset>

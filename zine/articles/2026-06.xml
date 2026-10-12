@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/article-41/</loc>
     <lastmod>2026-06-13T17:04:38Z</lastmod>
@@ -7,5 +7,9 @@
     <meta:published>2026-06-11T10:30:00Z</meta:published>
     <meta:category>Articles</meta:category>
     <meta:tags>["#FashionShow", "#FIFA", "#FootballKits", "#GamePredictions", "#KeyVisual", "#WorldCup2026"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/06/527-Opening-Match-⚽🏟️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/06/527-Opening-Match-⚽🏟️.png</image:loc>
+    </image:image>
   </url>
 </urlset>

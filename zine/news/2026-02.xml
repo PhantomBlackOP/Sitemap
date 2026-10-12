@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/slime-movie-reveals-new-promotional-clip-ahead-of-theatrical-release/</loc>
     <lastmod>2026-03-03T09:51:11Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2026-02-27T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#TearsOfTheAzureSea", "#ThatTimeIGotReincarnatedAsASlime", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260227-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260227-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-level-999-villager-anime-gets-july-2026-broadcast-trailer/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2026-02-19T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BrainBase", "#CrunchyrollNews", "#KeyVisual", "#Level999Villager", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260219-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260219-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/letoile-de-paris-en-fleur-film-shares-extended-trailer-ahead-of-march-premiere/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2026-02-18T11:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Arvo", "#Crunchyroll", "#GoroTaniguchi", "#LEtoileDeParisEnFleur", "#Movie", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260218-05.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260218-05.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/marikas-love-meter-malfunction-anime-reveals-trailer-cast-key-visual-and-april-5-premiere/</loc>
@@ -31,6 +43,10 @@
     <meta:published>2026-02-18T11:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#MarikasLoveMeterMalfunction", "#StudioLEO", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260218-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260218-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/link-click-live-action-drama-announced-starring-taiki-sato-and-kanata-hongo/</loc>
@@ -39,6 +55,10 @@
     <meta:published>2026-02-18T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#FujiTV", "#KanataHongo", "#LinkClick", "#LiveAction", "#TaikiSato"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260218-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260218-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/hono-no-tokyujo-dodge-danko-anime-reveals-main-cast-staff-and-teaser-visual/</loc>
@@ -47,6 +67,10 @@
     <meta:published>2026-02-18T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Cue", "#DodgeDanko", "#HonoNoTokyujo", "#KeyVisual", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260218-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260218-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/i-want-to-love-you-till-your-dying-day-anime-shows-first-trailer-and-staff-update/</loc>
@@ -55,6 +79,10 @@
     <meta:published>2026-02-18T11:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#IWantToLoveYouTillYourDyingDay", "#KeyVisual", "#Roll2", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260218-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260218-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/grow-up-show-sunflower-circus-anime-debuts-rin-mamiya-and-maria-visual/</loc>
@@ -63,6 +91,10 @@
     <meta:published>2026-02-17T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#A1Pictures", "#Crunchyroll", "#GrowUpShow", "#KeyVisual", "#SunflowerCircus", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260217-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260217-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/one-piece-elbaph-arc-streams-on-crunchyroll-starting-april-5th/</loc>
@@ -71,6 +103,10 @@
     <meta:published>2026-02-17T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#ElbaphArc", "#KeyVisual", "#OnePiece", "#ToeiAnimation", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260217-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260217-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/mf-ghost-season-3-anime-drops-opening-song-music-video-by-yu-serizawa/</loc>
@@ -79,6 +115,10 @@
     <meta:published>2026-02-16T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#MFGhost", "#MOTSU", "#MusicVideo", "#TimelessPower", "#YuSerizawa"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260216-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260216-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/victoria-of-many-faces-anime-sets-july-2026-premiere/</loc>
@@ -87,6 +127,10 @@
     <meta:published>2026-02-16T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#StudioDeen", "#Teaser", "#VictoriaOfManyFaces"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260216-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260216-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/iron-wok-jan-anime-teaser-trailer-reveals-cast-and-staff/</loc>
@@ -95,6 +139,10 @@
     <meta:published>2026-02-15T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#IronWokJan", "#KeyVisual", "#Trailer", "#Troyca"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260215-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260215-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gals-cant-be-kind-to-otaku-anime-premieres-april-8th/</loc>
@@ -103,6 +151,10 @@
     <meta:published>2026-02-14T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#GalsCantBeKindToOtaku", "#KeyVisual", "#TMS", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/04/20260214-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/04/20260214-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/pardon-the-intrusion-im-home-anime-premieres-april-7th/</loc>
@@ -111,6 +163,10 @@
     <meta:published>2026-02-14T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#PardonTheIntrusionImHome", "#Tatsunoko", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260214-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260214-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/irregular-at-magic-high-school-movie-reveals-trailer-visual-and-new-cast/</loc>
@@ -119,6 +175,10 @@
     <meta:published>2026-02-14T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#IrregularAtMagicHighSchool", "#KeyVisual", "#Movie", "#Studio8Bit", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260214-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260214-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/super-bowl-60-showed-ai-ads-were-more-hype-than-hit/</loc>
@@ -127,6 +187,10 @@
     <meta:published>2026-02-11T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AdTech", "#AIAdvertising", "#GenerativeAI", "#INMA", "#MarketingTrends", "#SuperBowl"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260211-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260211-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kling-video-3-0-brings-ai-director-control-to-cinematic-video-generation/</loc>
@@ -135,6 +199,10 @@
     <meta:published>2026-02-09T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIDirector", "#AIVideo", "#CinematicAI", "#Kling3.0", "#KlingAI", "#TextToVideo"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260209-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260209-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/anthropic-vows-claude-will-stay-ad-free-to-preserve-trust/</loc>
@@ -143,6 +211,10 @@
     <meta:published>2026-02-04T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AdFreeAI", "#AICommitment", "#AITrust", "#Anthropic", "#ClaudeAI"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260204-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260204-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/sam-altman-on-openais-future-and-ai-succession/</loc>
@@ -151,6 +223,10 @@
     <meta:published>2026-02-03T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AGI", "#AIFuture", "#AILeadership", "#AISuccession", "#Forbes", "#OpenAI", "#SamAltman"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260203-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260203-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gundam-hathaway-film-trailer-debuts-with-guns-n-roses-ending-theme/</loc>
@@ -159,6 +235,10 @@
     <meta:published>2026-02-02T11:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Film", "#GundamHathaway", "#GunsNRoses", "#KeyVisual", "#MusicVideo"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260202-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260202-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/spacex-and-xai-merge-in-1-25-trillion-deal-ahead-of-ipo/</loc>
@@ -167,6 +247,10 @@
     <meta:published>2026-02-02T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIMerger", "#Bloomberg", "#ElonMusk", "#MegaIPO", "#SpaceX", "#Starlink", "#xAI"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260202-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260202-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/moltbook-lets-ai-bots-build-their-own-social-network/</loc>
@@ -175,6 +259,10 @@
     <meta:published>2026-02-02T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AgenticAI", "#DigitalCulture", "#FutureTech", "#Moltbook", "#SocialMedia", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260202-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260202-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/observation-log-of-my-fiancee-anime-sets-april-6th-premiere-date/</loc>
@@ -183,5 +271,9 @@
     <meta:published>2026-02-02T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#ObservationLogOfMyFiancee", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/20260202-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/20260202-01.png</image:loc>
+    </image:image>
   </url>
 </urlset>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/be-forever-yamato-rebel-3199-5th-film-main-visual-trailer/</loc>
     <lastmod>2026-01-01T23:48:22Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2025-12-31T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#BeForeverYamato", "#KeyVisual", "#Rebel3199", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251231-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251231-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/historie-manga-gets-tv-anime-at-lidenfilms/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2025-12-31T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#Historie", "#KeyVisual", "#LIDENFILMS", "#Teaser", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251231-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251231-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/cybercab-in-traffic-tesla-robotaxi-tests-surface-in-austin/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2025-12-30T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AutonomousDriving", "#DigitalTrends", "#EVTesting", "#Robotaxi", "#TeslaCybercab"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251230-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251230-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/meta-acquires-ai-agent-startup-manus-in-strategic-ai-push/</loc>
@@ -31,6 +43,10 @@
     <meta:published>2025-12-29T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Acquisition", "#AIAgents", "#ManusAI", "#Meta", "#StartupNews", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251229-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251229-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/oedo-fire-slayer-anime-reveals-opening-theme-trailer/</loc>
@@ -39,6 +55,10 @@
     <meta:published>2025-12-28T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AniTrendz", "#KeyVisual", "#OedoFireSlayer", "#SynergySP", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251228-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251228-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/girls-und-panzer-act-2-key-visual-and-trailer-unveiled/</loc>
@@ -47,6 +67,10 @@
     <meta:published>2025-12-28T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AniTrendz", "#GirlsUndPanzer", "#KeyVisual", "#PAWorks", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251228-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251228-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/mushoku-tensei-anime-marks-fifth-anniversary-with-special-project/</loc>
@@ -55,6 +79,10 @@
     <meta:published>2025-12-23T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Anniversary", "#Crunchyroll", "#Merchandise", "#MushokuTensei"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/image.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/image.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/roll-over-and-die-anime-reveals-january-8-2026-premiere-with-visual-and-trailer/</loc>
@@ -63,6 +91,10 @@
     <meta:published>2025-12-12T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#ACGT", "#Crunchyroll", "#KeyVisual", "#RollOverAndDie", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251212-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251212-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-darwin-incident-anime-sets-january-2026-premiere-and-reveals-new-cast/</loc>
@@ -71,6 +103,10 @@
     <meta:published>2025-12-12T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BELLNOXFILMS", "#Crunchyroll", "#KeyVisual", "#TheDarwinIncident", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251212-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251212-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/jack-of-all-trades-party-of-none-anime-sets-january-4-2026-tv-premiere/</loc>
@@ -79,6 +115,10 @@
     <meta:published>2025-12-09T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#JackOfAllTradesPartyOfNone", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251109-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251109-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/trigun-stargaze-trailer-confirms-theme-songs-january-10-premiere/</loc>
@@ -87,6 +127,10 @@
     <meta:published>2025-12-06T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeCorner", "#KeyVisual", "#StudioOrange", "#Trailer", "#TrigunStargaze"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251206-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251206-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/doraemon-film-reveals-banner-and-standee-visuals-ahead-of-february-2026-release/</loc>
@@ -95,6 +139,10 @@
     <meta:published>2025-12-05T11:09:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Doraemon", "#KeyVisual", "#Movie", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20260105-09.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20260105-09.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/wash-it-all-away-anime-sets-january-5-2026-premiere/</loc>
@@ -103,6 +151,10 @@
     <meta:published>2025-12-05T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#OkurutoNoboru", "#Trailer", "#WashItAllAway"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251205-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251205-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/new-trailer-reveals-theme-songs-for-there-was-a-cute-girl-in-the-heros-party-anime/</loc>
@@ -111,6 +163,10 @@
     <meta:published>2025-12-05T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#ThereWasACuteGirlInTheHerosParty", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251205-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251205-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kunon-the-sorcerer-can-see-anime-sets-january-4-2026-premiere-with-new-visual-and-cast/</loc>
@@ -119,6 +175,10 @@
     <meta:published>2025-12-05T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#KunonTheSorcerer", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251205-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251205-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ikoku-nikki-anime-confirms-january-4-2026-premiere/</loc>
@@ -127,5 +187,9 @@
     <meta:published>2025-12-02T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CrunchyrollNews", "#IkokuNikki", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/20251202-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/20251202-01.png</image:loc>
+    </image:image>
   </url>
 </urlset>

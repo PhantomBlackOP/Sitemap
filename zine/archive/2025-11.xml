@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/20251130-1/</loc>
     <lastmod>2025-11-30T22:24:08Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2025-11-30T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#CrescentMoon", "#Janissaries", "#Ornate", "#Ottomann", "#ShortSabre", "#Sword"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/334-Yataghan-✨⚔️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/334-Yataghan-✨⚔️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251129-1/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2025-11-29T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#ArtisanalPizza", "#BrickOven", "#Dough", "#Flame", "#Flour", "#HandStretched"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/333-Pizzaiolo-🔥🍕.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/333-Pizzaiolo-🔥🍕.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251128-1/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2025-11-28T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Gemstone", "#Geology", "#MacroPhotography", "#Mineral", "#VioletStone"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/332-Charoite-🔍🪨.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/332-Charoite-🔍🪨.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251127-1/</loc>
@@ -31,6 +43,10 @@
     <meta:published>2025-11-27T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#FluffyOverlord", "#HighAltitude", "#Majestic", "#PallasCat", "#Steppe"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/331-Manul-🐾❄️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/331-Manul-🐾❄️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251126-1/</loc>
@@ -39,6 +55,10 @@
     <meta:published>2025-11-26T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Focus", "#Handcrafted", "#HandEyeCoordination", "#Japan", "#ToyCulture"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/330-Kendama-🔴🪵.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/330-Kendama-🔴🪵.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251125-1/</loc>
@@ -47,6 +67,10 @@
     <meta:published>2025-11-25T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Beach", "#GoldenSand", "#Sculpture", "#SunnyDay", "#TidalShore"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/329-Sand-Castle-🏖️🏰.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/329-Sand-Castle-🏖️🏰.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251124-1/</loc>
@@ -55,6 +79,10 @@
     <meta:published>2025-11-24T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#California", "#DeathValley", "#DesertSun", "#PolygonCrusts", "#SaltFlats"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/328-Badwater-Basin-🧂🏜️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/328-Badwater-Basin-🧂🏜️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251123-1/</loc>
@@ -63,6 +91,10 @@
     <meta:published>2025-11-23T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#NorthernBeauty", "#Siberia", "#SledDog", "#SnowTrail", "#WinterVibes"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/327-Yakutian-Laika️-❄🐺.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/327-Yakutian-Laika️-❄🐺.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251122-1/</loc>
@@ -71,6 +103,10 @@
     <meta:published>2025-11-22T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Insectivore", "#Nocturnal", "#Primate", "#Rainforest", "#SoutheastAsia"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/326-Tarsier-🐾🌌.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/326-Tarsier-🐾🌌.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251121-1/</loc>
@@ -79,6 +115,10 @@
     <meta:published>2025-11-21T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#CelticHeritage", "#FolkCraft", "#Riverbank", "#RiverDrift", "#WovenBoat"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/325-Coracle-🛶💧.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/325-Coracle-🛶💧.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251120-1/</loc>
@@ -87,6 +127,10 @@
     <meta:published>2025-11-20T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AutumnField", "#Crow", "#Farm", "#GoldenHour", "#HarvestField", "#RuralScene"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/324-Scarecrow-🌾🪶.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/324-Scarecrow-🌾🪶.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251119-1/</loc>
@@ -95,6 +139,10 @@
     <meta:published>2025-11-19T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Ancient", "#CelticHeritage", "#LakeIsland", "#MistyMorning", "#Settlement"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/323-Crannog-🏝🛖.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/323-Crannog-🏝🛖.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251118-1/</loc>
@@ -103,6 +151,10 @@
     <meta:published>2025-11-18T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Hindustani", "#India", "#Java", "#Lute", "#Meditation", "#Music", "#Strings"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/322-Sarod-🪕🎶.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/322-Sarod-🪕🎶.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251117-1/</loc>
@@ -111,6 +163,10 @@
     <meta:published>2025-11-17T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Brazier", "#CastleWall", "#MedievalFantasy", "#NightScene", "#Snowfall"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/321-Battlements-Watch-🔥🏰.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/321-Battlements-Watch-🔥🏰.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251116-1/</loc>
@@ -119,6 +175,10 @@
     <meta:published>2025-11-16T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#DeepRed", "#Gemstone", "#Geology", "#Macro", "#Metallic", "#Mineral"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/320-Cuprite-Crystal-✨⛏️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/320-Cuprite-Crystal-✨⛏️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251115-1/</loc>
@@ -127,6 +187,10 @@
     <meta:published>2025-11-15T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#FantasyWorld", "#ForestAncient", "#MythicNature", "#SpiritKing"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/319-Forest-Sovereign-🌲👑.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/319-Forest-Sovereign-🌲👑.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251114-1/</loc>
@@ -135,6 +199,10 @@
     <meta:published>2025-11-14T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Africa", "#DesertVista", "#MiddleEast", "#RockHyrax", "#SandstoneCliffs", "#Wildlife"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/318-Cliff-Emperor-🪨🦫.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/318-Cliff-Emperor-🪨🦫.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251113-1/</loc>
@@ -143,6 +211,10 @@
     <meta:published>2025-11-13T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#CozyVibes", "#EveningMood", "#RainyNight", "#Steaming", "#TeaTime"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/317-Samovar-🫖☕.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/317-Samovar-🫖☕.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251112-1/</loc>
@@ -151,6 +223,10 @@
     <meta:published>2025-11-11T23:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#History", "#MalteseBakery", "#StrawberryJam", "#SugarDusted"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/316-Tarxien-Doughnuts-🍩👩🏻‍🍳.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/316-Tarxien-Doughnuts-🍩👩🏻‍🍳.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251111-1/</loc>
@@ -159,6 +235,10 @@
     <meta:published>2025-11-11T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#BirdOfPrey", "#DingliCliffs", "#Freedom", "#Grace", "#Malta", "#Power"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/315-Peregrine-Falcon-🌤️🦅.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/315-Peregrine-Falcon-🌤️🦅.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251110-1/</loc>
@@ -167,6 +247,10 @@
     <meta:published>2025-11-10T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Bonsai", "#Harmony", "#Japanese", "#Shoji", "#Tatami", "#Tranquil", "#Zen"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/314-静かな調和-✨🪴.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/314-静かな調和-✨🪴.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251109-1/</loc>
@@ -175,6 +259,10 @@
     <meta:published>2025-11-09T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Beach", "#LowTide", "#Nature", "#Rock", "#SeaSide", "#Starfish", "#Waves"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/313-Star-of-the-Shore-𓇼🌊.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/313-Star-of-the-Shore-𓇼🌊.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251108-1/</loc>
@@ -183,6 +271,10 @@
     <meta:published>2025-11-08T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Acorn", "#AutumnVibes", "#Forest", "#Moss", "#Nature", "#SliceOfLife"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/312-Squirrels-Treasure-🌰🐿️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/312-Squirrels-Treasure-🌰🐿️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251107-1/</loc>
@@ -191,6 +283,10 @@
     <meta:published>2025-11-07T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#DnD", "#Inquisitor", "#Magic", "#Pathfinder", "#Ritual", "#Tiefling"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/311-Serelith-Varn-of-the-Veiled-Flame-🔮🔥.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/311-Serelith-Varn-of-the-Veiled-Flame-🔮🔥.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251106-1/</loc>
@@ -199,6 +295,10 @@
     <meta:published>2025-11-06T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Droplets", "#Macro", "#Nature", "#Plant", "#Rain", "#Ripples", "#WaterLily"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/310-Lilypad-💧🪷.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/310-Lilypad-💧🪷.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251105-1/</loc>
@@ -207,6 +307,10 @@
     <meta:published>2025-11-05T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AutumnMood", "#Postbox", "#Rain", "#SliceOfLife", "#Street", "#Umbrella"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/309-The-Letter-✉📮.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/309-The-Letter-✉📮.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251104-1/</loc>
@@ -215,6 +319,10 @@
     <meta:published>2025-11-04T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Array", "#Astronomy", "#Cosmos", "#Desert", "#NightSky", "#RadioTelescope"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/308-The-Signal-📡🌌.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/308-The-Signal-📡🌌.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251103-1/</loc>
@@ -223,6 +331,10 @@
     <meta:published>2025-11-03T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Battleship", "#Chronosphere", "#Desert", "#Experiment", "#MontanaClass", "#SciFi"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/307-USS-Ohio-⛴🌄.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/307-USS-Ohio-⛴🌄.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251102-1/</loc>
@@ -231,6 +343,10 @@
     <meta:published>2025-11-02T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Aviation", "#Glider", "#Scenery", "#SkyHigh", "#Sunrise", "#Tranquility"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/306-Spirit-at-Dawn-🛩🌤.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/306-Spirit-at-Dawn-🛩🌤.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251101-1/</loc>
@@ -239,5 +355,9 @@
     <meta:published>2025-11-01T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Cathedral", "#Faith", "#Light", "#Sanctity", "#Serenity", "#StainedGlass"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/305-All-Saints-✨⛪.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/305-All-Saints-✨⛪.png</image:loc>
+    </image:image>
   </url>
 </urlset>

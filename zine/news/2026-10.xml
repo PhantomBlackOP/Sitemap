@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/claude-adds-live-dashboards-and-editable-animations/</loc>
     <lastmod>2026-10-10T11:52:57Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2026-10-08T10:22:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Anthropic", "#Claude", "#Dashboards", "#DataVisualization", "#DigitalTrends", "#Motion"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/claude-dashboard-motions-feature.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/claude-dashboard-motions-feature.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/google-opens-synthid-detection-site-to-the-public/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2026-10-07T10:22:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#DeepfakeDetection", "#DigitalVerification", "#Google", "#SynthID", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-219-scaled.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-219-scaled.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/google-labs-introduces-prompt-based-game-creator-playground/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2026-10-07T10:18:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#GameDevelopment", "#GoogleLabs", "#Playground", "#PromptEngineering", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-215.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-215.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-moon-on-a-rainy-night-reveals-subtitled-trailer-and-main-cast/</loc>
@@ -31,6 +43,10 @@
     <meta:published>2026-10-07T10:08:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AmayoNoTsuki", "#AnimeTrending", "#CompTown", "#KeyVisual", "#Trailer", "#VoiceCast"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-299-e1791549375470.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-299-e1791549375470.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/grotesqqque-trailer-spotlights-nocturne-short-and-kairi-yagi-song/</loc>
@@ -39,6 +55,10 @@
     <meta:published>2026-10-07T10:07:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#CloverWorks", "#GROTESQQQUE", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-243-scaled.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-243-scaled.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/100-meters-collectors-edition-blu-ray-includes-rotoscoping-workshop/</loc>
@@ -47,6 +67,10 @@
     <meta:published>2026-10-07T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#BluRay", "#CollectorEdition", "#GKIDS", "#OneHundredMeters"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-31.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-31.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/super-psychic-policeman-chojo-releases-music-theme-trailers/</loc>
@@ -55,6 +79,10 @@
     <meta:published>2026-10-07T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Milk", "#MusicVideo", "#ShifukuPoncho", "#SuperPsychicPolicemanChojo"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/super_psychic_policeman_chojo_header.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/super_psychic_policeman_chojo_header.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/otome-heroine-survival-anime-gets-teaser-and-july-2027-start/</loc>
@@ -63,6 +91,10 @@
     <meta:published>2026-10-06T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#KeyVisual", "#OtomeHeroine", "#StudioClutch", "#StudioSeven", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-276.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-276.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/fledgling-demon-lord-anime-reveals-new-trailer-and-visual/</loc>
@@ -71,6 +103,10 @@
     <meta:published>2026-10-06T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#FledglingDemonLord", "#KeyVisual", "#ProjectNo9", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-226.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-226.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ai-meme-copyright-fight-tests-human-authorship-rules/</loc>
@@ -79,6 +115,10 @@
     <meta:published>2026-10-06T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CopyrightLaw", "#DigitalRights", "#InternetCulture", "#OpenAI", "#Roblox", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-211-e1791521255822.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-211-e1791521255822.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gundam-rogue-orbit-trailer-shows-combat-and-customisation/</loc>
@@ -87,6 +127,10 @@
     <meta:published>2026-10-06T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#BandaiNamco", "#Gundam", "#RogueOrbit", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-28.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-28.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/openai-adds-visual-ads-beside-chatgpt-image-results/</loc>
@@ -95,6 +139,10 @@
     <meta:published>2026-10-05T10:10:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Ads", "#Advertising", "#ChatGPT", "#DigitalMarketing", "#OpenAI", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/hackerrank-launches-chakra-ai-interviewer/</loc>
@@ -103,6 +151,10 @@
     <meta:published>2026-10-05T10:09:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIHiring", "#Chakra", "#HackerRank", "#JobInterview", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-156-scaled.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-156-scaled.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/hot-girl-hotline-brings-guardrails-to-ai-dating-advice/</loc>
@@ -111,6 +163,10 @@
     <meta:published>2026-10-05T10:08:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Chatbot", "#DatingAdvice", "#HotGirlHotline", "#RelationshipAI", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/hgh_web-1.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/hgh_web-1.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/instinct-adds-ai-agent-to-group-chats/</loc>
@@ -119,6 +175,10 @@
     <meta:published>2026-10-05T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIAgents", "#Collaboration", "#GroupChat", "#InstinctAI", "#Privacy", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-167.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-167.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-record-of-a-fallen-vampire-reveals-2027-anime-teaser/</loc>
@@ -127,6 +187,10 @@
     <meta:published>2026-10-05T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#FallenVampire", "#KeyVisual", "#Liber", "#Teaser", "#ZeroG"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-317.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-317.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-science-notes-by-delta-and-gamma-gets-anime-adaptation/</loc>
@@ -135,6 +199,10 @@
     <meta:published>2026-10-05T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#DengekiBunko", "#KeyVisual", "#ScienceNotes", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-318.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-318.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/red-riding-hood-detective-anime-sets-january-2027-premiere/</loc>
@@ -143,6 +211,10 @@
     <meta:published>2026-10-05T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#BentenFilm", "#KeyVisual", "#RedRidingHood", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-24.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-24.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/my-sweet-marriage-to-my-ex-nemesis-gets-tv-anime/</loc>
@@ -151,6 +223,10 @@
     <meta:published>2026-10-04T10:09:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#DengekiBunko", "#EMTSquared", "#KeyVisual", "#SweetMarriage", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-13.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-13.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-kept-man-of-the-princess-knight-reveals-new-trailer-visual-and-cast/</loc>
@@ -159,6 +235,10 @@
     <meta:published>2026-10-04T10:08:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#MythAndRoid", "#PrincessKnight", "#SajouNoHana", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-18.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-18.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/true-saint-anime-reveals-teaser-and-january-2027-debut/</loc>
@@ -167,6 +247,10 @@
     <meta:published>2026-10-04T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#KeyVisual", "#Teaser", "#TrueSaint", "#TsumugiAkita"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-139.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-139.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/trump-announces-new-super-intelligence-force/</loc>
@@ -175,6 +259,10 @@
     <meta:published>2026-10-04T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIPolicy", "#JayClayton", "#NationalSecurity", "#Superintelligence", "#TechCrunch", "#UnitedStates"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-2297764008.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-2297764008.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/spice-and-wolf-season-2-teaser-previews-holo-and-lawrence/</loc>
@@ -183,6 +271,10 @@
     <meta:published>2026-10-04T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#KeyVisual", "#Passione", "#SpiceAndWolf", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-136.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-136.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/blue-box-season-2-releases-creditless-opening-and-ending/</loc>
@@ -191,6 +283,10 @@
     <meta:published>2026-10-04T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Aiko", "#AnimeCorner", "#Bluebox", "#ElectricCircus", "#ElsewhereKikou", "#MusicVideo"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-23.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-23.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/rascal-does-not-dream-of-a-dear-friend-streams-first-four-minutes/</loc>
@@ -199,6 +295,10 @@
     <meta:published>2026-10-04T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#CloverWorks", "#DearFriend", "#RascalDoesNotDream", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-22.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-22.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/jay-clayton-named-white-house-ai-czar/</loc>
@@ -207,6 +307,10 @@
     <meta:published>2026-10-04T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIPolicy", "#JayClayton", "#Superintelligence", "#TheGuardian", "#WhiteHouse"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-93-edited.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-93-edited.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/meta-opens-muse-agent-to-diy-hardware-projects/</loc>
@@ -215,6 +319,10 @@
     <meta:published>2026-10-03T10:08:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIGadgets", "#DIY", "#Meta", "#Muse", "#OpenSource", "#SmartHome", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/eliza-stage-play-revisits-the-birth-of-ai/</loc>
@@ -223,6 +331,10 @@
     <meta:published>2026-10-03T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIHistory", "#ELIZA", "#JosephWeizenbaum", "#MelbourneTheatre", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-52-e1791183877919.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-52-e1791183877919.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/antiquarian-bookshop-biblia-anime-sets-april-2027-premiere/</loc>
@@ -231,6 +343,10 @@
     <meta:published>2026-10-03T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#BibliaCaseFiles", "#CloverWorks", "#KeyVisual", "#PV"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/img_hero_visual-scaled-e1791182859749.webp</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/img_hero_visual-scaled-e1791182859749.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/openai-says-agent-hack-review-costs-500000-daily/</loc>
@@ -239,6 +355,10 @@
     <meta:published>2026-10-03T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIAgents", "#AISafety", "#Cybersecurity", "#OpenAI", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/6259.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/6259.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/red-river-cour-2-releases-creditless-opening-and-ending/</loc>
@@ -247,6 +367,10 @@
     <meta:published>2026-10-03T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CreditlessEnding", "#CreditlessOpening", "#Crunchyroll", "#NanaMizuki", "#RyuMatsuyama"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/red-river-cour-2-op-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/red-river-cour-2-op-hero.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/magical-explorer-trailer-showcases-maid-knight-nanami/</loc>
@@ -255,6 +379,10 @@
     <meta:published>2026-10-02T10:21:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#KenichiroSuehiro", "#MagicalExplorer", "#MAO", "#Nanami", "#WHITEFOX"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-37.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-37.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/moon-flower-kingdom-releases-more-character-trailers/</loc>
@@ -263,6 +391,10 @@
     <meta:published>2026-10-02T10:20:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeTrending", "#CharacterTrailer", "#MoonFlowerKingdom", "#Shiei", "#Singdam"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/the-eccentric-doctor-of-the-moon-flower-kingdom-shiei-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/the-eccentric-doctor-of-the-moon-flower-kingdom-shiei-hero.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/nvidia-launches-64gb-dgx-spark-for-local-ai-development/</loc>
@@ -271,6 +403,10 @@
     <meta:published>2026-10-02T10:17:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIHardware", "#DGXSpark", "#DigitalTrends", "#GraceBlackwell", "#LocalAI", "#Nvidia"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/workstation-dli-newsletter-gtc26-1920x1080-1.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/workstation-dli-newsletter-gtc26-1920x1080-1.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ninja-scroll-4k-shares-exclusive-remastered-clip/</loc>
@@ -279,6 +415,10 @@
     <meta:published>2026-10-02T10:17:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeCorner", "#HIDIVE", "#Madhouse", "#NinjaScroll", "#Teaser", "#TheatricalRelease"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-171-e1791367015449.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-171-e1791367015449.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/be-forever-yamato-3199-film-reveals-junko-yagami-ending-theme/</loc>
@@ -287,6 +427,10 @@
     <meta:published>2026-10-02T10:15:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#BandaiNamco", "#JunkoYagami", "#Rebel3199", "#StarBlazers"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-7-scaled.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-7-scaled.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/giant-ojo-sama-introduces-oriko-fujido/</loc>
@@ -295,6 +439,10 @@
     <meta:published>2026-10-02T10:11:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CharacterTrailer", "#Crunchyroll", "#GiantOjosama", "#OrikoFujido", "#TatsunokoProduction"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/giant-ojo-sama.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/giant-ojo-sama.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kagurabachi-casts-yuichi-nakamura-as-soshiro-azami/</loc>
@@ -303,6 +451,10 @@
     <meta:published>2026-10-02T10:10:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CharacterTrailer", "#Crunchyroll", "#Cypic", "#Kagurabachi", "#SoshiroAzami", "#YuichiNakamura"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/kagurabachi-soshiro-azami.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/kagurabachi-soshiro-azami.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/devils-crest-trailer-previews-ending-theme-and-new-cast/</loc>
@@ -311,6 +463,10 @@
     <meta:published>2026-10-02T10:09:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#DevilsCrest", "#KeyVisual", "#ProductionIG", "#ReaL", "#Soala", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/devils-crest.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/devils-crest.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-apothecary-diaries-season-3-shares-creditless-themes/</loc>
@@ -319,6 +475,10 @@
     <meta:published>2026-10-02T10:08:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#ApothecaryDiaries", "#CreditlessEnding", "#CreditlessOpening", "#Eve", "#OLM", "#Yorushika"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/the_apothecary_diaries_season3_creditless_op_header.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/the_apothecary_diaries_season3_creditless_op_header.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/from-far-away-introduces-main-character-trailers/</loc>
@@ -327,6 +487,10 @@
     <meta:published>2026-10-02T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CharacterTrailer", "#Crunchyroll", "#FromFarAway", "#StudioDeen"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/from-far-away-izark-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/from-far-away-izark-hero.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/exiled-heavy-knight-cour-2-shares-creditless-themes/</loc>
@@ -335,6 +499,10 @@
     <meta:published>2026-10-02T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#ExiledHeavyKnight", "#MusicVideo", "#PompadollS", "#TowaTokoyami"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/exiled-heavy-knight-cour-2-op.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/exiled-heavy-knight-cour-2-op.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-ramparts-of-ice-season-2-shares-creditless-ending/</loc>
@@ -343,6 +511,10 @@
     <meta:published>2026-10-02T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CreditlessEnding", "#Crunchyroll", "#Hanakage", "#RampartsOfIce", "#StudioKai", "#Superfly"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/ramparts-ed.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/ramparts-ed.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/audible-adds-ai-character-chats-and-visual-explorer/</loc>
@@ -351,6 +523,10 @@
     <meta:published>2026-10-01T10:24:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Audible", "#Audiobooks", "#CharacterGuide", "#DigitalTrends", "#InteractiveStories", "#VisualExplorer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Audible-new-AI-interactive-features.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/Audible-new-AI-interactive-features.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gemini-live-launches-guided-vision-accessibility-tool/</loc>
@@ -359,6 +535,10 @@
     <meta:published>2026-10-01T10:20:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Accessibility", "#AssistiveAI", "#DigitalTrends", "#GeminiLive", "#GoogleAI", "#GuidedVision"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-30.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-30.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/legato-launches-ai-hearing-glasses/</loc>
@@ -367,6 +547,10 @@
     <meta:published>2026-10-01T10:16:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AssistiveTech", "#HearingTech", "#LegatoFrames", "#SmartGlasses", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Symphony-Lifestyle-Image-2-scaled.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/Symphony-Lifestyle-Image-2-scaled.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/shopify-canvas-builds-stores-through-ai-chat/</loc>
@@ -375,6 +559,10 @@
     <meta:published>2026-10-01T10:13:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AICommerce", "#Canvas", "#Shopify", "#TechCrunch", "#WebDesign"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/canvas-shopify-scaled.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/canvas-shopify-scaled.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/chatgpt-adds-global-virtual-try-on-and-favorites/</loc>
@@ -383,6 +571,10 @@
     <meta:published>2026-10-01T10:09:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIShopping", "#ChatGPTImages", "#OpenAI", "#TechCrunch", "#VirtualTryOn"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Virtual-Try-On-scaled.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/Virtual-Try-On-scaled.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/looks-like-a-job-for-a-maid-novels-get-tv-anime/</loc>
@@ -391,6 +583,10 @@
     <meta:published>2026-10-01T10:09:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeAdaptation", "#AnimeNewsNetwork", "#DismissedSupermaid", "#YasuakiMikami"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-5.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-5.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kentaro-kumagai-joins-bless-anime-as-mm/</loc>
@@ -399,6 +595,10 @@
     <meta:published>2026-10-01T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#A1Pictures", "#AnimeNewsNetwork", "#BlessAnime", "#CharacterPV", "#KentaroKumagai"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-41.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-41.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/my-happy-marriage-special-reveals-main-trailer-and-theme/</loc>
@@ -407,6 +607,10 @@
     <meta:published>2026-10-01T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#KinemaCitrus", "#MyHappyMarriage", "#Riria", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-118-e1791271601873.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-118-e1791271601873.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gemini-4-argon-launches-under-restricted-access/</loc>
@@ -415,6 +619,10 @@
     <meta:published>2026-10-01T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIModels", "#Cybersecurity", "#Fairwind", "#Gemini4Argon", "#GoogleAI", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-24.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-24.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/new-oishinbo-anime-unveils-2027-teaser-trailer/</loc>
@@ -423,6 +631,10 @@
     <meta:published>2026-10-01T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Oishinbo", "#ShinEi", "#SynergySP", "#Teaser", "#Vega"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/new-oishinbo.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/new-oishinbo.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/fx-fighter-kurumi-chan-shares-creditless-opening-and-ending/</loc>
@@ -431,5 +643,9 @@
     <meta:published>2026-10-01T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AinaSuzuki", "#Crunchyroll", "#FXFighter", "#KurumiChan", "#MusicVideo", "#Passione"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/fx-fighter-kurumi-chan-creditless-op-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/fx-fighter-kurumi-chan-creditless-op-hero.png</image:loc>
+    </image:image>
   </url>
 </urlset>

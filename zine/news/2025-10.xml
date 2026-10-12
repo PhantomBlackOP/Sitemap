@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/isekai-office-worker-anime-announces-new-cast-for-bean-counter-series/</loc>
     <lastmod>2025-11-01T16:25:25Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2025-10-31T11:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#IsekaiOfficeWorker", "#Iseshachi", "#StudioDeen", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251031-06.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251031-06.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/dragon-ball-store-tokyo-opens-14th-november-2025/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2025-10-31T11:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeRetail", "#Crunchyroll", "#DragonBall", "#ExclusiveMerch", "#TokyoStation"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251031-05.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251031-05.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/jujutsu-kaisen-execution-tickets-open-for-global-screenings/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2025-10-31T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#CullingGame", "#Execution", "#JujutsuKaisen", "#ShibuyaIncident"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251031-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251031-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/solo-leveling-x-amicis-gaming-gear-collab-announced/</loc>
@@ -31,6 +43,10 @@
     <meta:published>2025-10-31T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AMICIS", "#AnimeMerch", "#GamerGear", "#LimitedEdition", "#PreOrder", "#SoloLeveling"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251031-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251031-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/you-and-i-are-polar-opposites-anime-reveals-january-11-2026-premiere/</loc>
@@ -39,6 +55,10 @@
     <meta:published>2025-10-31T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNews", "#Crunchyroll", "#MainVisual", "#Trailer", "#YouAndIArePolarOpposites"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251031-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251031-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/studio-trigger-launches-the%e2%80%a0lenticulars-anime-shorts/</loc>
@@ -47,6 +67,10 @@
     <meta:published>2025-10-31T11:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AkiraAmemiya", "#AnimeShorts", "#Crunchyroll", "#StudioTrigger", "#TheLenticulars"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251031-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251031-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/idol-cross-stage-spectacle-aikatsu-x-pripara-movie-unveils-13-stage-clip/</loc>
@@ -55,6 +79,10 @@
     <meta:published>2025-10-30T11:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AikatsuxPriPara", "#Crossover", "#Crunchyroll", "#DeaiNoKiseki", "#Idols", "#Movie"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251030-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251030-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/rich-girl-caretaker-gets-an-anime-adaptation/</loc>
@@ -63,6 +91,10 @@
     <meta:published>2025-10-30T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CaretakerStory", "#Crunchyroll", "#HJBunko", "#RomanticComedy", "#SaijoNoOsewa"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251030-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251030-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/whoever-steals-this-book-anime-film-adds-5-more-cast-members/</loc>
@@ -71,6 +103,10 @@
     <meta:published>2025-10-30T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Kadokawa", "#Movie", "#Trailer", "#WhoeverStealsThisBook"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251030-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251030-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/solo-levelingxstarforge-systems-pc-bundle-collab-launch/</loc>
@@ -79,6 +115,10 @@
     <meta:published>2025-10-30T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CollectorGear", "#Crunchyroll", "#PCGaming", "#SoloLeveling", "#StarforgeSystems"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251030-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251030-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/aws-project-rainier-powers-anthropics-claude-at-million-chip-scale/</loc>
@@ -87,6 +127,10 @@
     <meta:published>2025-10-29T11:07:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Anthropic", "#AWS", "#Claude", "#ProjectRainier", "#Reuters", "#Trainium2"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-07.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-07.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/yusha-party-o-oidasareta-kiyobinbo-anime-unveils-trailer-key-visual/</loc>
@@ -95,6 +139,10 @@
     <meta:published>2025-10-29T11:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimationStudio42", "#Crunchyroll", "#KeyVisual", "#KiyouBimbou", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-06.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-06.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/villainess-is-adored-by-the-prince-of-the-neighbor-kingdom-anime-unveils-character-art/</loc>
@@ -103,6 +151,10 @@
     <meta:published>2025-10-29T11:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Akudeki", "#Crunchyroll", "#IsekaiRomance", "#OtomeGameAdaptation", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-05.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-05.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/tokyo-revengers-x-back-to-the-future-collab-turns-mikey-into-marty-mcfly/</loc>
@@ -111,6 +163,10 @@
     <meta:published>2025-10-29T11:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BackToTheFuture", "#CollabFigure", "#EssentialJapan", "#TokyoRevengers"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/japans-new-pm-revives-cool-japan-content-push/</loc>
@@ -119,6 +175,10 @@
     <meta:published>2025-10-29T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeIndustry", "#Animenomics", "#CoolJapan", "#MangaCulture", "#SanaeTakaichi"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ai-tool-to-decode-gen-z-predator-slang-in-australia/</loc>
@@ -127,6 +187,10 @@
     <meta:published>2025-10-29T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Australia", "#DigitalForensics", "#GenZSlang", "#OnlinePredators", "#TimesOfIndia"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/nvidia-nears-5-trillion-valuation-amid-ai-boom/</loc>
@@ -135,6 +199,10 @@
     <meta:published>2025-10-29T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#ABCNews", "#GPUs", "#Milestone", "#Nvidia", "#Semiconductors", "#StockMarket"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251029-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/elon-musks-grokipedia-takes-on-wikipedia-with-ai/</loc>
@@ -143,6 +211,10 @@
     <meta:published>2025-10-28T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#ABCNews", "#AIMedia", "#Grokipedia", "#InformationBias", "#Wikipedia", "#xAI"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251028-03b.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251028-03b.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/openai-converts-to-for-profit-ending-legal-saga/</loc>
@@ -151,6 +223,10 @@
     <meta:published>2025-10-28T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AGI", "#AIForHumanity", "#AIFoundation", "#HealthTech", "#OpenAI", "#Philanthropy"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251028-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251028-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/1x-neo-worlds-first-consumer-ready-humanoid-robot/</loc>
@@ -159,6 +235,10 @@
     <meta:published>2025-10-28T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#1X", "#AICompanion", "#Automation", "#Humanoid", "#NEO", "#PA", "#SmartHome"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251028-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251028-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/love-live-nijigasaki-idol-club-final-chapter-film-part-2-video-clips-released/</loc>
@@ -167,6 +247,10 @@
     <meta:published>2025-10-26T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#FinalChapter", "#LoveLiveNijigasaki", "#Movie", "#SchoolIdolClub"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251026-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251026-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/australia-nixes-ai-copyright-loophole-backs-creators/</loc>
@@ -175,6 +259,10 @@
     <meta:published>2025-10-26T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIPolicy", "#AIRegulation", "#Australia", "#Copyright", "#Government", "#IP"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251026-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251026-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/chatgpt-down-too-many-concurrent-requests/</loc>
@@ -183,6 +271,10 @@
     <meta:published>2025-10-23T15:30:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#ChatGPT", "#DownDetector", "#OpenAI", "#ServiceOutage", "#SystemOverload"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251023-01b.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251023-01b.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/south-koreas-fix-2025-showcases-future-of-ai-and-robotics/</loc>
@@ -191,6 +283,10 @@
     <meta:published>2025-10-22T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#DIGITIMES", "#FIX2025", "#Humanoid", "#Robotics", "#SouthKorea", "#UrbanAirMobility"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251022-06.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251022-06.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/meet-noetixs-bumi-robot-an-affordable-1k-humanoid/</loc>
@@ -199,6 +295,10 @@
     <meta:published>2025-10-22T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Affordable", "#Consumer", "#Educational", "#Home", "#Humanoid", "#NoetixRobotics"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251022-05.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251022-05.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/with-galaxy-xr-ai-xr-come-together-to-expand-our-world-wide-open/</loc>
@@ -207,6 +307,10 @@
     <meta:published>2025-10-22T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AR", "#GalaxyXR", "#Gemini", "#Qualcomm", "#Reuters", "#Samsung", "#VR", "#WearableAI"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251022-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251022-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/has-ai-generated-video-improved-way-too-much/</loc>
@@ -215,6 +319,10 @@
     <meta:published>2025-10-22T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AISlop", "#AIVideo", "#Deepfakes", "#Disinformation", "#Sora2", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251022-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251022-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/wearable-ai-chatbot-is-boringly-sycophantic/</loc>
@@ -223,6 +331,10 @@
     <meta:published>2025-10-22T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIEthics", "#DigitalSycophancy", "#FriendAI", "#TheGuardian", "#WearableAI"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251022-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251022-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/82-of-herbal-remedy-books-published-on-amazon-this-year-are-ai-fakes/</loc>
@@ -231,6 +343,10 @@
     <meta:published>2025-10-22T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIBooks", "#AIEthics", "#HerbalRemedies", "#Misinformation", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251022-01-1.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251022-01-1.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/japanese-game-manga-artists-celebrate-back-to-the-future-40th-anniversary-with-new-illustrations/</loc>
@@ -239,6 +355,10 @@
     <meta:published>2025-10-21T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#40thAnniversary", "#BackToTheFuture", "#EssentialJapan", "#TokyoComicCon2025"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251021-05.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251021-05.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/amazon-plans-to-replace-over-600000-us-jobs-with-robots-by-2033/</loc>
@@ -247,6 +367,10 @@
     <meta:published>2025-10-21T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Amazon", "#Automation", "#Robotics", "#TheVerge", "#Warehouse", "#Workforce"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251021-04-1.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251021-04-1.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/in-the-uk-8m-jobs-may-be-outsourced-to-ai/</loc>
@@ -255,6 +379,10 @@
     <meta:published>2025-10-21T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIPresenter", "#Broadcasting", "#Channel4", "#JobAutomation", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251021-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251021-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/openai-introduces-chatgpt-atlas/</loc>
@@ -263,6 +391,10 @@
     <meta:published>2025-10-21T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AgentMode", "#AIAssistant", "#AIBrowser", "#Atlas", "#ChatGPT", "#macOS", "#OpenAI"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251021-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251021-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/virtual-singer-kaf-releases-music-video-for-single-arifuretetai/</loc>
@@ -271,6 +403,10 @@
     <meta:published>2025-10-21T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#MusicVideo"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251021-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251021-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/seneca-ai-drones-can-launch-instantly-to-deliver-powerful-fire-suppression/</loc>
@@ -279,6 +415,10 @@
     <meta:published>2025-10-20T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIDrones", "#EmergencyResponse", "#FireSuppression", "#PRNewswire", "#Seneca"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251020-06.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251020-06.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-demon-kings-daughter-is-too-kind-premieres-on-january-2026/</loc>
@@ -287,6 +427,10 @@
     <meta:published>2025-10-20T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#EMTSquared", "#Fantasy", "#Maomusu", "#MasahikoOta", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251020-05.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251020-05.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-daily-life-of-a-single-29-year-old-adventurer-unveils-trailer/</loc>
@@ -295,6 +439,10 @@
     <meta:published>2025-10-20T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#29SaiDokushin", "#Crunchyroll", "#HoneyWorks", "#HORNETS", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251020-04-1.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251020-04-1.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kaiju-decode-the-ring-of-aidara-anime-film-reveals-new-preview/</loc>
@@ -303,6 +451,10 @@
     <meta:published>2025-10-20T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KaijuDecode", "#KeyVisual", "#Teaser", "#TheRingOfAidara", "#Toei"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251020-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251020-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/dragon-ball-40th-anniversary-event-on-january-25th-at-makuhari-messe/</loc>
@@ -311,6 +463,10 @@
     <meta:published>2025-10-20T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#DB40thAnniversary", "#DragonBall", "#Event", "#GenkidaMatsuri"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251020-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251020-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/unitree-introduces-h2-bionic-humanoid-born-to-serve/</loc>
@@ -319,6 +475,10 @@
     <meta:published>2025-10-20T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Automation", "#China", "#H2", "#Humanoid", "#RedHotCyber", "#Robotics", "#Unitree"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251020-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251020-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/new-trailer-released-for-easygoing-territory-defense-by-the-optimistic-lord-anime/</loc>
@@ -327,6 +487,10 @@
     <meta:published>2025-10-19T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#IsekaiAnime", "#OkirakuRyoushu", "#StudioNAZ", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251019-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251019-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/anime-based-on-mystery-adventure-game-the-case-book-of-arne-reveals-new-trailer/</loc>
@@ -335,6 +499,10 @@
     <meta:published>2025-10-19T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#MysteryAnime", "#SILVERLINK", "#TheCaseBookOfArne", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251019-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251019-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/miss-kobayashis-dragon-maid-film-concert-world-tour/</loc>
@@ -343,6 +511,10 @@
     <meta:published>2025-10-18T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#FilmConcert", "#KyotoAnimation", "#LiveOrchestra", "#MissKobayashisDragonMaid"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251018-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251018-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/honor-robot-phone-teases-the-future-of-smartphones/</loc>
@@ -351,6 +523,10 @@
     <meta:published>2025-10-18T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIInnovation", "#AIInteraction", "#Honor", "#MWC2026", "#RobotPhone", "#Smartphone"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251018-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251018-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/chatgpt-might-become-the-new-app-store/</loc>
@@ -359,6 +535,10 @@
     <meta:published>2025-10-16T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIApps", "#ChatGPT", "#GenerativeAI", "#Medium", "#OpenAI", "#PlatformEconomy"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251016-06.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251016-06.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/spotify-collaborates-with-music-companies-to-create-responsible-ai-tools/</loc>
@@ -367,6 +547,10 @@
     <meta:published>2025-10-16T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Copyright", "#EthicalAI", "#IP", "#MusicIndustry", "#Spotify", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251016-05.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251016-05.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/barrister-cites-fictitious-ai-generated-cases-during-hearing/</loc>
@@ -375,6 +559,10 @@
     <meta:published>2025-10-16T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIEthics", "#ChatGPT", "#Law", "#Misconduct", "#TheGuardian", "#Tribunal", "#UK"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251016-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251016-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/unitree-g1-displays-incredible-kungfu-kid-v6-demonstration/</loc>
@@ -383,6 +571,10 @@
     <meta:published>2025-10-16T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Humanoid", "#KungfuKid", "#NotebookCheck", "#RealTime", "#Robotics", "#UnitreeG1"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251016-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251016-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/neura-robotics-expanded-to-hangzhou-in-china/</loc>
@@ -391,6 +583,10 @@
     <meta:published>2025-10-16T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Hangzhou", "#NEURAGym", "#NEURARobotics", "#Neuraverse", "#PhysicalAI", "#Robotics"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251016-02b.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251016-02b.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/microsoft-launches-windows-11-ai-updates-boosting-copilot/</loc>
@@ -399,6 +595,10 @@
     <meta:published>2025-10-16T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Actions", "#AIAssistant", "#Copilot", "#Gaming", "#Microsoft", "#Reuters", "#Vision"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251016-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251016-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/chatgpt-to-go-18-treating-adults-like-adults/</loc>
@@ -407,6 +607,10 @@
     <meta:published>2025-10-15T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIEthics", "#AIFreedom", "#ChatGPT", "#OpenAI", "#SamAltman", "#UserChoice"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251015-06.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251015-06.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gemma-model-helps-discover-new-cancer-therapy-pathway/</loc>
@@ -415,6 +619,10 @@
     <meta:published>2025-10-15T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIDrugDiscovery", "#CancerResearch", "#GemmaModel", "#GoogleDeepMind"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251015-05.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251015-05.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/waymo-announces-plans-for-london-in-2026/</loc>
@@ -423,6 +631,10 @@
     <meta:published>2025-10-15T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#JaguarIPACE", "#London", "#RideHailing", "#RoadSafety", "#SelfDrivingCars", "#Waymo"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251015-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251015-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/lightyear-robotics-unveils-m1-first-wheeled-legged-robot/</loc>
@@ -431,6 +643,10 @@
     <meta:published>2025-10-15T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#EmbodiedAI", "#LightyearRobotics", "#M1Robot", "#RoboHub", "#WheeledLeggedRobot"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251015-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251015-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/anthropic-introduces-claude-haiku-4-5/</loc>
@@ -439,6 +655,10 @@
     <meta:published>2025-10-15T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIModel", "#AmazonBedrock", "#Anthropic", "#Claude", "#CodingAI", "#Haiku45", "#VertexAI"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251015-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251015-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/google-introduces-veo-3-1-advanced-capabilities-in-flow/</loc>
@@ -447,6 +667,10 @@
     <meta:published>2025-10-15T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIVideo", "#Flow", "#Gemini", "#GoogleDeepMind", "#Veo", "#VertexAI", "#VideoEditing"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251015-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251015-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gpt-5-giving-more-harmful-responses-than-its-predecessor/</loc>
@@ -455,6 +679,10 @@
     <meta:published>2025-10-14T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIEthics", "#GPT5", "#MentalHealth", "#OpenAI", "#Regulation", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251014-05.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251014-05.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/robots-learn-through-real-world-interaction-at-neura-gym/</loc>
@@ -463,6 +691,10 @@
     <meta:published>2025-10-14T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#NEURAGym", "#NEURARobotics", "#Neuraverse", "#PhysicalAI", "#Robotics", "#Training"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251014-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251014-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/caltech-and-tii-demo-multirobot-response-team/</loc>
@@ -471,6 +703,10 @@
     <meta:published>2025-10-14T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIResearch", "#Caltech", "#Humanoid", "#M4Drone", "#Robotics", "#TII", "#X1Robot"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251014-03-1.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251014-03-1.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/dentsu-backs-ai-anime-startup-kaka-creation/</loc>
@@ -479,6 +715,10 @@
     <meta:published>2025-10-14T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIAnime", "#Animation", "#Dentsu", "#KaKaCreation", "#ToiroAI", "#TwinsHinahima"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251014-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251014-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/japanese-government-warns-openai-over-anime-ip/</loc>
@@ -487,6 +727,10 @@
     <meta:published>2025-10-14T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIRegulation", "#Copyright", "#GameSpot", "#IP", "#Japan", "#OpenAI", "#Sora2"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251014-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251014-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/anime-fans-detect-ai-in-mechanical-marie-anime/</loc>
@@ -495,6 +739,10 @@
     <meta:published>2025-10-13T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIDebate", "#ComicBook", "#Controversy", "#Crunchyroll", "#MechanicalMarie", "#ZeroG"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251013-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251013-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/animation-industry-faces-cash-crunch/</loc>
@@ -503,6 +751,10 @@
     <meta:published>2025-10-13T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Animation", "#ContentCreation", "#Industry", "#Streaming", "#Variety", "#YouTubeKids"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251013-01-1.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251013-01-1.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/40-percent-of-us-employees-report-generating-workslop-ai-content/</loc>
@@ -511,6 +763,10 @@
     <meta:published>2025-10-12T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIEthics", "#Leadership", "#Productivity", "#TheGuardian", "#Training", "#Workslop"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251012-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251012-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/just-250-malicious-prompts-can-implant-backdoor-vulnerabilities-in-llms/</loc>
@@ -519,6 +775,10 @@
     <meta:published>2025-10-09T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AITrust", "#Anthropic", "#BackdoorAttack", "#DataPoisoning", "#LLM", "#Security"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251009-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251009-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/are-artists-witnessing-their-own-extinction/</loc>
@@ -527,6 +787,10 @@
     <meta:published>2025-10-09T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIEthics", "#Automation", "#ClassicalMusic", "#Creativity", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251009-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251009-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gen-z-faces-job-pocalypse-as-companies-invest-in-ai/</loc>
@@ -535,6 +799,10 @@
     <meta:published>2025-10-09T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Automation", "#BSI", "#Employment", "#Future", "#GenZ", "#TheGuardian", "#Workforce"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251009-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251009-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/figure-unveils-figure-03-humanoid-robot-for-home-commercial-usage/</loc>
@@ -543,6 +811,10 @@
     <meta:published>2025-10-09T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIInnovation", "#Figure", "#Figure03", "#HelixAI", "#Home", "#Humanoid", "#Robotics"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251009-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251009-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/with-constant-misinformation-everyone-needs-a-bs-detector/</loc>
@@ -551,6 +823,10 @@
     <meta:published>2025-10-08T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIEthics", "#CriticalThinking", "#Education", "#Misinformation", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251008-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251008-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/miss-kobayashis-dragon-maid-a-lonely-dragon-movie-hits-theatres-this-month/</loc>
@@ -559,6 +835,10 @@
     <meta:published>2025-10-06T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KyotoAnimation", "#MissKobayashisDragonMaid", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251006-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251006-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/amd-signs-chip-deal-with-openai/</loc>
@@ -567,6 +847,10 @@
     <meta:published>2025-10-06T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIChips", "#AMD", "#Nvidia", "#OpenAI", "#Reuters", "#StockMarket", "#TechIndustry"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251006-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251006-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/optimus-humanoid-learns-kung-fu-to-test-agility/</loc>
@@ -575,6 +859,10 @@
     <meta:published>2025-10-04T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AI", "#ElonMusk", "#Humanoid", "#KungFuDemo", "#Optimus", "#Robotics", "#Tesla"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251004-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251004-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/is-allowing-children-to-interact-with-ai-wrong/</loc>
@@ -583,6 +871,10 @@
     <meta:published>2025-10-02T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIEthics", "#ChildDevelopment", "#Parenting", "#TheGuardian", "#Toys"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251002-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251002-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/openai-and-japans-digital-agency-announce-strategic-collaboration/</loc>
@@ -591,6 +883,10 @@
     <meta:published>2025-10-02T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIGovernance", "#GenerativeAI", "#Japan", "#OpenAI", "#PublicServices"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251002-00.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251002-00.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/unlocking-more-creativity-out-of-ai-models/</loc>
@@ -599,6 +895,10 @@
     <meta:published>2025-10-01T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#arXiv", "#LLM", "#ModeCollapse", "#Northeastern", "#Stanford", "#WestVirginia"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251001-05b.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251001-05b.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/spider-shaped-bot-charlotte-can-build-a-house-in-one-day/</loc>
@@ -607,6 +907,10 @@
     <meta:published>2025-10-01T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#3DPrinting", "#Construction", "#Housing", "#LunarHabitat", "#Robotics", "#YankoDesign"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251001-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251001-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/new-ai-model-longlive-generates-high-quality-interactive-long-videos-in-real-time/</loc>
@@ -615,6 +919,10 @@
     <meta:published>2025-10-01T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#InteractiveMedia", "#LongLive", "#RealTime", "#Storytelling", "#VideoGeneration"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251001-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251001-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/musical-kpop-demon-hunters-is-netflixs-biggest-hit/</loc>
@@ -623,6 +931,10 @@
     <meta:published>2025-10-01T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#GamesRadar+", "#KPopDemonHunters", "#Netflix", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251001-00.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251001-00.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/my-hero-academia-historic-conclusion-premiers-this-month/</loc>
@@ -631,5 +943,9 @@
     <meta:published>2025-10-01T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#FinalWarArc", "#MyHeroAcademia", "#ScreenRant", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251001-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251001-01.png</image:loc>
+    </image:image>
   </url>
 </urlset>

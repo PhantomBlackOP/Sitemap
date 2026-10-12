@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/nako-misaki-releases-ao-no-ashiato-music-video/</loc>
     <lastmod>2026-08-01T19:46:32Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2026-07-31T10:13:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AoNoAshiato", "#Crunchyroll", "#JPop", "#Liella", "#MusicVideo", "#NakoMisaki", "#VoiceActor"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/nako-misaki-4th-single-mv.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/nako-misaki-4th-single-mv.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/yusanchi-omnibus-short-anime-premieres-in-october/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2026-07-31T10:12:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#Fanworks", "#KeyVisual", "#ShortAnime", "#Trailer", "#Yusanchi"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/V7RtrAs3FS8.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/V7RtrAs3FS8.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/brain-alive-manga-launches-with-english-edition-planned/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2026-07-31T10:11:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#BrainAlive", "#MachineGamu", "#MangaNews", "#RafalJaki"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/img-9963.jpeg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/img-9963.jpeg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/magical-explorer-anime-confirms-october-broadcast/</loc>
@@ -31,6 +43,10 @@
     <meta:published>2026-07-31T10:10:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#KeyVisual", "#MagicalExplorer", "#Trailer", "#WHITEFOX"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/bQuJywMCYWg.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/bQuJywMCYWg.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/iceblade-sorcerer-season-2-adds-cast-and-teaser/</loc>
@@ -39,6 +55,10 @@
     <meta:published>2026-07-31T10:09:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeCast", "#AnimeNewsNetwork", "#Characters", "#IcebladeSorcerer", "#Teaser", "#ZeroG"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/30rSarCHpmA.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/30rSarCHpmA.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/free-fire-daybreak-trailer-reveals-new-dawn-story/</loc>
@@ -47,6 +67,10 @@
     <meta:published>2026-07-31T10:08:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#CandyBox", "#FreeFireDaybreak", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/s3BpL7cvnc8.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/s3BpL7cvnc8.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/seasons-of-books-and-keys-mystery-game-announced/</loc>
@@ -55,6 +79,10 @@
     <meta:published>2026-07-31T10:07:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#HonobuYonezawa", "#ShueishaGames", "#VisualNovel"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/TWJ3jAZFu7I.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/TWJ3jAZFu7I.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/oblivious-saint-anime-shares-theme-song-videos/</loc>
@@ -63,6 +91,10 @@
     <meta:published>2026-07-31T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#EndingTheme", "#MusicVideo", "#ObliviousSaint", "#OpeningTheme", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/the-oblivious-saint-can-t-contain-her-power.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/the-oblivious-saint-can-t-contain-her-power.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/toei-animation-marks-70-years-of-anime-history/</loc>
@@ -71,6 +103,10 @@
     <meta:published>2026-07-31T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeHistory", "#Anniversary", "#CommemorativeVideo", "#Crunchyroll", "#ToeiAnimation"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/toei-animation-70th-anniversary-logo.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/toei-animation-70th-anniversary-logo.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/your-name-returns-for-10th-anniversary-screening/</loc>
@@ -79,6 +115,10 @@
     <meta:published>2026-07-30T10:10:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#Anniversary", "#GKIDS", "#MakotoShinkai", "#Trailer", "#YourName"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/RuyHIkXdYf8.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/RuyHIkXdYf8.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-ribbon-hero-trailer-adds-five-cast-members/</loc>
@@ -87,6 +127,10 @@
     <meta:published>2026-07-30T10:09:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#KeyVisual", "#Netflix", "#Nijisanji", "#TheRibbonHero", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/Z56klGz1BPk.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/Z56klGz1BPk.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ave-mujica-film-trailer-confirms-october-16-opening/</loc>
@@ -95,6 +139,10 @@
     <meta:published>2026-07-30T10:08:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#AveMujica", "#BangDream", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/Uqt2rXUA-r8.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/Uqt2rXUA-r8.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/stupid-never-dies-sets-october-21-release/</loc>
@@ -103,6 +151,10 @@
     <meta:published>2026-07-30T10:07:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Action", "#AnimeNewsNetwork", "#GPTrack50", "#MusicVideo", "#StupidNeverDies", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/U_iwVrIIo6E.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/U_iwVrIIo6E.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/demons-night-fever-sets-october-22-launch/</loc>
@@ -111,6 +163,10 @@
     <meta:published>2026-07-30T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#DemonsNightFever", "#TacticalRPG", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/eQNSQ5oeDSI.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/eQNSQ5oeDSI.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/wandance-film-trailer-previews-team-theme-song/</loc>
@@ -119,6 +175,10 @@
     <meta:published>2026-07-30T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#&amp;Team", "#AnimeNewsNetwork", "#LiveAction", "#Trailer", "#Wandance"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/wandance-lakv2.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/wandance-lakv2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/yamato-rebel-3199-teaser-revives-classic-ending-song/</loc>
@@ -127,6 +187,10 @@
     <meta:published>2026-07-30T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AkiraFuse", "#AnimeNewsNetwork", "#Rebel3199", "#SpaceBattleshipYamato", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/IUVGkkB8SNI.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/IUVGkkB8SNI.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/chainsaw-man-reze-arc-stage-play-releases-new-videos/</loc>
@@ -135,6 +199,10 @@
     <meta:published>2026-07-30T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#ChainsawMan", "#Crunchyroll", "#RezeArc", "#StagePlay", "#Theater"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/chainsaw-man-the-stage-reze-arc-opening.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/chainsaw-man-the-stage-reze-arc-opening.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/tomb-raider-king-shares-qwer-opening-lyric-video/</loc>
@@ -143,6 +211,10 @@
     <meta:published>2026-07-30T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#MusicVideo", "#QWER", "#StudioEEK", "#TombRaiderKing", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/tomb-raider-king-opening-lyric-video.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/tomb-raider-king-opening-lyric-video.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gachiakuta-season-2-debuts-first-look-trailer/</loc>
@@ -151,6 +223,10 @@
     <meta:published>2026-07-29T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BonesFilm", "#Crunchyroll", "#Gachiakuta", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/gachiakuta-season-2-first-look-trailer.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/gachiakuta-season-2-first-look-trailer.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/pokemon-pokopia-bubbly-basin-dlc-launches-august-5/</loc>
@@ -159,6 +235,10 @@
     <meta:published>2026-07-29T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BubblyBasin", "#Crunchyroll", "#NintendoSwitch2", "#PokemonPokopia", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/pokopia-dlc1-date.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/pokopia-dlc1-date.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/naruto-card-game-trailers-reveal-rules-and-designs/</loc>
@@ -167,6 +247,10 @@
     <meta:published>2026-07-29T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BandaiNamco", "#Crunchyroll", "#Naruto", "#TCG", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/naruto-card-game-trailer.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/naruto-card-game-trailer.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kenn-joins-sparks-of-tomorrow-as-oshie-ainosuke/</loc>
@@ -175,6 +259,10 @@
     <meta:published>2026-07-29T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KENN", "#KyotoAnimation", "#Netflix", "#SparksOfTomorrow", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/sparks-of-tomorrow-oshie-ainosuke.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/sparks-of-tomorrow-oshie-ainosuke.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gentle-criminal-joins-my-hero-ultra-rumble-season-18/</loc>
@@ -183,6 +271,10 @@
     <meta:published>2026-07-29T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BandaiNamco", "#BattleRoyale", "#Crunchyroll", "#MyHeroUltraRumble", "#Season18"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/my-hero-ultra-rumble-gentle-criminal.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/my-hero-ultra-rumble-gentle-criminal.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/nia-liston-anime-sets-october-6-premiere/</loc>
@@ -191,6 +283,10 @@
     <meta:published>2026-07-28T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#KonamiAnimation", "#MercilessMaiden", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/nia-liston-date.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/nia-liston-date.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/9-r-i-p-sequel-sets-october-27-western-launch/</loc>
@@ -199,6 +295,10 @@
     <meta:published>2026-07-28T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#IdeaFactory", "#NineRipSequel", "#NintendoSwitch", "#OtomeGame", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/9-rip-sequel.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/9-rip-sequel.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/we-are-aliens-film-unveils-main-trailer-and-theme-song/</loc>
@@ -207,6 +307,10 @@
     <meta:published>2026-07-27T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Adieu", "#Crunchyroll", "#KeyVisual", "#MiyuProduction", "#NothingNew", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/we-are-aliens-main-trailer.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/we-are-aliens-main-trailer.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-idolmster-marks-20-years-anniversary-with-thank-you-memorial-video/</loc>
@@ -215,6 +319,10 @@
     <meta:published>2026-07-27T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CinderellaGirls", "#Crunchyroll", "#Gakuen", "#MillionLive", "#ShinyColors", "#SideM"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/the-idolmaster-20th-anniversary-pv.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/the-idolmaster-20th-anniversary-pv.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/jirai-girl-chihara-san-launches-alien-alien-music-project/</loc>
@@ -223,6 +331,10 @@
     <meta:published>2026-07-27T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AlienAlien", "#Crunchyroll", "#JiraiGirl", "#MusicVideo", "#SayumiSuzushiro", "#SynergySP"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/mai-chihara-alien-alien-mv.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/mai-chihara-alien-alien-mv.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/millennium-family-anime-reveals-immortal-siblings-and-staff/</loc>
@@ -231,6 +343,10 @@
     <meta:published>2026-07-27T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#MillenniumFamily", "#PartsCraft", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/millennium-family-anime-announcement.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/millennium-family-anime-announcement.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/star-detective-precure-film-reveals-trailer-and-theme-songs/</loc>
@@ -239,6 +355,10 @@
     <meta:published>2026-07-26T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AmiIshii", "#ChihayaYoshitake", "#Crunchyroll", "#KeyVisual", "#MusicVideo", "#YukaMasui"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/star-detective-precure-main-trailer.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/star-detective-precure-main-trailer.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/konosuba-rpg-heads-to-mobile-and-pc-in-2026/</loc>
@@ -247,6 +367,10 @@
     <meta:published>2026-07-26T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Konosuba", "#KuroneMishima", "#NatsumeAkatsuki", "#RPG", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/konosuba-new-rpg.webp</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/konosuba-new-rpg.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/botchi-boromaru-releases-the-elusive-samurai-season-2-ending-mv/</loc>
@@ -255,6 +379,10 @@
     <meta:published>2026-07-25T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeEnding", "#BotchiBoromaru", "#Crunchyroll", "#Hinatazaka46", "#MusicVideo"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/if-you-want-romantic-mv.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/if-you-want-romantic-mv.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/student-council-has-its-holes-casts-hiyori-kono-as-tan-otori/</loc>
@@ -263,6 +391,10 @@
     <meta:published>2026-07-25T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeCast", "#Crunchyroll", "#KeyVisual", "#Passione", "#StudentCouncilHoles"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/even-the-student-council-has-its-holes-tan-otori.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/even-the-student-council-has-its-holes-tan-otori.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/final-fantasy-xiv-evercold-reveals-bastion-and-ffvii-raid/</loc>
@@ -271,6 +403,10 @@
     <meta:published>2026-07-25T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Bastion", "#Crunchyroll", "#Evercold", "#FinalFantasyXIV", "#MMORPG", "#SquareEnix", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/ffxiv_evercold_header2-scaled.webp</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/ffxiv_evercold_header2-scaled.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/bleach-the-calamity-releases-creditless-opening-and-ending/</loc>
@@ -279,6 +415,10 @@
     <meta:published>2026-07-25T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#9Lana", "#AnimeEnding", "#AnimeOpening", "#Crunchyroll", "#Jo0ji", "#PierrotFilms", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/bleach-thousand-year-blood-war-calamity-arc-op-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/bleach-thousand-year-blood-war-calamity-arc-op-hero.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/new-doraemon-film-travels-to-steam-age-london/</loc>
@@ -287,6 +427,10 @@
     <meta:published>2026-07-24T10:07:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Doraemon", "#FujikoFFujio", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/doraemon_the_movie_nobitas_steampowered_time_machine_visual.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/doraemon_the_movie_nobitas_steampowered_time_machine_visual.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/rezero-reveals-starlight-party-event-visual/</loc>
@@ -295,6 +439,10 @@
     <meta:published>2026-07-24T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Anniversary", "#Crunchyroll", "#KonomiSuzuki", "#MythAndRoid", "#ReZero", "#StarlightParty"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/re-zero-10th-anniversary-event-visual.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/re-zero-10th-anniversary-event-visual.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/worlds-strongest-witch-adds-kana-hanazawa-and-maria-naganawa/</loc>
@@ -303,6 +451,10 @@
     <meta:published>2026-07-24T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeCasting", "#Crunchyroll", "#KeyVisual", "#SquareEnix", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/the-worlds-strongest-witch.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/the-worlds-strongest-witch.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/vertex-force-sets-october-3-premiere/</loc>
@@ -311,6 +463,10 @@
     <meta:published>2026-07-24T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#SMDE", "#Trailer", "#VertexForce"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/vertex-force.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/vertex-force.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kabaneri-marks-10-years-with-new-mumei-figure/</loc>
@@ -319,6 +475,10 @@
     <meta:published>2026-07-24T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Anniversary", "#Crunchyroll", "#Figure", "#Kabaneri", "#Mumei", "#WitStudio"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/kabaneri_of_the_iron_fortress_mumei_header.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/kabaneri_of_the_iron_fortress_mumei_header.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/inept-villainess-english-dub-begins-july-26/</loc>
@@ -327,6 +487,10 @@
     <meta:published>2026-07-24T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BangZoom!", "#Crunchyroll", "#EnglishDub", "#IneptVillainess", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/though-i-am-an-inept-villainess.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/though-i-am-an-inept-villainess.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/com-battler-v-unveils-anniversary-upgrade/</loc>
@@ -335,6 +499,10 @@
     <meta:published>2026-07-24T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Anniversary", "#ComBattlerV", "#Crunchyroll", "#SoulOfChogokin", "#ToeiAnimation"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/com-battler-v-50th-anniversary.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/com-battler-v-50th-anniversary.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/xenoblade-chronicles-2-details-switch-2-upgrades/</loc>
@@ -343,6 +511,10 @@
     <meta:published>2026-07-24T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeGames", "#Crunchyroll", "#JRPG", "#MonolithSoft", "#NintendoSwitch2", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/xenoblade-chronicles-2-switch2.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/xenoblade-chronicles-2-switch2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/inori-minase-launches-summer-challenger-music-video/</loc>
@@ -351,6 +523,10 @@
     <meta:published>2026-07-23T10:08:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#InoriMinase", "#JPop", "#MusicVideo", "#SummerChallenger", "#VoiceActor"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/inori-minase-summer-challenger-mv.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/inori-minase-summer-challenger-mv.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/hana-hope-releases-goodbye-lara-ending-music-video/</loc>
@@ -359,6 +535,10 @@
     <meta:published>2026-07-23T10:07:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeEnding", "#Crunchyroll", "#HanaHope", "#HeartsGlow", "#MusicVideo", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/hana-hope-hearts-glow-mv.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/hana-hope-hearts-glow-mv.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/hina-aoki-releases-nanoha-exceeds-ending-music-video/</loc>
@@ -367,6 +547,10 @@
     <meta:published>2026-07-23T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeEnding", "#Crunchyroll", "#Ephemeral", "#HinaAoki", "#MusicVideo", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/hina-aoki-ephemeral-mv.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/hina-aoki-ephemeral-mv.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/moon-flower-kingdom-anime-reveals-new-teaser-visual/</loc>
@@ -375,6 +559,10 @@
     <meta:published>2026-07-23T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#MoonFlowerKingdom", "#StudioElle", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/the-eccentric-doctor-of-the-moon-flower.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/the-eccentric-doctor-of-the-moon-flower.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kusunokis-flunking-her-high-school-glow-up-gets-anime/</loc>
@@ -383,6 +571,10 @@
     <meta:published>2026-07-23T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#HayabusaFilm", "#KeyVisual", "#KusunokiGlowUp", "#Passione", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/kusunokis-flunking-her-high-school-glow-up.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/kusunokis-flunking-her-high-school-glow-up.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/sparking-zero-limit-breaking-neo-dlc-arrives-july-30/</loc>
@@ -391,6 +583,10 @@
     <meta:published>2026-07-23T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BandaiNamco", "#Crunchyroll", "#DLC", "#DragonBall", "#FightingGame", "#SparkingZero"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/dragon-ball-sparking-zero-dlc.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/dragon-ball-sparking-zero-dlc.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/five-artists-celebrate-witch-hat-atelier/</loc>
@@ -399,6 +595,10 @@
     <meta:published>2026-07-23T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeArt", "#ArtistShowcase", "#CreativeCommunity", "#Crunchyroll", "#WitchHatAtelier"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/witch-hat-atelier-episode-13.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/witch-hat-atelier-episode-13.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gundam-rg-xarx-zero-anime-sets-2027-launch/</loc>
@@ -407,6 +607,10 @@
     <meta:published>2026-07-23T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Gundam", "#KenjiKamiyama", "#Sunrise", "#TakeoOtsuka", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/gundam-rg-xarx-zero-teaser-trailer.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/gundam-rg-xarx-zero-teaser-trailer.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/to-you-in-the-beyond-reveals-main-trailer-and-new-cast/</loc>
@@ -415,6 +619,10 @@
     <meta:published>2026-07-22T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#TMSEntertainment", "#Tota", "#ToYouInTheBeyond", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/to-you-in-the-beyond-film-header-e1784842663378.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/to-you-in-the-beyond-film-header-e1784842663378.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/blue-lock-live-action-film-previews-fukase-insert-song/</loc>
@@ -423,6 +631,10 @@
     <meta:published>2026-07-22T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Ado", "#BlueLock", "#Crunchyroll", "#Fukase", "#LiveAction", "#Monstruo", "#Trailer", "#Twilight"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/blue-lock-fukase-insert-song-pv.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/blue-lock-fukase-insert-song-pv.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/expelled-from-paradise-sequel-unveils-new-teaser-and-cast/</loc>
@@ -431,6 +643,10 @@
     <meta:published>2026-07-22T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#ExpelledFromParadise", "#KeyVisual", "#SeijiMizushima", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/expelled_from_paradise_resonance_of_the_heart_header5.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/expelled_from_paradise_resonance_of_the_heart_header5.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kaiji-returns-with-new-main-trailer-and-rival-cast/</loc>
@@ -439,6 +655,10 @@
     <meta:published>2026-07-21T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Kaiji", "#KeyVisual", "#LiveAction", "#TatsuyaFujiwara", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/kaiji-live-action-film-trailer.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/kaiji-live-action-film-trailer.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/iron-wok-jan-opening-theme-kaen-gets-fiery-music-video/</loc>
@@ -447,6 +667,10 @@
     <meta:published>2026-07-21T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeOpening", "#Crunchyroll", "#Genjibu", "#IronWokJan", "#Kaen", "#MusicVideo"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/genin-wa-jibun-ni-aru-kaen-mv.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/genin-wa-jibun-ni-aru-kaen-mv.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/persona-4-revival-spotlights-chie-yosuke-and-rise/</loc>
@@ -455,6 +679,10 @@
     <meta:published>2026-07-21T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Atlus", "#ChieSatonaka", "#Crunchyroll", "#RiseKujikawa", "#RPG", "#YosukeHanamura"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/persona-4-revival-chie.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/persona-4-revival-chie.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/though-i-am-an-inept-villainess-shares-creditless-ending-and-opening/</loc>
@@ -463,6 +691,10 @@
     <meta:published>2026-07-21T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeEnding", "#AnimeOpening", "#Crunchyroll", "#Houkiboshi", "#IneptVillainess", "#Sunny"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/though-i-am-an-inept-villainess-ed-hero-1.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/though-i-am-an-inept-villainess-ed-hero-1.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/fairy-princess-minky-momo-returns-with-new-ova-cast-visual-and-teaser/</loc>
@@ -471,6 +703,10 @@
     <meta:published>2026-07-21T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AshiProductions", "#Crunchyroll", "#KeyVisual", "#MinkyMomo", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/minky-momo-ova-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/minky-momo-ova-hero.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/prince-of-tennis-ii-sequel-reveals-rivalry-visual-and-theme-songs/</loc>
@@ -479,6 +715,10 @@
     <meta:published>2026-07-20T10:09:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Aozu", "#Crunchyroll", "#KeigoAtobe", "#KeyVisual", "#Trailer", "#YushiOshitari"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/the-prince-of-tennis-ii-u-17-world-cup-semifinal.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/the-prince-of-tennis-ii-u-17-world-cup-semifinal.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kikunosuke-toya-s-solo-debut-single-off-to-the-groove/</loc>
@@ -487,6 +727,10 @@
     <meta:published>2026-07-20T10:08:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KikunosukeToya", "#OffToTheGroove", "#SoloDebut", "#VoiceActor"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/kikunosuke-toya-off-to-the-groove-teaser.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/kikunosuke-toya-off-to-the-groove-teaser.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/reira-ushio-releases-clover-music-video-for-please-excuse-my-younger-brothers/</loc>
@@ -495,6 +739,10 @@
     <meta:published>2026-07-20T10:07:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeEnding", "#Clover", "#Crunchyroll", "#LayDuce", "#MusicVideo", "#ReiraUshio"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/reira-ushio-clover-mv.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/reira-ushio-clover-mv.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/pokemon-sleep-and-pokemon-horizons-unite-for-anniversary-crossover/</loc>
@@ -503,6 +751,10 @@
     <meta:published>2026-07-20T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Anniversary", "#Crunchyroll", "#NatsukiHanae", "#PokemonHorizons", "#PokemonSleep"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/pokemon-horizons-the-series-captain-pikachu.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/pokemon-horizons-the-series-captain-pikachu.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/takashi-iizuka-reflects-on-35-years-of-sonic/</loc>
@@ -511,6 +763,10 @@
     <meta:published>2026-07-20T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Anniversary", "#Crunchyroll", "#GameDesign", "#Sega", "#Sonic35", "#TakashiIizuka"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/sonic-the-hedgehog-memories-and-beyond.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/sonic-the-hedgehog-memories-and-beyond.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/lego-one-piece-sets-sail-with-usopp-led-teaser/</loc>
@@ -519,6 +775,10 @@
     <meta:published>2026-07-20T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Lego", "#Luffy", "#Netflix", "#OnePiece", "#Teaser", "#Usopp"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/lego-one-piece-teaser.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/lego-one-piece-teaser.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/crunchyroll-adds-new-anime-music-videos-from-7co-yonige-and-more/</loc>
@@ -527,6 +787,10 @@
     <meta:published>2026-07-20T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BotanKamiina", "#Crunchyroll", "#EvenAReplica", "#PolarOpposites", "#RentAGirlfriend"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/7co-nekojarashi-music-video-thumbnail-e1784653708500.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/7co-nekojarashi-music-video-thumbnail-e1784653708500.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kakuseihunter-omegahorn-roars-ahead-of-july-premiere/</loc>
@@ -535,6 +799,10 @@
     <meta:published>2026-07-19T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#ProjectRed", "#ShoutTheFlame", "#Teaser", "#Toei", "#Tokusatsu"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/omegahorn.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/omegahorn.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/final-fantasy-x-marks-25-years-with-anniversary-trailer/</loc>
@@ -543,6 +811,10 @@
     <meta:published>2026-07-19T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#FinalFantasyX", "#GameTrailer", "#RpgAnniversary", "#SquareEnix"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/final-fantasy-x-25th.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/final-fantasy-x-25th.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/suis-releases-the-cat-and-the-dragon-opening-mv/</loc>
@@ -551,6 +823,10 @@
     <meta:published>2026-07-18T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeOpening", "#Crunchyroll", "#MusicVideo", "#Nekojitsu", "#Suis", "#TatsuyaKitani"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/suis-from-yorushika-nekojitsu-mv.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/suis-from-yorushika-nekojitsu-mv.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/midnight-heart-season-2-tunes-in-for-2027/</loc>
@@ -559,6 +835,10 @@
     <meta:published>2026-07-18T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AmiKoshimizu", "#Crunchyroll", "#KaedeHondo", "#MidnightHeart", "#StudioGekkou", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/tune_in_to_the_midnight_heart_header2.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/tune_in_to_the_midnight_heart_header2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/student-council-anime-casts-miyu-tomita-as-komaro/</loc>
@@ -567,6 +847,10 @@
     <meta:published>2026-07-18T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeCasting", "#Crunchyroll", "#MiyuTomita", "#StudioPassione", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/even-the-student-council-has-its-holes-komaro-michinoku.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/even-the-student-council-has-its-holes-komaro-michinoku.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/bleach-mirrors-high-reveals-three-new-kubo-characters/</loc>
@@ -575,6 +859,10 @@
     <meta:published>2026-07-18T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#FukaIzumi", "#MobileGame", "#ShogoBatori", "#YuSasahara"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/bleach-mirrors-high-top.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/bleach-mirrors-high-top.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/inept-villainess-theme-music-videos-released/</loc>
@@ -583,6 +871,10 @@
     <meta:published>2026-07-17T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Houkiboshi", "#Milet", "#MusicVideo", "#Rokudenashi", "#Sunny", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/milet-sunny-mv.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/milet-sunny-mv.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/myth-roid-launches-tanya-season-2-special-mv/</loc>
@@ -591,6 +883,10 @@
     <meta:published>2026-07-17T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#MusicVideo", "#MythAndRoid", "#SagaOfTanyaTheEvil", "#WhyRedInduction"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/myth-and-loid-why-red-induction-mv.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/myth-and-loid-why-red-induction-mv.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/mushoku-tensei-season-3-releases-new-theme-videos/</loc>
@@ -599,6 +895,10 @@
     <meta:published>2026-07-17T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CreditlessEnding", "#CreditlessOpening", "#Crunchyroll", "#MikaNakashima", "#YuikoOhara"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/mushoku-tensei-jobless-reincarnation-season-3-op-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/mushoku-tensei-jobless-reincarnation-season-3-op-hero.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/mebius-dust-unveils-creditless-opening-and-ending/</loc>
@@ -607,6 +907,10 @@
     <meta:published>2026-07-17T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AiTomioka", "#CreditlessEnding", "#CreditlessOpening", "#Crunchyroll", "#LeoIeiri"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/mebius-dust-episode-1-screenshot-3.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/mebius-dust-episode-1-screenshot-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/nanoha-exceeds-releases-creditless-theme-sequences/</loc>
@@ -615,6 +919,10 @@
     <meta:published>2026-07-17T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CreditlessEnding", "#CreditlessOpening", "#Crunchyroll", "#HinaAoki", "#NanaMizuki"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/magical-girl-lyrical-nanoha-exceeds-gun-blaze-vengeance-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/magical-girl-lyrical-nanoha-exceeds-gun-blaze-vengeance-hero.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-elusive-samurai-season-2-opens-with-new-theme-videos/</loc>
@@ -623,6 +931,10 @@
     <meta:published>2026-07-17T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CreditlessEnding", "#CreditlessOpening", "#Crunchyroll", "#Hinatazaka46", "#KentoNakajima"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/the_elusive_samurai_season2_header.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/the_elusive_samurai_season2_header.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/cosmic-princess-kaguya-returns-in-special-formats/</loc>
@@ -631,6 +943,10 @@
     <meta:published>2026-07-16T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeFilm", "#CosmicPrincessKaguya", "#Crunchyroll", "#Netflix"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/cosmic-princess-kaguya.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/cosmic-princess-kaguya.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ikimonogakari-releases-sayonara-lara-music-video/</loc>
@@ -639,6 +955,10 @@
     <meta:published>2026-07-16T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Ikimonogakari", "#KinemaCitrus", "#MusicVideo", "#SayonaraLara"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/ikimonogakari-sayonara-lala-mv-scaled.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/ikimonogakari-sayonara-lala-mv-scaled.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/halca-releases-new-game-music-video/</loc>
@@ -647,6 +967,10 @@
     <meta:published>2026-07-16T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Diomedea", "#FightingGames", "#Halca", "#MusicVideo", "#NewGame"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/halca-new-game-mv.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/halca-new-game-mv.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/clevatess-season-2-releases-creditless-themes/</loc>
@@ -655,6 +979,10 @@
     <meta:published>2026-07-16T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeEnding", "#AnimeOpening", "#Crunchyroll", "#MayuMaeshima", "#MythAndRoid"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/clevatess_season2_op_header.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/clevatess_season2_op_header.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/tiny-metal-zero-line-anime-reveals-teaser/</loc>
@@ -663,6 +991,10 @@
     <meta:published>2026-07-16T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Safehouse", "#Teaser", "#TinyMetal", "#YusukeKozaki", "#ZeroLine"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/tiny-metal-zero-line-screenshot.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/tiny-metal-zero-line-screenshot.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/saga-of-tanya-the-evil-season-2-shares-creditless-themes/</loc>
@@ -671,6 +1003,10 @@
     <meta:published>2026-07-16T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AoiYuuki", "#CreditlessEnding", "#CreditlessOpening", "#Crunchyroll", "#MythAndRoid"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/saga-of-tanya-the-evil-season-2-op-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/saga-of-tanya-the-evil-season-2-op-hero.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/bang-dream-yume%e2%88%9emita-spotlights-viola-in-new-trailer/</loc>
@@ -679,6 +1015,10 @@
     <meta:published>2026-07-16T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BangDream", "#Bushiroad", "#Crunchyroll", "#FairyBouquet", "#Trailer", "#Viola", "#YUMEMITA"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/bang_dream_yume_mita_viola_header.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/bang_dream_yume_mita_viola_header.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/look-back-live-action-film-debuts-main-trailer/</loc>
@@ -687,6 +1027,10 @@
     <meta:published>2026-07-15T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#GKIDS", "#HirokazuKoreeda", "#LiveAction", "#LookBack", "#TatsukiFujimoto", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/look-back-live-action-header.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/look-back-live-action-header.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/anji-ikehata-joins-wandance-live-action-film/</loc>
@@ -695,6 +1039,10 @@
     <meta:published>2026-07-15T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnjiIkehata", "#ComingOfAge", "#DanceFilm", "#HikariWanda", "#LiveAction", "#Wandance"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/wandance-live-action-hikari-header.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/wandance-live-action-hikari-header.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/karanoah-releases-samurai-troopers-ending-music-video/</loc>
@@ -703,6 +1051,10 @@
     <meta:published>2026-07-15T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Bakemon", "#Crunchyroll", "#Karanoah", "#MusicVideo", "#RockMusic", "#SamuraiTroopers"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/karanoah-bakemon-mv.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/karanoah-bakemon-mv.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ho-kago-palette-sets-july-graduation-finale/</loc>
@@ -711,6 +1063,10 @@
     <meta:published>2026-07-15T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AngelNextDoor", "#AnimeIdols", "#Crunchyroll", "#HoKagoPalette", "#RomanceAnime"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/ho-kago-palette-graduation.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/ho-kago-palette-graduation.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/polar-opposites-season-2-shares-creditless-ending/</loc>
@@ -719,6 +1075,10 @@
     <meta:published>2026-07-15T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CreditlessEnding", "#Crunchyroll", "#MegaShinnosuke", "#MusicVideo", "#PolarOpposites"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/you-and-i-are-polar-opposites-season-2-ed-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/you-and-i-are-polar-opposites-season-2-ed-hero.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/grand-blue-dreaming-season-3-unveils-creditless-themes/</loc>
@@ -727,6 +1087,10 @@
     <meta:published>2026-07-15T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CreditlessEnding", "#CreditlessOpening", "#Crunchyroll", "#DivingClub", "#GrandBlue"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/grand-blue-dreaming-season-3-op-ed-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/grand-blue-dreaming-season-3-op-ed-hero.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/crunchyroll-expands-the-anime-effect-podcast-hub/</loc>
@@ -735,6 +1099,10 @@
     <meta:published>2026-07-15T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimePodcast", "#Crunchyroll", "#FandomCulture", "#OtakuCommunity", "#TheAnimeEffect"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/the-anime-effect.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/the-anime-effect.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/strongest-rearguard-streams-theme-song-music-videos/</loc>
@@ -743,6 +1111,10 @@
     <meta:published>2026-07-14T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#EndingTheme", "#InnerJourney", "#OpeningTheme", "#RedhairRosy"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/redhair-rosy-license-mv.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/redhair-rosy-license-mv.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/tsugumi-project-anime-adaptation-announced/</loc>
@@ -751,6 +1123,10 @@
     <meta:published>2026-07-14T10:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#Kodansha", "#Trailer", "#TsugumiProject"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/tsugumi-project.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/tsugumi-project.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/from-far-away-anime-premieres-october-4/</loc>
@@ -759,6 +1135,10 @@
     <meta:published>2026-07-14T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#FromFarAway", "#KeyVisual", "#StudioDeen", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/from-far-away.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/from-far-away.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/draw-this-then-die-shares-creditless-opening-and-ending/</loc>
@@ -767,6 +1147,10 @@
     <meta:published>2026-07-14T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeEnding", "#AnimeOpening", "#Crunchyroll", "#Regallily", "#TatsuyaKitani"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/draw-this-then-die-opening-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/draw-this-then-die-opening-hero.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/the-eternal-fool-anime-premieres-january-2027/</loc>
@@ -775,6 +1159,10 @@
     <meta:published>2026-07-13T10:07:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#EternalFool", "#KeyVisual", "#StudioElle", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/image-196.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/image-196.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/mob-psycho-100-marks-10th-anniversary-with-special-video/</loc>
@@ -783,6 +1171,10 @@
     <meta:published>2026-07-12T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Anniversary", "#Crunchyroll", "#MobPsycho100", "#OneManga", "#Special", "#StudioBones"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/mob_psycho_100_10th_anniversary_shigeo_header.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/mob_psycho_100_10th_anniversary_shigeo_header.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ascendance-of-a-bookworm-cour-2-shares-creditless-opening-and-ending/</loc>
@@ -791,6 +1183,10 @@
     <meta:published>2026-07-12T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Adieu", "#CreditlessEnding", "#CreditlessOpening", "#HonzukinoGekokujou", "#KanaNishino"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/ascendance-of-a-bookworm-archduke-cour-2-op-hero.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/ascendance-of-a-bookworm-archduke-cour-2-op-hero.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/red-river-anime-releases-creditless-opening-video/</loc>
@@ -799,6 +1195,10 @@
     <meta:published>2026-07-11T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CreditlessOpening", "#KeyVisual", "#RedRiver", "#TatsunokoProduction", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/image-252.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/image-252.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/trysail-releases-shoukei-music-video-for-talentless-sage/</loc>
@@ -807,6 +1207,10 @@
     <meta:published>2026-07-10T10:08:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeEnding", "#Crunchyroll", "#EMTSquared", "#Shoukei", "#TalentlessSage", "#TrySail"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/trysail-shoukei-mv.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/trysail-shoukei-mv.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/dragon-ball-xenoverse-3-trailer-details-combat-systems/</loc>
@@ -815,6 +1219,10 @@
     <meta:published>2026-07-10T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BandaiNamco", "#Crunchyroll", "#DragonBallXenoverse3", "#GameplayTrailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/image-239.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/image-239.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/nana-mizuki-releases-crimson-bullet-music-video/</loc>
@@ -823,6 +1231,10 @@
     <meta:published>2026-07-05T10:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeOpening", "#CrimsonBullet", "#Crunchyroll", "#LyricalNanoha", "#NanaMizuki"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/nana-mizuki-crimson-bullet-mv.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/nana-mizuki-crimson-bullet-mv.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/devils-crest-anime-premieres-november-6/</loc>
@@ -831,6 +1243,10 @@
     <meta:published>2026-07-04T10:10:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Ado", "#Crunchyroll", "#DevilsCrest", "#KeyVisual", "#ProductionIG", "#Shinka", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/devils-crest-anime-first-trailer-smug.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/devils-crest-anime-first-trailer-smug.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/dengeki-daisy-teaser-reveals-main-cast/</loc>
@@ -839,6 +1255,10 @@
     <meta:published>2026-07-04T10:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeCast", "#Crunchyroll", "#DengekiDaisy", "#StudioDeen", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/dengeki-daisy.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/dengeki-daisy.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/sajou-no-hana-shares-eternel-ending-song-video/</loc>
@@ -847,6 +1267,10 @@
     <meta:published>2026-07-03T10:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeEnding", "#Crunchyroll", "#Eternel", "#MusicVideo", "#SajouNoHana", "#YuriAnime"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/i-want-to-love-you-till-your-dying-day.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/i-want-to-love-you-till-your-dying-day.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/yamato-3199-and-gundam-unicorn-share-collaboration-visual/</loc>
@@ -855,6 +1279,10 @@
     <meta:published>2026-07-03T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeCollaboration", "#Crunchyroll", "#GundamUnicorn", "#KeyVisual", "#Yamato3199"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/yamato-gundam-collab-header.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/yamato-gundam-collab-header.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/aika-kobayashi-releases-blue-magic-music-video/</loc>
@@ -863,5 +1291,9 @@
     <meta:published>2026-07-02T10:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AikaKobayashi", "#BlueMagic", "#Crunchyroll", "#Lantis", "#MusicVideo", "#VoiceActor"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/07/aika-kobayashi-blue-magic-mv.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/07/aika-kobayashi-blue-magic-mv.jpg</image:loc>
+    </image:image>
   </url>
 </urlset>

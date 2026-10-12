@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/john-oliver-warns-ai-slop-is-corroding-online-reality/</loc>
     <lastmod>2026-09-26T08:47:13Z</lastmod>
@@ -7,5 +7,9 @@
     <meta:published>2025-06-23T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AISlop", "#JohnOliver", "#LastWeekTonight", "#Misinformation", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/06/1114-e1790412395644.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/06/1114-e1790412395644.jpg</image:loc>
+    </image:image>
   </url>
 </urlset>

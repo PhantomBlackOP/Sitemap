@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/use-ai-every-day/</loc>
     <lastmod>2026-02-14T10:42:56Z</lastmod>
@@ -7,5 +7,9 @@
     <meta:published>2025-03-31T23:00:00Z</meta:published>
     <meta:category>Comics</meta:category>
     <meta:tags>["#AIart", "#Banana", "#Blues", "#Grok"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/image.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/image.png</image:loc>
+    </image:image>
   </url>
 </urlset>

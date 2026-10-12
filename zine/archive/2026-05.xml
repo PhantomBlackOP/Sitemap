@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/20260531-1/</loc>
     <lastmod>2026-05-31T20:58:15Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2026-05-31T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AnimeGirls", "#ElectionVictory", "#LabourParty", "#Malta", "#VRIdols"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/516-Four-in-a-Row-❤️🎤.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/516-Four-in-a-Row-❤️🎤.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260530-1/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2026-05-30T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#ColdWarTech", "#GroundEffectVehicle", "#RustAndIce", "#SovietRelic"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/515-Abandoned-Ekranoplan-❄️✈️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/515-Abandoned-Ekranoplan-❄️✈️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260529-1/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2026-05-29T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AncientCarving", "#Angkor", "#CelestialDancer", "#KhmerTemple", "#SacredRelief"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/514-Rootbound-Apsara-🌿🛕.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/514-Rootbound-Apsara-🌿🛕.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260528-1/</loc>
@@ -31,6 +43,10 @@
     <meta:published>2026-05-28T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AdHocStudio", "#Cyberpunk", "#Dispatch", "#Hero", "#Invisigal", "#LapPunCheung"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/513-Neon-Redemption-💜🌃.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/513-Neon-Redemption-💜🌃.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260527-1/</loc>
@@ -39,6 +55,10 @@
     <meta:published>2026-05-27T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Cathedral", "#FolkCostumes", "#Kokoshnik", "#RussianFestival", "#SlavicBeauty"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/512-Red-Square-Reverie-🌸✨.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/512-Red-Square-Reverie-🌸✨.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260526-1/</loc>
@@ -47,6 +67,10 @@
     <meta:published>2026-05-26T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AnimeGirl", "#CityLights", "#KDrama", "#Noir", "#RainySeoul", "#UrbanRomance"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/511-Itaewon-Night-🌧️🌃.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/511-Itaewon-Night-🌧️🌃.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260525-1/</loc>
@@ -55,6 +79,10 @@
     <meta:published>2026-05-25T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AncientMystery", "#Esoteric", "#Gnostic", "#MagicalArtifact", "#Occult"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/510-Abraxas-Amulet-🐓🐍.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/510-Abraxas-Amulet-🐓🐍.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260524-1/</loc>
@@ -63,6 +91,10 @@
     <meta:published>2026-05-24T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AnimeGirl", "#CasinoLounge", "#Elegance", "#NoirStyle", "#PlayingCards"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/509-The-Heiress-🃏🥂.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/509-The-Heiress-🃏🥂.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260523-1/</loc>
@@ -71,6 +103,10 @@
     <meta:published>2026-05-23T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#CommandBridge", "#CyborgGirl", "#Futuristic", "#Hologram", "#SciFi", "#Starship"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/508-Cybernetic-Commander-🤖💙.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/508-Cybernetic-Commander-🤖💙.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260522-1/</loc>
@@ -79,6 +115,10 @@
     <meta:published>2026-05-22T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AnimeGirl", "#DanceFloor", "#NeonLights", "#Nightlife", "#PartyScene"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/507-Nightclub-💃✨.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/507-Nightclub-💃✨.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260521-1/</loc>
@@ -87,6 +127,10 @@
     <meta:published>2026-05-21T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#BlueBloods", "#CrimeDrama", "#FrankReagan", "#NYPD", "#TomSelleck"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/506-Commissioner-Reagan-🛡️🏙️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/506-Commissioner-Reagan-🛡️🏙️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260520-1/</loc>
@@ -95,6 +139,10 @@
     <meta:published>2026-05-20T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AncientGreece", "#DivineBeauty", "#Goddess", "#Mythology", "#SacredDwelling"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/505-Aphrodites-Sanctuary-🏛️🕊️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/505-Aphrodites-Sanctuary-🏛️🕊️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260519-1/</loc>
@@ -103,6 +151,10 @@
     <meta:published>2026-05-19T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AncientCrete", "#Knossos", "#Labrys", "#Libation", "#Offerings", "#Palace"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/504-Minoan-Sacred-Ritual-🏺🌸.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/504-Minoan-Sacred-Ritual-🏺🌸.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260518-1/</loc>
@@ -111,6 +163,10 @@
     <meta:published>2026-05-18T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#BrassSuit", "#DeepSea", "#MaritimeHistory", "#PressureSeal", "#VintageDiving"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/503-Scaphander-Helmet-🤿⚙️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/503-Scaphander-Helmet-🤿⚙️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260517-1/</loc>
@@ -119,6 +175,10 @@
     <meta:published>2026-05-17T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Engineers", "#Fenestron", "#Hangar", "#RotorBlades", "#ToolCarts", "#Workshop"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/502-New-Helicopter-Assembly-🚁🛠️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/502-New-Helicopter-Assembly-🚁🛠️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260516-1/</loc>
@@ -127,6 +187,10 @@
     <meta:published>2026-05-16T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AntiqueSilver", "#BouquetHolder", "#FloralKeepsake", "#VintageElegance"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/501-Victorian-Tussie-Mussie-💐🕯.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/501-Victorian-Tussie-Mussie-💐🕯.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260515-5/</loc>
@@ -135,6 +199,10 @@
     <meta:published>2026-05-15T10:45:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#500", "#HTTPStatus", "#InternalServerError", "#InternetProtocols", "#SystemFailure"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/💻-HTTP-500-Internal-Server-Error-status-code-⚠️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/💻-HTTP-500-Internal-Server-Error-status-code-⚠️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260515-4/</loc>
@@ -143,6 +211,10 @@
     <meta:published>2026-05-15T10:44:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AmericanRacing", "#ArrowMcLaren", "#Motorsport", "#OvalTrack", "#PatoOWard", "#Racing"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/🏁-The-Indianapolis-500-🏎️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/🏁-The-Indianapolis-500-🏎️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260515-3/</loc>
@@ -151,6 +223,10 @@
     <meta:published>2026-05-15T10:43:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Finance", "#Investing", "#MarketChart", "#MarketIndex", "#Portfolio", "#StockMarket"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/📈-SP-500-💼.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/📈-SP-500-💼.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260515-2/</loc>
@@ -159,6 +235,10 @@
     <meta:published>2026-05-15T10:42:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Anime", "#MostWanted", "#MysteriousInitial", "#OnePiece", "#PirateKing", "#PirateLegend"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/☠️-The-Will-of-D.-🔥.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/☠️-The-Will-of-D.-🔥.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260515-1/</loc>
@@ -167,6 +247,10 @@
     <meta:published>2026-05-15T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Cinematic", "#Cinquecento", "#ClassicCar", "#Italian", "#Retro", "#VintageCar"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/500-Fiat-500-🚗🇮🇹.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/500-Fiat-500-🚗🇮🇹.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260514-1/</loc>
@@ -175,6 +259,10 @@
     <meta:published>2026-05-14T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#BlueSapphires", "#CrownJewelry", "#GoldenFiligree", "#PalaceTreasure"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/499-Royal-Tiara-👑💎.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/499-Royal-Tiara-👑💎.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260513-1/</loc>
@@ -183,6 +271,10 @@
     <meta:published>2026-05-13T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#RusticTable", "#TropicalPlant", "#WoodyFruit", "#XylocarpShell"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/498-Coconut-🌴🥥.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/498-Coconut-🌴🥥.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260512-1/</loc>
@@ -191,6 +283,10 @@
     <meta:published>2026-05-12T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Crowd", "#MedievalFestival", "#NobleKnight", "#PlateArmor", "#RoyalBanner"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/497-Reenactment-⚔️🛡.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/497-Reenactment-⚔️🛡.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260511-1/</loc>
@@ -199,6 +295,10 @@
     <meta:published>2026-05-11T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#CheersDad", "#GentlemanStyle", "#HappyBirthdayDad", "#SingleMaltLover"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/496-The-72nd-Toast-🥃🎂.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/496-The-72nd-Toast-🥃🎂.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260510-1/</loc>
@@ -207,6 +307,10 @@
     <meta:published>2026-05-10T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Family", "#FlowerBouquet", "#GreetingCard", "#LoveYouMom", "#ThankYouMom"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/495-Happy-Mothers-Day-🌸💖.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/495-Happy-Mothers-Day-🌸💖.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260508-1-2/</loc>
@@ -215,6 +319,10 @@
     <meta:published>2026-05-09T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Agriculture", "#CropPattern", "#FieldRows", "#FodderBeet", "#PitraviGħallGħalf"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/494-Mangelwurzel-Field-🌱🥕.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/494-Mangelwurzel-Field-🌱🥕.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260508-1/</loc>
@@ -223,6 +331,10 @@
     <meta:published>2026-05-08T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#DecoratedHats", "#FloralDress", "#GardenParty", "#Parasols", "#PeriodFashion"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/493-Victorian-Promenade-🌸☂.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/493-Victorian-Promenade-🌸☂.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260507-1/</loc>
@@ -231,6 +343,10 @@
     <meta:published>2026-05-07T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AncientIreland", "#FolkTradition", "#MossyRock", "#RuralRitual", "#SacredBasin"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/492-Weathered-Bullaun-🪨🌿.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/492-Weathered-Bullaun-🪨🌿.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260506-1/</loc>
@@ -239,6 +355,10 @@
     <meta:published>2026-05-06T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AncientRome", "#BattleGear", "#MuseumDisplay", "#RomanLegion", "#ScaleArmor"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/491-Lorica-Squamata-🛡️🏛️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/491-Lorica-Squamata-🛡️🏛️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260505-1/</loc>
@@ -247,6 +367,10 @@
     <meta:published>2026-05-05T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AquaticPlant", "#GreenAlgae", "#Marimo", "#MossBall", "#ShallowFreshWater"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/490-Aegagropila-Linnaei-🌿🟢.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/490-Aegagropila-Linnaei-🌿🟢.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260504-1/</loc>
@@ -255,6 +379,10 @@
     <meta:published>2026-05-04T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AntiqueWineJug", "#Archaeology", "#CeramicArt", "#GreekPottery"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/489-Ancient-Oinochoe-🍷🏺.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/489-Ancient-Oinochoe-🍷🏺.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260503-1/</loc>
@@ -263,6 +391,10 @@
     <meta:published>2026-05-03T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#MaritimeMap", "#NavigatorTable", "#OldCartography", "#SeaRoutes"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/488-Antique-Portolan-Chart-🗺️⚓.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/488-Antique-Portolan-Chart-🗺️⚓.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260502-1/</loc>
@@ -271,6 +403,10 @@
     <meta:published>2026-05-02T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#GhailWaterways", "#OasisSettlement", "#Oman", "#WaterManagement"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/487-Falaj-Irrigation-Channel-💧🌴.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/487-Falaj-Irrigation-Channel-💧🌴.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20260501-1/</loc>
@@ -279,5 +415,9 @@
     <meta:published>2026-05-01T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AncientArtifact", "#EmbossedMetal", "#MetalCrafts", "#OrnateJewelry"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/486-Bracteate-Pendant-🪙✨.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/486-Bracteate-Pendant-🪙✨.png</image:loc>
+    </image:image>
   </url>
 </urlset>

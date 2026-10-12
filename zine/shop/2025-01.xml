@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/little-sue-clashes-with-mizuki-over-gundam-toy-pillow/</loc>
     <lastmod>2025-10-02T08:14:15Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2025-01-10T12:00:00Z</meta:published>
     <meta:category>Shop</meta:category>
     <meta:tags>["#Chibi", "#Gundam", "#Mizuki", "#Pillow", "#Sue"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/01/79102267_0.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/01/79102267_0.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/little-sue-as-a-blood-elf-with-green-fire-orb-phone-case/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2025-01-08T12:14:00Z</meta:published>
     <meta:category>Shop</meta:category>
     <meta:tags>["#Horde", "#PhoneCase", "#Sue #BloodElf", "#WorldofWarcraft"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/01/79099550_0.webp</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/01/79099550_0.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/little-sue-knight-in-shining-armour-sticker/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2025-01-07T12:00:00Z</meta:published>
     <meta:category>Shop</meta:category>
     <meta:tags>["#Chibi", "#Knight", "#Sticker", "#Sue"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/08/79098438_0.webp</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/08/79098438_0.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/little-sue-conjures-an-rtx-5090-mug/</loc>
@@ -31,6 +43,10 @@
     <meta:published>2025-01-05T12:00:00Z</meta:published>
     <meta:category>Shop</meta:category>
     <meta:tags>["#Chibi", "#Mug", "#Nvidia", "#RTX5090", "#Sue", "#Witch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/01/79095676_0.webp</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/01/79095676_0.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/little-sue-playing-with-a-handheld-console-hoodie/</loc>
@@ -39,6 +55,10 @@
     <meta:published>2025-01-04T12:00:00Z</meta:published>
     <meta:category>Shop</meta:category>
     <meta:tags>["#Console", "#Gamer", "#Hoodie", "#Sue"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/01/79094865_0-1.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/01/79094865_0-1.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/little-sue-is-a-huge-united-fan-t-shirt/</loc>
@@ -47,5 +67,9 @@
     <meta:published>2025-01-03T12:00:00Z</meta:published>
     <meta:category>Shop</meta:category>
     <meta:tags>["#Chibi", "#Fan", "#ManchesterUnited", "#Sue", "#TShirt"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/08/79093244_3-1.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/08/79093244_3-1.jpg</image:loc>
+    </image:image>
   </url>
 </urlset>

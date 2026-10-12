@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/marriagetoxin-trailer-reveals-akasaki-ending-shake-na-baby/</loc>
     <lastmod>2026-08-05T03:45:01Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2026-03-24T11:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AKASAKI", "#AnimeEnding", "#Bones", "#Crunchyroll", "#Marriagetoxin", "#ShakeNaBaby"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/mv-thum_05.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/mv-thum_05.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kill-blue-teasers-reveal-aespa-and-riize-theme-songs/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2026-03-05T11:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Aespa", "#CreditlessEnding", "#CreditlessOpening", "#Crunchyroll", "#KillBlue", "#Riize"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/kill_blue_juzo_header.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/kill_blue_juzo_header.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/new-doraemon-film-trailer-reveals-sumika-theme-song/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2026-03-04T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Doraemon", "#Movie", "#Nobita", "#Sumika", "#Trailer", "#UnderseaAdventure"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260304-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260304-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/chars-counterattack-gundam-film-gets-three-day-revival-screening/</loc>
@@ -31,6 +43,10 @@
     <meta:published>2026-03-04T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CharsCounterattack", "#Crunchyroll", "#Film", "#Gundam", "#KeyVisuals", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260304-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260304-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/atarayo-releases-emotional-insert-song-video-for-the-dangers-in-my-heart-movie/</loc>
@@ -39,6 +55,10 @@
     <meta:published>2026-03-04T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Atarayo", "#Crunchyroll", "#KeyVisual", "#Movie", "#MusicVideo", "#TheDangersInMyHeart"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260304-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260304-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/appraiser-isekai-anime-confirms-april-4th-premiere-with-new-trailer/</loc>
@@ -47,6 +67,10 @@
     <meta:published>2026-03-03T11:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#HibikiManabe", "#Kanteishikari", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260303-06.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260303-06.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/always-a-catch-anime-reveals-april-premiere-trailer-and-theme-songs/</loc>
@@ -55,6 +79,10 @@
     <meta:published>2026-03-03T11:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AiriSuzuki", "#AlwaysACatch", "#Crunchyroll", "#HoneyWorks", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260303-05.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260303-05.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/detective-conan-29th-film-fallen-angel-of-the-highway-reveals-trailer-and-special-format-screenings/</loc>
@@ -63,6 +91,10 @@
     <meta:published>2026-03-03T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#4DX", "#Crunchyroll", "#DetectiveConan", "#FallenAngelOfTheHighway", "#Film", "#IMAX", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260303-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260303-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/sakamoto-days-live-action-film-trailer-features-snow-mans-bang-theme/</loc>
@@ -71,6 +103,10 @@
     <meta:published>2026-03-03T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#LiveAction", "#SakamotoDays", "#SnowMan", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260303-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260303-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/that-time-i-got-reincarnated-as-a-slime-season-4-trailer-and-theme-songs-revealed/</loc>
@@ -79,6 +115,10 @@
     <meta:published>2026-03-03T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#CiON", "#Crunchyroll", "#EirAoi", "#ThatTimeIGotReincarnatedAsASlime"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260303-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260303-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/welcome-to-demon-school-iruma-kun-season-4-anime-announces-april-4th-premiere-and-theme-song/</loc>
@@ -87,6 +127,10 @@
     <meta:published>2026-03-03T11:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#Teaser", "#WelcomeToDemonSchoolIrumaKun"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260303-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260303-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/mf-ghost-season-3-ending-theme-music-video-released/</loc>
@@ -95,6 +139,10 @@
     <meta:published>2026-03-02T11:07:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#HimikaAkaneya", "#MFGhost", "#MusicVideo", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-07.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-07.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/a-new-dawn-anime-film-reveals-opening-footage-ahead-of-premiere/</loc>
@@ -103,6 +151,10 @@
     <meta:published>2026-03-02T11:06:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#ANewDawn", "#ArtHouse", "#BerlinFilmFestival", "#Crunchyroll", "#Film", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-06.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-06.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/yamato-3199-chapter-6-teaser-trailer-previews-next-space-opera-battle/</loc>
@@ -111,6 +163,10 @@
     <meta:published>2026-03-02T11:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Film", "#KeyVisual", "#StarBlazers", "#Trailer", "#Yamato3199"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-05.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-05.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ponsuka-school-comedy-anime-confirms-april-6th-premiere/</loc>
@@ -119,6 +175,10 @@
     <meta:published>2026-03-02T11:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#PonSuka", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/crunchyroll-begins-streaming-release-that-witch-donghua-worldwide/</loc>
@@ -127,6 +187,10 @@
     <meta:published>2026-03-02T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Donghua", "#KeyVisual", "#ReleaseThatWitch", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/mao-anime-premieres-april-4th-with-two-cour-run/</loc>
@@ -135,6 +199,10 @@
     <meta:published>2026-03-02T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#MAO", "#RumikoTakahashi", "#StudioSunrise", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/one-piece-live-action-season-2-final-trailer-teases-epic-grand-line-return/</loc>
@@ -143,6 +211,10 @@
     <meta:published>2026-03-02T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#GrandLine", "#KeyVisual", "#LiveAction", "#Netflix", "#OnePiece", "#StrawHats", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260302-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/laid-back-camp-season-4-teaser-confirms-2027-anime-return/</loc>
@@ -151,6 +223,10 @@
     <meta:published>2026-03-01T11:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#FuRyuPictures", "#KeyVisual", "#LaidBackCamp", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260301-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260301-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/scenes-from-awajima-anime-confirms-april-9th-premiere/</loc>
@@ -159,6 +235,10 @@
     <meta:published>2026-03-01T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#KeyVisual", "#Madhouse", "#ScenesFromAwajima", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260301-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260301-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/bang-dream-ave-mujica-sequel-anime-set-for-january-2027/</loc>
@@ -167,6 +247,10 @@
     <meta:published>2026-03-01T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AveMujica", "#BangDream", "#Crunchyroll", "#ItsMyGO", "#KeyVisual", "#Movie", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260301-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260301-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/i-made-friends-with-the-second-prettiest-girl-in-my-class-anime-sets-april-7-premiere-with-trailer-theme-song/</loc>
@@ -175,5 +259,9 @@
     <meta:published>2026-03-01T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#IMadeFriendsWithTheSecondPrettiestGirlInMyClass", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/03/20260301-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/03/20260301-01.png</image:loc>
+    </image:image>
   </url>
 </urlset>

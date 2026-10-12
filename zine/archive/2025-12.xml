@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/20251231-2/</loc>
     <lastmod>2025-12-31T21:59:02Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2025-12-31T21:00:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Aurelia", "#Chibi", "#FestiveVibes", "#Goodbye2025", "#Hello2026"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/365-Special-Happy-New-Year.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/365-Special-Happy-New-Year.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251231-1/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2025-12-31T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#FestiveGlow", "#Reflections", "#SeasonalDecor", "#SoftBokeh", "#Twinkle"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/365-Christmas-Lights-✨🎄.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/365-Christmas-Lights-✨🎄.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251230-1/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2025-12-30T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Candlelight", "#ChristmasDecor", "#FestiveSeason", "#Home", "#Statues"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/364-Christmas-Angels-🕯👼.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/364-Christmas-Angels-🕯👼.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251229-1/</loc>
@@ -31,6 +43,10 @@
     <meta:published>2025-12-29T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Evergreen", "#FestiveSeason", "#FrontDoorDecor", "#WarmWelcome"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/363-Christmas-Wreath-🎀❄️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/363-Christmas-Wreath-🎀❄️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251228-1/</loc>
@@ -39,6 +55,10 @@
     <meta:published>2025-12-28T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Christmas", "#FestiveDecor", "#RedWhiteSpirals", "#Seasonal", "#Treats"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/362-Candy-Canes-✨🍭.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/362-Candy-Canes-✨🍭.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251227-1/</loc>
@@ -47,6 +67,10 @@
     <meta:published>2025-12-27T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Baking", "#ChristmasDessert", "#Festive", "#Seasonal", "#WinterSweets"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/361-Gingerbread-House-🍪🏠.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/361-Gingerbread-House-🍪🏠.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251226-1/</loc>
@@ -55,6 +79,10 @@
     <meta:published>2025-12-26T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Festive", "#JoyInGiving", "#Seasonal", "#Tradition", "#Winter", "#WrappedGifts"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/360-Christmas-Presents-🎄🎁.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/360-Christmas-Presents-🎄🎁.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251225-1/</loc>
@@ -63,6 +91,10 @@
     <meta:published>2025-12-25T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#BabyJesus", "#MalteseChristmas", "#Manger", "#Nativity", "#Tradition"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/359-Il-Bambin-fil-Maxtura-🕯🙏.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/359-Il-Bambin-fil-Maxtura-🕯🙏.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251224-1/</loc>
@@ -71,6 +103,10 @@
     <meta:published>2025-12-24T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#ChristmasEve", "#Festive", "#Heritage", "#LimestoneGrotto", "#MaltesePresepju"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/358-Nativity-Scene-⭐🐑.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/358-Nativity-Scene-⭐🐑.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251223-1/</loc>
@@ -79,6 +115,10 @@
     <meta:published>2025-12-23T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Festive", "#Fireplace", "#Seasonal", "#SmallGifts", "#Tradition", "#Winter"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/357-Christmas-Stockings-🧦🔥.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/357-Christmas-Stockings-🧦🔥.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251222-1/</loc>
@@ -87,6 +127,10 @@
     <meta:published>2025-12-22T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#FatherChristmas", "#Festive", "#JoyInGiving", "#Seasonal", "#SnowLand", "#Winter"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/356-Santa-Claus-🎅🎁.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/356-Santa-Claus-🎅🎁.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251221-1/</loc>
@@ -95,6 +139,10 @@
     <meta:published>2025-12-21T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Carriage", "#Cobblestones", "#Festive", "#StreetScene", "#Townscape", "#Winter"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/355-Victorian-Christmas-❄️🐎.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/355-Victorian-Christmas-❄️🐎.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251220-1/</loc>
@@ -103,6 +151,10 @@
     <meta:published>2025-12-20T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Christmas", "#Community", "#DoorToDoor", "#Festive", "#Seasonal", "#Winter"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/354-Carol-Singers-🎶❄.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/354-Carol-Singers-🎶❄.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251219-1/</loc>
@@ -111,6 +163,10 @@
     <meta:published>2025-12-19T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Christmas", "#Fantasy", "#Festive", "#RedNosed", "#Reindeer", "#Seasonal", "#Winter"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/353-Rudolph-❄️🦌.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/353-Rudolph-❄️🦌.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251218-1/</loc>
@@ -119,6 +175,10 @@
     <meta:published>2025-12-18T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Christmas", "#FestiveDecor", "#HolidayLighting", "#Seasonal", "#Winter"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/352-Christmas-Tree-🎄✨.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/352-Christmas-Tree-🎄✨.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251217-1/</loc>
@@ -127,6 +187,10 @@
     <meta:published>2025-12-17T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Ephemeral", "#Festive", "#Handcrafted", "#LamplitStreets", "#Seasonal", "#Winter"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/351-Snowman-☃️❄️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/351-Snowman-☃️❄️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251216-1/</loc>
@@ -135,6 +199,10 @@
     <meta:published>2025-12-16T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AdventWreath", "#ChristianTradition", "#LiturgicalCalendar", "#Sequence"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/350-Advent-Candles-🕯️✨-1.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/350-Advent-Candles-🕯️✨-1.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251215-1/</loc>
@@ -143,6 +211,10 @@
     <meta:published>2025-12-15T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#ContainedWinter", "#MiniatureWorld", "#PenguinScene", "#QuietMagic"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/349-Snow-Globe-❄️🔮.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/349-Snow-Globe-❄️🔮.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251214-1/</loc>
@@ -151,6 +223,10 @@
     <meta:published>2025-12-14T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Christmas", "#Clockwork", "#Fantasy", "#ToySoldier", "#WoodenGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/348-Nutcracker-💂🎄.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/348-Nutcracker-💂🎄.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251213-1/</loc>
@@ -159,6 +235,10 @@
     <meta:published>2025-12-13T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#ColdSeason", "#Landscape", "#Mountains", "#Snowfall", "#WinterScene"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/347-Winter-Village-❄️🏡.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/347-Winter-Village-❄️🏡.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251212-1/</loc>
@@ -167,6 +247,10 @@
     <meta:published>2025-12-12T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#CampingLife", "#Equipment", "#EveningMood", "#ForestSite", "#LogCabin"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/346-Campfire-🔥🏕️.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/346-Campfire-🔥🏕️.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251211-9/</loc>
@@ -175,6 +259,10 @@
     <meta:published>2025-12-11T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#ArthurConanDoyle", "#Detective", "#Mistery", "#Pipe", "#VictorianLondon"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/345-Sherlock-Holmes-🕵️‍♂️🎷.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/345-Sherlock-Holmes-🕵️‍♂️🎷.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251210-1/</loc>
@@ -183,6 +271,10 @@
     <meta:published>2025-12-10T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#FrozenTundra", "#LepusArcticus", "#Snowfield", "#Wildlife", "#WinterFauna"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/344-Arctic-Hare-❄️🐇.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/344-Arctic-Hare-❄️🐇.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251209-1/</loc>
@@ -191,6 +283,10 @@
     <meta:published>2025-12-09T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Aesthetics", "#Discipline", "#Elegance", "#Silla", "#Warrior", "#삼국사기"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/343-Hwarang-🗡🏯.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/343-Hwarang-🗡🏯.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251208-1/</loc>
@@ -199,6 +295,10 @@
     <meta:published>2025-12-08T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#FighterJet", "#HamadaDesert", "#Parachute", "#Survivor", "#Wreckage"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/342-Crash-Site-️🔥🪂.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/342-Crash-Site-️🔥🪂.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251207-1/</loc>
@@ -207,6 +307,10 @@
     <meta:published>2025-12-07T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Antique", "#CelticKnotwork", "#FantasyRelic", "#Intricate", "#Polished"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/341-Metal-Mask-⚉🛡.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/341-Metal-Mask-⚉🛡.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251206-1/</loc>
@@ -215,6 +319,10 @@
     <meta:published>2025-12-06T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#BlueRockThrush", "#Malta", "#MonticolaSolitarius", "#NationalBird"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/340-Il-Merill-🪽💙.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/340-Il-Merill-🪽💙.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251205-1/</loc>
@@ -223,6 +331,10 @@
     <meta:published>2025-12-05T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Ashigaru", "#Gunpowder", "#Matchcord", "#Matchlock", "#Sengoku", "#Teppo"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/339-Arquebus-🔥💥.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/339-Arquebus-🔥💥.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251204-1/</loc>
@@ -231,6 +343,10 @@
     <meta:published>2025-12-04T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#ArtisanCrafts", "#BobbinLace", "#FineThread", "#PillowStand", "#TextileWork"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/338-Lacemaker-🪡🧵.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/338-Lacemaker-🪡🧵.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251203-1/</loc>
@@ -239,6 +355,10 @@
     <meta:published>2025-12-03T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#DiplodusSargus", "#Malta", "#MarineLife", "#MediterraneanSea", "#Sargu"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/337-White-Seabream-🐟🌊.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/337-White-Seabream-🐟🌊.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251202-1/</loc>
@@ -247,6 +367,10 @@
     <meta:published>2025-12-02T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#BrassFixtures", "#HotelLobby", "#MarbleFloor", "#ServiceCart", "#Uniform"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/336-Bellhop-🛎🏨.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/336-Bellhop-🛎🏨.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/20251201-1/</loc>
@@ -255,5 +379,9 @@
     <meta:published>2025-12-01T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#Grassland", "#HierophisViridiflavus", "#Malta", "#Reptile", "#SerpIswed"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/12/335-Western-Whip-Snake-🌿🐍.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/12/335-Western-Whip-Snake-🌿🐍.png</image:loc>
+    </image:image>
   </url>
 </urlset>

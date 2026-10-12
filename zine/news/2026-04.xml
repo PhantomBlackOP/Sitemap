@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/john-oliver-warns-ai-chatbots-are-built-for-engagement-not-friendship/</loc>
     <lastmod>2026-09-29T06:24:31Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2026-04-27T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIChatbots", "#JohnOliver", "#LastWeekTonight", "#Sycophancy", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/04/1977.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/04/1977.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/yurina-hirate-unleashes-marriagetoxin-theme-in-kill-or-kiss-mv/</loc>
@@ -15,5 +19,9 @@
     <meta:published>2026-04-10T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeOpening", "#Crunchyroll", "#JPop", "#KillOrKiss", "#Marriagetoxin", "#YurinaHirate"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/04/maxresdefault.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/04/maxresdefault.jpg</image:loc>
+    </image:image>
   </url>
 </urlset>

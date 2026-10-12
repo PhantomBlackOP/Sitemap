@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/champignon-witch-anime-adds-new-cast-and-reveals-theme-song-artists/</loc>
     <lastmod>2026-01-07T20:22:05Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2025-11-17T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#ChampignonWitch", "#CrunchyrollNews", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251117-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251117-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gnosia-anime-opening-bake-no-kawa-mv-reveals-sci-fi-mystery-tone/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2025-11-10T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Gnosia", "#MAISONdes", "#MusicVideo", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251110-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251110-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/needy-streamer-overload-anime-premieres-april-2026/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2025-11-10T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeNewsNetwork", "#KeyVisual", "#NeedyGirlOverdose", "#Trailer", "#YostarPictures"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251110-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251110-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kusunokis-garden-of-gods-anime-trailer-april-2026-launch/</loc>
@@ -31,6 +43,10 @@
     <meta:published>2025-11-09T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#JUVENAGE", "#KeyVisual", "#KusunokisGardenOfGods", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251109-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251109-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/kana-ichikawa-birthday-celebration-video-released-for-the-dangers-in-my-heart/</loc>
@@ -39,6 +55,10 @@
     <meta:published>2025-11-09T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#BirthdayVideo", "#Crunchyroll", "#KanaIchikawa", "#TheDangersInMyHeart"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251109-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251109-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/hana-kimi-anime-confirms-january-4-2026-premiere-in-new-trailer/</loc>
@@ -47,6 +67,10 @@
     <meta:published>2025-11-08T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#HanaKimi", "#KeyVisual", "#SignalMD", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251108-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251108-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/nvidia-powers-up-blackwell-demand-as-ai-infrastructure-ramps/</loc>
@@ -55,6 +79,10 @@
     <meta:published>2025-11-08T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIInfrastructure", "#Blackwell", "#JensenHuang", "#Nvidia", "#Reuters", "#TSMC"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251108-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251108-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/gomon-baito-kun-no-nichijo-anime-unveils-trailer-cast-theme-songs/</loc>
@@ -63,6 +91,10 @@
     <meta:published>2025-11-07T11:05:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#GomonBaitoKunNoNichijo", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251107-05.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251107-05.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/berkshire-issues-warning-over-ai-deepfakes-impersonating-buffett/</loc>
@@ -71,6 +103,10 @@
     <meta:published>2025-11-07T11:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIDeepfakes", "#InvestmentFraud", "#Misinformation", "#Reuters", "#WarrenBuffett"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251107-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251107-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/eu-eyes-targeted-easing-of-ai-act-with-one-year-grace-period/</loc>
@@ -79,6 +115,10 @@
     <meta:published>2025-11-07T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Apple", "#BigTech", "#EUAIAct", "#Meta", "#Regulation", "#Reuters"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251107-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251107-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/meta-puts-600b-into-us-ai-data-centers-and-jobs/</loc>
@@ -87,6 +127,10 @@
     <meta:published>2025-11-07T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AIDataCenters", "#BlueOwlCapital", "#Hyperion", "#Infrastructure", "#Meta", "#Reuters"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251107-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251107-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/openai-appeals-for-chips-act-tax-credit-to-boost-ai-infrastructure/</loc>
@@ -95,6 +139,10 @@
     <meta:published>2025-11-07T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AMIC", "#CHIPSAct", "#DataCenters", "#OpenAI", "#Reuters", "#TaxCredit"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251107-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251107-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/japans-anime-studios-face-third-year-of-rising-bankruptcies/</loc>
@@ -103,6 +151,10 @@
     <meta:published>2025-11-05T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimatorShortage", "#AutomatonWest", "#ProfitlessBoom", "#StudioBankruptcy"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251105-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251105-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/tokyo-anime-award-festival-2026-unveils-official-main-visual/</loc>
@@ -111,6 +163,10 @@
     <meta:published>2025-11-03T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimationCulture", "#AnimeFestival", "#Crunchyroll", "#MainVisual", "#TAAF2026"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251103-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251103-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/next-godzilla-film-revealed-takashi-yamazaki-returns-with-new-title/</loc>
@@ -119,6 +175,10 @@
     <meta:published>2025-11-03T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Godzilla", "#Kaiju", "#Movie", "#TakashiYamazaki", "#TohoStudios"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251103-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251103-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/always-a-catch-anime-unveils-cast-teaser-visual-spring-2026-premiere/</loc>
@@ -127,6 +187,10 @@
     <meta:published>2025-11-03T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AlwaysACatch", "#Crunchyroll", "#Fantasy", "#TMSEntertainment", "#Trailer", "#Troyca"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251103-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251103-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/japans-anime-industry-hits-record-25-billion-in-2024/</loc>
@@ -135,6 +199,10 @@
     <meta:published>2025-11-02T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AnimeIndustry", "#GlobalMedia", "#JapaneseAnimation", "#TheHollywoodReporter"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/10/20251102-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/10/20251102-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/i-want-to-end-this-love-game-anime-sets-april-2026-debut-with-staff-cast/</loc>
@@ -143,6 +211,10 @@
     <meta:published>2025-11-02T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#FelixFilm", "#IWantToEndThisLoveGame", "#KeyVisual", "#RomCom"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251102-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251102-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/watanare-sequel-unveils-trailer-and-sets-november-2025-premier/</loc>
@@ -151,6 +223,10 @@
     <meta:published>2025-11-02T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#Sequel", "#StudioMother", "#Trailer", "#WATANARE", "#Yuri"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251102-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251102-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/ados-magic-mv-powers-cats-eye-anime-opening/</loc>
@@ -159,6 +235,10 @@
     <meta:published>2025-11-01T11:04:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Ado", "#CatsEye", "#Crunchyroll", "#Magic", "#MusicVideo", "#Single"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251101-04.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251101-04.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/dancing-star-precure-the-stage-3-key-visual-revealed/</loc>
@@ -167,6 +247,10 @@
     <meta:published>2025-11-01T11:03:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#Crunchyroll", "#DancingStarPrecure", "#KeyVisual", "#LiveStage", "#TokyoOsaka"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251101-03.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251101-03.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/classroom-of-demi-humans-new-autumn-visual-for-january-2026-debut/</loc>
@@ -175,6 +259,10 @@
     <meta:published>2025-11-01T11:02:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#AsreadStudio", "#Comedy", "#Crunchyroll", "#DemiHumans", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251101-02.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251101-02.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/chained-soldier-returns-with-season-2-on-january-8th/</loc>
@@ -183,5 +271,9 @@
     <meta:published>2025-11-01T11:01:00Z</meta:published>
     <meta:category>News</meta:category>
     <meta:tags>["#ChainedSoldier", "#Crunchyroll", "#HayabusaFilm", "#KeyVisual", "#Passione", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/11/20251101-01.png</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/11/20251101-01.png</image:loc>
+    </image:image>
   </url>
 </urlset>

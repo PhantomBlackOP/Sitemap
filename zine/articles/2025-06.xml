@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zine.trevorion.io/article-19/</loc>
     <lastmod>2025-10-08T21:17:35Z</lastmod>
@@ -7,6 +7,10 @@
     <meta:published>2025-06-25T00:17:49Z</meta:published>
     <meta:category>Articles</meta:category>
     <meta:tags>["#Academic", "#AI", "#CriticalThinking", "#DigitalLiteracy", "#Education", "#Essays", "#Technology", "#Writing"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/06/Banner.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/06/Banner.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/article-18/</loc>
@@ -15,6 +19,10 @@
     <meta:published>2025-06-20T00:21:58Z</meta:published>
     <meta:category>Articles</meta:category>
     <meta:tags>["#AI", "#Animation", "#Anime", "#ChatGPT", "#Claude", "#Copilot", "#DeepSeek", "#Gemini", "#Grok", "#Meta", "#Narrative", "#Perplexity", "#Qwen"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/06/Banner-1.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/06/Banner-1.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/article-17/</loc>
@@ -23,6 +31,10 @@
     <meta:published>2025-06-11T00:24:16Z</meta:published>
     <meta:category>Articles</meta:category>
     <meta:tags>["#Despera", "#GirlsWork", "#LadyNapoleon", "#MiraiArise", "#Mokuroku", "#Route20", "#Shiden", "#Tokyo2041", "#TokyoBabylon2021", "#Tonarino801"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/06/Banner-2.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/06/Banner-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zine.trevorion.io/article-16/</loc>
@@ -31,5 +43,9 @@
     <meta:published>2025-06-06T00:26:43Z</meta:published>
     <meta:category>Articles</meta:category>
     <meta:tags>["#AnimeCulture", "#AnimeHistory", "#Escapism", "#Evolution", "#Isekai", "#NEETs", "#Nostalgia", "#SoloLeveling", "#Tropes", "#Worldbuilding"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2025/06/Banner-3.jpg</meta:og_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2025/06/Banner-3.jpg</image:loc>
+    </image:image>
   </url>
 </urlset>
