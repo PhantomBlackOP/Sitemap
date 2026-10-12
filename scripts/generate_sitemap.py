@@ -30,10 +30,12 @@ WP_API = f"{ZINE_ROOT}/wp-json/wp/v2"
 START_DATE = date(2025, 1, 1)
 TIMEOUT = 60
 STATE_PATH = ROOT / "data/inventory.json"
-STATE_VERSION = 1
+STATE_VERSION = 2
 
 META_NS = f"{SITEMAP_HOST}/ns/meta"
 ET.register_namespace("meta", META_NS)
+IMAGE_NS = "http://www.google.com/schemas/sitemap-image/1.1"
+ET.register_namespace("image", IMAGE_NS)
 
 TOP_LEVEL_OUTPUTS = (
     "www/webpage.xml",
@@ -113,6 +115,7 @@ class Item:
     category: str | None = None
     period: str | None = None
     tags: tuple[str, ...] | None = None
+    image: str | None = None
 
 
 class SitemapError(RuntimeError):
@@ -177,6 +180,7 @@ def item_to_state(item: Item) -> dict[str, object]:
         "category": item.category,
         "period": item.period,
         "tags": list(item.tags) if item.tags is not None else None,
+        "image": item.image,
     }
 
 
@@ -190,6 +194,7 @@ def item_from_state(value: dict[str, object]) -> Item:
         category=str(value.get("category") or "") or None,
         period=str(value.get("period") or "") or None,
         tags=tuple(str(x) for x in raw_tags) if isinstance(raw_tags, list) else None,
+        image=str(value.get("image") or "") or None,
     )
 
 
@@ -467,7 +472,7 @@ def wp_inventory_full() -> tuple[
             "order": "desc",
             "_fields": (
                 "id,link,slug,title,date_gmt,modified_gmt,"
-                "categories,tags,status"
+                "categories,tags,featured_media,status"
             ),
         },
     )
@@ -521,7 +526,7 @@ def wp_inventory_incremental(
             "order": "asc",
             "_fields": (
                 "id,link,slug,title,date_gmt,modified_gmt,"
-                "categories,tags,status"
+                "categories,tags,featured_media,status"
             ),
         },
     )
@@ -581,6 +586,82 @@ def wp_inventory_incremental(
         f"{len(posts)} posts retained in cache"
     )
     return posts, pages, categories, tags
+
+
+def enrich_post_images(posts: list[dict], categories: dict[int, dict]) -> None:
+    """Resolve WordPress featured images once; persist URLs with the cached post rows.
+
+    The public RSS gallery reads Sitemap XML only. It never contacts WordPress.
+    """
+    missing = {}
+    for post in posts:
+        if post.get("image_url"):
+            continue
+        media_id = int(post.get("featured_media") or 0)
+        if media_id:
+            missing.setdefault(media_id, []).append(post)
+
+    ids = sorted(missing)
+    resolved = 0
+    for start in range(0, len(ids), 100):
+        media_rows = fetch_all(
+            "media",
+            {
+                "include": ",".join(str(i) for i in ids[start:start + 100]),
+                "_fields": "id,source_url,media_type",
+            },
+        )
+        for media in media_rows:
+            media_id = int(media.get("id") or 0)
+            url = str(media.get("source_url") or "").strip()
+            if (
+                media_id in missing
+                and url.startswith("https://")
+                and str(media.get("media_type") or "image") == "image"
+            ):
+                for post in missing[media_id]:
+                    post["image_url"] = url
+                    resolved += 1
+
+    # A Daily may have an in-content image but no featured_media ID.
+    # Read the public page only for those exceptional Dailies, never in RSS.
+    aliases = CATEGORY_OUTPUTS["archive"]
+    fallback_count = 0
+    unresolved = []
+    for post in posts:
+        if post.get("image_url"):
+            continue
+        category_ids = post.get("categories") or []
+        if len(category_ids) != 1:
+            continue  # The existing group_posts validation handles this.
+        category = categories.get(int(category_ids[0]))
+        if not category or category_key(category) not in aliases:
+            continue
+        url = str(post.get("link") or "")
+        try:
+            response = html_response(url)
+            soup = BeautifulSoup(response.text, "html.parser")
+            tag = soup.find("meta", attrs={"property": "og:image"})
+            image_url = str(tag.get("content") or "").strip() if tag else ""
+            if image_url.startswith("https://"):
+                post["image_url"] = image_url
+                fallback_count += 1
+            else:
+                unresolved.append(str(post.get("id")))
+        except SitemapError:
+            unresolved.append(str(post.get("id")))
+
+    if unresolved:
+        print(
+            "⚠️ No verified Daily image for WordPress post IDs: "
+            + ", ".join(unresolved[:30])
+            + (" ..." if len(unresolved) > 30 else "")
+        )
+    print(
+        f"🖼️ Image metadata: {resolved} featured-image references resolved, "
+        f"{fallback_count} Daily OG-image fallbacks, "
+        f"{len(unresolved)} Dailies unresolved."
+    )
 
 
 def page_inventory(pages: list[dict]) -> dict[str, Item]:
@@ -727,6 +808,7 @@ def group_posts(
                     title=title,
                     category=CATEGORY_LABELS[output],
                     tags=tuple(tag_names),
+                    image=str(post.get("image_url") or "") or None,
                 )
             )
 
@@ -985,6 +1067,10 @@ def add_url(root: ET.Element, item: Item) -> None:
             "tags",
             json.dumps(list(item.tags), ensure_ascii=False),
         )
+    if item.image:
+        meta(node, "og_image", item.image)
+        image_node = ET.SubElement(node, f"{{{IMAGE_NS}}}image")
+        ET.SubElement(image_node, f"{{{IMAGE_NS}}}loc").text = item.image
 
 
 def write_urlset(
@@ -1562,6 +1648,7 @@ def main() -> int:
                     "run once with --full"
                 )
 
+        enrich_post_images(posts, categories)
         page_map = page_inventory(pages)
         groups = group_posts(posts, categories, tags)
 
