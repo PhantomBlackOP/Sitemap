@@ -116,6 +116,7 @@ class Item:
     period: str | None = None
     tags: tuple[str, ...] | None = None
     image: str | None = None
+    thumbnail: str | None = None
 
 
 class SitemapError(RuntimeError):
@@ -181,6 +182,7 @@ def item_to_state(item: Item) -> dict[str, object]:
         "period": item.period,
         "tags": list(item.tags) if item.tags is not None else None,
         "image": item.image,
+        "thumbnail": item.thumbnail,
     }
 
 
@@ -195,6 +197,7 @@ def item_from_state(value: dict[str, object]) -> Item:
         period=str(value.get("period") or "") or None,
         tags=tuple(str(x) for x in raw_tags) if isinstance(raw_tags, list) else None,
         image=str(value.get("image") or "") or None,
+        thumbnail=str(value.get("thumbnail") or "") or None,
     )
 
 
@@ -595,7 +598,7 @@ def enrich_post_images(posts: list[dict], categories: dict[int, dict]) -> None:
     """
     missing = {}
     for post in posts:
-        if post.get("image_url"):
+        if post.get("image_url") and post.get("thumbnail_url"):
             continue
         media_id = int(post.get("featured_media") or 0)
         if media_id:
@@ -608,12 +611,19 @@ def enrich_post_images(posts: list[dict], categories: dict[int, dict]) -> None:
             "media",
             {
                 "include": ",".join(str(i) for i in ids[start:start + 100]),
-                "_fields": "id,source_url,media_type",
+                "_fields": "id,source_url,media_type,media_details",
             },
         )
         for media in media_rows:
             media_id = int(media.get("id") or 0)
             url = str(media.get("source_url") or "").strip()
+            details = media.get("media_details") or {}
+            sizes = details.get("sizes") if isinstance(details, dict) else {}
+            sizes = sizes if isinstance(sizes, dict) else {}
+            medium = sizes.get("medium") or sizes.get("medium_large") or {}
+            thumb = str(medium.get("source_url") or "").strip() if isinstance(medium, dict) else ""
+            if not thumb.startswith("https://"):
+                thumb = url
             if (
                 media_id in missing
                 and url.startswith("https://")
@@ -621,6 +631,7 @@ def enrich_post_images(posts: list[dict], categories: dict[int, dict]) -> None:
             ):
                 for post in missing[media_id]:
                     post["image_url"] = url
+                    post["thumbnail_url"] = thumb
                     resolved += 1
 
     # A Daily may have an in-content image but no featured_media ID.
@@ -645,6 +656,7 @@ def enrich_post_images(posts: list[dict], categories: dict[int, dict]) -> None:
             image_url = str(tag.get("content") or "").strip() if tag else ""
             if image_url.startswith("https://"):
                 post["image_url"] = image_url
+                post["thumbnail_url"] = image_url
                 fallback_count += 1
             else:
                 unresolved.append(str(post.get("id")))
@@ -809,6 +821,7 @@ def group_posts(
                     category=CATEGORY_LABELS[output],
                     tags=tuple(tag_names),
                     image=str(post.get("image_url") or "") or None,
+                    thumbnail=str(post.get("thumbnail_url") or "") or None,
                 )
             )
 
@@ -1069,6 +1082,7 @@ def add_url(root: ET.Element, item: Item) -> None:
         )
     if item.image:
         meta(node, "og_image", item.image)
+        meta(node, "thumbnail_image", item.thumbnail or item.image)
         image_node = ET.SubElement(node, f"{{{IMAGE_NS}}}image")
         ET.SubElement(image_node, f"{{{IMAGE_NS}}}loc").text = item.image
 
