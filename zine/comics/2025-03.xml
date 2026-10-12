@@ -9,6 +9,7 @@
     <meta:tags>["#AIart", "#Banana", "#Blues", "#Grok"]</meta:tags>
     <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/02/image.png</meta:og_image>
     <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/02/image-360x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/02/image-225x150.png</meta:mosaic_image>
     <image:image>
       <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/image.png</image:loc>
     </image:image>
