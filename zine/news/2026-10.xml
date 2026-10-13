@@ -1,6 +1,76 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/goodbye-lara-composer-explores-music-as-worldbuilding/</loc>
+    <lastmod>2026-10-13T08:30:26Z</lastmod>
+    <meta:title>Goodbye, Lara Composer Explores Music as Worldbuilding</meta:title>
+    <meta:published>2026-10-11T10:09:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeCorner", "#GoodbyeLara", "#KinemaCitrus", "#OrchestralMusic", "#YumaYamaguchi"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-366.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-366-960x540.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-366-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-366.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/hana-no-machi-brings-japanese-culture-to-dokomi/</loc>
+    <lastmod>2026-10-13T08:13:11Z</lastmod>
+    <meta:title>Hana no Machi Brings Japanese Culture to DoKomi</meta:title>
+    <meta:published>2026-10-11T10:08:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeConvention", "#AnimeCorner", "#DoKomi", "#HanaNoMachi", "#JapaneseCulture"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-357.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-357-960x540.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-357-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-357.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/godzilla-minus-zero-releases-new-final-trailers/</loc>
+    <lastmod>2026-10-13T09:01:26Z</lastmod>
+    <meta:title>Godzilla Minus Zero Releases New Final Trailers</meta:title>
+    <meta:published>2026-10-11T10:02:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Crunchyroll", "#GKIDS", "#GodzillaMinusZero", "#IMAX", "#KaijuFilm", "#TOHO", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/godzilla_minus_zero_header.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/godzilla_minus_zero_header-960x640.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/godzilla_minus_zero_header-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/godzilla_minus_zero_header.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/sss-class-revival-hunter-reveals-new-cast-and-second-trailer/</loc>
+    <lastmod>2026-10-13T09:23:03Z</lastmod>
+    <meta:title>SSS-Class Revival Hunter Reveals New Cast and Second Trailer</meta:title>
+    <meta:published>2026-10-10T10:01:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeCasting", "#AnimeNewsNetwork", "#SSSClassRevivalHunter", "#StudioFu", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-389.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-389-960x540.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-389-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-389.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/crunchyroll-acquires-apothecary-diaries-film-the-late-ladys-treasure/</loc>
+    <lastmod>2026-10-13T09:24:18Z</lastmod>
+    <meta:title>Crunchyroll Acquires Apothecary Diaries Film: The Late Lady’s Treasure</meta:title>
+    <meta:published>2026-10-09T10:06:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeTrending", "#Crunchyroll", "#TheLateLadysTreasure", "#TohoAnimation"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-343.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-343-960x540.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-343-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-343.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/claude-adds-live-dashboards-and-editable-animations/</loc>
     <lastmod>2026-10-10T11:52:57Z</lastmod>
     <meta:title>Claude Adds Live Dashboards and Editable Animations</meta:title>

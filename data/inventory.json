@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-12T10:07:48Z",
+  "last_sync": "2026-10-13T10:01:07Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -11631,7 +11631,7 @@
       "id": 15509,
       "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/maxresdefault-154.jpg",
       "link": "https://zine.trevorion.io/the-apothecary-diaries-season-3-reveals-new-trailer/",
-      "modified_gmt": "2026-10-05T09:23:10",
+      "modified_gmt": "2026-10-13T07:50:59",
       "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/maxresdefault-154-225x150.jpg",
       "slug": "the-apothecary-diaries-season-3-reveals-new-trailer",
       "status": "publish",
@@ -13986,6 +13986,30 @@
         "rendered": "648: Throne of Naggaroth 👑🌩️"
       }
     },
+    "17747": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-09T10:06:00",
+      "featured_media": 17873,
+      "id": 17747,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-343.png",
+      "link": "https://zine.trevorion.io/crunchyroll-acquires-apothecary-diaries-film-the-late-ladys-treasure/",
+      "modified_gmt": "2026-10-13T09:24:18",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-343-225x150.png",
+      "slug": "crunchyroll-acquires-apothecary-diaries-film-the-late-ladys-treasure",
+      "status": "publish",
+      "tags": [
+        358,
+        233,
+        9623,
+        5237
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-343-960x540.png",
+      "title": {
+        "rendered": "Crunchyroll Acquires Apothecary Diaries Film: The Late Lady&#8217;s Treasure"
+      }
+    },
     "17792": {
       "categories": [
         8
@@ -14008,6 +14032,133 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/649-Artemis-Goddess-of-the-Hunt-🏹🌙-960x640.png",
       "title": {
         "rendered": "649: Artemis, Goddess of the Hunt 🏹🌙"
+      }
+    },
+    "17798": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-10T10:01:00",
+      "featured_media": 17978,
+      "id": 17798,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-389.png",
+      "link": "https://zine.trevorion.io/sss-class-revival-hunter-reveals-new-cast-and-second-trailer/",
+      "modified_gmt": "2026-10-13T09:23:03",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-389-225x150.png",
+      "slug": "sss-class-revival-hunter-reveals-new-cast-and-second-trailer",
+      "status": "publish",
+      "tags": [
+        4099,
+        152,
+        7160,
+        7163,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-389-960x540.png",
+      "title": {
+        "rendered": "SSS-Class Revival Hunter Reveals New Cast and Second Trailer"
+      }
+    },
+    "17830": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-12T10:30:00",
+      "featured_media": 17831,
+      "id": 17830,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/650-Opah-🐟🌊.png",
+      "link": "https://zine.trevorion.io/20261012-1/",
+      "modified_gmt": "2026-10-12T20:02:25",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/650-Opah-🐟🌊-225x150.png",
+      "slug": "20261012-1",
+      "status": "publish",
+      "tags": [
+        9767,
+        9766,
+        9764,
+        9765,
+        9768
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/650-Opah-🐟🌊-960x640.png",
+      "title": {
+        "rendered": "650: Opah 🐟🌊"
+      }
+    },
+    "17838": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-11T10:02:00",
+      "featured_media": 17839,
+      "id": 17838,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/godzilla_minus_zero_header.jpg",
+      "link": "https://zine.trevorion.io/godzilla-minus-zero-releases-new-final-trailers/",
+      "modified_gmt": "2026-10-13T09:01:26",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/godzilla_minus_zero_header-225x150.jpg",
+      "slug": "godzilla-minus-zero-releases-new-final-trailers",
+      "status": "publish",
+      "tags": [
+        233,
+        175,
+        4783,
+        3176,
+        4784,
+        461,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/godzilla_minus_zero_header-960x640.jpg",
+      "title": {
+        "rendered": "Godzilla Minus Zero Releases New Final Trailers"
+      }
+    },
+    "17850": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-11T10:08:00",
+      "featured_media": 17897,
+      "id": 17850,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-357.png",
+      "link": "https://zine.trevorion.io/hana-no-machi-brings-japanese-culture-to-dokomi/",
+      "modified_gmt": "2026-10-13T08:13:11",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-357-225x150.png",
+      "slug": "hana-no-machi-brings-japanese-culture-to-dokomi",
+      "status": "publish",
+      "tags": [
+        9794,
+        262,
+        9790,
+        9789,
+        537
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-357-960x540.png",
+      "title": {
+        "rendered": "Hana no Machi Brings Japanese Culture to DoKomi"
+      }
+    },
+    "17852": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-11T10:09:00",
+      "featured_media": 17908,
+      "id": 17852,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-366.png",
+      "link": "https://zine.trevorion.io/goodbye-lara-composer-explores-music-as-worldbuilding/",
+      "modified_gmt": "2026-10-13T08:30:26",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-366-225x150.png",
+      "slug": "goodbye-lara-composer-explores-music-as-worldbuilding",
+      "status": "publish",
+      "tags": [
+        262,
+        4048,
+        2259,
+        9798,
+        9795
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-366-960x540.png",
+      "title": {
+        "rendered": "Goodbye, Lara Composer Explores Music as Worldbuilding"
       }
     },
     "1808": {
@@ -41804,6 +41955,32 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/07/trysail-shoukei-mv-768x432.jpg",
       "title": {
         "rendered": "TrySail Releases Shoukei Music Video for Talentless Sage"
+      }
+    },
+    "8279": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-07-10T10:10:00",
+      "featured_media": 17929,
+      "id": 8279,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/07/image-270-e1791881523224.png",
+      "link": "https://zine.trevorion.io/godzilla-minus-zero-reveals-trailers-visuals-and-returning-cast/",
+      "modified_gmt": "2026-10-13T08:52:39",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/07/image-270-e1791881523224-225x150.png",
+      "slug": "godzilla-minus-zero-reveals-trailers-visuals-and-returning-cast",
+      "status": "publish",
+      "tags": [
+        233,
+        4783,
+        4784,
+        243,
+        4785,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/07/image-270-e1791881523224-960x474.png",
+      "title": {
+        "rendered": "Godzilla Minus Zero Reveals Trailers, Visuals, and Returning Cast"
       }
     },
     "829": {
@@ -84679,6 +84856,26 @@
       "id": 9763,
       "name": "#MedicalEthics"
     },
+    "9764": {
+      "id": 9764,
+      "name": "#Mesopelagic"
+    },
+    "9765": {
+      "id": 9765,
+      "name": "#Moonfish"
+    },
+    "9766": {
+      "id": 9766,
+      "name": "#Lampris"
+    },
+    "9767": {
+      "id": 9767,
+      "name": "#Ichthyology"
+    },
+    "9768": {
+      "id": 9768,
+      "name": "#OpenOcean"
+    },
     "977": {
       "id": 977,
       "name": "#VideoGeneration"
@@ -84687,9 +84884,29 @@
       "id": 978,
       "name": "#InteractiveMedia"
     },
+    "9789": {
+      "id": 9789,
+      "name": "#HanaNoMachi"
+    },
     "979": {
       "id": 979,
       "name": "#ChildDevelopment"
+    },
+    "9790": {
+      "id": 9790,
+      "name": "#DoKomi"
+    },
+    "9794": {
+      "id": 9794,
+      "name": "#AnimeConvention"
+    },
+    "9795": {
+      "id": 9795,
+      "name": "#YumaYamaguchi"
+    },
+    "9798": {
+      "id": 9798,
+      "name": "#OrchestralMusic"
     },
     "98": {
       "id": 98,
