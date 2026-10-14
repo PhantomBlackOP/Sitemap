@@ -1,6 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/copilot-notebooks-adds-in-place-office-editing-in-preview/</loc>
+    <lastmod>2026-10-14T07:54:44Z</lastmod>
+    <meta:title>Copilot Notebooks Adds In-Place Office Editing in Preview</meta:title>
+    <meta:published>2026-10-12T10:20:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIProductivity", "#Automation", "#CopilotNotebooks", "#DigitalTrends", "#FrontierPreview"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Copilot-graphics.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Copilot-graphics-960x504.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Copilot-graphics-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/Copilot-graphics.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/goodbye-lara-composer-explores-music-as-worldbuilding/</loc>
     <lastmod>2026-10-13T08:30:26Z</lastmod>
     <meta:title>Goodbye, Lara Composer Explores Music as Worldbuilding</meta:title>
@@ -29,6 +43,20 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zine.trevorion.io/the-vermilion-mask-reveals-creditless-opening-and-ending/</loc>
+    <lastmod>2026-10-13T10:37:56Z</lastmod>
+    <meta:title>The Vermilion Mask Reveals Creditless Opening and Ending</meta:title>
+    <meta:published>2026-10-11T10:03:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeEnding", "#AnimeOpening", "#FireStarter", "#Koe", "#ManWithAMission", "#Yutori"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/the_vermilion_mask_header.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/the_vermilion_mask_header-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/the_vermilion_mask_header-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/the_vermilion_mask_header.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/godzilla-minus-zero-releases-new-final-trailers/</loc>
     <lastmod>2026-10-13T09:01:26Z</lastmod>
     <meta:title>Godzilla Minus Zero Releases New Final Trailers</meta:title>
@@ -40,6 +68,146 @@
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/godzilla_minus_zero_header-225x150.jpg</meta:mosaic_image>
     <image:image>
       <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/godzilla_minus_zero_header.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/magical-explorer-releases-creditless-opening-and-ending/</loc>
+    <lastmod>2026-10-13T11:01:20Z</lastmod>
+    <meta:title>Magical Explorer Releases Creditless Opening and Ending</meta:title>
+    <meta:published>2026-10-11T10:01:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeEnding", "#AnimeOpening", "#ASCA", "#DoubleWings", "#MagicalExplorer", "#Remedy"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/magical_explorer_marino_hanamura_header.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/magical_explorer_marino_hanamura_header-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/magical_explorer_marino_hanamura_header-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/magical_explorer_marino_hanamura_header.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/marvel-tokon-reveals-jane-foster-venom-and-jubilee-dlc/</loc>
+    <lastmod>2026-10-13T11:15:20Z</lastmod>
+    <meta:title>MARVEL Tokon Reveals Jane Foster, Venom and Jubilee DLC</meta:title>
+    <meta:published>2026-10-11T10:00:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#ArcSystemWorks", "#Crunchyroll", "#DLC", "#JaneFoster", "#MarvelTokon", "#Thor"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/tokon-year1-dlc.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/tokon-year1-dlc-768x430.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/tokon-year1-dlc-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/tokon-year1-dlc.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/dr-stone-terraforming-anime-adaptation-revealed/</loc>
+    <lastmod>2026-10-13T11:41:36Z</lastmod>
+    <meta:title>Dr. Stone Terraforming Anime Adaptation Revealed</meta:title>
+    <meta:published>2026-10-10T10:11:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Announcement", "#DrStone", "#KingdomOfScience", "#StoneFes2026", "#Terraforming"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-413.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-413-960x504.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-413-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-413.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/playing-sister-teases-its-second-episode-investigation/</loc>
+    <lastmod>2026-10-13T12:15:54Z</lastmod>
+    <meta:title>Playing Sister Teases Its Second Episode Investigation</meta:title>
+    <meta:published>2026-10-10T10:10:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeTrending", "#Doppelganger", "#OneeChanGokko", "#StudioGohan", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-415-e1791893728852.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-415-e1791893728852-960x470.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-415-e1791893728852-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-415-e1791893728852.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/one-punch-man-cour-two-reveals-new-visual-and-trailer/</loc>
+    <lastmod>2026-10-13T12:31:31Z</lastmod>
+    <meta:title>One-Punch Man Cour Two Reveals New Visual and Trailer</meta:title>
+    <meta:published>2026-10-10T10:09:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeTrending", "#JAMProject", "#JCStaff", "#NeverDone", "#OnePunchMan", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-419-e1791894683380.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-419-e1791894683380-960x480.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-419-e1791894683380-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-419-e1791894683380.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/my-sword-saint-master-is-too-cute-to-live-with-unveils-teaser/</loc>
+    <lastmod>2026-10-13T13:00:41Z</lastmod>
+    <meta:title>My Sword Saint Master Is Too Cute to Live With Unveils Teaser</meta:title>
+    <meta:published>2026-10-10T10:08:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeCorner", "#KeyVisual", "#Lightbox", "#SwordSaintMaster", "#VoiceActors", "#Wolfsbane"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-425.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-425-960x540.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-425-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-425.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/zombie-immunity-anime-reveals-main-trailer-and-theme-songs/</loc>
+    <lastmod>2026-10-13T13:26:26Z</lastmod>
+    <meta:title>Zombie Immunity Anime Reveals Main Trailer and Theme Songs</meta:title>
+    <meta:published>2026-10-10T10:07:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AccaEffe", "#ItsukaSaisei", "#RetBear", "#Trailer", "#VoiceActors", "#ZombieImmunity"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-58.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-58-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-58-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-58.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/naruto-and-ninku-unite-in-new-crossover-anime/</loc>
+    <lastmod>2026-10-13T13:47:40Z</lastmod>
+    <meta:title>Naruto and Ninku Unite in New Crossover Anime</meta:title>
+    <meta:published>2026-10-10T10:05:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Crossover", "#KojiKiriyama", "#MasashiKishimoto", "#Naruto", "#Ninku", "#StudioPierrot"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-56.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-56-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-56-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-56.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/masashi-kishimoto-announces-naruto-shadow-rising-manga/</loc>
+    <lastmod>2026-10-13T13:42:50Z</lastmod>
+    <meta:title>Masashi Kishimoto Announces Naruto Shadow Rising Manga</meta:title>
+    <meta:published>2026-10-10T10:04:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#MasashiKishimoto", "#Naruto", "#ShadowRising", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-55.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-55-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-55-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-55.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/naruto-mobile-goes-global-as-new-card-game-gets-launch-date/</loc>
+    <lastmod>2026-10-13T13:37:35Z</lastmod>
+    <meta:title>Naruto Mobile Goes Global as New Card Game Gets Launch Date</meta:title>
+    <meta:published>2026-10-10T10:03:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#NarutoCardGame", "#NarutoMobile", "#ProjectRasengan", "#StudioPierrot", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-54.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-54-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-54-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-54.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -152,6 +320,20 @@
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-31-225x150.jpg</meta:mosaic_image>
     <image:image>
       <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-31.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/marvel-tokon-phoenix-cyclops-dlc-arrives-november-2/</loc>
+    <lastmod>2026-10-13T11:14:08Z</lastmod>
+    <meta:title>Marvel Tokon Phoenix Cyclops DLC Arrives November 2</meta:title>
+    <meta:published>2026-10-07T10:02:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#ArcSystemWorks", "#DLC", "#MarvelTokon", "#PhoenixCyclops"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-410.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-410-960x540.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-410-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-410.png</image:loc>
     </image:image>
   </url>
   <url>
