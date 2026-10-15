@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-14T08:19:37Z",
+  "last_sync": "2026-10-15T07:56:39Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -14623,12 +14623,12 @@
         8
       ],
       "date_gmt": "2026-10-13T10:30:00",
-      "featured_media": 18144,
+      "featured_media": 18301,
       "id": 18143,
-      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊.png",
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊-1.png",
       "link": "https://zine.trevorion.io/20261013-1/",
-      "modified_gmt": "2026-10-13T18:20:07",
-      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊-225x150.png",
+      "modified_gmt": "2026-10-14T18:43:48",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊-1-225x150.png",
       "slug": "20261013-1",
       "status": "publish",
       "tags": [
@@ -14638,9 +14638,60 @@
         9829,
         122
       ],
-      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊-960x640.png",
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊-1-960x640.png",
       "title": {
         "rendered": "651: Misa Hayase 🌅🌊"
+      }
+    },
+    "18178": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-12T10:16:00",
+      "featured_media": 18179,
+      "id": 18178,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Nues-Exorcist-teaser-visual-e1791969343273.jpg",
+      "link": "https://zine.trevorion.io/nues-exorcist-anime-reveals-summer-2027-broadcast-window/",
+      "modified_gmt": "2026-10-14T09:16:42",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Nues-Exorcist-teaser-visual-e1791969343273-225x150.jpg",
+      "slug": "nues-exorcist-anime-reveals-summer-2027-broadcast-window",
+      "status": "publish",
+      "tags": [
+        358,
+        243,
+        9835,
+        5928,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Nues-Exorcist-teaser-visual-453x640.jpg",
+      "title": {
+        "rendered": "Nue&#8217;s Exorcist Anime Reveals Summer 2027 Broadcast Window"
+      }
+    },
+    "18214": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-12T10:17:00",
+      "featured_media": 18215,
+      "id": 18214,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/muse-wonder-ai.jpeg",
+      "link": "https://zine.trevorion.io/meta-muse-wonder-adds-memory-and-iterative-problem-solving/",
+      "modified_gmt": "2026-10-14T08:35:36",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/muse-wonder-ai-225x150.jpeg",
+      "slug": "meta-muse-wonder-adds-memory-and-iterative-problem-solving",
+      "status": "publish",
+      "tags": [
+        9924,
+        9886,
+        311,
+        6604,
+        6378,
+        9884
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/muse-wonder-ai-960x504.jpeg",
+      "title": {
+        "rendered": "Meta Muse Wonder Adds Memory &amp; Iterative Problem Solving"
       }
     },
     "18219": {
@@ -14742,6 +14793,31 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2025/09/20250906-02-1-960x640.png",
       "title": {
         "rendered": "Warner Sues Midjourney for Copyright Infringement"
+      }
+    },
+    "18304": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-14T10:30:00",
+      "featured_media": 18305,
+      "id": 18304,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/652-Blade-Dancer-⚔️🌅.png",
+      "link": "https://zine.trevorion.io/20261014-1/",
+      "modified_gmt": "2026-10-14T18:49:34",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/652-Blade-Dancer-⚔️🌅-225x150.png",
+      "slug": "20261014-1",
+      "status": "publish",
+      "tags": [
+        3473,
+        9940,
+        9938,
+        9939,
+        370
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/652-Blade-Dancer-⚔️🌅-960x640.png",
+      "title": {
+        "rendered": "652: Blade Dancer ⚔️🌅"
       }
     },
     "1838": {
@@ -85457,6 +85533,10 @@
       "id": 983,
       "name": "#IvaliceChronicles"
     },
+    "9835": {
+      "id": 9835,
+      "name": "#NuesExorcist"
+    },
     "984": {
       "id": 984,
       "name": "#FinalFantasy"
@@ -85477,6 +85557,14 @@
       "id": 988,
       "name": "#FoodDelivery"
     },
+    "9884": {
+      "id": 9884,
+      "name": "#MuseWonder"
+    },
+    "9886": {
+      "id": 9886,
+      "name": "#ActiveMemory"
+    },
     "989": {
       "id": 989,
       "name": "#LocalCommerce"
@@ -85493,6 +85581,10 @@
       "id": 992,
       "name": "#Humanoid"
     },
+    "9924": {
+      "id": 9924,
+      "name": "#ActiveFocus"
+    },
     "993": {
       "id": 993,
       "name": "#Astra"
@@ -85505,9 +85597,21 @@
       "id": 9937,
       "name": "#FrontierPreview"
     },
+    "9938": {
+      "id": 9938,
+      "name": "#DualWield"
+    },
+    "9939": {
+      "id": 9939,
+      "name": "#Scimitars"
+    },
     "994": {
       "id": 994,
       "name": "#Telexistence"
+    },
+    "9940": {
+      "id": 9940,
+      "name": "#BattleStance"
     },
     "995": {
       "id": 995,

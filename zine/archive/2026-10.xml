@@ -1,17 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/20261014-1/</loc>
+    <lastmod>2026-10-14T18:49:34Z</lastmod>
+    <meta:title>652: Blade Dancer ⚔️🌅</meta:title>
+    <meta:published>2026-10-14T10:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#ArabianDesert", "#BattleStance", "#DualWield", "#Scimitars", "#Warrior"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/652-Blade-Dancer-⚔️🌅.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/652-Blade-Dancer-⚔️🌅-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/652-Blade-Dancer-⚔️🌅-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/652-Blade-Dancer-⚔️🌅.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/20261013-1/</loc>
-    <lastmod>2026-10-13T18:20:07Z</lastmod>
+    <lastmod>2026-10-14T18:43:48Z</lastmod>
     <meta:title>651: Misa Hayase 🌅🌊</meta:title>
     <meta:published>2026-10-13T10:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
     <meta:tags>["#AnimeGirl", "#BeachScene", "#RetroAnime", "#SDFMacross", "#Sunset"]</meta:tags>
-    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊.png</meta:og_image>
-    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊-960x640.png</meta:thumbnail_image>
-    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊-225x150.png</meta:mosaic_image>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊-1.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊-1-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊-1-225x150.png</meta:mosaic_image>
     <image:image>
-      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊.png</image:loc>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/651-Misa-Hayase-🌅🌊-1.png</image:loc>
     </image:image>
   </url>
   <url>
