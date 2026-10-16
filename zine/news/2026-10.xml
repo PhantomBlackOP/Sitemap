@@ -1,6 +1,34 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/yumene-connect-anime-shares-trailer-and-main-staff/</loc>
+    <lastmod>2026-10-16T05:28:53Z</lastmod>
+    <meta:title>Yumene Connect Anime Shares Trailer and Main Staff</meta:title>
+    <meta:published>2026-10-14T10:19:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeCorner", "#KeyVisual", "#StudioMassket", "#Trailer", "#YumeneConnect"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-78.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-78-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-78-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-78.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/black-clover-guide-recounts-the-story-before-season-2/</loc>
+    <lastmod>2026-10-16T06:41:28Z</lastmod>
+    <meta:title>Black Clover Guide Recounts the Story Before Season 2</meta:title>
+    <meta:published>2026-10-13T10:00:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeCast", "#BlackClover", "#KeyVisual", "#Teaser", "#ThemeSongs", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-510.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-510-960x540.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-510-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-510.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/copilot-notebooks-adds-in-place-office-editing-in-preview/</loc>
     <lastmod>2026-10-14T07:54:44Z</lastmod>
     <meta:title>Copilot Notebooks Adds In-Place Office Editing in Preview</meta:title>

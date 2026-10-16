@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-15T07:56:39Z",
+  "last_sync": "2026-10-16T07:49:54Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -14820,6 +14820,57 @@
         "rendered": "652: Blade Dancer ⚔️🌅"
       }
     },
+    "18307": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-13T10:00:00",
+      "featured_media": 18473,
+      "id": 18307,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-510.png",
+      "link": "https://zine.trevorion.io/black-clover-guide-recounts-the-story-before-season-2/",
+      "modified_gmt": "2026-10-16T06:41:28",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-510-225x150.png",
+      "slug": "black-clover-guide-recounts-the-story-before-season-2",
+      "status": "publish",
+      "tags": [
+        3851,
+        7788,
+        243,
+        218,
+        4142,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-510-960x540.png",
+      "title": {
+        "rendered": "Black Clover Guide Recounts the Story Before Season 2"
+      }
+    },
+    "18363": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-15T10:30:00",
+      "featured_media": 18364,
+      "id": 18363,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/653-Faith-in-Ruins-💀✠.png",
+      "link": "https://zine.trevorion.io/20261015-1/",
+      "modified_gmt": "2026-10-15T20:01:02",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/653-Faith-in-Ruins-💀✠-225x150.png",
+      "slug": "20261015-1",
+      "status": "publish",
+      "tags": [
+        10034,
+        10036,
+        1502,
+        10035,
+        10037
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/653-Faith-in-Ruins-💀✠-960x640.png",
+      "title": {
+        "rendered": "653: Faith in Ruins 💀✠"
+      }
+    },
     "1838": {
       "categories": [
         137
@@ -14843,6 +14894,31 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2025/09/20250906-03-960x640.png",
       "title": {
         "rendered": "San José Mineta International Airport in California Welcomes Waymo"
+      }
+    },
+    "18402": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-14T10:19:00",
+      "featured_media": 18403,
+      "id": 18402,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-78.jpg",
+      "link": "https://zine.trevorion.io/yumene-connect-anime-shares-trailer-and-main-staff/",
+      "modified_gmt": "2026-10-16T05:28:53",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-78-225x150.jpg",
+      "slug": "yumene-connect-anime-shares-trailer-and-main-staff",
+      "status": "publish",
+      "tags": [
+        262,
+        243,
+        5430,
+        244,
+        10054
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-78-960x540.jpg",
+      "title": {
+        "rendered": "Yumene Connect Anime Shares Trailer and Main Staff"
       }
     },
     "1841": {
@@ -47809,6 +47885,22 @@
       "id": 1002,
       "name": "#Amazon"
     },
+    "10034": {
+      "id": 10034,
+      "name": "#AdeptusAstartes"
+    },
+    "10035": {
+      "id": 10035,
+      "name": "#SpaceMarine"
+    },
+    "10036": {
+      "id": 10036,
+      "name": "#BlackTemplars"
+    },
+    "10037": {
+      "id": 10037,
+      "name": "#WH40K"
+    },
     "1004": {
       "id": 1004,
       "name": "#AIBrowser"
@@ -47816,6 +47908,10 @@
     "1005": {
       "id": 1005,
       "name": "#ProductivityTools"
+    },
+    "10054": {
+      "id": 10054,
+      "name": "#YumeneConnect"
     },
     "1006": {
       "id": 1006,
