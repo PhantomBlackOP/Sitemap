@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-16T07:49:54Z",
+  "last_sync": "2026-10-17T07:27:40Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -14643,6 +14643,31 @@
         "rendered": "651: Misa Hayase 🌅🌊"
       }
     },
+    "18160": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-12T10:07:00",
+      "featured_media": 18161,
+      "id": 18160,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-63.jpg",
+      "link": "https://zine.trevorion.io/apothecary-diaries-film-reveals-kajadan-pirate-cast/",
+      "modified_gmt": "2026-10-16T11:57:36",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-63-225x150.jpg",
+      "slug": "apothecary-diaries-film-reveals-kajadan-pirate-cast",
+      "status": "publish",
+      "tags": [
+        3851,
+        5673,
+        9623,
+        5237,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-63-960x540.jpg",
+      "title": {
+        "rendered": "Apothecary Diaries Film Reveals Kajadan Pirate Cast"
+      }
+    },
     "18178": {
       "categories": [
         137
@@ -14846,6 +14871,56 @@
         "rendered": "Black Clover Guide Recounts the Story Before Season 2"
       }
     },
+    "18319": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-13T10:06:00",
+      "featured_media": 18320,
+      "id": 18319,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-69.jpg",
+      "link": "https://zine.trevorion.io/apothecary-diaries-film-adds-miyuki-sawashiro-and-ai-mikami/",
+      "modified_gmt": "2026-10-16T12:00:29",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-69-225x150.jpg",
+      "slug": "apothecary-diaries-film-adds-miyuki-sawashiro-and-ai-mikami",
+      "status": "publish",
+      "tags": [
+        3851,
+        5673,
+        9623,
+        5237,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-69-960x540.jpg",
+      "title": {
+        "rendered": "Apothecary Diaries Film Adds Miyuki Sawashiro and Ai Mikami"
+      }
+    },
+    "18325": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-13T10:09:00",
+      "featured_media": 18610,
+      "id": 18325,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-576.png",
+      "link": "https://zine.trevorion.io/expelled-from-paradise-resonance-unveils-main-trailer/",
+      "modified_gmt": "2026-10-16T16:43:29",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-576-225x150.png",
+      "slug": "expelled-from-paradise-resonance-unveils-main-trailer",
+      "status": "publish",
+      "tags": [
+        358,
+        4249,
+        243,
+        292,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-576-960x540.png",
+      "title": {
+        "rendered": "Expelled from Paradise: Resonance Unveils Main Trailer"
+      }
+    },
     "18363": {
       "categories": [
         8
@@ -14871,6 +14946,32 @@
         "rendered": "653: Faith in Ruins 💀✠"
       }
     },
+    "18372": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-14T10:03:00",
+      "featured_media": 18624,
+      "id": 18372,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-583-e1792171067640.png",
+      "link": "https://zine.trevorion.io/cheat-granting-mage-reveals-opening-and-ending-videos/",
+      "modified_gmt": "2026-10-16T17:17:53",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-583-e1792171067640-225x150.png",
+      "slug": "cheat-granting-mage-reveals-opening-and-ending-videos",
+      "status": "publish",
+      "tags": [
+        5519,
+        2257,
+        10045,
+        2256,
+        256,
+        3189
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-583-e1792171067640-960x540.png",
+      "title": {
+        "rendered": "Cheat-Granting Mage Reveals Opening and Ending Videos"
+      }
+    },
     "1838": {
       "categories": [
         137
@@ -14894,6 +14995,131 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2025/09/20250906-03-960x640.png",
       "title": {
         "rendered": "San José Mineta International Airport in California Welcomes Waymo"
+      }
+    },
+    "18386": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-14T10:10:00",
+      "featured_media": 18603,
+      "id": 18386,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-572-e1792167985941.png",
+      "link": "https://zine.trevorion.io/osamu-tezuka-documentary-launches-kickstarter/",
+      "modified_gmt": "2026-10-16T16:27:53",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-572-e1792167985941-225x150.png",
+      "slug": "osamu-tezuka-documentary-launches-kickstarter",
+      "status": "publish",
+      "tags": [
+        10150,
+        10059,
+        10060,
+        7675,
+        3025
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-572-e1792167985941.png",
+      "title": {
+        "rendered": "Osamu Tezuka Documentary Launches Kickstarter"
+      }
+    },
+    "18387": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-14T10:11:00",
+      "featured_media": 18388,
+      "id": 18387,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-72.jpg",
+      "link": "https://zine.trevorion.io/three-gba-games-join-nintendo-classics-library/",
+      "modified_gmt": "2026-10-16T11:38:21",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-72-225x150.jpg",
+      "slug": "three-gba-games-join-nintendo-classics-library",
+      "status": "publish",
+      "tags": [
+        10040,
+        10039,
+        10038,
+        4031
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-72-960x540.jpg",
+      "title": {
+        "rendered": "Three GBA Games Join Nintendo Classics Library"
+      }
+    },
+    "18391": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-14T10:13:00",
+      "featured_media": 18554,
+      "id": 18391,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-542-e1792147055135.png",
+      "link": "https://zine.trevorion.io/heavily-armed-high-school-girls-announces-mobile-rpg/",
+      "modified_gmt": "2026-10-16T10:50:38",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-542-e1792147055135-225x150.png",
+      "slug": "heavily-armed-high-school-girls-announces-mobile-rpg",
+      "status": "publish",
+      "tags": [
+        10067,
+        243,
+        5170,
+        10069,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-542-457x640.png",
+      "title": {
+        "rendered": "Heavily Armed High School Girls Announces Mobile RPG"
+      }
+    },
+    "18393": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-14T10:14:00",
+      "featured_media": 18394,
+      "id": 18393,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-74.jpg",
+      "link": "https://zine.trevorion.io/grotesqqque-confirms-terase-song-for-anthology/",
+      "modified_gmt": "2026-10-16T10:11:21",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-74-225x150.jpg",
+      "slug": "grotesqqque-confirms-terase-song-for-anthology",
+      "status": "publish",
+      "tags": [
+        152,
+        5839,
+        10052,
+        488,
+        10051
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-74-960x540.jpg",
+      "title": {
+        "rendered": "GROTESQQQUE Confirms TERASE Song for Anthology"
+      }
+    },
+    "18399": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-14T10:17:00",
+      "featured_media": 18390,
+      "id": 18399,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-73.jpg",
+      "link": "https://zine.trevorion.io/ocarina-of-time-remake-opens-switch-2-pre-orders/",
+      "modified_gmt": "2026-10-16T09:46:07",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-73-225x150.jpg",
+      "slug": "ocarina-of-time-remake-opens-switch-2-pre-orders",
+      "status": "publish",
+      "tags": [
+        262,
+        7075,
+        4031,
+        7074,
+        218,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-73-960x540.jpg",
+      "title": {
+        "rendered": "Ocarina of Time Remake Opens Switch 2 Pre-Orders"
       }
     },
     "18402": {
@@ -15069,6 +15295,30 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2025/09/20250906-08-960x640.png",
       "title": {
         "rendered": "Tojima Tanzaburo Wants to be a Masked Rider Anime Reveals Opening Song"
+      }
+    },
+    "18629": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-16T10:30:00",
+      "featured_media": 18630,
+      "id": 18629,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/654-Takeda-Thunder-🐎🏯.png",
+      "link": "https://zine.trevorion.io/20261016-1/",
+      "modified_gmt": "2026-10-16T19:25:31",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/654-Takeda-Thunder-🐎🏯-225x150.png",
+      "slug": "20261016-1",
+      "status": "publish",
+      "tags": [
+        10152,
+        2747,
+        10151,
+        10153
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/654-Takeda-Thunder-🐎🏯-960x640.png",
+      "title": {
+        "rendered": "654: Takeda Thunder 🐎🏯"
       }
     },
     "1864": {
@@ -47901,21 +48151,61 @@
       "id": 10037,
       "name": "#WH40K"
     },
+    "10038": {
+      "id": 10038,
+      "name": "#MonsterRancher"
+    },
+    "10039": {
+      "id": 10039,
+      "name": "#MetalSlugAdvance"
+    },
     "1004": {
       "id": 1004,
       "name": "#AIBrowser"
+    },
+    "10040": {
+      "id": 10040,
+      "name": "#KururinParadise"
+    },
+    "10045": {
+      "id": 10045,
+      "name": "#Luov"
     },
     "1005": {
       "id": 1005,
       "name": "#ProductivityTools"
     },
+    "10051": {
+      "id": 10051,
+      "name": "#Terase"
+    },
+    "10052": {
+      "id": 10052,
+      "name": "#MikaIchinose"
+    },
     "10054": {
       "id": 10054,
       "name": "#YumeneConnect"
     },
+    "10059": {
+      "id": 10059,
+      "name": "#GodOfManga"
+    },
     "1006": {
       "id": 1006,
       "name": "#Opera"
+    },
+    "10060": {
+      "id": 10060,
+      "name": "#Kickstarter"
+    },
+    "10067": {
+      "id": 10067,
+      "name": "#HeavilyArmedHighSchoolGirls"
+    },
+    "10069": {
+      "id": 10069,
+      "name": "#NextNinja"
     },
     "1007": {
       "id": 1007,
@@ -47956,6 +48246,22 @@
     "1015": {
       "id": 1015,
       "name": "#Copilot"
+    },
+    "10150": {
+      "id": 10150,
+      "name": "#Documentary"
+    },
+    "10151": {
+      "id": 10151,
+      "name": "#MountedSamurai"
+    },
+    "10152": {
+      "id": 10152,
+      "name": "#CavalryCharge"
+    },
+    "10153": {
+      "id": 10153,
+      "name": "#SengokuJidai"
     },
     "1016": {
       "id": 1016,
