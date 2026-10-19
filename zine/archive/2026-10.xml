@@ -1,6 +1,34 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/20261018-1/</loc>
+    <lastmod>2026-10-18T19:01:57Z</lastmod>
+    <meta:title>656: Ayaka Sato 💄💼.</meta:title>
+    <meta:published>2026-10-18T10:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#CorporateStrategy", "#ExecutiveDirector", "#KasumiGroup", "#Office"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/656-Ayaka-Sato-💄💼.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/656-Ayaka-Sato-💄💼-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/656-Ayaka-Sato-💄💼-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/656-Ayaka-Sato-💄💼.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/20261017-1/</loc>
+    <lastmod>2026-10-17T19:32:02Z</lastmod>
+    <meta:title>655: The Last Draw 🏜⚰</meta:title>
+    <meta:published>2026-10-17T10:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#CowboyDuel️", "#FrontierTown", "#Gunslinger", "#SixShooter", "#WildWest"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/655-The-Last-Draw-🏜⚰.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/655-The-Last-Draw-🏜⚰-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/655-The-Last-Draw-🏜⚰-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/655-The-Last-Draw-🏜⚰.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/20261016-1/</loc>
     <lastmod>2026-10-16T19:25:31Z</lastmod>
     <meta:title>654: Takeda Thunder 🐎🏯</meta:title>

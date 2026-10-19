@@ -1,6 +1,244 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/stranger-than-heaven-reveals-kokura-story-trailer/</loc>
+    <lastmod>2026-10-19T06:17:02Z</lastmod>
+    <meta:title>Stranger Than Heaven Reveals Kokura Story Trailer</meta:title>
+    <meta:published>2026-10-17T10:02:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#RyuGaGotokuStudio", "#Sega", "#StrangerThanHeaven", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-90.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-90-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-90-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-90.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/aikatsu-stars-anniversary-film-reveals-january-premiere-and-theme-song/</loc>
+    <lastmod>2026-10-19T06:29:58Z</lastmod>
+    <meta:title>Aikatsu Stars Anniversary Film Reveals January Premiere and Theme Song</meta:title>
+    <meta:published>2026-10-17T10:01:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AikatsuStars", "#BandaiNamcoPictures", "#HoshiboshiNoProgress", "#KeyVisual", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-89.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-89-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-89-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-89.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/kyary-pamyu-pamyu-unveils-pan-dorobo-ending-theme-music-video/</loc>
+    <lastmod>2026-10-19T07:18:32Z</lastmod>
+    <meta:title>Kyary Pamyu Pamyu Unveils Pan Dorobo Ending Theme Music Video</meta:title>
+    <meta:published>2026-10-17T10:00:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Crunchyroll", "#KyaryPamyuPamyu", "#MusicVideo", "#PanDorobo", "#PangPangPang"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/kyary-pamyu-pamyu-pan-dorobo-ed-mv.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/kyary-pamyu-pamyu-pan-dorobo-ed-mv-768x432.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/kyary-pamyu-pamyu-pan-dorobo-ed-mv-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/kyary-pamyu-pamyu-pan-dorobo-ed-mv.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/chatgpt-expands-chrome-tab-reading-and-work-features/</loc>
+    <lastmod>2026-10-18T07:55:28Z</lastmod>
+    <meta:title>ChatGPT Expands Chrome Tab Reading and Work Features</meta:title>
+    <meta:published>2026-10-16T10:13:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIProductivity", "#BrowserAutomation", "#ChatGPTWork", "#ChromeIntegration", "#DigitalTrends"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/09/ChatGPT-Work-mode-on-Pro-version.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/09/ChatGPT-Work-mode-on-Pro-version-960x504.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/09/ChatGPT-Work-mode-on-Pro-version-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/09/ChatGPT-Work-mode-on-Pro-version.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/google-redesigns-links-in-ai-search-answers/</loc>
+    <lastmod>2026-10-18T08:09:47Z</lastmod>
+    <meta:title>Google Redesigns Links in AI Search Answers</meta:title>
+    <meta:published>2026-10-16T10:12:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIMode", "#AIOverviews", "#DigitalTrends", "#GoogleSearch", "#SearchDesign"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Google-AI-Mode.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Google-AI-Mode-960x504.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Google-AI-Mode-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/Google-AI-Mode.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/wound-and-bandage-teaser-confirms-january-9-broadcast/</loc>
+    <lastmod>2026-10-18T08:30:34Z</lastmod>
+    <meta:title>Wound and Bandage Teaser Confirms January 9 Broadcast</meta:title>
+    <meta:published>2026-10-16T10:11:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#AnimeTeaser", "#JCStaff", "#KeyVisual", "#Teaser", "#WoundAndBandage"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-88.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-88-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-88-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-88.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/firma-power-connects-ai-data-centers-to-renewable-energy/</loc>
+    <lastmod>2026-10-18T09:05:30Z</lastmod>
+    <meta:title>Firma Power Connects AI Data Centers to Renewable Energy</meta:title>
+    <meta:published>2026-10-16T10:11:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIDataCenters", "#CleanEnergy", "#DigitalTrends", "#EnergyInfrastructure", "#FirmaPower"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/datacenter.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/datacenter-960x504.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/datacenter-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/datacenter.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/golden-kamuy-karafuto-pursuit-drama-adds-returning-staff/</loc>
+    <lastmod>2026-10-18T10:04:23Z</lastmod>
+    <meta:title>Golden Kamuy Karafuto Pursuit Drama Adds Returning Staff</meta:title>
+    <meta:published>2026-10-16T10:10:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#GoldenKamuy", "#KeyVisual", "#LiveAction", "#Trailer", "#WOWOW"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-87.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-87-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-87-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-87.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/ave-mujica-film-releases-second-song-focused-promo/</loc>
+    <lastmod>2026-10-18T10:23:14Z</lastmod>
+    <meta:title>Ave Mujica Film Releases Second Song-Focused Promo</meta:title>
+    <meta:published>2026-10-16T10:09:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#AveMujica", "#KeyVisual", "#MusicVideo", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-86.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-86-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-86-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-86.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/happy-kanakos-killer-life-anime-set-for-april-2027/</loc>
+    <lastmod>2026-10-18T15:14:19Z</lastmod>
+    <meta:title>Happy Kanako’s Killer Life Anime Set for April 2027</meta:title>
+    <meta:published>2026-10-16T10:08:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#HappyKanakosKillerLife", "#KeyVisual", "#StudioDrive", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-85.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-85-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-85-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-85.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/yorushika-shares-apothecary-diaries-season-3-opening-video/</loc>
+    <lastmod>2026-10-18T16:29:47Z</lastmod>
+    <meta:title>Yorushika Shares Apothecary Diaries Season 3 Opening Video</meta:title>
+    <meta:published>2026-10-16T10:06:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeOpening", "#Crunchyroll", "#MusicVideo", "#TheApothecaryDiaries", "#Yorushika"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/yorushika-beyond-the-clouds-mv.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/yorushika-beyond-the-clouds-mv-768x432.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/yorushika-beyond-the-clouds-mv-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/yorushika-beyond-the-clouds-mv.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/love-live-nijigasaki-finale-film-sets-february-2027-premiere/</loc>
+    <lastmod>2026-10-18T15:42:47Z</lastmod>
+    <meta:title>Love Live Nijigasaki Finale Film Sets February 2027 Premiere</meta:title>
+    <meta:published>2026-10-16T10:03:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Crunchyroll", "#FinalChapter", "#KeyVisual", "#LoveLive!", "#Nijigasaki", "#Sunrise", "#Teaser"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/love_live_nijigasaki_high_school_idol_club_final_part_header.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/love_live_nijigasaki_high_school_idol_club_final_part_header-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/love_live_nijigasaki_high_school_idol_club_final_part_header-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/love_live_nijigasaki_high_school_idol_club_final_part_header.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/meta-releases-muse-spark-open-for-coding-and-local-computing/</loc>
+    <lastmod>2026-10-18T07:33:39Z</lastmod>
+    <meta:title>Meta Releases Muse Spark Open for Coding and Local Computing</meta:title>
+    <meta:published>2026-10-16T10:01:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AICoding", "#LocalAI", "#MetaAI", "#MuseSparkOpen", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-589.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-589-960x576.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-589-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-589.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/magical-girl-raising-project-restart-releases-creditless-themes/</loc>
+    <lastmod>2026-10-18T16:52:51Z</lastmod>
+    <meta:title>Magical Girl Raising Project Restart Releases Creditless Themes</meta:title>
+    <meta:published>2026-10-16T10:01:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#CreditlessEnding", "#CreditlessOpening", "#DaisyXDaisy", "#MinoriChihara", "#SynergySP"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/magical-girl-raising-project-restart-op-hero.jpeg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/magical-girl-raising-project-restart-op-hero-960x534.jpeg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/magical-girl-raising-project-restart-op-hero-225x150.jpeg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/magical-girl-raising-project-restart-op-hero.jpeg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/youtube-music-starts-labeling-primarily-ai-generated-songs/</loc>
+    <lastmod>2026-10-18T17:08:10Z</lastmod>
+    <meta:title>YouTube Music Starts Labeling Primarily AI-Generated Songs</meta:title>
+    <meta:published>2026-10-15T10:19:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AITransparency", "#DigitalTrends", "#GenerativeAI", "#MusicLabels", "#YouTubeMusic"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/YouTube-Music-on-Android-Auto.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/YouTube-Music-on-Android-Auto.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/YouTube-Music-on-Android-Auto-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/YouTube-Music-on-Android-Auto.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/figma-introduces-specs-and-expands-ai-agent-design-tools/</loc>
+    <lastmod>2026-10-18T17:31:31Z</lastmod>
+    <meta:title>Figma Introduces Specs and Expands AI Agent Design Tools</meta:title>
+    <meta:published>2026-10-15T10:10:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AgentWorkflows", "#CodeLayers", "#DesignSystems", "#FigmaSpecs", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Specs_agent.webp</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Specs_agent-960x540.webp</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Specs_agent-225x150.webp</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/Specs_agent.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/iseleve-season-2-introduces-iris-and-mai-in-first-trailer/</loc>
+    <lastmod>2026-10-18T17:42:50Z</lastmod>
+    <meta:title>Iseleve Season 2 Introduces Iris and Mai in First Trailer</meta:title>
+    <meta:published>2026-10-15T10:09:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeCorner", "#CheatSkillAnime", "#Iseleve", "#KeyVisual", "#Millepensee", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-687-scaled-e1792345363858.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-687-scaled-e1792345363858-960x509.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-687-scaled-e1792345363858-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-687-scaled-e1792345363858.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/yumene-connect-anime-shares-trailer-and-main-staff/</loc>
     <lastmod>2026-10-16T05:28:53Z</lastmod>
     <meta:title>Yumene Connect Anime Shares Trailer and Main Staff</meta:title>
@@ -380,7 +618,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/naruto-mobile-goes-global-as-new-card-game-gets-launch-date/</loc>
-    <lastmod>2026-10-13T13:37:35Z</lastmod>
+    <lastmod>2026-10-18T17:20:16Z</lastmod>
     <meta:title>Naruto Mobile Goes Global as New Card Game Gets Launch Date</meta:title>
     <meta:published>2026-10-10T10:03:00Z</meta:published>
     <meta:category>News</meta:category>
@@ -796,6 +1034,20 @@
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-93-edited-225x150.png</meta:mosaic_image>
     <image:image>
       <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-93-edited.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/eve-releases-aiyou-ending-theme-video-for-the-apothecary-diaries-season-3/</loc>
+    <lastmod>2026-10-18T16:38:03Z</lastmod>
+    <meta:title>Eve Releases AIYOU Ending Theme Video for The Apothecary Diaries Season 3</meta:title>
+    <meta:published>2026-10-03T10:10:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIYOU", "#AnimeEnding", "#Crunchyroll", "#Eve", "#MusicVideo", "#TheApothecaryDiaries"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/eve-aiyou-mv.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/eve-aiyou-mv-768x432.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/eve-aiyou-mv-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/eve-aiyou-mv.jpg</image:loc>
     </image:image>
   </url>
   <url>
