@@ -169,20 +169,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zine.trevorion.io/meta-releases-muse-spark-open-for-coding-and-local-computing/</loc>
-    <lastmod>2026-10-18T07:33:39Z</lastmod>
-    <meta:title>Meta Releases Muse Spark Open for Coding and Local Computing</meta:title>
-    <meta:published>2026-10-16T10:01:00Z</meta:published>
-    <meta:category>News</meta:category>
-    <meta:tags>["#AICoding", "#LocalAI", "#MetaAI", "#MuseSparkOpen", "#TheGuardian"]</meta:tags>
-    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-589.png</meta:og_image>
-    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-589-960x576.png</meta:thumbnail_image>
-    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-589-225x150.png</meta:mosaic_image>
-    <image:image>
-      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-589.png</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zine.trevorion.io/magical-girl-raising-project-restart-releases-creditless-themes/</loc>
     <lastmod>2026-10-18T16:52:51Z</lastmod>
     <meta:title>Magical Girl Raising Project Restart Releases Creditless Themes</meta:title>
@@ -194,6 +180,20 @@
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/magical-girl-raising-project-restart-op-hero-225x150.jpeg</meta:mosaic_image>
     <image:image>
       <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/magical-girl-raising-project-restart-op-hero.jpeg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/meta-releases-muse-spark-open-for-coding-and-local-computing/</loc>
+    <lastmod>2026-10-18T07:33:39Z</lastmod>
+    <meta:title>Meta Releases Muse Spark Open for Coding and Local Computing</meta:title>
+    <meta:published>2026-10-16T10:01:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AICoding", "#LocalAI", "#MetaAI", "#MuseSparkOpen", "#TheGuardian"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-589.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-589-960x576.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-589-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-589.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -236,6 +236,90 @@
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-687-scaled-e1792345363858-225x150.png</meta:mosaic_image>
     <image:image>
       <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-687-scaled-e1792345363858.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/amazon-owned-bee-unveils-frontier-and-eclipse-ai-devices/</loc>
+    <lastmod>2026-10-19T14:56:22Z</lastmod>
+    <meta:title>Amazon-Owned Bee Unveils Frontier and Eclipse AI Devices</meta:title>
+    <meta:published>2026-10-15T10:09:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIWearables", "#AmazonBee", "#ConversationAI", "#PersonalAssistant", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-723-e1792421711984.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-723-e1792421711984-960x569.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-723-e1792421711984-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-723-e1792421711984.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/google-launches-universal-cart-across-search-and-gemini/</loc>
+    <lastmod>2026-10-19T15:19:14Z</lastmod>
+    <meta:title>Google Launches Universal Cart Across Search and Gemini</meta:title>
+    <meta:published>2026-10-15T10:08:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIShopping", "#Gemini", "#GoogleSearch", "#TechCrunch", "#UniversalCart"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Google-UniversalCart.webp</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Google-UniversalCart-960x540.webp</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Google-UniversalCart-225x150.webp</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/Google-UniversalCart.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/rivian-plans-to-bring-third-party-ai-agents-into-its-cars/</loc>
+    <lastmod>2026-10-19T15:30:56Z</lastmod>
+    <meta:title>Rivian Plans to Bring Third-Party AI Agents Into Its Cars</meta:title>
+    <meta:published>2026-10-15T10:07:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#EV", "#Rivian", "#RJScaringe", "#TechCrunch", "#VehicleSoftware", "#VoiceAssistants"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/55587802359_b756c3c3bd_k.webp</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/55587802359_b756c3c3bd_k-960x640.webp</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/55587802359_b756c3c3bd_k-225x150.webp</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/55587802359_b756c3c3bd_k.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/bluesky-expands-attie-into-ai-powered-social-creation/</loc>
+    <lastmod>2026-10-19T16:15:42Z</lastmod>
+    <meta:title>Bluesky Expands Attie Into AI-Powered Social Creation</meta:title>
+    <meta:published>2026-10-15T10:06:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#ATProtocol", "#Attie", "#Bluesky", "#SocialApps", "#TechCrunch", "#VibeCoding", "#WebsiteBuilders"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/55591989690_9a07db512f_k.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/55591989690_9a07db512f_k-960x640.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/55591989690_9a07db512f_k-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/55591989690_9a07db512f_k.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/adventurers-license-anime-reveals-january-debut-and-lead-cast/</loc>
+    <lastmod>2026-10-19T15:12:49Z</lastmod>
+    <meta:title>Adventurer’s License Anime Reveals January Debut and Lead Cast</meta:title>
+    <meta:published>2026-10-15T10:01:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AdventurersLicense", "#Crunchyroll", "#KeyVisual", "#StudioPalette", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/i-lost-my-adventurers-license-teaser-trailer.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/i-lost-my-adventurers-license-teaser-trailer-768x432.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/i-lost-my-adventurers-license-teaser-trailer-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/i-lost-my-adventurers-license-teaser-trailer.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/bless-reveals-akiharu-nakano-in-character-trailer/</loc>
+    <lastmod>2026-10-19T15:45:10Z</lastmod>
+    <meta:title>Bless Reveals Akiharu Nakano in Character Trailer</meta:title>
+    <meta:published>2026-10-15T10:00:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#A1Pictures", "#AkiharuNakano", "#Bless", "#Crunchyroll", "#KokiUchiyama", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/bless_anime_akiharu_nakano_header.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/bless_anime_akiharu_nakano_header-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/bless_anime_akiharu_nakano_header-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/bless_anime_akiharu_nakano_header.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -656,6 +740,20 @@
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-343-225x150.png</meta:mosaic_image>
     <image:image>
       <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-343.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/bless-adds-yoshiki-nakajima-as-joe-osaki/</loc>
+    <lastmod>2026-10-19T15:40:48Z</lastmod>
+    <meta:title>Bless Adds Yoshiki Nakajima as Joe Osaki</meta:title>
+    <meta:published>2026-10-09T10:05:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#A1Pictures", "#AnimeTrending", "#Bless", "#JoeOsaki", "#VoiceCast", "#YoshikiNakajima"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-733.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-733-960x541.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-733-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-733.png</image:loc>
     </image:image>
   </url>
   <url>

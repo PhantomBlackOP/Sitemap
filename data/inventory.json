@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-19T08:24:39Z",
+  "last_sync": "2026-10-21T08:13:05Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -14164,6 +14164,32 @@
         "rendered": "648: Throne of Naggaroth 👑🌩️"
       }
     },
+    "17745": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-09T10:05:00",
+      "featured_media": 19117,
+      "id": 17745,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-733.png",
+      "link": "https://zine.trevorion.io/bless-adds-yoshiki-nakajima-as-joe-osaki/",
+      "modified_gmt": "2026-10-19T15:40:48",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-733-225x150.png",
+      "slug": "bless-adds-yoshiki-nakajima-as-joe-osaki",
+      "status": "publish",
+      "tags": [
+        1323,
+        358,
+        9508,
+        9510,
+        4480,
+        9509
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-733-960x541.png",
+      "title": {
+        "rendered": "Bless Adds Yoshiki Nakajima as Joe Osaki"
+      }
+    },
     "17747": {
       "categories": [
         137
@@ -15422,6 +15448,57 @@
         "rendered": "654: Takeda Thunder 🐎🏯"
       }
     },
+    "18633": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-15T10:00:00",
+      "featured_media": 18634,
+      "id": 18633,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/bless_anime_akiharu_nakano_header.jpg",
+      "link": "https://zine.trevorion.io/bless-reveals-akiharu-nakano-in-character-trailer/",
+      "modified_gmt": "2026-10-19T15:45:10",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/bless_anime_akiharu_nakano_header-225x150.jpg",
+      "slug": "bless-reveals-akiharu-nakano-in-character-trailer",
+      "status": "publish",
+      "tags": [
+        1323,
+        10154,
+        9508,
+        233,
+        5386,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/bless_anime_akiharu_nakano_header-960x540.jpg",
+      "title": {
+        "rendered": "Bless Reveals Akiharu Nakano in Character Trailer"
+      }
+    },
+    "18635": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-15T10:01:00",
+      "featured_media": 18636,
+      "id": 18635,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/i-lost-my-adventurers-license-teaser-trailer.png",
+      "link": "https://zine.trevorion.io/adventurers-license-anime-reveals-january-debut-and-lead-cast/",
+      "modified_gmt": "2026-10-19T15:12:49",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/i-lost-my-adventurers-license-teaser-trailer-225x150.png",
+      "slug": "adventurers-license-anime-reveals-january-debut-and-lead-cast",
+      "status": "publish",
+      "tags": [
+        10155,
+        233,
+        243,
+        8124,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/i-lost-my-adventurers-license-teaser-trailer-768x432.png",
+      "title": {
+        "rendered": "Adventurer&#8217;s License Anime Reveals January Debut and Lead Cast"
+      }
+    },
     "1864": {
       "categories": [
         137
@@ -15471,6 +15548,109 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-687-scaled-e1792345363858-960x509.png",
       "title": {
         "rendered": "Iseleve Season 2 Introduces Iris and Mai in First Trailer"
+      }
+    },
+    "18665": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-15T10:06:00",
+      "featured_media": 18666,
+      "id": 18665,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/55591989690_9a07db512f_k.jpg",
+      "link": "https://zine.trevorion.io/bluesky-expands-attie-into-ai-powered-social-creation/",
+      "modified_gmt": "2026-10-19T16:15:42",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/55591989690_9a07db512f_k-225x150.jpg",
+      "slug": "bluesky-expands-attie-into-ai-powered-social-creation",
+      "status": "publish",
+      "tags": [
+        10195,
+        10194,
+        10193,
+        10198,
+        1921,
+        8609,
+        10197
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/55591989690_9a07db512f_k-960x640.jpg",
+      "title": {
+        "rendered": "Bluesky Expands Attie Into AI-Powered Social Creation"
+      }
+    },
+    "18667": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-15T10:07:00",
+      "featured_media": 18668,
+      "id": 18667,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/55587802359_b756c3c3bd_k.webp",
+      "link": "https://zine.trevorion.io/rivian-plans-to-bring-third-party-ai-agents-into-its-cars/",
+      "modified_gmt": "2026-10-19T15:30:56",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/55587802359_b756c3c3bd_k-225x150.webp",
+      "slug": "rivian-plans-to-bring-third-party-ai-agents-into-its-cars",
+      "status": "publish",
+      "tags": [
+        6479,
+        10199,
+        10201,
+        1921,
+        10205,
+        10204
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/55587802359_b756c3c3bd_k-960x640.webp",
+      "title": {
+        "rendered": "Rivian Plans to Bring Third-Party AI Agents Into Its Cars"
+      }
+    },
+    "18669": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-15T10:08:00",
+      "featured_media": 18670,
+      "id": 18669,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Google-UniversalCart.webp",
+      "link": "https://zine.trevorion.io/google-launches-universal-cart-across-search-and-gemini/",
+      "modified_gmt": "2026-10-19T15:19:14",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Google-UniversalCart-225x150.webp",
+      "slug": "google-launches-universal-cart-across-search-and-gemini",
+      "status": "publish",
+      "tags": [
+        2317,
+        326,
+        8895,
+        1921,
+        10206
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Google-UniversalCart-960x540.webp",
+      "title": {
+        "rendered": "Google Launches Universal Cart Across Search and Gemini"
+      }
+    },
+    "18671": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-15T10:09:00",
+      "featured_media": 19097,
+      "id": 18671,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-723-e1792421711984.png",
+      "link": "https://zine.trevorion.io/amazon-owned-bee-unveils-frontier-and-eclipse-ai-devices/",
+      "modified_gmt": "2026-10-19T14:56:22",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-723-e1792421711984-225x150.png",
+      "slug": "amazon-owned-bee-unveils-frontier-and-eclipse-ai-devices",
+      "status": "publish",
+      "tags": [
+        9079,
+        10207,
+        10210,
+        7111,
+        1921
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-723-e1792421711984-960x569.png",
+      "title": {
+        "rendered": "Amazon-Owned Bee Unveils Frontier and Eclipse AI Devices"
       }
     },
     "18673": {
@@ -16100,6 +16280,58 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-90-960x540.jpg",
       "title": {
         "rendered": "Stranger Than Heaven Reveals Kokura Story Trailer"
+      }
+    },
+    "19141": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-19T10:30:00",
+      "featured_media": 19142,
+      "id": 19141,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/657-Barn-Find-🚘🔧.png",
+      "link": "https://zine.trevorion.io/20261019-1/",
+      "modified_gmt": "2026-10-19T20:59:37",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/657-Barn-Find-🚘🔧-225x150.png",
+      "slug": "20261019-1",
+      "status": "publish",
+      "tags": [
+        10408,
+        5956,
+        10407,
+        2686,
+        1100,
+        671
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/657-Barn-Find-🚘🔧-960x640.png",
+      "title": {
+        "rendered": "657: Barn Find 🚘🔧"
+      }
+    },
+    "19192": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-20T10:30:00",
+      "featured_media": 19193,
+      "id": 19192,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/658-Battlefield-Priestess-🩸🙏.png",
+      "link": "https://zine.trevorion.io/20261020-1/",
+      "modified_gmt": "2026-10-20T21:41:16",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/658-Battlefield-Priestess-🩸🙏-225x150.png",
+      "slug": "20261020-1",
+      "status": "publish",
+      "tags": [
+        10473,
+        10474,
+        475,
+        10471,
+        10472,
+        3309
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/658-Battlefield-Priestess-🩸🙏-960x640.png",
+      "title": {
+        "rendered": "658: Battlefield Priestess 🩸🙏"
       }
     },
     "2023": {
@@ -48894,6 +49126,14 @@
       "id": 10153,
       "name": "#SengokuJidai"
     },
+    "10154": {
+      "id": 10154,
+      "name": "#AkiharuNakano"
+    },
+    "10155": {
+      "id": 10155,
+      "name": "#AdventurersLicense"
+    },
     "1016": {
       "id": 1016,
       "name": "#AgentMode"
@@ -48922,13 +49162,61 @@
       "id": 1019,
       "name": "#Hypershell"
     },
+    "10193": {
+      "id": 10193,
+      "name": "#Bluesky"
+    },
+    "10194": {
+      "id": 10194,
+      "name": "#Attie"
+    },
+    "10195": {
+      "id": 10195,
+      "name": "#ATProtocol"
+    },
+    "10197": {
+      "id": 10197,
+      "name": "#WebsiteBuilders"
+    },
+    "10198": {
+      "id": 10198,
+      "name": "#SocialApps"
+    },
+    "10199": {
+      "id": 10199,
+      "name": "#Rivian"
+    },
     "1020": {
       "id": 1020,
       "name": "#Exoskeleton"
     },
+    "10201": {
+      "id": 10201,
+      "name": "#RJScaringe"
+    },
+    "10204": {
+      "id": 10204,
+      "name": "#VoiceAssistants"
+    },
+    "10205": {
+      "id": 10205,
+      "name": "#VehicleSoftware"
+    },
+    "10206": {
+      "id": 10206,
+      "name": "#UniversalCart"
+    },
+    "10207": {
+      "id": 10207,
+      "name": "#AmazonBee"
+    },
     "1021": {
       "id": 1021,
       "name": "#WearableTech"
+    },
+    "10210": {
+      "id": 10210,
+      "name": "#ConversationAI"
     },
     "10213": {
       "id": 10213,
@@ -49130,6 +49418,14 @@
       "id": 1040,
       "name": "#Torchlight"
     },
+    "10407": {
+      "id": 10407,
+      "name": "#Coupe"
+    },
+    "10408": {
+      "id": 10408,
+      "name": "#Americana"
+    },
     "1041": {
       "id": 1041,
       "name": "#MedievalCity"
@@ -49157,6 +49453,22 @@
     "1047": {
       "id": 1047,
       "name": "#MegaStructure"
+    },
+    "10471": {
+      "id": 10471,
+      "name": "#Healer"
+    },
+    "10472": {
+      "id": 10472,
+      "name": "#HolyStaff"
+    },
+    "10473": {
+      "id": 10473,
+      "name": "#Cleric"
+    },
+    "10474": {
+      "id": 10474,
+      "name": "#DivineMagic"
     },
     "1048": {
       "id": 1048,
