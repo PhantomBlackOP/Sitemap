@@ -1,6 +1,48 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/yelps-ai-restaurant-agent-can-call-to-check-waiting-times/</loc>
+    <lastmod>2026-10-22T07:10:56Z</lastmod>
+    <meta:title>Yelp’s AI Restaurant Agent Can Call to Check Waiting Times</meta:title>
+    <meta:published>2026-10-20T10:30:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#DigitalAutomation", "#DigitalTrends", "#RestaurantServices", "#VoiceAgents", "#YelpAssistant"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-746-e1792653023532.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-746-e1792653023532-960x498.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-746-e1792653023532-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-746-e1792653023532.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/eka-robotics-reaches-1-45-billion-valuation-after-funding/</loc>
+    <lastmod>2026-10-22T07:23:01Z</lastmod>
+    <meta:title>Eka Robotics Reaches $1.45 Billion Valuation After Funding</meta:title>
+    <meta:published>2026-10-20T10:19:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#EkaRobotics", "#RobotGrippers", "#RoboticManipulation", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-1.21.23-PM-e1792653740150.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-1.21.23-PM-e1792653740150-960x438.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-1.21.23-PM-e1792653740150-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-1.21.23-PM-e1792653740150.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/openai-acquires-biotech-agent-startup-orchestra-bio/</loc>
+    <lastmod>2026-10-22T08:07:48Z</lastmod>
+    <meta:title>OpenAI Acquires Biotech Agent Startup Orchestra Bio</meta:title>
+    <meta:published>2026-10-20T10:11:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIAgents", "#Biotechnology", "#GPTRosalind", "#OpenAI", "#OrchestraBio", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/pills-GettyImages-157287767.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/pills-GettyImages-157287767-960x640.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/pills-GettyImages-157287767-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/pills-GettyImages-157287767.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/stranger-than-heaven-reveals-kokura-story-trailer/</loc>
     <lastmod>2026-10-19T06:17:02Z</lastmod>
     <meta:title>Stranger Than Heaven Reveals Kokura Story Trailer</meta:title>

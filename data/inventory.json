@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-21T08:13:05Z",
+  "last_sync": "2026-10-22T08:14:42Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -8918,6 +8918,57 @@
         "rendered": "Ganglion Manga Gets Anime daptation, premiering on October 3rd"
       }
     },
+    "13389": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-10T10:22:00",
+      "featured_media": 13390,
+      "id": 13389,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/22a215f9-5694-480a-b9f8-ac1c71dfee01-1.png",
+      "link": "https://zine.trevorion.io/how-a-mini-pc-can-run-a-local-ai-agent/",
+      "modified_gmt": "2026-10-22T07:45:13",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/22a215f9-5694-480a-b9f8-ac1c71dfee01-1-225x150.png",
+      "slug": "how-a-mini-pc-can-run-a-local-ai-agent",
+      "status": "publish",
+      "tags": [
+        10672,
+        311,
+        718,
+        7483,
+        7987,
+        10673
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/22a215f9-5694-480a-b9f8-ac1c71dfee01-1-960x504.png",
+      "title": {
+        "rendered": "How a Mini PC Can Run a Local AI Agent"
+      }
+    },
+    "13399": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-10T10:27:00",
+      "featured_media": 13400,
+      "id": 13399,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/hqdefault-56.jpg",
+      "link": "https://zine.trevorion.io/openai-introduces-managed-agents-api-for-cloud-ai-workflows/",
+      "modified_gmt": "2026-10-22T07:48:29",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/hqdefault-56-225x150.jpg",
+      "slug": "openai-introduces-managed-agents-api-for-cloud-ai-workflows",
+      "status": "publish",
+      "tags": [
+        7498,
+        7499,
+        7112,
+        706,
+        88
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/hqdefault-56.jpg",
+      "title": {
+        "rendered": "OpenAI Introduces Managed Agents API for Cloud AI Workflows"
+      }
+    },
     "1341": {
       "categories": [
         137
@@ -16332,6 +16383,105 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/658-Battlefield-Priestess-🩸🙏-960x640.png",
       "title": {
         "rendered": "658: Battlefield Priestess 🩸🙏"
+      }
+    },
+    "19273": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-21T10:30:00",
+      "featured_media": 19274,
+      "id": 19273,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/659-Sirens-🎶🪽.png",
+      "link": "https://zine.trevorion.io/20261021-1/",
+      "modified_gmt": "2026-10-21T19:10:45",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/659-Sirens-🎶🪽-225x150.png",
+      "slug": "20261021-1",
+      "status": "publish",
+      "tags": [
+        10560,
+        10561,
+        3373,
+        10559
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/659-Sirens-🎶🪽-960x640.png",
+      "title": {
+        "rendered": "659: Sirens 🎶🪽"
+      }
+    },
+    "19300": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-20T10:11:00",
+      "featured_media": 19301,
+      "id": 19300,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/pills-GettyImages-157287767.jpg",
+      "link": "https://zine.trevorion.io/openai-acquires-biotech-agent-startup-orchestra-bio/",
+      "modified_gmt": "2026-10-22T08:07:48",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/pills-GettyImages-157287767-225x150.jpg",
+      "slug": "openai-acquires-biotech-agent-startup-orchestra-bio",
+      "status": "publish",
+      "tags": [
+        190,
+        7146,
+        10674,
+        88,
+        10590,
+        1921
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/pills-GettyImages-157287767-960x640.jpg",
+      "title": {
+        "rendered": "OpenAI Acquires Biotech Agent Startup Orchestra Bio"
+      }
+    },
+    "19314": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-20T10:19:00",
+      "featured_media": 19315,
+      "id": 19314,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-1.21.23-PM-e1792653740150.png",
+      "link": "https://zine.trevorion.io/eka-robotics-reaches-1-45-billion-valuation-after-funding/",
+      "modified_gmt": "2026-10-22T07:23:01",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-1.21.23-PM-e1792653740150-225x150.png",
+      "slug": "eka-robotics-reaches-1-45-billion-valuation-after-funding",
+      "status": "publish",
+      "tags": [
+        10618,
+        10622,
+        10619,
+        1921
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-1.21.23-PM-e1792653740150-960x438.png",
+      "title": {
+        "rendered": "Eka Robotics Reaches $1.45 Billion Valuation After Funding"
+      }
+    },
+    "19333": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-20T10:30:00",
+      "featured_media": 19370,
+      "id": 19333,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-746-e1792653023532.png",
+      "link": "https://zine.trevorion.io/yelps-ai-restaurant-agent-can-call-to-check-waiting-times/",
+      "modified_gmt": "2026-10-22T07:10:56",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-746-e1792653023532-225x150.png",
+      "slug": "yelps-ai-restaurant-agent-can-call-to-check-waiting-times",
+      "status": "publish",
+      "tags": [
+        10656,
+        311,
+        10655,
+        10652,
+        10651
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-746-e1792653023532-960x498.png",
+      "title": {
+        "rendered": "Yelp&#8217;s AI Restaurant Agent Can Call to Check Waiting Times"
       }
     },
     "2023": {
@@ -49506,9 +49656,21 @@
       "id": 1055,
       "name": "#AISeiyuu"
     },
+    "10559": {
+      "id": 10559,
+      "name": "#SongEnchantment"
+    },
     "1056": {
       "id": 1056,
       "name": "#Dubbing"
+    },
+    "10560": {
+      "id": 10560,
+      "name": "#Argonautica"
+    },
+    "10561": {
+      "id": 10561,
+      "name": "#CaptiveSailor"
     },
     "1057": {
       "id": 1057,
@@ -49522,6 +49684,10 @@
       "id": 1059,
       "name": "#RightToRepair"
     },
+    "10590": {
+      "id": 10590,
+      "name": "#OrchestraBio"
+    },
     "106": {
       "id": 106,
       "name": "#Construction"
@@ -49534,9 +49700,21 @@
       "id": 1061,
       "name": "#FrameworkLaptop"
     },
+    "10618": {
+      "id": 10618,
+      "name": "#EkaRobotics"
+    },
+    "10619": {
+      "id": 10619,
+      "name": "#RoboticManipulation"
+    },
     "1062": {
       "id": 1062,
       "name": "#Minimalism"
+    },
+    "10622": {
+      "id": 10622,
+      "name": "#RobotGrippers"
     },
     "1063": {
       "id": 1063,
@@ -49550,6 +49728,22 @@
       "id": 1065,
       "name": "#Underground"
     },
+    "10651": {
+      "id": 10651,
+      "name": "#YelpAssistant"
+    },
+    "10652": {
+      "id": 10652,
+      "name": "#VoiceAgents"
+    },
+    "10655": {
+      "id": 10655,
+      "name": "#RestaurantServices"
+    },
+    "10656": {
+      "id": 10656,
+      "name": "#DigitalAutomation"
+    },
     "1066": {
       "id": 1066,
       "name": "#VintageMood"
@@ -49557,6 +49751,18 @@
     "1067": {
       "id": 1067,
       "name": "#WineCellar"
+    },
+    "10672": {
+      "id": 10672,
+      "name": "#CubiNUCAI+"
+    },
+    "10673": {
+      "id": 10673,
+      "name": "#PROMAXEDGEAI+"
+    },
+    "10674": {
+      "id": 10674,
+      "name": "#GPTRosalind"
     },
     "1068": {
       "id": 1068,
