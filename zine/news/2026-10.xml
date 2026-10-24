@@ -1,6 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/the-apothecary-diaries-game-details-new-characters-and-march-release/</loc>
+    <lastmod>2026-10-23T09:03:09Z</lastmod>
+    <meta:title>The Apothecary Diaries Game Details, New Characters and March Release</meta:title>
+    <meta:published>2026-10-21T10:10:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#ApothecaryDiaries", "#FalseImperialBrother", "#KoeiTecmo", "#Trailer"]</meta:tags>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/just-like-mona-lisa-anime-reveals-trailer-cast-and-2027-premiere/</loc>
+    <lastmod>2026-10-23T08:45:31Z</lastmod>
+    <meta:title>Just Like Mona Lisa Anime Reveals Trailer, Cast and 2027 Premiere</meta:title>
+    <meta:published>2026-10-21T10:08:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#Imase", "#JustLikeMonaLisa", "#KeyVisual", "#Shaft", "#Trailer"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-110.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-110-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-110-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-110.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/yelps-ai-restaurant-agent-can-call-to-check-waiting-times/</loc>
     <lastmod>2026-10-22T07:10:56Z</lastmod>
     <meta:title>Yelp’s AI Restaurant Agent Can Call to Check Waiting Times</meta:title>

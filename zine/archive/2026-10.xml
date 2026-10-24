@@ -1,6 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/20261023-1/</loc>
+    <lastmod>2026-10-23T18:35:15Z</lastmod>
+    <meta:title>661: Farewell at Dusk 🌇💔</meta:title>
+    <meta:published>2026-10-23T10:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#Bittersweet", "#Departure", "#LastLook", "#Parting", "#Twilight"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/661-Farewell-at-Dusk-🌇💔.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/661-Farewell-at-Dusk-🌇💔-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/661-Farewell-at-Dusk-🌇💔-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/661-Farewell-at-Dusk-🌇💔.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/20261022-1/</loc>
     <lastmod>2026-10-22T19:33:30Z</lastmod>
     <meta:title>660: Woodland Fairy 🧚‍♀️🌿</meta:title>

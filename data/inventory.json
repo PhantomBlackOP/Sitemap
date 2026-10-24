@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-23T08:11:58Z",
+  "last_sync": "2026-10-24T07:50:17Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -7984,7 +7984,7 @@
       "id": 12799,
       "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/apothecary-diaries-game.jpg",
       "link": "https://zine.trevorion.io/the-apothecary-diaries-game-reveals-first-full-trailer/",
-      "modified_gmt": "2026-09-11T03:52:44",
+      "modified_gmt": "2026-10-23T09:01:31",
       "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/apothecary-diaries-game-225x150.jpg",
       "slug": "the-apothecary-diaries-game-reveals-first-full-trailer",
       "status": "publish",
@@ -16763,6 +16763,78 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/660-Woodland-Fairy-🧚‍♀️🌿-960x640.png",
       "title": {
         "rendered": "660: Woodland Fairy 🧚‍♀️🌿"
+      }
+    },
+    "19541": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-21T10:08:00",
+      "featured_media": 19542,
+      "id": 19541,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-110.jpg",
+      "link": "https://zine.trevorion.io/just-like-mona-lisa-anime-reveals-trailer-cast-and-2027-premiere/",
+      "modified_gmt": "2026-10-23T08:45:31",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-110-225x150.jpg",
+      "slug": "just-like-mona-lisa-anime-reveals-trailer-cast-and-2027-premiere",
+      "status": "publish",
+      "tags": [
+        152,
+        4745,
+        4608,
+        243,
+        5856,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-110-960x540.jpg",
+      "title": {
+        "rendered": "Just Like Mona Lisa Anime Reveals Trailer, Cast and 2027 Premiere"
+      }
+    },
+    "19545": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-21T10:10:00",
+      "featured_media": 19536,
+      "id": 19545,
+      "link": "https://zine.trevorion.io/the-apothecary-diaries-game-details-new-characters-and-march-release/",
+      "modified_gmt": "2026-10-23T09:03:09",
+      "slug": "the-apothecary-diaries-game-details-new-characters-and-march-release",
+      "status": "publish",
+      "tags": [
+        5673,
+        10695,
+        422,
+        244
+      ],
+      "title": {
+        "rendered": "The Apothecary Diaries Game Details, New Characters and March Release"
+      }
+    },
+    "19605": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-23T10:30:00",
+      "featured_media": 19606,
+      "id": 19605,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/661-Farewell-at-Dusk-🌇💔.png",
+      "link": "https://zine.trevorion.io/20261023-1/",
+      "modified_gmt": "2026-10-23T18:35:15",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/661-Farewell-at-Dusk-🌇💔-225x150.png",
+      "slug": "20261023-1",
+      "status": "publish",
+      "tags": [
+        10735,
+        10734,
+        10736,
+        10737,
+        68
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/661-Farewell-at-Dusk-🌇💔-960x640.png",
+      "title": {
+        "rendered": "661: Farewell at Dusk 🌇💔"
       }
     },
     "2023": {
@@ -50158,6 +50230,10 @@
       "id": 1069,
       "name": "#Writing"
     },
+    "10695": {
+      "id": 10695,
+      "name": "#FalseImperialBrother"
+    },
     "1070": {
       "id": 1070,
       "name": "#Technology"
@@ -50173,6 +50249,22 @@
     "1073": {
       "id": 1073,
       "name": "#DeepSeek"
+    },
+    "10734": {
+      "id": 10734,
+      "name": "#Departure"
+    },
+    "10735": {
+      "id": 10735,
+      "name": "#Bittersweet"
+    },
+    "10736": {
+      "id": 10736,
+      "name": "#LastLook"
+    },
+    "10737": {
+      "id": 10737,
+      "name": "#Parting"
     },
     "1074": {
       "id": 1074,
