@@ -1,6 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/20261024-1/</loc>
+    <lastmod>2026-10-24T22:08:07Z</lastmod>
+    <meta:title>662: Nissen Hut 🛖🌤️</meta:title>
+    <meta:published>2026-10-24T10:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#Barracks", "#CorrugatedSheets", "#Military", "#Prefabricated", "#Shed"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/662-Nissen-Hut-🛖🌤.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/662-Nissen-Hut-🛖🌤-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/662-Nissen-Hut-🛖🌤-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/662-Nissen-Hut-🛖🌤.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/20261023-1/</loc>
     <lastmod>2026-10-23T18:35:15Z</lastmod>
     <meta:title>661: Farewell at Dusk 🌇💔</meta:title>
