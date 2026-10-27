@@ -2,8 +2,15 @@
 <urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!--2026-->
   <url>
+    <loc>https://zine.trevorion.io/explore/?digest=2026-W44&amp;dpage=1</loc>
+    <lastmod>2026-10-26T20:09:54Z</lastmod>
+    <meta:title>Week 44</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W44</meta:period>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W43&amp;dpage=1</loc>
-    <lastmod>2026-10-26T08:02:29Z</lastmod>
+    <lastmod>2026-10-27T08:25:28Z</lastmod>
     <meta:title>Week 43</meta:title>
     <meta:category>Explore</meta:category>
     <meta:period>2026-W43</meta:period>
@@ -17,7 +24,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W41&amp;dpage=1</loc>
-    <lastmod>2026-10-19T15:40:48Z</lastmod>
+    <lastmod>2026-10-26T08:44:36Z</lastmod>
     <meta:title>Week 41</meta:title>
     <meta:category>Explore</meta:category>
     <meta:period>2026-W41</meta:period>

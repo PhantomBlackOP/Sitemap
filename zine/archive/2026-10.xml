@@ -1,6 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/20261026-1/</loc>
+    <lastmod>2026-10-26T20:09:54Z</lastmod>
+    <meta:title>664: Royal Concubine 🪷💖</meta:title>
+    <meta:published>2026-10-26T11:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#Anticipation", "#Beauty", "#Dais", "#Fantasy", "#Palace", "#Pavilion", "#Twilight"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/664-Royal-Concubine-🪷💖.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/664-Royal-Concubine-🪷💖-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/664-Royal-Concubine-🪷💖-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/664-Royal-Concubine-🪷💖.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/20261025-1/</loc>
     <lastmod>2026-10-25T21:17:37Z</lastmod>
     <meta:title>663: Court Gavotte 💃🕺</meta:title>

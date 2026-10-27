@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-26T08:25:46Z",
+  "last_sync": "2026-10-27T08:34:52Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -17836,6 +17836,32 @@
         "rendered": "663: Court Gavotte 💃🕺"
       }
     },
+    "20126": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-24T10:03:00",
+      "featured_media": 20127,
+      "id": 20126,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/koume-kono-shinzou-mv.jpg",
+      "link": "https://zine.trevorion.io/koume-releases-detective-is-already-dead-season-2-opening-mv/",
+      "modified_gmt": "2026-10-26T09:03:55",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/koume-kono-shinzou-mv-225x150.jpg",
+      "slug": "koume-releases-detective-is-already-dead-season-2-opening-mv",
+      "status": "publish",
+      "tags": [
+        10940,
+        233,
+        6829,
+        10903,
+        488,
+        10902
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/koume-kono-shinzou-mv-768x432.jpg",
+      "title": {
+        "rendered": "Koume Releases Detective Is Already Dead Season 2 Opening MV"
+      }
+    },
     "20130": {
       "categories": [
         137
@@ -17843,8 +17869,10 @@
       "date_gmt": "2026-10-24T10:05:00",
       "featured_media": 20129,
       "id": 20130,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-125.jpg",
       "link": "https://zine.trevorion.io/kaiju-no-8-final-movie-sets-2027-conclusion/",
       "modified_gmt": "2026-10-26T07:31:04",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-125-225x150.jpg",
       "slug": "kaiju-no-8-final-movie-sets-2027-conclusion",
       "status": "publish",
       "tags": [
@@ -17855,6 +17883,7 @@
         218,
         10896
       ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-125-960x540.jpg",
       "title": {
         "rendered": "Kaiju No. 8 Final Movie Sets 2027 Conclusion"
       }
@@ -17886,6 +17915,58 @@
         "rendered": "Block Reveals Dessa Full-Duplex Speech Model for Local Devices"
       }
     },
+    "20184": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-05T07:19:34",
+      "featured_media": 20185,
+      "id": 20184,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/the-detective-is-already-dead-season-2-key-visual-e1793004271504.jpg",
+      "link": "https://zine.trevorion.io/the-detective-is-already-dead-season-2-unveils-trailer-and-key-visual/",
+      "modified_gmt": "2026-10-26T08:44:36",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/the-detective-is-already-dead-season-2-key-visual-e1793004271504-225x150.jpg",
+      "slug": "the-detective-is-already-dead-season-2-unveils-trailer-and-key-visual",
+      "status": "publish",
+      "tags": [
+        4589,
+        233,
+        6829,
+        244,
+        10938,
+        10935
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/the-detective-is-already-dead-season-2-key-visual-e1793004271504-960x577.jpg",
+      "title": {
+        "rendered": "The Detective Is Already Dead Season 2 Unveils Trailer and  Key Visual"
+      }
+    },
+    "20215": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-25T11:00:00",
+      "featured_media": 20216,
+      "id": 20215,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/date-a-live-f-last-date.jpg",
+      "link": "https://zine.trevorion.io/date-a-live-f-last-date-film-sets-march-2027-opening/",
+      "modified_gmt": "2026-10-27T08:25:28",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/date-a-live-f-last-date-225x150.jpg",
+      "slug": "date-a-live-f-last-date-film-sets-march-2027-opening",
+      "status": "publish",
+      "tags": [
+        233,
+        10941,
+        10945,
+        243,
+        10942,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/date-a-live-f-last-date-768x432.jpg",
+      "title": {
+        "rendered": "Date A Live F Last Date Film Sets March 2027 Opening"
+      }
+    },
     "2023": {
       "categories": [
         8
@@ -17908,6 +17989,33 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2025/09/252-The-Harpsichord-🎶🕯-960x640.png",
       "title": {
         "rendered": "252: The Harpsichord 🎶🕯"
+      }
+    },
+    "20245": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-26T11:30:00",
+      "featured_media": 20246,
+      "id": 20245,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/664-Royal-Concubine-🪷💖.png",
+      "link": "https://zine.trevorion.io/20261026-1/",
+      "modified_gmt": "2026-10-26T20:09:54",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/664-Royal-Concubine-🪷💖-225x150.png",
+      "slug": "20261026-1",
+      "status": "publish",
+      "tags": [
+        10995,
+        896,
+        10994,
+        475,
+        3667,
+        5371,
+        68
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/664-Royal-Concubine-🪷💖-960x640.png",
+      "title": {
+        "rendered": "664: Royal Concubine 🪷💖"
       }
     },
     "2177": {
@@ -54549,6 +54657,14 @@
       "id": 1090,
       "name": "#Thunderstorm"
     },
+    "10902": {
+      "id": 10902,
+      "name": "#TheDetectiveIsAlreadyDead"
+    },
+    "10903": {
+      "id": 10903,
+      "name": "#Koume"
+    },
     "1091": {
       "id": 1091,
       "name": "#Pegasus"
@@ -54577,9 +54693,33 @@
       "id": 10930,
       "name": "#JackDorsey"
     },
+    "10935": {
+      "id": 10935,
+      "name": "The Detective Is Already Dead"
+    },
+    "10938": {
+      "id": 10938,
+      "name": "Key Visual"
+    },
     "1094": {
       "id": 1094,
       "name": "#AnyaForger"
+    },
+    "10940": {
+      "id": 10940,
+      "name": "#40mP"
+    },
+    "10941": {
+      "id": 10941,
+      "name": "#DateALive"
+    },
+    "10942": {
+      "id": 10942,
+      "name": "#LastDate"
+    },
+    "10945": {
+      "id": 10945,
+      "name": "#Fugaku"
     },
     "1095": {
       "id": 1095,
@@ -54600,6 +54740,14 @@
     "1099": {
       "id": 1099,
       "name": "#Sand"
+    },
+    "10994": {
+      "id": 10994,
+      "name": "#Dais"
+    },
+    "10995": {
+      "id": 10995,
+      "name": "#Anticipation"
     },
     "11": {
       "id": 11,
