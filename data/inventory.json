@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-27T08:34:52Z",
+  "last_sync": "2026-10-28T09:14:34Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -12490,6 +12490,31 @@
         "rendered": "637: Eurasian Hoopoe 🪶🌿"
       }
     },
+    "15788": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-28T10:00:00",
+      "featured_media": 15789,
+      "id": 15788,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/as-a-reincarnated-aristocrat-s3-ending-hero.png",
+      "link": "https://zine.trevorion.io/appraisal-skill-season-3-releases-creditless-ending/",
+      "modified_gmt": "2026-10-28T07:12:00",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/as-a-reincarnated-aristocrat-s3-ending-hero-225x150.png",
+      "slug": "appraisal-skill-season-3-releases-creditless-ending",
+      "status": "publish",
+      "tags": [
+        8840,
+        3982,
+        233,
+        6838,
+        488
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/as-a-reincarnated-aristocrat-s3-ending-hero-960x540.png",
+      "title": {
+        "rendered": "Appraisal Skill Season 3 Releases Creditless Ending"
+      }
+    },
     "15802": {
       "categories": [
         137
@@ -18016,6 +18041,82 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/664-Royal-Concubine-🪷💖-960x640.png",
       "title": {
         "rendered": "664: Royal Concubine 🪷💖"
+      }
+    },
+    "20310": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-26T11:11:00",
+      "featured_media": 20393,
+      "id": 20310,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-1119.png",
+      "link": "https://zine.trevorion.io/hanarabeez-tooth-characters-star-in-three-short-anime-episodes/",
+      "modified_gmt": "2026-10-28T07:54:38",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-1119-225x150.png",
+      "slug": "hanarabeez-tooth-characters-star-in-three-short-anime-episodes",
+      "status": "publish",
+      "tags": [
+        11020,
+        11018,
+        11015,
+        11016,
+        4558,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-1119-960x540.png",
+      "title": {
+        "rendered": "Hanarabeez Tooth Characters Star in Three Short Anime Episodes"
+      }
+    },
+    "20312": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-26T11:12:00",
+      "featured_media": 20313,
+      "id": 20312,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-135.jpg",
+      "link": "https://zine.trevorion.io/appraisal-skill-season-3-trailer-introduces-fujimiya-family/",
+      "modified_gmt": "2026-10-28T07:44:46",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-135-225x150.jpg",
+      "slug": "appraisal-skill-season-3-trailer-introduces-fujimiya-family",
+      "status": "publish",
+      "tags": [
+        6836,
+        6838,
+        243,
+        6837,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-135-960x540.jpg",
+      "title": {
+        "rendered": "Appraisal Skill Season 3 Trailer Introduces Fujimiya Family"
+      }
+    },
+    "20338": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-27T11:30:00",
+      "featured_media": 20339,
+      "id": 20338,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/665-Sunny-Stroll-🌼☀️.png",
+      "link": "https://zine.trevorion.io/20261027-1/",
+      "modified_gmt": "2026-10-27T19:35:28",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/665-Sunny-Stroll-🌼☀️-225x150.png",
+      "slug": "20261027-1",
+      "status": "publish",
+      "tags": [
+        11049,
+        132,
+        11051,
+        11048,
+        11050
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/665-Sunny-Stroll-🌼☀️-960x640.png",
+      "title": {
+        "rendered": "665: Sunny Stroll 🌼☀️"
       }
     },
     "2177": {
@@ -54765,9 +54866,25 @@
       "id": 1101,
       "name": "#Brass"
     },
+    "11015": {
+      "id": 11015,
+      "name": "#Hanarabeez"
+    },
+    "11016": {
+      "id": 11016,
+      "name": "#Ribon"
+    },
+    "11018": {
+      "id": 11018,
+      "name": "#DLE"
+    },
     "1102": {
       "id": 1102,
       "name": "#TechIndustry"
+    },
+    "11020": {
+      "id": 11020,
+      "name": "#CharacterDesign"
     },
     "1103": {
       "id": 1103,
@@ -54777,9 +54894,25 @@
       "id": 1104,
       "name": "#StockMarket"
     },
+    "11048": {
+      "id": 11048,
+      "name": "#Sweetheart"
+    },
+    "11049": {
+      "id": 11049,
+      "name": "#CoastalVillage"
+    },
     "1105": {
       "id": 1105,
       "name": "#Industry"
+    },
+    "11050": {
+      "id": 11050,
+      "name": "#Vacation"
+    },
+    "11051": {
+      "id": 11051,
+      "name": "#Sundress"
     },
     "1106": {
       "id": 1106,
