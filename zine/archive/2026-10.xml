@@ -1,6 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/20261028-1/</loc>
+    <lastmod>2026-10-28T22:18:45Z</lastmod>
+    <meta:title>666: Vespera, Blood Sovereign 🦇🩸</meta:title>
+    <meta:published>2026-10-28T11:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#AbyssalCourt", "#DarkEmpress", "#Demoness", "#InfernalBeauty", "#Progenitor"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/666-Vespera-Blood-Sovereign-🦇🩸.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/666-Vespera-Blood-Sovereign-🦇🩸-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/666-Vespera-Blood-Sovereign-🦇🩸-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/666-Vespera-Blood-Sovereign-🦇🩸.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/20261027-1/</loc>
     <lastmod>2026-10-27T19:35:28Z</lastmod>
     <meta:title>665: Sunny Stroll 🌼☀️</meta:title>

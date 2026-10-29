@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-28T09:14:34Z",
+  "last_sync": "2026-10-29T09:14:40Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -18094,6 +18094,31 @@
         "rendered": "Appraisal Skill Season 3 Trailer Introduces Fujimiya Family"
       }
     },
+    "20336": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-26T11:11:00",
+      "featured_media": 20337,
+      "id": 20336,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Uniform-ships.jpg",
+      "link": "https://zine.trevorion.io/groks-ai-generated-odyssey-highlights-limits-of-video-storytelling/",
+      "modified_gmt": "2026-10-28T11:31:40",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Uniform-ships-225x150.jpg",
+      "slug": "groks-ai-generated-odyssey-highlights-limits-of-video-storytelling",
+      "status": "publish",
+      "tags": [
+        9571,
+        311,
+        496,
+        10976,
+        11044
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Uniform-ships-960x504.jpg",
+      "title": {
+        "rendered": "Grok&#8217;s AI-Generated Odyssey Highlights Limits of Video Storytelling"
+      }
+    },
     "20338": {
       "categories": [
         8
@@ -18117,6 +18142,57 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/665-Sunny-Stroll-🌼☀️-960x640.png",
       "title": {
         "rendered": "665: Sunny Stroll 🌼☀️"
+      }
+    },
+    "20426": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-27T11:08:00",
+      "featured_media": 20427,
+      "id": 20426,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-140.jpg",
+      "link": "https://zine.trevorion.io/mecha-samurai-reveals-shaman-king-creators-designs-and-november-debut/",
+      "modified_gmt": "2026-10-28T11:57:11",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-140-225x150.jpg",
+      "slug": "mecha-samurai-reveals-shaman-king-creators-designs-and-november-debut",
+      "status": "publish",
+      "tags": [
+        152,
+        1456,
+        243,
+        11069,
+        5668,
+        413
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-140-960x540.jpg",
+      "title": {
+        "rendered": "Mecha Samurai Reveals Shaman King Creator&#8217;s Designs and November Debut"
+      }
+    },
+    "20515": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-28T11:30:00",
+      "featured_media": 20516,
+      "id": 20515,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/666-Vespera-Blood-Sovereign-🦇🩸.png",
+      "link": "https://zine.trevorion.io/20261028-1/",
+      "modified_gmt": "2026-10-28T22:18:45",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/666-Vespera-Blood-Sovereign-🦇🩸-225x150.png",
+      "slug": "20261028-1",
+      "status": "publish",
+      "tags": [
+        11174,
+        11172,
+        11175,
+        11173,
+        11176
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/666-Vespera-Blood-Sovereign-🦇🩸-960x640.png",
+      "title": {
+        "rendered": "666: Vespera, Blood Sovereign 🦇🩸"
       }
     },
     "2177": {
@@ -54834,6 +54910,10 @@
       "id": 1097,
       "name": "#Reflection"
     },
+    "10976": {
+      "id": 10976,
+      "name": "#GrokImagine"
+    },
     "1098": {
       "id": 1098,
       "name": "#Time"
@@ -54894,6 +54974,10 @@
       "id": 1104,
       "name": "#StockMarket"
     },
+    "11044": {
+      "id": 11044,
+      "name": "#Odyssey"
+    },
     "11048": {
       "id": 11048,
       "name": "#Sweetheart"
@@ -54917,6 +55001,10 @@
     "1106": {
       "id": 1106,
       "name": "#YouTubeKids"
+    },
+    "11069": {
+      "id": 11069,
+      "name": "#MechaSamurai"
     },
     "1107": {
       "id": 1107,
@@ -54965,6 +55053,26 @@
     "1117": {
       "id": 1117,
       "name": "#ZeroG"
+    },
+    "11172": {
+      "id": 11172,
+      "name": "#DarkEmpress"
+    },
+    "11173": {
+      "id": 11173,
+      "name": "#InfernalBeauty"
+    },
+    "11174": {
+      "id": 11174,
+      "name": "#AbyssalCourt"
+    },
+    "11175": {
+      "id": 11175,
+      "name": "#Demoness"
+    },
+    "11176": {
+      "id": 11176,
+      "name": "#Progenitor"
     },
     "1118": {
       "id": 1118,

@@ -1,6 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/mecha-samurai-reveals-shaman-king-creators-designs-and-november-debut/</loc>
+    <lastmod>2026-10-28T11:57:11Z</lastmod>
+    <meta:title>Mecha Samurai Reveals Shaman King Creator’s Designs and November Debut</meta:title>
+    <meta:published>2026-10-27T11:08:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AnimeNewsNetwork", "#AnimeShorts", "#KeyVisual", "#MechaSamurai", "#Plott", "#PV"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-140.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-140-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-140-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-140.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/appraisal-skill-season-3-trailer-introduces-fujimiya-family/</loc>
     <lastmod>2026-10-28T07:44:46Z</lastmod>
     <meta:title>Appraisal Skill Season 3 Trailer Introduces Fujimiya Family</meta:title>
@@ -26,6 +40,20 @@
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-1119-225x150.png</meta:mosaic_image>
     <image:image>
       <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-1119.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/groks-ai-generated-odyssey-highlights-limits-of-video-storytelling/</loc>
+    <lastmod>2026-10-28T11:31:40Z</lastmod>
+    <meta:title>Grok’s AI-Generated Odyssey Highlights Limits of Video Storytelling</meta:title>
+    <meta:published>2026-10-26T11:11:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AIFilmmaking", "#DigitalTrends", "#GenerativeAI", "#GrokImagine", "#Odyssey"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Uniform-ships.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Uniform-ships-960x504.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/Uniform-ships-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/Uniform-ships.jpg</image:loc>
     </image:image>
   </url>
   <url>
