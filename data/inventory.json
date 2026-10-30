@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-29T09:14:40Z",
+  "last_sync": "2026-10-30T09:29:34Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -1104,6 +1104,17 @@
       "status": "publish",
       "title": {
         "rendered": "Sitemap"
+      }
+    },
+    "20523": {
+      "date_gmt": "2026-10-29T09:45:07",
+      "id": 20523,
+      "link": "https://zine.trevorion.io/zine-account/",
+      "modified_gmt": "2026-10-29T09:45:08",
+      "slug": "zine-account",
+      "status": "publish",
+      "title": {
+        "rendered": "Zine Account — Sign In"
       }
     },
     "6642": {
@@ -16669,6 +16680,32 @@
         "rendered": "658: Battlefield Priestess 🩸🙏"
       }
     },
+    "19232": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-19T10:11:00",
+      "featured_media": 19233,
+      "id": 19232,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-2183848501-scaled.webp",
+      "link": "https://zine.trevorion.io/nvidia-unveils-open-nemotron-models-for-enterprise-and-local-agents/",
+      "modified_gmt": "2026-10-30T09:29:37",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-2183848501-225x150.webp",
+      "slug": "nvidia-unveils-open-nemotron-models-for-enterprise-and-local-agents",
+      "status": "publish",
+      "tags": [
+        10020,
+        501,
+        7997,
+        69,
+        7533,
+        1921
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-2183848501-960x640.webp",
+      "title": {
+        "rendered": "Nvidia Unveils Open Nemotron Models for Enterprise and Local Agents"
+      }
+    },
     "19257": {
       "categories": [
         137
@@ -18193,6 +18230,110 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/666-Vespera-Blood-Sovereign-🦇🩸-960x640.png",
       "title": {
         "rendered": "666: Vespera, Blood Sovereign 🦇🩸"
+      }
+    },
+    "20580": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-28T11:13:00",
+      "featured_media": 20581,
+      "id": 20580,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/AI-on-the-tongue.png",
+      "link": "https://zine.trevorion.io/nvidia-releases-open-nemotron-transcription-model-for-40-languages/",
+      "modified_gmt": "2026-10-30T09:22:21",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/AI-on-the-tongue-225x150.png",
+      "slug": "nvidia-releases-open-nemotron-transcription-model-for-40-languages",
+      "status": "publish",
+      "tags": [
+        11244,
+        11243,
+        7997,
+        69,
+        1921,
+        6897
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/AI-on-the-tongue-960x480.png",
+      "title": {
+        "rendered": "Nvidia Releases Open Nemotron Transcription Model for 40 Languages"
+      }
+    },
+    "20593": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-28T11:20:00",
+      "featured_media": 20594,
+      "id": 20593,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/meta-waddle-world-ai-pet-journal.jpg",
+      "link": "https://zine.trevorion.io/meta-launches-waddle-world-ai-pet-diary-in-the-philippines/",
+      "modified_gmt": "2026-10-30T09:09:29",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/meta-waddle-world-ai-pet-journal-225x150.jpg",
+      "slug": "meta-launches-waddle-world-ai-pet-diary-in-the-philippines",
+      "status": "publish",
+      "tags": [
+        619,
+        11258,
+        311,
+        6378,
+        7467,
+        11256
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/meta-waddle-world-ai-pet-journal-960x504.jpg",
+      "title": {
+        "rendered": "Meta Launches Waddle World AI Pet Diary in the Philippines"
+      }
+    },
+    "20597": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-29T11:30:00",
+      "featured_media": 20598,
+      "id": 20597,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/667-Arcane-Familiar-🔮🐈‍⬛.png",
+      "link": "https://zine.trevorion.io/20261029-1/",
+      "modified_gmt": "2026-10-29T17:27:48",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/667-Arcane-Familiar-🔮🐈‍⬛-225x150.png",
+      "slug": "20261029-1",
+      "status": "publish",
+      "tags": [
+        619,
+        11263,
+        1430,
+        11264,
+        11265,
+        11266
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/667-Arcane-Familiar-🔮🐈‍⬛-960x640.png",
+      "title": {
+        "rendered": "667: Arcane Familiar 🔮🐈‍⬛"
+      }
+    },
+    "20600": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2025-12-04T11:00:00",
+      "featured_media": 20601,
+      "id": 20600,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2025/12/maxresdefault.jpg",
+      "link": "https://zine.trevorion.io/total-war-medieval-iii-announced-with-first-trailer/",
+      "modified_gmt": "2026-10-29T21:13:29",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2025/12/maxresdefault-225x150.jpg",
+      "slug": "total-war-medieval-iii-announced-with-first-trailer",
+      "status": "publish",
+      "tags": [
+        11269,
+        11271,
+        11268,
+        11267,
+        244,
+        11272
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2025/12/maxresdefault-960x540.jpg",
+      "title": {
+        "rendered": "Total War: MEDIEVAL III Announced with First Trailer"
       }
     },
     "2177": {
@@ -55106,17 +55247,69 @@
       "id": 1124,
       "name": "#Heroine"
     },
+    "11243": {
+      "id": 11243,
+      "name": "#MultilingualAI"
+    },
+    "11244": {
+      "id": 11244,
+      "name": "#Granary"
+    },
     "1125": {
       "id": 1125,
       "name": "#Transform"
+    },
+    "11256": {
+      "id": 11256,
+      "name": "#WaddleWorld"
+    },
+    "11258": {
+      "id": 11258,
+      "name": "#AIJournal"
     },
     "1126": {
       "id": 1126,
       "name": "#VertexAI"
     },
+    "11263": {
+      "id": 11263,
+      "name": "#BlackCat"
+    },
+    "11264": {
+      "id": 11264,
+      "name": "#Sorcery"
+    },
+    "11265": {
+      "id": 11265,
+      "name": "#Spellcraft"
+    },
+    "11266": {
+      "id": 11266,
+      "name": "#WizardStudy"
+    },
+    "11267": {
+      "id": 11267,
+      "name": "#TotalWar"
+    },
+    "11268": {
+      "id": 11268,
+      "name": "#MedievalIII"
+    },
+    "11269": {
+      "id": 11269,
+      "name": "#CreativeAssembly"
+    },
     "1127": {
       "id": 1127,
       "name": "#GoogleDeepMind"
+    },
+    "11271": {
+      "id": 11271,
+      "name": "#GrandStrategy"
+    },
+    "11272": {
+      "id": 11272,
+      "name": "#Warcore"
     },
     "1128": {
       "id": 1128,

@@ -1,6 +1,34 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/meta-launches-waddle-world-ai-pet-diary-in-the-philippines/</loc>
+    <lastmod>2026-10-30T09:09:29Z</lastmod>
+    <meta:title>Meta Launches Waddle World AI Pet Diary in the Philippines</meta:title>
+    <meta:published>2026-10-28T11:20:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#AICompanion", "#AIJournal", "#DigitalTrends", "#MetaAI", "#MobileApps", "#WaddleWorld"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/meta-waddle-world-ai-pet-journal.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/meta-waddle-world-ai-pet-journal-960x504.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/meta-waddle-world-ai-pet-journal-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/meta-waddle-world-ai-pet-journal.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/nvidia-releases-open-nemotron-transcription-model-for-40-languages/</loc>
+    <lastmod>2026-10-30T09:22:21Z</lastmod>
+    <meta:title>Nvidia Releases Open Nemotron Transcription Model for 40 Languages</meta:title>
+    <meta:published>2026-10-28T11:13:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Granary", "#MultilingualAI", "#Nemotron", "#Nvidia", "#TechCrunch", "#Transcription"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/AI-on-the-tongue.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/AI-on-the-tongue-960x480.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/AI-on-the-tongue-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/AI-on-the-tongue.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/mecha-samurai-reveals-shaman-king-creators-designs-and-november-debut/</loc>
     <lastmod>2026-10-28T11:57:11Z</lastmod>
     <meta:title>Mecha Samurai Reveals Shaman King Creator’s Designs and November Debut</meta:title>
@@ -656,6 +684,20 @@
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/image-827-225x150.png</meta:mosaic_image>
     <image:image>
       <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/image-827.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/nvidia-unveils-open-nemotron-models-for-enterprise-and-local-agents/</loc>
+    <lastmod>2026-10-30T09:29:37Z</lastmod>
+    <meta:title>Nvidia Unveils Open Nemotron Models for Enterprise and Local Agents</meta:title>
+    <meta:published>2026-10-19T10:11:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#EdgeComputing", "#EnterpriseAI", "#Nemotron", "#Nvidia", "#OpenWeightAI", "#TechCrunch"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-2183848501-scaled.webp</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-2183848501-960x640.webp</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-2183848501-225x150.webp</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-2183848501-scaled.webp</image:loc>
     </image:image>
   </url>
   <url>
