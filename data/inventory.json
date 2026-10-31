@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-10-30T09:29:34Z",
+  "last_sync": "2026-10-31T09:12:19Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -14431,6 +14431,32 @@
         "rendered": "647: Nixie Tubes 🔢💡"
       }
     },
+    "17564": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-08T10:02:00",
+      "featured_media": 17565,
+      "id": 17564,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/mobile-suit-gundam-seed-freedom-zero.jpg",
+      "link": "https://zine.trevorion.io/gundam-seed-freedom-zero-sets-january-release/",
+      "modified_gmt": "2026-10-30T14:01:32",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/mobile-suit-gundam-seed-freedom-zero-225x150.jpg",
+      "slug": "gundam-seed-freedom-zero-sets-january-release",
+      "status": "publish",
+      "tags": [
+        233,
+        9488,
+        9487,
+        243,
+        640,
+        218
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/mobile-suit-gundam-seed-freedom-zero-960x540.jpg",
+      "title": {
+        "rendered": "Gundam SEED FREEDOM ZERO Sets January Release"
+      }
+    },
     "17653": {
       "categories": [
         137
@@ -15870,6 +15896,32 @@
         "rendered": "New PV &amp; Visual for Diary of a Strange Land"
       }
     },
+    "18641": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-15T10:04:00",
+      "featured_media": 18642,
+      "id": 18641,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-79.jpg",
+      "link": "https://zine.trevorion.io/gundam-blitz-order-announced-with-november-network-test/",
+      "modified_gmt": "2026-10-30T14:18:59",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-79-225x150.jpg",
+      "slug": "gundam-blitz-order-announced-with-november-network-test",
+      "status": "publish",
+      "tags": [
+        152,
+        2275,
+        10163,
+        6104,
+        5229,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-79-960x540.jpg",
+      "title": {
+        "rendered": "Gundam Blitz Order Announced With November Network Test"
+      }
+    },
     "18651": {
       "categories": [
         137
@@ -16689,7 +16741,7 @@
       "id": 19232,
       "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-2183848501-scaled.webp",
       "link": "https://zine.trevorion.io/nvidia-unveils-open-nemotron-models-for-enterprise-and-local-agents/",
-      "modified_gmt": "2026-10-30T09:29:37",
+      "modified_gmt": "2026-10-30T09:29:38",
       "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-2183848501-225x150.webp",
       "slug": "nvidia-unveils-open-nemotron-models-for-enterprise-and-local-agents",
       "status": "publish",
@@ -18232,6 +18284,56 @@
         "rendered": "666: Vespera, Blood Sovereign 🦇🩸"
       }
     },
+    "20534": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-28T11:00:00",
+      "featured_media": 20535,
+      "id": 20534,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/battle-operation-3.jpg",
+      "link": "https://zine.trevorion.io/mobile-suit-gundam-battle-operation-3-announced-for-ps5-and-pc/",
+      "modified_gmt": "2026-10-30T14:27:42",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/battle-operation-3-225x150.jpg",
+      "slug": "mobile-suit-gundam-battle-operation-3-announced-for-ps5-and-pc",
+      "status": "publish",
+      "tags": [
+        2275,
+        11177,
+        233,
+        5229,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/battle-operation-3-960x540.jpg",
+      "title": {
+        "rendered": "Mobile Suit Gundam Battle Operation 3 Announced for PS5 and PC"
+      }
+    },
+    "20552": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-28T11:09:00",
+      "featured_media": 20553,
+      "id": 20552,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-147.jpg",
+      "link": "https://zine.trevorion.io/millennium-family-anime-casts-haruna-mikawa-as-raine/",
+      "modified_gmt": "2026-10-30T13:26:33",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-147-225x150.jpg",
+      "slug": "millennium-family-anime-casts-haruna-mikawa-as-raine",
+      "status": "publish",
+      "tags": [
+        4099,
+        11201,
+        4387,
+        4391,
+        413
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-147-960x540.jpg",
+      "title": {
+        "rendered": "Millennium Family Anime Casts Haruna Mikawa as Raine"
+      }
+    },
     "20580": {
       "categories": [
         137
@@ -18241,7 +18343,7 @@
       "id": 20580,
       "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/AI-on-the-tongue.png",
       "link": "https://zine.trevorion.io/nvidia-releases-open-nemotron-transcription-model-for-40-languages/",
-      "modified_gmt": "2026-10-30T09:22:21",
+      "modified_gmt": "2026-10-30T09:30:20",
       "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/AI-on-the-tongue-225x150.png",
       "slug": "nvidia-releases-open-nemotron-transcription-model-for-40-languages",
       "status": "publish",
@@ -18334,6 +18436,32 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2025/12/maxresdefault-960x540.jpg",
       "title": {
         "rendered": "Total War: MEDIEVAL III Announced with First Trailer"
+      }
+    },
+    "20700": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-10-30T11:30:00",
+      "featured_media": 20701,
+      "id": 20700,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/668-Sir-Patrick-Stewart-1940–2026-🖖🌌.png",
+      "link": "https://zine.trevorion.io/20261030-1/",
+      "modified_gmt": "2026-10-30T15:03:17",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/668-Sir-Patrick-Stewart-1940–2026-🖖🌌-225x150.png",
+      "slug": "20261030-1",
+      "status": "publish",
+      "tags": [
+        11280,
+        11276,
+        11277,
+        11279,
+        3355,
+        11278
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/668-Sir-Patrick-Stewart-1940–2026-🖖🌌-960x640.png",
+      "title": {
+        "rendered": "668: Sir Patrick Stewart (1940–2026) 🖖🌌"
       }
     },
     "2177": {
@@ -42990,7 +43118,7 @@
       "id": 7548,
       "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/07/gundam-rg-xarx-zero-teaser-trailer.png",
       "link": "https://zine.trevorion.io/gundam-rg-xarx-zero-anime-sets-2027-launch/",
-      "modified_gmt": "2026-07-24T21:52:00",
+      "modified_gmt": "2026-10-30T13:32:44",
       "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/07/gundam-rg-xarx-zero-teaser-trailer-225x150.png",
       "slug": "gundam-rg-xarx-zero-anime-sets-2027-launch",
       "status": "publish",
@@ -55215,6 +55343,10 @@
       "id": 11176,
       "name": "#Progenitor"
     },
+    "11177": {
+      "id": 11177,
+      "name": "#BattleOperation3"
+    },
     "1118": {
       "id": 1118,
       "name": "#Ruins"
@@ -55230,6 +55362,10 @@
     "1120": {
       "id": 1120,
       "name": "#DesertSunset"
+    },
+    "11201": {
+      "id": 11201,
+      "name": "#HarunaMikawa"
     },
     "1121": {
       "id": 1121,
@@ -55311,9 +55447,29 @@
       "id": 11272,
       "name": "#Warcore"
     },
+    "11276": {
+      "id": 11276,
+      "name": "#JeanLucPicard"
+    },
+    "11277": {
+      "id": 11277,
+      "name": "#Locutus"
+    },
+    "11278": {
+      "id": 11278,
+      "name": "#Shakespeare"
+    },
+    "11279": {
+      "id": 11279,
+      "name": "#ProfessorX"
+    },
     "1128": {
       "id": 1128,
       "name": "#Veo"
+    },
+    "11280": {
+      "id": 11280,
+      "name": "#ActingLegend"
     },
     "1129": {
       "id": 1129,
