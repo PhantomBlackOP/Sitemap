@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-01T10:00:08Z",
+  "last_sync": "2026-11-02T10:28:00Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -18485,6 +18485,313 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/669-Headless-Horseman-🎃🐎-960x640.png",
       "title": {
         "rendered": "669: Headless Horseman 🎃🐎"
+      }
+    },
+    "20753": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-31T11:00:00",
+      "featured_media": 20754,
+      "id": 20753,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-152.jpg",
+      "link": "https://zine.trevorion.io/shiba-inu-rooms-anime-confirmed-for-summer-2027/",
+      "modified_gmt": "2026-11-02T07:34:07",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-152-225x150.jpg",
+      "slug": "shiba-inu-rooms-anime-confirmed-for-summer-2027",
+      "status": "publish",
+      "tags": [
+        152,
+        243,
+        11350,
+        1520,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-152-960x540.jpg",
+      "title": {
+        "rendered": "Shiba Inu Rooms Anime Confirmed for Summer 2027"
+      }
+    },
+    "20757": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-31T11:02:00",
+      "featured_media": 20758,
+      "id": 20757,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-154.jpg",
+      "link": "https://zine.trevorion.io/final-fantasy-xiv-evercold-expansion-dated-for-february-2027/",
+      "modified_gmt": "2026-11-02T06:47:54",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-154-225x150.jpg",
+      "slug": "final-fantasy-xiv-evercold-expansion-dated-for-february-2027",
+      "status": "publish",
+      "tags": [
+        1972,
+        4350,
+        4349,
+        332,
+        982,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-154-960x540.jpg",
+      "title": {
+        "rendered": "Final Fantasy XIV Evercold Expansion Dated for February 2027"
+      }
+    },
+    "20759": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-31T11:03:00",
+      "featured_media": 20756,
+      "id": 20759,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-153.jpg",
+      "link": "https://zine.trevorion.io/isshiki-san-trailer-highlights-enako-opening-theme/",
+      "modified_gmt": "2026-11-02T06:30:28",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-153-225x150.jpg",
+      "slug": "isshiki-san-trailer-highlights-enako-opening-theme",
+      "status": "publish",
+      "tags": [
+        358,
+        11356,
+        11355,
+        243,
+        11359,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-153-960x540.jpg",
+      "title": {
+        "rendered": "Isshiki-san Trailer Highlights Enako Opening Theme"
+      }
+    },
+    "20761": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-31T11:04:00",
+      "featured_media": 20842,
+      "id": 20761,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-155.jpg",
+      "link": "https://zine.trevorion.io/sanrio-announces-kuromi-feature-film-for-2027/",
+      "modified_gmt": "2026-11-02T06:13:12",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-155-225x150.jpg",
+      "slug": "sanrio-announces-kuromi-feature-film-for-2027",
+      "status": "publish",
+      "tags": [
+        358,
+        243,
+        8348,
+        155,
+        11365,
+        8345,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-155-960x540.jpg",
+      "title": {
+        "rendered": "Sanrio Announces Kuromi Feature Film for 2027"
+      }
+    },
+    "20780": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-01T11:30:00",
+      "featured_media": 20781,
+      "id": 20780,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/670-Restless-Spirit-🪦🏛️.png",
+      "link": "https://zine.trevorion.io/20261101-1/",
+      "modified_gmt": "2026-11-01T16:24:11",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/670-Restless-Spirit-🪦🏛️-225x150.png",
+      "slug": "20261101-1",
+      "status": "publish",
+      "tags": [
+        11402,
+        11405,
+        11403,
+        11404,
+        2773
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/670-Restless-Spirit-🪦🏛️-960x640.png",
+      "title": {
+        "rendered": "670: Restless Spirit 🪦🏛️"
+      }
+    },
+    "20829": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-30T11:16:00",
+      "featured_media": 20830,
+      "id": 20829,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Subvocal-smart-glasses-1.jpg",
+      "link": "https://zine.trevorion.io/subvocal-unveils-silent-dictation-smart-glasses/",
+      "modified_gmt": "2026-11-02T08:14:31",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Subvocal-smart-glasses-1-225x150.jpg",
+      "slug": "subvocal-unveils-silent-dictation-smart-glasses",
+      "status": "publish",
+      "tags": [
+        311,
+        11462,
+        966,
+        11461,
+        1258
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Subvocal-smart-glasses-1-960x504.jpg",
+      "title": {
+        "rendered": "Subvocal Unveils Silent Dictation Smart Glasses"
+      }
+    },
+    "20833": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-30T11:18:00",
+      "featured_media": 20834,
+      "id": 20833,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Hark-on-MacBook-Pro.jpg",
+      "link": "https://zine.trevorion.io/hark-launches-free-ai-assistant-for-mac-computers/",
+      "modified_gmt": "2026-11-02T07:52:57",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Hark-on-MacBook-Pro-225x150.jpg",
+      "slug": "hark-launches-free-ai-assistant-for-mac-computers",
+      "status": "publish",
+      "tags": [
+        7104,
+        11471,
+        311,
+        11469,
+        11312,
+        6740
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/Hark-on-MacBook-Pro-960x504.jpg",
+      "title": {
+        "rendered": "Hark Launches Free AI Assistant for Mac Computers"
+      }
+    },
+    "20843": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-30T11:04:00",
+      "featured_media": 20844,
+      "id": 20843,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-156.jpg",
+      "link": "https://zine.trevorion.io/virtua-fighter-crossroads-trailer-introduces-lionel-rafale/",
+      "modified_gmt": "2026-11-02T10:21:13",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-156-225x150.jpg",
+      "slug": "virtua-fighter-crossroads-trailer-introduces-lionel-rafale",
+      "status": "publish",
+      "tags": [
+        152,
+        7861,
+        4150,
+        244,
+        11486
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-156-960x540.jpg",
+      "title": {
+        "rendered": "Virtua Fighter Crossroads Trailer Introduces Lionel Rafale"
+      }
+    },
+    "20851": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-30T11:08:00",
+      "featured_media": 20993,
+      "id": 20851,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-1249.png",
+      "link": "https://zine.trevorion.io/death-stranding-isolations-reveals-additional-anime-staff/",
+      "modified_gmt": "2026-11-02T10:09:02",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-1249-225x150.png",
+      "slug": "death-stranding-isolations-reveals-additional-anime-staff",
+      "status": "publish",
+      "tags": [
+        11475,
+        920,
+        243,
+        11476,
+        218,
+        11497
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/image-1249-960x540.png",
+      "title": {
+        "rendered": "Death Stranding Isolations Reveals Additional Anime Staff"
+      }
+    },
+    "20853": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-30T11:09:00",
+      "featured_media": 20850,
+      "id": 20853,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/wound-and-bandage-magical-and-matsu-teaser-visual-1-e1793397237313.jpg",
+      "link": "https://zine.trevorion.io/wound-and-bandage-adds-yuka-iguchi-and-yoko-hikasa/",
+      "modified_gmt": "2026-11-02T09:26:32",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/wound-and-bandage-magical-and-matsu-teaser-visual-1-e1793397237313-225x150.jpg",
+      "slug": "wound-and-bandage-adds-yuka-iguchi-and-yoko-hikasa",
+      "status": "publish",
+      "tags": [
+        3851,
+        358,
+        281,
+        243,
+        244,
+        10271
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/wound-and-bandage-magical-and-matsu-teaser-visual-1-e1793397237313-960x540.jpg",
+      "title": {
+        "rendered": "Wound and Bandage Adds Yuka Iguchi and Yoko Hikasa"
+      }
+    },
+    "20855": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-30T11:10:00",
+      "featured_media": 20848,
+      "id": 20855,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-158.jpg",
+      "link": "https://zine.trevorion.io/mercedes-and-the-waning-moon-unveils-trailers/",
+      "modified_gmt": "2026-11-02T08:59:54",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-158-225x150.jpg",
+      "slug": "mercedes-and-the-waning-moon-unveils-trailers",
+      "status": "publish",
+      "tags": [
+        3851,
+        358,
+        243,
+        11491,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-158-960x540.jpg",
+      "title": {
+        "rendered": "Mercedes and the Waning Moon Unveils Trailers"
+      }
+    },
+    "20857": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-30T11:11:00",
+      "featured_media": 20846,
+      "id": 20857,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-157.jpg",
+      "link": "https://zine.trevorion.io/destiny-unchain-online-announces-2027-premiere-and-cast/",
+      "modified_gmt": "2026-11-02T08:34:01",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-157-225x150.jpg",
+      "slug": "destiny-unchain-online-announces-2027-premiere-and-cast",
+      "status": "publish",
+      "tags": [
+        358,
+        11472,
+        243,
+        11473,
+        218
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-157-960x540.jpg",
+      "title": {
+        "rendered": "Destiny Unchain Online Announces 2027 Premiere and Cast"
       }
     },
     "2177": {
@@ -46142,6 +46449,31 @@
         "rendered": "Yamato 3199 and Gundam Unicorn Share Collaboration Visual"
       }
     },
+    "8380": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-07-03T10:03:00",
+      "featured_media": 8381,
+      "id": 8380,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/07/square_enix_manga_and_books_not_quite_love_header.jpg",
+      "link": "https://zine.trevorion.io/square-enix-announces-ten-new-manga-and-book-licenses/",
+      "modified_gmt": "2026-11-02T07:05:27",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/07/square_enix_manga_and_books_not_quite_love_header-225x150.jpg",
+      "slug": "square-enix-announces-ten-new-manga-and-book-licenses",
+      "status": "publish",
+      "tags": [
+        4920,
+        233,
+        4948,
+        4951,
+        982
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/07/square_enix_manga_and_books_not_quite_love_header-960x540.jpg",
+      "title": {
+        "rendered": "Square Enix Announces Ten New Manga and Book Licenses"
+      }
+    },
     "8382": {
       "categories": [
         137
@@ -57142,9 +57474,29 @@
       "id": 1135,
       "name": "#Actions"
     },
+    "11350": {
+      "id": 11350,
+      "name": "#ShibaTsukiBukken"
+    },
+    "11355": {
+      "id": 11355,
+      "name": "#IsshikiSan"
+    },
+    "11356": {
+      "id": 11356,
+      "name": "#Enako"
+    },
+    "11359": {
+      "id": 11359,
+      "name": "#SakuraCreate"
+    },
     "1136": {
       "id": 1136,
       "name": "#Vision"
+    },
+    "11365": {
+      "id": 11365,
+      "name": "#MyMelody"
     },
     "1137": {
       "id": 1137,
@@ -57165,6 +57517,22 @@
     "1140": {
       "id": 1140,
       "name": "#M4Drone"
+    },
+    "11402": {
+      "id": 11402,
+      "name": "#Apparition"
+    },
+    "11403": {
+      "id": 11403,
+      "name": "#Crypt"
+    },
+    "11404": {
+      "id": 11404,
+      "name": "#Mausoleum"
+    },
+    "11405": {
+      "id": 11405,
+      "name": "#Cemetery"
     },
     "1141": {
       "id": 1141,
@@ -57190,17 +57558,61 @@
       "id": 1146,
       "name": "#RoboHub"
     },
+    "11461": {
+      "id": 11461,
+      "name": "#Subvocal"
+    },
+    "11462": {
+      "id": 11462,
+      "name": "#SilentDictation"
+    },
+    "11469": {
+      "id": 11469,
+      "name": "#HarkAI"
+    },
     "1147": {
       "id": 1147,
       "name": "#NEURARobotics"
+    },
+    "11471": {
+      "id": 11471,
+      "name": "#BrettAdcock"
+    },
+    "11472": {
+      "id": 11472,
+      "name": "#DestinyUnchainOnline"
+    },
+    "11473": {
+      "id": 11473,
+      "name": "#StudioVoil"
+    },
+    "11475": {
+      "id": 11475,
+      "name": "#DeathStrandingIsolations"
+    },
+    "11476": {
+      "id": 11476,
+      "name": "#KojimaProductions"
     },
     "1148": {
       "id": 1148,
       "name": "#NEURAGym"
     },
+    "11486": {
+      "id": 11486,
+      "name": "#VirtuaFighterCrossroads"
+    },
     "1149": {
       "id": 1149,
       "name": "#Training"
+    },
+    "11491": {
+      "id": 11491,
+      "name": "#MercedesAndTheWaningMoon"
+    },
+    "11497": {
+      "id": 11497,
+      "name": "#TowUbukata"
     },
     "115": {
       "id": 115,
