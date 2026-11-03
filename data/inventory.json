@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-02T10:28:00Z",
+  "last_sync": "2026-11-03T10:24:26Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -1109,12 +1109,12 @@
     "20523": {
       "date_gmt": "2026-10-29T09:45:07",
       "id": 20523,
-      "link": "https://zine.trevorion.io/zine-account/",
-      "modified_gmt": "2026-10-29T09:45:08",
-      "slug": "zine-account",
+      "link": "https://zine.trevorion.io/account/",
+      "modified_gmt": "2026-11-02T22:14:58",
+      "slug": "account",
       "status": "publish",
       "title": {
-        "rendered": "Zine Account — Sign In"
+        "rendered": "Account"
       }
     },
     "6642": {
@@ -18616,6 +18616,30 @@
         "rendered": "670: Restless Spirit 🪦🏛️"
       }
     },
+    "20803": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-30T11:01:00",
+      "featured_media": 20804,
+      "id": 20803,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/1885.jpg",
+      "link": "https://zine.trevorion.io/ai-ghost-hunting-tools-divide-paranormal-investigators/",
+      "modified_gmt": "2026-11-02T10:50:52",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/1885-225x150.jpg",
+      "slug": "ai-ghost-hunting-tools-divide-paranormal-investigators",
+      "status": "publish",
+      "tags": [
+        11408,
+        11409,
+        2773,
+        327
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/1885-960x504.jpg",
+      "title": {
+        "rendered": "AI Ghost Hunting Tools Divide Paranormal Investigators"
+      }
+    },
     "20829": {
       "categories": [
         137
@@ -18667,6 +18691,31 @@
         "rendered": "Hark Launches Free AI Assistant for Mac Computers"
       }
     },
+    "20839": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-30T11:02:00",
+      "featured_media": 20840,
+      "id": 20839,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/macross-delta-walkure-10th-anniversary-single-header.jpg",
+      "link": "https://zine.trevorion.io/macross-delta-unit-walkure-returns-with-anniversary-single/",
+      "modified_gmt": "2026-11-02T10:42:25",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/macross-delta-walkure-10th-anniversary-single-header-225x150.jpg",
+      "slug": "macross-delta-unit-walkure-returns-with-anniversary-single",
+      "status": "publish",
+      "tags": [
+        11481,
+        233,
+        11480,
+        11477,
+        11478
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/macross-delta-walkure-10th-anniversary-single-header-768x432.jpg",
+      "title": {
+        "rendered": "Macross Delta Unit Walküre Returns With Anniversary Single"
+      }
+    },
     "20843": {
       "categories": [
         137
@@ -18676,7 +18725,7 @@
       "id": 20843,
       "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-156.jpg",
       "link": "https://zine.trevorion.io/virtua-fighter-crossroads-trailer-introduces-lionel-rafale/",
-      "modified_gmt": "2026-11-02T10:21:13",
+      "modified_gmt": "2026-11-02T10:30:36",
       "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-156-225x150.jpg",
       "slug": "virtua-fighter-crossroads-trailer-introduces-lionel-rafale",
       "status": "publish",
@@ -18792,6 +18841,31 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-157-960x540.jpg",
       "title": {
         "rendered": "Destiny Unchain Online Announces 2027 Premiere and Cast"
+      }
+    },
+    "21014": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-02T11:30:00",
+      "featured_media": 21015,
+      "id": 21014,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/671-Haunted-Manor-🏚️🌕.png",
+      "link": "https://zine.trevorion.io/20261102-1/",
+      "modified_gmt": "2026-11-02T21:12:32",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/671-Haunted-Manor-🏚️🌕-225x150.png",
+      "slug": "20261102-1",
+      "status": "publish",
+      "tags": [
+        2305,
+        2587,
+        11501,
+        11500,
+        5302
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/671-Haunted-Manor-🏚️🌕-960x640.png",
+      "title": {
+        "rendered": "671: Haunted Manor 🏚️🌕"
       }
     },
     "2177": {
@@ -57534,6 +57608,14 @@
       "id": 11405,
       "name": "#Cemetery"
     },
+    "11408": {
+      "id": 11408,
+      "name": "#AIGhostHunting"
+    },
+    "11409": {
+      "id": 11409,
+      "name": "#GhostTubeSeer"
+    },
     "1141": {
       "id": 1141,
       "name": "#Caltech"
@@ -57594,9 +57676,25 @@
       "id": 11476,
       "name": "#KojimaProductions"
     },
+    "11477": {
+      "id": 11477,
+      "name": "#MacrossDelta"
+    },
+    "11478": {
+      "id": 11478,
+      "name": "#Walkure"
+    },
     "1148": {
       "id": 1148,
       "name": "#NEURAGym"
+    },
+    "11480": {
+      "id": 11480,
+      "name": "#MacrossAnniversary"
+    },
+    "11481": {
+      "id": 11481,
+      "name": "#AnimeConcert"
     },
     "11486": {
       "id": 11486,
@@ -57621,6 +57719,14 @@
     "1150": {
       "id": 1150,
       "name": "#Neuraverse"
+    },
+    "11500": {
+      "id": 11500,
+      "name": "#Phantoms"
+    },
+    "11501": {
+      "id": 11501,
+      "name": "#Paranormal"
     },
     "1151": {
       "id": 1151,
