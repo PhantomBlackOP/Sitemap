@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-03T10:24:26Z",
+  "last_sync": "2026-11-04T10:20:25Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -8856,6 +8856,31 @@
         "rendered": "Xenoblade Chronicles 3 Switch 2 Edition Adds Heroes Vault"
       }
     },
+    "13284": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-10T10:33:00",
+      "featured_media": 13285,
+      "id": 13284,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/maxresdefault-67.jpg",
+      "link": "https://zine.trevorion.io/pikmin-4-switch-2-edition-adds-dandori-academy/",
+      "modified_gmt": "2026-11-03T16:07:23",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/maxresdefault-67-225x150.jpg",
+      "slug": "pikmin-4-switch-2-edition-adds-dandori-academy",
+      "status": "publish",
+      "tags": [
+        152,
+        7422,
+        4031,
+        7421,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/maxresdefault-67-960x540.jpg",
+      "title": {
+        "rendered": "Pikmin 4 Switch 2 Edition Adds Dandori Academy"
+      }
+    },
     "13286": {
       "categories": [
         137
@@ -9563,6 +9588,31 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2025/09/20250901-18-960x640.png",
       "title": {
         "rendered": "Campfire Cooking in Another World with My Absurd Skill Season 2 Is Around The Corner"
+      }
+    },
+    "13719": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-13T10:04:00",
+      "featured_media": 13720,
+      "id": 13719,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/detective-precure-film.png",
+      "link": "https://zine.trevorion.io/star-detective-precure-film-shares-two-new-trailers/",
+      "modified_gmt": "2026-11-03T14:24:26",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/detective-precure-film-225x150.png",
+      "slug": "star-detective-precure-film-shares-two-new-trailers",
+      "status": "publish",
+      "tags": [
+        233,
+        243,
+        4375,
+        292,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/detective-precure-film-768x432.png",
+      "title": {
+        "rendered": "Star Detective Precure Film Shares Two New Trailers"
       }
     },
     "1372": {
@@ -18131,6 +18181,31 @@
         "rendered": "664: Royal Concubine 🪷💖"
       }
     },
+    "20304": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-26T11:08:00",
+      "featured_media": 20305,
+      "id": 20304,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/star-detective-precure-movie.jpg",
+      "link": "https://zine.trevorion.io/star-detective-precure-film-shares-action-filled-opening-scene/",
+      "modified_gmt": "2026-11-03T14:13:42",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/star-detective-precure-movie-225x150.jpg",
+      "slug": "star-detective-precure-film-shares-action-filled-opening-scene",
+      "status": "publish",
+      "tags": [
+        4380,
+        11537,
+        488,
+        4375,
+        292
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/star-detective-precure-movie-768x432.jpg",
+      "title": {
+        "rendered": "Star Detective Precure Film Shares Action-Filled Opening Scene"
+      }
+    },
     "20310": {
       "categories": [
         137
@@ -18461,6 +18536,31 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/668-Sir-Patrick-Stewart-1940–2026-🖖🌌-960x640.png",
       "title": {
         "rendered": "668: Sir Patrick Stewart (1940–2026) 🖖🌌"
+      }
+    },
+    "20742": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-29T11:12:00",
+      "featured_media": 17771,
+      "id": 20742,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-1252468735-scaled.jpg",
+      "link": "https://zine.trevorion.io/__trashed-2/",
+      "modified_gmt": "2026-11-03T13:57:31",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-1252468735-225x150.jpg",
+      "slug": "__trashed-2",
+      "status": "publish",
+      "tags": [
+        1000,
+        1002,
+        9261,
+        1001,
+        1921
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/GettyImages-1252468735-960x640.jpg",
+      "title": {
+        "rendered": "Amazon Adds Shopping and Subscription Tasks to Alexa"
       }
     },
     "20750": {
@@ -18866,6 +18966,184 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/671-Haunted-Manor-🏚️🌕-960x640.png",
       "title": {
         "rendered": "671: Haunted Manor 🏚️🌕"
+      }
+    },
+    "21019": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-01T11:01:00",
+      "featured_media": 21020,
+      "id": 21019,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault.jpg",
+      "link": "https://zine.trevorion.io/attack-on-titan-3-reveals-new-gameplay-trailer-and-december-release/",
+      "modified_gmt": "2026-11-03T16:31:41",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-225x150.jpg",
+      "slug": "attack-on-titan-3-reveals-new-gameplay-trailer-and-december-release",
+      "status": "publish",
+      "tags": [
+        152,
+        5128,
+        243,
+        422,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-960x540.jpg",
+      "title": {
+        "rendered": "Attack on Titan 3 Reveals New Gameplay Trailer and December Release"
+      }
+    },
+    "21021": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-01T11:02:00",
+      "featured_media": 21022,
+      "id": 21021,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-1.jpg",
+      "link": "https://zine.trevorion.io/nintendo-launches-hello-pikmin-animated-shorts-for-pikmin-day/",
+      "modified_gmt": "2026-11-03T16:16:59",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-1-225x150.jpg",
+      "slug": "nintendo-launches-hello-pikmin-animated-shorts-for-pikmin-day",
+      "status": "publish",
+      "tags": [
+        11509,
+        152,
+        7422,
+        4243,
+        11510
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-1-960x540.jpg",
+      "title": {
+        "rendered": "Nintendo Launches Hello! Pikmin Animated Shorts for Pikmin Day"
+      }
+    },
+    "21027": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-01T11:05:00",
+      "featured_media": 21026,
+      "id": 21027,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-3.jpg",
+      "link": "https://zine.trevorion.io/charisma-reveals-new-teaser-and-january-2027-premiere-date/",
+      "modified_gmt": "2026-11-03T15:33:42",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-3-225x150.jpg",
+      "slug": "charisma-reveals-new-teaser-and-january-2027-premiere-date",
+      "status": "publish",
+      "tags": [
+        358,
+        3099,
+        11538,
+        243,
+        4348,
+        218
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-3-960x540.jpg",
+      "title": {
+        "rendered": "Charisma Reveals New Teaser and January 2027 Premiere Date"
+      }
+    },
+    "21029": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-01T11:06:00",
+      "featured_media": 21018,
+      "id": 21029,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/bocchi-the-rock-pv.jpg",
+      "link": "https://zine.trevorion.io/bocchi-the-rock-unveils-hoshi-no-ashiato-prequel-movie/",
+      "modified_gmt": "2026-11-03T15:33:59",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/bocchi-the-rock-pv-225x150.jpg",
+      "slug": "bocchi-the-rock-unveils-hoshi-no-ashiato-prequel-movie",
+      "status": "publish",
+      "tags": [
+        358,
+        2167,
+        420,
+        3175,
+        243,
+        218
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/bocchi-the-rock-pv-960x539.jpg",
+      "title": {
+        "rendered": "Bocchi the Rock! Unveils Hoshi no Ashiato Prequel Movie"
+      }
+    },
+    "21031": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-01T11:07:00",
+      "featured_media": 20309,
+      "id": 21031,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-133.jpg",
+      "link": "https://zine.trevorion.io/precure-announces-dual-shadow-villain-heroines-spin-off-for-2027/",
+      "modified_gmt": "2026-11-03T14:31:19",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-133-225x150.jpg",
+      "slug": "precure-announces-dual-shadow-villain-heroines-spin-off-for-2027",
+      "status": "publish",
+      "tags": [
+        358,
+        11011,
+        218,
+        292,
+        11012
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/maxresdefault-133-960x540.jpg",
+      "title": {
+        "rendered": "Precure Announces Dual Shadow Villain Heroines Spin-Off for 2027"
+      }
+    },
+    "21043": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-01T11:05:00",
+      "featured_media": 21044,
+      "id": 21043,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/DT-2026-11-01T213741.865.jpg",
+      "link": "https://zine.trevorion.io/deepseek-unveils-proactive-super-agent-coding-prototype/",
+      "modified_gmt": "2026-11-03T15:52:42",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/DT-2026-11-01T213741.865-225x150.jpg",
+      "slug": "deepseek-unveils-proactive-super-agent-coding-prototype",
+      "status": "publish",
+      "tags": [
+        757,
+        1073,
+        706,
+        311,
+        6705,
+        11536
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/DT-2026-11-01T213741.865-960x504.jpg",
+      "title": {
+        "rendered": "DeepSeek Unveils Proactive Super-Agent Coding Prototype"
+      }
+    },
+    "21162": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-03T11:30:00",
+      "featured_media": 21163,
+      "id": 21162,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/672-Black-Seadevil-🐟🌑.png",
+      "link": "https://zine.trevorion.io/20261103-1/",
+      "modified_gmt": "2026-11-03T17:16:00",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/672-Black-Seadevil-🐟🌑-225x150.png",
+      "slug": "20261103-1",
+      "status": "publish",
+      "tags": [
+        11540,
+        11539,
+        3663,
+        11542,
+        11541
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/672-Black-Seadevil-🐟🌑-960x640.png",
+      "title": {
+        "rendered": "672: Black Seadevil 🐟🌑"
       }
     },
     "2177": {
@@ -57728,9 +58006,17 @@
       "id": 11501,
       "name": "#Paranormal"
     },
+    "11509": {
+      "id": 11509,
+      "name": "#AnimatedShorts"
+    },
     "1151": {
       "id": 1151,
       "name": "#Hangzhou"
+    },
+    "11510": {
+      "id": 11510,
+      "name": "#PikminDay"
     },
     "1152": {
       "id": 1152,
@@ -57740,9 +58026,37 @@
       "id": 1153,
       "name": "#London"
     },
+    "11536": {
+      "id": 11536,
+      "name": "#SuperAgent"
+    },
+    "11537": {
+      "id": 11537,
+      "name": "#FirstStep"
+    },
+    "11538": {
+      "id": 11538,
+      "name": "#EvilLineRecords"
+    },
+    "11539": {
+      "id": 11539,
+      "name": "#Bioluminescence"
+    },
     "1154": {
       "id": 1154,
       "name": "#SelfDrivingCars"
+    },
+    "11540": {
+      "id": 11540,
+      "name": "#Anglerfish"
+    },
+    "11541": {
+      "id": 11541,
+      "name": "#Melanocetus"
+    },
+    "11542": {
+      "id": 11542,
+      "name": "#FishingLure"
     },
     "1155": {
       "id": 1155,
