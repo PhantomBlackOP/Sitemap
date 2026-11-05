@@ -1,6 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/witch-on-the-holy-night-final-trailer-reveals-theme-song/</loc>
+    <lastmod>2026-11-05T09:05:54Z</lastmod>
+    <meta:title>Witch on the Holy Night Final Trailer Reveals Theme Song</meta:title>
+    <meta:published>2026-09-30T10:10:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#KeyVisual", "#MahoutsukaiNoYoru", "#Supercell", "#Trailer", "#TypeMoon", "#Ufotable"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/09/maxresdefault-175.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/09/maxresdefault-175-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/09/maxresdefault-175-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/09/maxresdefault-175.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/seirei-gensouki-season-3-officially-announced/</loc>
     <lastmod>2026-10-06T13:38:37Z</lastmod>
     <meta:title>Seirei Gensouki Season 3 Officially Announced</meta:title>

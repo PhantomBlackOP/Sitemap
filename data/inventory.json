@@ -994,13 +994,13 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-04T10:20:25Z",
+  "last_sync": "2026-11-05T10:14:26Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
       "id": 120,
       "link": "https://zine.trevorion.io/",
-      "modified_gmt": "2026-04-25T06:46:40",
+      "modified_gmt": "2026-11-04T23:08:40",
       "slug": "home",
       "status": "publish",
       "title": {
@@ -1011,7 +1011,7 @@
       "date_gmt": "2025-08-19T03:51:29",
       "id": 122,
       "link": "https://zine.trevorion.io/profile/",
-      "modified_gmt": "2026-02-20T07:31:15",
+      "modified_gmt": "2026-11-04T23:10:45",
       "slug": "profile",
       "status": "publish",
       "title": {
@@ -1022,7 +1022,7 @@
       "date_gmt": "2025-08-19T03:51:51",
       "id": 124,
       "link": "https://zine.trevorion.io/explore/",
-      "modified_gmt": "2026-02-20T07:30:05",
+      "modified_gmt": "2026-11-04T23:07:49",
       "slug": "explore",
       "status": "publish",
       "title": {
@@ -1033,7 +1033,7 @@
       "date_gmt": "2025-08-19T03:52:23",
       "id": 126,
       "link": "https://zine.trevorion.io/news/",
-      "modified_gmt": "2026-02-20T07:30:46",
+      "modified_gmt": "2026-11-04T23:09:57",
       "slug": "news",
       "status": "publish",
       "title": {
@@ -1044,7 +1044,7 @@
       "date_gmt": "2025-08-19T03:52:50",
       "id": 128,
       "link": "https://zine.trevorion.io/articles/",
-      "modified_gmt": "2026-02-20T07:29:08",
+      "modified_gmt": "2026-11-04T23:04:06",
       "slug": "articles",
       "status": "publish",
       "title": {
@@ -1055,7 +1055,7 @@
       "date_gmt": "2025-08-19T03:55:18",
       "id": 130,
       "link": "https://zine.trevorion.io/shop/",
-      "modified_gmt": "2026-02-20T07:31:40",
+      "modified_gmt": "2026-11-04T23:11:29",
       "slug": "shop",
       "status": "publish",
       "title": {
@@ -1066,7 +1066,7 @@
       "date_gmt": "2025-08-19T03:55:45",
       "id": 132,
       "link": "https://zine.trevorion.io/about/",
-      "modified_gmt": "2026-10-07T09:14:22",
+      "modified_gmt": "2026-11-04T23:01:10",
       "slug": "about",
       "status": "publish",
       "title": {
@@ -1077,7 +1077,7 @@
       "date_gmt": "2025-08-19T03:56:11",
       "id": 134,
       "link": "https://zine.trevorion.io/contact/",
-      "modified_gmt": "2026-02-20T07:29:36",
+      "modified_gmt": "2026-11-04T23:05:51",
       "slug": "contact",
       "status": "publish",
       "title": {
@@ -1088,7 +1088,7 @@
       "date_gmt": "2025-08-19T03:57:41",
       "id": 136,
       "link": "https://zine.trevorion.io/archive/",
-      "modified_gmt": "2026-02-20T07:28:41",
+      "modified_gmt": "2026-11-04T23:03:03",
       "slug": "archive",
       "status": "publish",
       "title": {
@@ -1099,18 +1099,29 @@
       "date_gmt": "2026-10-07T09:15:17",
       "id": 16906,
       "link": "https://zine.trevorion.io/sitemap/",
-      "modified_gmt": "2026-10-07T09:25:05",
+      "modified_gmt": "2026-11-04T23:12:24",
       "slug": "sitemap",
       "status": "publish",
       "title": {
         "rendered": "Sitemap"
       }
     },
+    "20520": {
+      "date_gmt": "2026-11-04T23:17:32",
+      "id": 20520,
+      "link": "https://zine.trevorion.io/soulmate/",
+      "modified_gmt": "2026-11-04T23:17:33",
+      "slug": "soulmate",
+      "status": "publish",
+      "title": {
+        "rendered": "Soulmate Generator"
+      }
+    },
     "20523": {
       "date_gmt": "2026-10-29T09:45:07",
       "id": 20523,
       "link": "https://zine.trevorion.io/account/",
-      "modified_gmt": "2026-11-02T22:14:58",
+      "modified_gmt": "2026-11-04T23:02:15",
       "slug": "account",
       "status": "publish",
       "title": {
@@ -1121,7 +1132,7 @@
       "date_gmt": "2026-04-25T04:47:23",
       "id": 6642,
       "link": "https://zine.trevorion.io/comics/",
-      "modified_gmt": "2026-04-25T06:47:04",
+      "modified_gmt": "2026-11-04T23:05:12",
       "slug": "comics",
       "status": "publish",
       "title": {
@@ -1132,7 +1143,7 @@
       "date_gmt": "2026-04-25T09:19:36",
       "id": 6677,
       "link": "https://zine.trevorion.io/copyright-usage-policy/",
-      "modified_gmt": "2026-10-07T09:22:25",
+      "modified_gmt": "2026-11-04T23:06:57",
       "slug": "copyright-usage-policy",
       "status": "publish",
       "title": {
@@ -12854,6 +12865,32 @@
         "rendered": "Seirei Gensouki Season 3 Officially Announced"
       }
     },
+    "16071": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-09-30T10:10:00",
+      "featured_media": 16072,
+      "id": 16071,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/maxresdefault-175.jpg",
+      "link": "https://zine.trevorion.io/witch-on-the-holy-night-final-trailer-reveals-theme-song/",
+      "modified_gmt": "2026-11-05T09:05:54",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/maxresdefault-175-225x150.jpg",
+      "slug": "witch-on-the-holy-night-final-trailer-reveals-theme-song",
+      "status": "publish",
+      "tags": [
+        243,
+        8951,
+        8952,
+        244,
+        4669,
+        732
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/09/maxresdefault-175-960x540.jpg",
+      "title": {
+        "rendered": "Witch on the Holy Night Final Trailer Reveals Theme Song"
+      }
+    },
     "16140": {
       "categories": [
         8
@@ -19144,6 +19181,133 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/672-Black-Seadevil-🐟🌑-960x640.png",
       "title": {
         "rendered": "672: Black Seadevil 🐟🌑"
+      }
+    },
+    "21221": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-04T11:30:00",
+      "featured_media": 21222,
+      "id": 21221,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/673-Leopard-2A8-🐆🛡.png",
+      "link": "https://zine.trevorion.io/20261104-1/",
+      "modified_gmt": "2026-11-04T22:28:22",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/673-Leopard-2A8-🐆🛡-225x150.png",
+      "slug": "20261104-1",
+      "status": "publish",
+      "tags": [
+        11575,
+        11577,
+        11576,
+        11580,
+        11579,
+        11578
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/673-Leopard-2A8-🐆🛡-960x640.png",
+      "title": {
+        "rendered": "673: Leopard 2A8 🐆🛡"
+      }
+    },
+    "21260": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-03T11:03:00",
+      "featured_media": 21261,
+      "id": 21260,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-6.jpg",
+      "link": "https://zine.trevorion.io/witch-on-the-holy-night-manga-arrives-november-11/",
+      "modified_gmt": "2026-11-05T09:11:32",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-6-225x150.jpg",
+      "slug": "witch-on-the-holy-night-manga-arrives-november-11",
+      "status": "publish",
+      "tags": [
+        152,
+        11595,
+        8951,
+        218,
+        4669
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-6-960x540.jpg",
+      "title": {
+        "rendered": "Witch on the Holy Night Manga Arrives November 11"
+      }
+    },
+    "21268": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-03T11:07:00",
+      "featured_media": 21269,
+      "id": 21268,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-10.jpg",
+      "link": "https://zine.trevorion.io/girls-band-cry-movie-sets-may-21-2027-premiere/",
+      "modified_gmt": "2026-11-05T09:56:52",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-10-225x150.jpg",
+      "slug": "girls-band-cry-movie-sets-may-21-2027-premiere",
+      "status": "publish",
+      "tags": [
+        11605,
+        243,
+        218,
+        292,
+        11606
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-10-960x540.jpg",
+      "title": {
+        "rendered": "Girls Band Cry Movie Sets May 21, 2027 Premiere"
+      }
+    },
+    "21271": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-03T11:09:00",
+      "featured_media": 21327,
+      "id": 21271,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/image-49-e1793866263312.png",
+      "link": "https://zine.trevorion.io/blue-eye-samurai-season-2-arrives-on-netflix-january-19-2027/",
+      "modified_gmt": "2026-11-05T08:13:20",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/image-49-e1793866263312-225x150.png",
+      "slug": "blue-eye-samurai-season-2-arrives-on-netflix-january-19-2027",
+      "status": "publish",
+      "tags": [
+        358,
+        217,
+        11659,
+        243,
+        216,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/image-49-e1793866263312-960x533.png",
+      "title": {
+        "rendered": "Blue Eye Samurai Season 2 Arrives on Netflix January 19, 2027"
+      }
+    },
+    "21300": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-03T11:12:00",
+      "featured_media": 21301,
+      "id": 21300,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/GettyImages-2235383828-scaled.jpg",
+      "link": "https://zine.trevorion.io/netflix-introduces-ai-discover-tab-for-mood-based-recommendations/",
+      "modified_gmt": "2026-11-05T07:47:24",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/GettyImages-2235383828-225x150.jpg",
+      "slug": "netflix-introduces-ai-discover-tab-for-mood-based-recommendations",
+      "status": "publish",
+      "tags": [
+        11651,
+        216,
+        6776,
+        1921,
+        9304
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/GettyImages-2235383828-960x640.jpg",
+      "title": {
+        "rendered": "Netflix Introduces AI Discover Tab for Mood-Based Recommendations"
       }
     },
     "2177": {
@@ -58070,13 +58234,41 @@
       "id": 1157,
       "name": "#GemmaModel"
     },
+    "11575": {
+      "id": 11575,
+      "name": "#BattleTank"
+    },
+    "11576": {
+      "id": 11576,
+      "name": "#KNDS"
+    },
+    "11577": {
+      "id": 11577,
+      "name": "#Bundeswehr"
+    },
+    "11578": {
+      "id": 11578,
+      "name": "#TrophyAPS"
+    },
+    "11579": {
+      "id": 11579,
+      "name": "#ModularArmour"
+    },
     "1158": {
       "id": 1158,
       "name": "#CancerResearch"
     },
+    "11580": {
+      "id": 11580,
+      "name": "#L55A1"
+    },
     "1159": {
       "id": 1159,
       "name": "#AIDrugDiscovery"
+    },
+    "11595": {
+      "id": 11595,
+      "name": "#KeigoMaki"
     },
     "116": {
       "id": 116,
@@ -58085,6 +58277,14 @@
     "1160": {
       "id": 1160,
       "name": "#Figure"
+    },
+    "11605": {
+      "id": 11605,
+      "name": "#GirlsBandCryMovie"
+    },
+    "11606": {
+      "id": 11606,
+      "name": "#TogenashiTogeari"
     },
     "1161": {
       "id": 1161,
@@ -58105,6 +58305,14 @@
     "1165": {
       "id": 1165,
       "name": "#AIFreedom"
+    },
+    "11651": {
+      "id": 11651,
+      "name": "#AIDiscover"
+    },
+    "11659": {
+      "id": 11659,
+      "name": "#BlueSpirit"
     },
     "1166": {
       "id": 1166,
