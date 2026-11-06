@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-05T10:14:26Z",
+  "last_sync": "2026-11-06T10:17:53Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -18600,6 +18600,31 @@
         "rendered": "Amazon Adds Shopping and Subscription Tasks to Alexa"
       }
     },
+    "20748": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-10-29T11:16:00",
+      "featured_media": 20749,
+      "id": 20748,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/TabStationToo-on-laptop.jpg",
+      "link": "https://zine.trevorion.io/claude-helps-developers-bring-playstation-2-emulation-to-browsers/",
+      "modified_gmt": "2026-11-05T16:22:07",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/TabStationToo-on-laptop-225x150.jpg",
+      "slug": "claude-helps-developers-bring-playstation-2-emulation-to-browsers",
+      "status": "publish",
+      "tags": [
+        3148,
+        311,
+        11344,
+        11341,
+        11339
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/10/TabStationToo-on-laptop-960x504.jpg",
+      "title": {
+        "rendered": "Claude Helps Developers Bring PlayStation 2 Emulation to Browsers"
+      }
+    },
     "20750": {
       "categories": [
         8
@@ -19183,6 +19208,83 @@
         "rendered": "672: Black Seadevil 🐟🌑"
       }
     },
+    "21165": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-02T11:00:00",
+      "featured_media": 21166,
+      "id": 21165,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-4.jpg",
+      "link": "https://zine.trevorion.io/netflix-quiztopia-reveals-main-trailer-and-key-art/",
+      "modified_gmt": "2026-11-05T16:16:14",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-4-225x150.jpg",
+      "slug": "netflix-quiztopia-reveals-main-trailer-and-key-art",
+      "status": "publish",
+      "tags": [
+        152,
+        243,
+        356,
+        216,
+        8340,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-4-960x540.jpg",
+      "title": {
+        "rendered": "Netflix Quiztopia Reveals Main Trailer and Key Art"
+      }
+    },
+    "21167": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-02T11:01:00",
+      "featured_media": 21168,
+      "id": 21167,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/nao-toyama-detective-precure-ending-dance.jpg",
+      "link": "https://zine.trevorion.io/nao-toyama-celebrates-cure-arcana-birthday-with-dance-video/",
+      "modified_gmt": "2026-11-05T16:08:41",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/nao-toyama-detective-precure-ending-dance-225x150.jpg",
+      "slug": "nao-toyama-celebrates-cure-arcana-birthday-with-dance-video",
+      "status": "publish",
+      "tags": [
+        5698,
+        5699,
+        488,
+        6641,
+        4375
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/nao-toyama-detective-precure-ending-dance-768x432.jpg",
+      "title": {
+        "rendered": "Nao Toyama Celebrates Cure Arcana Birthday with Dance Video"
+      }
+    },
+    "21169": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-02T11:02:00",
+      "featured_media": 21170,
+      "id": 21169,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/ai-higuchi-triangle-mv.jpg",
+      "link": "https://zine.trevorion.io/ai-higuchi-releases-aoashi-season-2-music-videos/",
+      "modified_gmt": "2026-11-05T16:02:07",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/ai-higuchi-triangle-mv-225x150.jpg",
+      "slug": "ai-higuchi-releases-aoashi-season-2-music-videos",
+      "status": "publish",
+      "tags": [
+        11661,
+        6387,
+        6384,
+        11662,
+        488,
+        11551
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/ai-higuchi-triangle-mv-768x432.jpg",
+      "title": {
+        "rendered": "Ai Higuchi Releases Aoashi Season 2 Music Videos"
+      }
+    },
     "21221": {
       "categories": [
         8
@@ -19209,6 +19311,81 @@
         "rendered": "673: Leopard 2A8 🐆🛡"
       }
     },
+    "21254": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-03T11:00:00",
+      "featured_media": 21255,
+      "id": 21254,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/otaku-vampires-love-bite-teaser-hero.png",
+      "link": "https://zine.trevorion.io/otaku-vampires-love-bite-anime-announced-with-first-teaser/",
+      "modified_gmt": "2026-11-05T14:51:47",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/otaku-vampires-love-bite-teaser-hero-225x150.png",
+      "slug": "otaku-vampires-love-bite-anime-announced-with-first-teaser",
+      "status": "publish",
+      "tags": [
+        233,
+        243,
+        11581,
+        218
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/otaku-vampires-love-bite-teaser-hero-960x540.png",
+      "title": {
+        "rendered": "Otaku Vampire&#8217;s Love Bite Anime Announced with First Teaser"
+      }
+    },
+    "21256": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-03T11:01:00",
+      "featured_media": 21257,
+      "id": 21256,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/centimillimental-kanawanai-mv.jpg",
+      "link": "https://zine.trevorion.io/centimillimental-releases-kanawanai-opening-music-video/",
+      "modified_gmt": "2026-11-05T15:48:06",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/centimillimental-kanawanai-mv-225x150.jpg",
+      "slug": "centimillimental-releases-kanawanai-opening-music-video",
+      "status": "publish",
+      "tags": [
+        3851,
+        11585,
+        233,
+        11660,
+        11586,
+        243
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/centimillimental-kanawanai-mv-768x432.jpg",
+      "title": {
+        "rendered": "Centimillimental Releases Kanawanai Opening Music Video"
+      }
+    },
+    "21258": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-03T11:02:00",
+      "featured_media": 21259,
+      "id": 21258,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-5.jpg",
+      "link": "https://zine.trevorion.io/promise-me-the-spotlight-reveals-teaser-and-main-voice-cast/",
+      "modified_gmt": "2026-11-05T15:18:36",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-5-225x150.jpg",
+      "slug": "promise-me-the-spotlight-reveals-teaser-and-main-voice-cast",
+      "status": "publish",
+      "tags": [
+        2275,
+        243,
+        11590,
+        11594,
+        218
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-5-960x540.jpg",
+      "title": {
+        "rendered": "Promise Me the Spotlight Reveals Teaser and Main Voice Cast"
+      }
+    },
     "21260": {
       "categories": [
         137
@@ -19232,6 +19409,32 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-6-960x540.jpg",
       "title": {
         "rendered": "Witch on the Holy Night Manga Arrives November 11"
+      }
+    },
+    "21264": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-03T11:05:00",
+      "featured_media": 21265,
+      "id": 21264,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-8.jpg",
+      "link": "https://zine.trevorion.io/hyperspace-neptunia-unlimited-sets-western-launch-for-2027/",
+      "modified_gmt": "2026-11-05T14:37:30",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-8-225x150.jpg",
+      "slug": "hyperspace-neptunia-unlimited-sets-western-launch-for-2027",
+      "status": "publish",
+      "tags": [
+        7394,
+        11602,
+        4424,
+        745,
+        243,
+        244
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-8-960x540.jpg",
+      "title": {
+        "rendered": "Hyperspace Neptunia: Unlimited Sets Western Launch for 2027"
       }
     },
     "21268": {
@@ -19308,6 +19511,31 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/GettyImages-2235383828-960x640.jpg",
       "title": {
         "rendered": "Netflix Introduces AI Discover Tab for Mood-Based Recommendations"
+      }
+    },
+    "21528": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-05T11:30:00",
+      "featured_media": 21529,
+      "id": 21528,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/674-Lady-Melantha-Sapphyros-💙🌹.png",
+      "link": "https://zine.trevorion.io/20261105-1/",
+      "modified_gmt": "2026-11-05T20:21:26",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/674-Lady-Melantha-Sapphyros-💙🌹-225x150.png",
+      "slug": "20261105-1",
+      "status": "publish",
+      "tags": [
+        1089,
+        11663,
+        11665,
+        11664,
+        2815
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/674-Lady-Melantha-Sapphyros-💙🌹-960x640.png",
+      "title": {
+        "rendered": "674: Lady Melantha Sapphyros 💙🌹"
       }
     },
     "2177": {
@@ -46634,6 +46862,32 @@
         "rendered": "Godzilla Minus Zero Reveals Trailers, Visuals, and Returning Cast"
       }
     },
+    "8287": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-07-09T10:03:00",
+      "featured_media": 21267,
+      "id": 8287,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-9.jpg",
+      "link": "https://zine.trevorion.io/cyberpunk-edgerunners-2-reveals-opening-and-ending-songs/",
+      "modified_gmt": "2026-11-05T10:35:06",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-9-225x150.jpg",
+      "slug": "cyberpunk-edgerunners-2-reveals-opening-and-ending-songs",
+      "status": "publish",
+      "tags": [
+        2281,
+        2668,
+        3295,
+        4794,
+        1454,
+        4793
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/maxresdefault-9-960x540.jpg",
+      "title": {
+        "rendered": "Cyberpunk: Edgerunners 2 Reveals Opening and Ending Songs"
+      }
+    },
     "829": {
       "categories": [
         84
@@ -58226,6 +58480,10 @@
       "id": 1155,
       "name": "#RoadSafety"
     },
+    "11551": {
+      "id": 11551,
+      "name": "#Triangle"
+    },
     "1156": {
       "id": 1156,
       "name": "#JaguarIPACE"
@@ -58262,9 +58520,29 @@
       "id": 11580,
       "name": "#L55A1"
     },
+    "11581": {
+      "id": 11581,
+      "name": "#OtakuVampiresLoveBite"
+    },
+    "11585": {
+      "id": 11585,
+      "name": "#Centimillimental"
+    },
+    "11586": {
+      "id": 11586,
+      "name": "#Kanawanai"
+    },
     "1159": {
       "id": 1159,
       "name": "#AIDrugDiscovery"
+    },
+    "11590": {
+      "id": 11590,
+      "name": "#PromiseMeTheSpotlight"
+    },
+    "11594": {
+      "id": 11594,
+      "name": "#TeamTillDawn"
     },
     "11595": {
       "id": 11595,
@@ -58277,6 +58555,10 @@
     "1160": {
       "id": 1160,
       "name": "#Figure"
+    },
+    "11602": {
+      "id": 11602,
+      "name": "#HyperspaceNeptunia"
     },
     "11605": {
       "id": 11605,
@@ -58317,6 +58599,30 @@
     "1166": {
       "id": 1166,
       "name": "#UserChoice"
+    },
+    "11660": {
+      "id": 11660,
+      "name": "#HoreMajo"
+    },
+    "11661": {
+      "id": 11661,
+      "name": "#10-FEET"
+    },
+    "11662": {
+      "id": 11662,
+      "name": "#FortressDefense"
+    },
+    "11663": {
+      "id": 11663,
+      "name": "#Aristocrat"
+    },
+    "11664": {
+      "id": 11664,
+      "name": "#Opulence"
+    },
+    "11665": {
+      "id": 11665,
+      "name": "#MerchantDynasty"
     },
     "1167": {
       "id": 1167,
