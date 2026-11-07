@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-06T10:17:53Z",
+  "last_sync": "2026-11-07T09:32:12Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -19536,6 +19536,31 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/674-Lady-Melantha-Sapphyros-💙🌹-960x640.png",
       "title": {
         "rendered": "674: Lady Melantha Sapphyros 💙🌹"
+      }
+    },
+    "21685": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-06T11:30:00",
+      "featured_media": 21686,
+      "id": 21685,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/675-La-Resistance-☕🥀.png",
+      "link": "https://zine.trevorion.io/20261106-1/",
+      "modified_gmt": "2026-11-06T18:46:32",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/675-La-Resistance-☕🥀-225x150.png",
+      "slug": "20261106-1",
+      "status": "publish",
+      "tags": [
+        11820,
+        11821,
+        11822,
+        11823,
+        1366
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/675-La-Resistance-☕🥀-960x640.png",
+      "title": {
+        "rendered": "675: La Résistance ☕🥀"
       }
     },
     "2177": {
@@ -58695,6 +58720,22 @@
     "1182": {
       "id": 1182,
       "name": "#StreetArt"
+    },
+    "11820": {
+      "id": 11820,
+      "name": "#Cafe"
+    },
+    "11821": {
+      "id": 11821,
+      "name": "#OccupiedParis"
+    },
+    "11822": {
+      "id": 11822,
+      "name": "#SaintGermainDesPrés"
+    },
+    "11823": {
+      "id": 11823,
+      "name": "#Wehrmacht"
     },
     "1183": {
       "id": 1183,
