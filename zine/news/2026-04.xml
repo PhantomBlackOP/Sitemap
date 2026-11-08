@@ -1,31 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zine.trevorion.io/john-oliver-warns-ai-chatbots-are-built-for-engagement-not-friendship/</loc>
-    <lastmod>2026-09-29T06:24:31Z</lastmod>
-    <meta:title>John Oliver Warns AI Chatbots Are Built for Engagement, Not Friendship</meta:title>
-    <meta:published>2026-04-27T10:00:00Z</meta:published>
+    <loc>https://zine.trevorion.io/zine-monthly-review-april-2026/</loc>
+    <lastmod>2026-11-08T06:33:24Z</lastmod>
+    <meta:title>Zine Monthly Review – April 2026</meta:title>
+    <meta:published>2026-04-30T10:30:00Z</meta:published>
     <meta:category>News</meta:category>
-    <meta:tags>["#AIChatbots", "#JohnOliver", "#LastWeekTonight", "#Sycophancy", "#TheGuardian"]</meta:tags>
-    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/04/1977.jpg</meta:og_image>
-    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/04/1977.jpg</meta:thumbnail_image>
-    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/04/1977-225x150.jpg</meta:mosaic_image>
+    <meta:tags>["April2026", "CommunityStories", "DailyAnimeArt", "EasterTraditions", "MonthlyReview"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/04/460-Easter-Sunday-Procession-✝️🎺.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/04/460-Easter-Sunday-Procession-✝️🎺-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/04/460-Easter-Sunday-Procession-✝️🎺-225x150.png</meta:mosaic_image>
     <image:image>
-      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/04/1977.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zine.trevorion.io/yurina-hirate-unleashes-marriagetoxin-theme-in-kill-or-kiss-mv/</loc>
-    <lastmod>2026-08-05T03:17:16Z</lastmod>
-    <meta:title>Yurina Hirate Unleashes MARRIAGETOXIN Theme in Kill or Kiss MV</meta:title>
-    <meta:published>2026-04-10T10:00:00Z</meta:published>
-    <meta:category>News</meta:category>
-    <meta:tags>["#AnimeOpening", "#Crunchyroll", "#JPop", "#KillOrKiss", "#Marriagetoxin", "#YurinaHirate"]</meta:tags>
-    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/04/maxresdefault.jpg</meta:og_image>
-    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/04/maxresdefault-960x540.jpg</meta:thumbnail_image>
-    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/04/maxresdefault-225x150.jpg</meta:mosaic_image>
-    <image:image>
-      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/04/maxresdefault.jpg</image:loc>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/04/460-Easter-Sunday-Procession-✝️🎺.png</image:loc>
     </image:image>
   </url>
 </urlset>

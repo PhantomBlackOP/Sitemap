@@ -1,17 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zine.trevorion.io/pilaf-seijin-shares-mission-yozakura-family-season-2-ending-mv/</loc>
-    <lastmod>2026-10-25T16:26:56Z</lastmod>
-    <meta:title>Pilaf Seijin Shares Mission: Yozakura Family Season 2 Ending</meta:title>
-    <meta:published>2026-05-04T01:58:00Z</meta:published>
+    <loc>https://zine.trevorion.io/zine-monthly-review-may-2026/</loc>
+    <lastmod>2026-11-08T06:34:29Z</lastmod>
+    <meta:title>Zine Monthly Review – May 2026</meta:title>
+    <meta:published>2026-05-31T10:30:00Z</meta:published>
     <meta:category>News</meta:category>
-    <meta:tags>["#Crunchyroll", "#MissionYozakuraFamily", "#MusicVideo", "#SILVERLINK", "PilafSeijin", "Shalala"]</meta:tags>
-    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/pilaf-seijin-shalala-mv.jpg</meta:og_image>
-    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/pilaf-seijin-shalala-mv-768x432.jpg</meta:thumbnail_image>
-    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/pilaf-seijin-shalala-mv-225x150.jpg</meta:mosaic_image>
+    <meta:tags>["Daily500", "DailyAnimeArt", "May2026", "MonthlyReview", "PuzzleGarage"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/514-Rootbound-Apsara-🌿🛕.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/05/514-Rootbound-Apsara-🌿🛕-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/05/514-Rootbound-Apsara-🌿🛕-225x150.png</meta:mosaic_image>
     <image:image>
-      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/10/pilaf-seijin-shalala-mv.jpg</image:loc>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/514-Rootbound-Apsara-🌿🛕.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zine.trevorion.io/500-dailies-five-ways-to-celebrate/</loc>
+    <lastmod>2026-11-08T06:33:43Z</lastmod>
+    <meta:title>500 Dailies – Five Ways to Celebrate</meta:title>
+    <meta:published>2026-05-15T10:00:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Trevorion", "Daily500", "Fiat500", "ZineMilestones"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/05/500-Fiat-500-🚗🇮🇹.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/05/500-Fiat-500-🚗🇮🇹-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/05/500-Fiat-500-🚗🇮🇹-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/05/500-Fiat-500-🚗🇮🇹.png</image:loc>
     </image:image>
   </url>
 </urlset>
