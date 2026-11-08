@@ -1,6 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/your-daily-horoscope-a-new-zodiac-experience/</loc>
+    <lastmod>2026-11-08T08:10:43Z</lastmod>
+    <meta:title>Your Daily Horoscope – A New Zodiac Experience</meta:title>
+    <meta:published>2026-11-08T08:00:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Milestone", "DailyHoroscope", "ZineAccounts", "ZodiacSigns"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/01/386-Celestial-Map-️🌌📜.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/01/386-Celestial-Map-️🌌📜-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/01/386-Celestial-Map-️🌌📜-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/01/386-Celestial-Map-️🌌📜.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/the-riftwalkers-playlist-music-across-the-rift/</loc>
     <lastmod>2026-11-08T07:32:46Z</lastmod>
     <meta:title>The Riftwalkers Playlist – Music Across the Rift</meta:title>
@@ -20,7 +34,7 @@
     <meta:title>Your Daily Tarot – A New Private Zine Experience</meta:title>
     <meta:published>2026-11-04T11:00:00Z</meta:published>
     <meta:category>News</meta:category>
-    <meta:tags>["#Trevorion", "DailyTarot", "ZineCommunity", "ZineMilestones"]</meta:tags>
+    <meta:tags>["#Milestone", "#Trevorion", "DailyTarot", "ZineCommunity"]</meta:tags>
     <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Soulmate-The-Tarot-Reader.png</meta:og_image>
     <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Soulmate-The-Tarot-Reader-960x640.png</meta:thumbnail_image>
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Soulmate-The-Tarot-Reader-225x150.png</meta:mosaic_image>
@@ -34,7 +48,7 @@
     <meta:title>Zine Accounts – Sign In Without the WordPress Dashboard</meta:title>
     <meta:published>2026-11-03T11:00:00Z</meta:published>
     <meta:category>News</meta:category>
-    <meta:tags>["#Trevorion", "MemberProfiles", "ZineAccounts", "ZineMilestones"]</meta:tags>
+    <meta:tags>["#Milestone", "#Trevorion", "MemberProfiles", "ZineAccounts"]</meta:tags>
     <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Account-The-Sanctuary.png</meta:og_image>
     <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Account-The-Sanctuary-960x640.png</meta:thumbnail_image>
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Account-The-Sanctuary-225x150.png</meta:mosaic_image>
