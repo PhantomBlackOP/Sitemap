@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-08T09:48:55Z",
+  "last_sync": "2026-11-09T10:49:34Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -5491,6 +5491,32 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/01/386-Celestial-Map-️🌌📜-960x640.png",
       "title": {
         "rendered": "Your Daily Horoscope &#8211; A New Zodiac Experience"
+      }
+    },
+    "22888": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-08T11:30:00",
+      "featured_media": 22889,
+      "id": 22888,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/677-Bike-Trail-🚵‍♀️🏔.png",
+      "link": "https://zine.trevorion.io/20261108-1/",
+      "modified_gmt": "2026-11-08T22:27:35",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/677-Bike-Trail-🚵‍♀️🏔-225x150.png",
+      "slug": "20261108-1",
+      "status": "publish",
+      "tags": [
+        11933,
+        36,
+        11932,
+        1250,
+        11931,
+        11934
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/677-Bike-Trail-🚵‍♀️🏔-960x640.png",
+      "title": {
+        "rendered": "677: Bike Trail 🚵‍♀️🏔️"
       }
     },
     "2343": {
@@ -22654,6 +22680,22 @@
     "11930": {
       "id": 11930,
       "name": "ZodiacSigns"
+    },
+    "11931": {
+      "id": 11931,
+      "name": "#MountainBike"
+    },
+    "11932": {
+      "id": 11932,
+      "name": "#Cycling"
+    },
+    "11933": {
+      "id": 11933,
+      "name": "#Alps"
+    },
+    "11934": {
+      "id": 11934,
+      "name": "#Outdoors"
     },
     "12": {
       "id": 12,
