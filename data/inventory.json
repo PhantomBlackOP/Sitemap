@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-09T10:49:34Z",
+  "last_sync": "2026-11-10T10:42:06Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -1126,6 +1126,28 @@
       "status": "publish",
       "title": {
         "rendered": "Account"
+      }
+    },
+    "22894": {
+      "date_gmt": "2026-11-09T17:26:15",
+      "id": 22894,
+      "link": "https://zine.trevorion.io/lyseth/",
+      "modified_gmt": "2026-11-10T06:53:00",
+      "slug": "lyseth",
+      "status": "publish",
+      "title": {
+        "rendered": "Lyseth"
+      }
+    },
+    "22895": {
+      "date_gmt": "2026-11-09T17:57:56",
+      "id": 22895,
+      "link": "https://zine.trevorion.io/gamesroom/",
+      "modified_gmt": "2026-11-09T17:57:56",
+      "slug": "gamesroom",
+      "status": "publish",
+      "title": {
+        "rendered": "Gamesroom"
       }
     },
     "6642": {
@@ -5517,6 +5539,31 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/677-Bike-Trail-🚵‍♀️🏔-960x640.png",
       "title": {
         "rendered": "677: Bike Trail 🚵‍♀️🏔️"
+      }
+    },
+    "22891": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-09T11:30:00",
+      "featured_media": 22892,
+      "id": 22891,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/678-Corporate-Heir-🖤🌇.png",
+      "link": "https://zine.trevorion.io/20261109-1/",
+      "modified_gmt": "2026-11-09T15:20:42",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/678-Corporate-Heir-🖤🌇-225x150.png",
+      "slug": "20261109-1",
+      "status": "publish",
+      "tags": [
+        11938,
+        11935,
+        11936,
+        3696,
+        11937
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/678-Corporate-Heir-🖤🌇-960x640.png",
+      "title": {
+        "rendered": "678: Corporate Heir 🖤🌇"
       }
     },
     "2343": {
@@ -22696,6 +22743,22 @@
     "11934": {
       "id": 11934,
       "name": "#Outdoors"
+    },
+    "11935": {
+      "id": 11935,
+      "name": "#Chaebol"
+    },
+    "11936": {
+      "id": 11936,
+      "name": "#HighSociety"
+    },
+    "11937": {
+      "id": 11937,
+      "name": "#Penthouse"
+    },
+    "11938": {
+      "id": 11938,
+      "name": "#BusinessTycoon"
     },
     "12": {
       "id": 12,
