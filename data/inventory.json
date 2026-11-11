@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-10T10:42:06Z",
+  "last_sync": "2026-11-11T10:12:24Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -5564,6 +5564,31 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/678-Corporate-Heir-🖤🌇-960x640.png",
       "title": {
         "rendered": "678: Corporate Heir 🖤🌇"
+      }
+    },
+    "22977": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-10T11:30:00",
+      "featured_media": 22978,
+      "id": 22977,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/679-Awaiting-Departure-✈💕.png",
+      "link": "https://zine.trevorion.io/20261110-1/",
+      "modified_gmt": "2026-11-10T19:18:09",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/679-Awaiting-Departure-✈💕-225x150.png",
+      "slug": "20261110-1",
+      "status": "publish",
+      "tags": [
+        11942,
+        11939,
+        11941,
+        11940,
+        11943
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/679-Awaiting-Departure-✈💕-960x640.png",
+      "title": {
+        "rendered": "679: Awaiting Departure ✈💕"
       }
     },
     "2343": {
@@ -22759,6 +22784,26 @@
     "11938": {
       "id": 11938,
       "name": "#BusinessTycoon"
+    },
+    "11939": {
+      "id": 11939,
+      "name": "#Boarding"
+    },
+    "11940": {
+      "id": 11940,
+      "name": "#Conversation"
+    },
+    "11941": {
+      "id": 11941,
+      "name": "#Companions"
+    },
+    "11942": {
+      "id": 11942,
+      "name": "#Airport"
+    },
+    "11943": {
+      "id": 11943,
+      "name": "#Wanderlust"
     },
     "12": {
       "id": 12,
