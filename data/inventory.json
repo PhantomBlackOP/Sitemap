@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-11T10:12:24Z",
+  "last_sync": "2026-11-12T10:34:32Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -1143,7 +1143,7 @@
       "date_gmt": "2026-11-09T17:57:56",
       "id": 22895,
       "link": "https://zine.trevorion.io/gamesroom/",
-      "modified_gmt": "2026-11-09T17:57:56",
+      "modified_gmt": "2026-11-11T23:08:17",
       "slug": "gamesroom",
       "status": "publish",
       "title": {
@@ -5589,6 +5589,31 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/679-Awaiting-Departure-✈💕-960x640.png",
       "title": {
         "rendered": "679: Awaiting Departure ✈💕"
+      }
+    },
+    "22989": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-11T11:30:00",
+      "featured_media": 22990,
+      "id": 22989,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/680-Shield-of-Isis-🛡️☀️.png",
+      "link": "https://zine.trevorion.io/20261111-1/",
+      "modified_gmt": "2026-11-11T19:19:11",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/680-Shield-of-Isis-🛡️☀️-225x150.png",
+      "slug": "20261111-1",
+      "status": "publish",
+      "tags": [
+        2698,
+        11944,
+        11945,
+        1093,
+        1118
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/680-Shield-of-Isis-🛡️☀️-960x640.png",
+      "title": {
+        "rendered": "680: Shield of Isis 🛡️☀️"
       }
     },
     "2343": {
@@ -22804,6 +22829,14 @@
     "11943": {
       "id": 11943,
       "name": "#Wanderlust"
+    },
+    "11944": {
+      "id": 11944,
+      "name": "#DesertWarrior"
+    },
+    "11945": {
+      "id": 11945,
+      "name": "#GoddessIsis"
     },
     "12": {
       "id": 12,
