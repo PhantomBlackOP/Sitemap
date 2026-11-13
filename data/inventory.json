@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-12T10:34:32Z",
+  "last_sync": "2026-11-13T10:27:34Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -1132,7 +1132,7 @@
       "date_gmt": "2026-11-09T17:26:15",
       "id": 22894,
       "link": "https://zine.trevorion.io/lyseth/",
-      "modified_gmt": "2026-11-10T06:53:00",
+      "modified_gmt": "2026-11-13T00:27:56",
       "slug": "lyseth",
       "status": "publish",
       "title": {
@@ -5614,6 +5614,32 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/680-Shield-of-Isis-🛡️☀️-960x640.png",
       "title": {
         "rendered": "680: Shield of Isis 🛡️☀️"
+      }
+    },
+    "22995": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-12T11:30:00",
+      "featured_media": 22996,
+      "id": 22995,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/681-Lone-Star-Belle-🤠🐎.png",
+      "link": "https://zine.trevorion.io/20261112-1/",
+      "modified_gmt": "2026-11-12T18:41:19",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/681-Lone-Star-Belle-🤠🐎-225x150.png",
+      "slug": "20261112-1",
+      "status": "publish",
+      "tags": [
+        11946,
+        3354,
+        11948,
+        11949,
+        11947,
+        11950
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/681-Lone-Star-Belle-🤠🐎-960x640.png",
+      "title": {
+        "rendered": "681: Lone Star Belle 🤠🐎"
       }
     },
     "2343": {
@@ -22837,6 +22863,26 @@
     "11945": {
       "id": 11945,
       "name": "#GoddessIsis"
+    },
+    "11946": {
+      "id": 11946,
+      "name": "#CountryGirl"
+    },
+    "11947": {
+      "id": 11947,
+      "name": "#Ranch"
+    },
+    "11948": {
+      "id": 11948,
+      "name": "#DenimShorts"
+    },
+    "11949": {
+      "id": 11949,
+      "name": "#PlaidShirt"
+    },
+    "11950": {
+      "id": 11950,
+      "name": "#Texas"
     },
     "12": {
       "id": 12,
