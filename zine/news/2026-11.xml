@@ -1,6 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/lyseth-war-of-the-nine-shards-launches/</loc>
+    <lastmod>2026-11-13T21:25:17Z</lastmod>
+    <meta:title>Lyseth Opens Its Gates — War of the Nine Shards</meta:title>
+    <meta:published>2026-11-13T19:00:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Fantasy", "#HTML5Game", "#Lyseth", "#StrategyGame", "ZineAccounts", "ZineCommunity"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Play-Lyseth.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Play-Lyseth-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Play-Lyseth-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/11/Play-Lyseth.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/your-daily-horoscope-a-new-zodiac-experience/</loc>
     <lastmod>2026-11-08T08:10:43Z</lastmod>
     <meta:title>Your Daily Horoscope – A New Zodiac Experience</meta:title>

@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-13T10:27:34Z",
+  "last_sync": "2026-11-14T09:45:34Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -1121,7 +1121,7 @@
       "date_gmt": "2026-10-29T09:45:07",
       "id": 20523,
       "link": "https://zine.trevorion.io/account/",
-      "modified_gmt": "2026-11-04T23:02:15",
+      "modified_gmt": "2026-11-13T19:52:29",
       "slug": "account",
       "status": "publish",
       "title": {
@@ -1132,7 +1132,7 @@
       "date_gmt": "2026-11-09T17:26:15",
       "id": 22894,
       "link": "https://zine.trevorion.io/lyseth/",
-      "modified_gmt": "2026-11-13T00:27:56",
+      "modified_gmt": "2026-11-13T21:35:13",
       "slug": "lyseth",
       "status": "publish",
       "title": {
@@ -5640,6 +5640,56 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/681-Lone-Star-Belle-🤠🐎-960x640.png",
       "title": {
         "rendered": "681: Lone Star Belle 🤠🐎"
+      }
+    },
+    "23084": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-13T19:00:00",
+      "featured_media": 23083,
+      "id": 23084,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/Play-Lyseth.png",
+      "link": "https://zine.trevorion.io/lyseth-war-of-the-nine-shards-launches/",
+      "modified_gmt": "2026-11-13T21:25:17",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/Play-Lyseth-225x150.png",
+      "slug": "lyseth-war-of-the-nine-shards-launches",
+      "status": "publish",
+      "tags": [
+        475,
+        1337,
+        664,
+        2413,
+        11910,
+        11913
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/Play-Lyseth-960x640.png",
+      "title": {
+        "rendered": "Lyseth Opens Its Gates — War of the Nine Shards"
+      }
+    },
+    "23085": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-13T11:30:00",
+      "featured_media": 23086,
+      "id": 23085,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/682-Silver-Enchantment-✨🥂.png",
+      "link": "https://zine.trevorion.io/20261113-1/",
+      "modified_gmt": "2026-11-13T21:15:57",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/682-Silver-Enchantment-✨🥂-225x150.png",
+      "slug": "20261113-1",
+      "status": "publish",
+      "tags": [
+        11951,
+        11952,
+        11954,
+        11953
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/682-Silver-Enchantment-✨🥂-960x640.png",
+      "title": {
+        "rendered": "682: Silver Enchantment ✨🥂"
       }
     },
     "2343": {
@@ -22883,6 +22933,22 @@
     "11950": {
       "id": 11950,
       "name": "#Texas"
+    },
+    "11951": {
+      "id": 11951,
+      "name": "#EveningGala"
+    },
+    "11952": {
+      "id": 11952,
+      "name": "#HauteCouture"
+    },
+    "11953": {
+      "id": 11953,
+      "name": "#LehengaCholi"
+    },
+    "11954": {
+      "id": 11954,
+      "name": "#IndianFashion"
     },
     "12": {
       "id": 12,
