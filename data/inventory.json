@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-15T10:19:17Z",
+  "last_sync": "2026-11-16T10:32:57Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -1143,7 +1143,7 @@
       "date_gmt": "2026-11-09T17:57:56",
       "id": 22895,
       "link": "https://zine.trevorion.io/gamesroom/",
-      "modified_gmt": "2026-11-15T10:11:39",
+      "modified_gmt": "2026-11-15T10:50:25",
       "slug": "gamesroom",
       "status": "publish",
       "title": {
@@ -5721,12 +5721,12 @@
       "categories": [
         137
       ],
-      "date_gmt": "2026-11-15T10:17:33",
+      "date_gmt": "2026-11-15T10:00:00",
       "featured_media": 23107,
       "id": 23108,
       "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/Zine-Gamesroom.png",
       "link": "https://zine.trevorion.io/zine-gamesroom-ten-mini-games-launch/",
-      "modified_gmt": "2026-11-15T10:17:33",
+      "modified_gmt": "2026-11-15T10:22:18",
       "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/Zine-Gamesroom-225x150.png",
       "slug": "zine-gamesroom-ten-mini-games-launch",
       "status": "publish",
@@ -5740,6 +5740,31 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/Zine-Gamesroom-960x640.png",
       "title": {
         "rendered": "Zine Gamesroom Opens: Ten Mini Games, Fifty Achievements"
+      }
+    },
+    "23112": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-15T11:30:00",
+      "featured_media": 23113,
+      "id": 23112,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/684-Golden-Strings-🎶🪉.png",
+      "link": "https://zine.trevorion.io/20261115-1/",
+      "modified_gmt": "2026-11-15T17:44:10",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/684-Golden-Strings-🎶🪉-225x150.png",
+      "slug": "20261115-1",
+      "status": "publish",
+      "tags": [
+        11965,
+        11964,
+        11966,
+        11963,
+        11962
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/684-Golden-Strings-🎶🪉-960x640.png",
+      "title": {
+        "rendered": "684: Golden Strings 🎶🪉"
       }
     },
     "2343": {
@@ -23027,6 +23052,26 @@
     "11961": {
       "id": 11961,
       "name": "Leaderboards"
+    },
+    "11962": {
+      "id": 11962,
+      "name": "#StringInstrument"
+    },
+    "11963": {
+      "id": 11963,
+      "name": "#Soloist"
+    },
+    "11964": {
+      "id": 11964,
+      "name": "#Harpist"
+    },
+    "11965": {
+      "id": 11965,
+      "name": "#ConcertHall"
+    },
+    "11966": {
+      "id": 11966,
+      "name": "#Recital"
     },
     "12": {
       "id": 12,
