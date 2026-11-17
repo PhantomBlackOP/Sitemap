@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-16T10:32:57Z",
+  "last_sync": "2026-11-17T11:25:34Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -5765,6 +5765,32 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/684-Golden-Strings-🎶🪉-960x640.png",
       "title": {
         "rendered": "684: Golden Strings 🎶🪉"
+      }
+    },
+    "23115": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-16T11:30:00",
+      "featured_media": 23116,
+      "id": 23115,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/685-Red-Orbit-🪀☀️.png",
+      "link": "https://zine.trevorion.io/20261116-1/",
+      "modified_gmt": "2026-11-16T22:16:23",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/685-Red-Orbit-🪀☀️-225x150.png",
+      "slug": "20261116-1",
+      "status": "publish",
+      "tags": [
+        11971,
+        1762,
+        11968,
+        11969,
+        11970,
+        11967
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/685-Red-Orbit-🪀☀️-960x640.png",
+      "title": {
+        "rendered": "685: Red Orbit 🪀☀️"
       }
     },
     "2343": {
@@ -23072,6 +23098,26 @@
     "11966": {
       "id": 11966,
       "name": "#Recital"
+    },
+    "11967": {
+      "id": 11967,
+      "name": "#YoYo"
+    },
+    "11968": {
+      "id": 11968,
+      "name": "#Spin"
+    },
+    "11969": {
+      "id": 11969,
+      "name": "#StringToy"
+    },
+    "11970": {
+      "id": 11970,
+      "name": "#Tricks"
+    },
+    "11971": {
+      "id": 11971,
+      "name": "#Dexterity"
     },
     "12": {
       "id": 12,
