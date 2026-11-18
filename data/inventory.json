@@ -994,13 +994,13 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-17T11:25:34Z",
+  "last_sync": "2026-11-18T10:59:41Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
       "id": 120,
       "link": "https://zine.trevorion.io/",
-      "modified_gmt": "2026-11-04T23:08:40",
+      "modified_gmt": "2026-11-17T19:19:53",
       "slug": "home",
       "status": "publish",
       "title": {
@@ -5791,6 +5791,55 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/685-Red-Orbit-🪀☀️-960x640.png",
       "title": {
         "rendered": "685: Red Orbit 🪀☀️"
+      }
+    },
+    "23118": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-17T11:30:00",
+      "featured_media": 23119,
+      "id": 23118,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/686-Jukebox-Serenade-🎶💿.png",
+      "link": "https://zine.trevorion.io/20261117-1/",
+      "modified_gmt": "2026-11-17T17:48:41",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/686-Jukebox-Serenade-🎶💿-225x150.png",
+      "slug": "20261117-1",
+      "status": "publish",
+      "tags": [
+        11973,
+        11974,
+        11975,
+        11972
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/686-Jukebox-Serenade-🎶💿-960x640.png",
+      "title": {
+        "rendered": "686: Jukebox Serenade 🎶💿"
+      }
+    },
+    "23122": {
+      "categories": [
+        137
+      ],
+      "date_gmt": "2026-11-17T19:00:00",
+      "featured_media": 23121,
+      "id": 23122,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/broken-lyric-video.png",
+      "link": "https://zine.trevorion.io/broken-a-waltz-through-a-shattered-life/",
+      "modified_gmt": "2026-11-17T19:07:21",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/broken-lyric-video-225x150.png",
+      "slug": "broken-a-waltz-through-a-shattered-life",
+      "status": "publish",
+      "tags": [
+        11976,
+        11922,
+        4484,
+        11887,
+        11977
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/broken-lyric-video-960x540.png",
+      "title": {
+        "rendered": "Broken &#8211; A Waltz Through a Shattered Life"
       }
     },
     "2343": {
@@ -23118,6 +23167,30 @@
     "11971": {
       "id": 11971,
       "name": "#Dexterity"
+    },
+    "11972": {
+      "id": 11972,
+      "name": "#VinylRecords"
+    },
+    "11973": {
+      "id": 11973,
+      "name": "#CoinOperated"
+    },
+    "11974": {
+      "id": 11974,
+      "name": "#RetroDiner"
+    },
+    "11975": {
+      "id": 11975,
+      "name": "#VintageMusic"
+    },
+    "11976": {
+      "id": 11976,
+      "name": "#Broken"
+    },
+    "11977": {
+      "id": 11977,
+      "name": "#Waltz"
     },
     "12": {
       "id": 12,
