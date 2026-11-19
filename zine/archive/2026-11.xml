@@ -1,8 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/20261118-1/</loc>
+    <lastmod>2026-11-18T19:17:33Z</lastmod>
+    <meta:title>687: Golden Twist 🥨☀</meta:title>
+    <meta:published>2026-11-18T11:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#BakedDough", "#Bavaria", "#GoldenCrust", "#Laugenbrezel", "#SaltedPretzel"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/687-Golden-Twist-🥨☀.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/687-Golden-Twist-🥨☀-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/687-Golden-Twist-🥨☀-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/11/687-Golden-Twist-🥨☀.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/20261117-1/</loc>
-    <lastmod>2026-11-17T17:48:41Z</lastmod>
+    <lastmod>2026-11-18T20:44:40Z</lastmod>
     <meta:title>686: Jukebox Serenade 🎶💿</meta:title>
     <meta:published>2026-11-17T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -58,7 +72,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261113-1/</loc>
-    <lastmod>2026-11-13T21:15:57Z</lastmod>
+    <lastmod>2026-11-18T20:35:26Z</lastmod>
     <meta:title>682: Silver Enchantment ✨🥂</meta:title>
     <meta:published>2026-11-13T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -72,7 +86,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261112-1/</loc>
-    <lastmod>2026-11-12T18:41:19Z</lastmod>
+    <lastmod>2026-11-18T23:56:57Z</lastmod>
     <meta:title>681: Lone Star Belle 🤠🐎</meta:title>
     <meta:published>2026-11-12T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -86,7 +100,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261111-1/</loc>
-    <lastmod>2026-11-11T19:19:11Z</lastmod>
+    <lastmod>2026-11-18T20:44:36Z</lastmod>
     <meta:title>680: Shield of Isis 🛡️☀️</meta:title>
     <meta:published>2026-11-11T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -100,7 +114,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261110-1/</loc>
-    <lastmod>2026-11-10T19:18:09Z</lastmod>
+    <lastmod>2026-11-18T20:35:22Z</lastmod>
     <meta:title>679: Awaiting Departure ✈💕</meta:title>
     <meta:published>2026-11-10T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -114,7 +128,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261109-1/</loc>
-    <lastmod>2026-11-09T15:20:42Z</lastmod>
+    <lastmod>2026-11-18T20:44:32Z</lastmod>
     <meta:title>678: Corporate Heir 🖤🌇</meta:title>
     <meta:published>2026-11-09T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -128,7 +142,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261108-1/</loc>
-    <lastmod>2026-11-08T22:27:35Z</lastmod>
+    <lastmod>2026-11-18T20:35:18Z</lastmod>
     <meta:title>677: Bike Trail 🚵‍♀️🏔️</meta:title>
     <meta:published>2026-11-08T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -142,7 +156,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261107-1/</loc>
-    <lastmod>2026-11-07T22:48:13Z</lastmod>
+    <lastmod>2026-11-18T20:30:08Z</lastmod>
     <meta:title>676: A World of Wonder 🌍🗺️</meta:title>
     <meta:published>2026-11-07T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -156,11 +170,11 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261106-1/</loc>
-    <lastmod>2026-11-06T18:46:32Z</lastmod>
+    <lastmod>2026-11-18T21:37:10Z</lastmod>
     <meta:title>675: La Résistance ☕🥀</meta:title>
     <meta:published>2026-11-06T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
-    <meta:tags>["#Cafe", "#OccupiedParis", "#SaintGermainDesPrés", "#Wehrmacht", "#WWII"]</meta:tags>
+    <meta:tags>["#Café", "#OccupiedParis", "#SaintGermainDesPrés", "#Wehrmacht", "#WWII"]</meta:tags>
     <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/675-La-Resistance-☕🥀.png</meta:og_image>
     <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/675-La-Resistance-☕🥀-960x640.png</meta:thumbnail_image>
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/675-La-Resistance-☕🥀-225x150.png</meta:mosaic_image>
@@ -170,7 +184,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261105-1/</loc>
-    <lastmod>2026-11-05T20:21:26Z</lastmod>
+    <lastmod>2026-11-18T23:52:34Z</lastmod>
     <meta:title>674: Lady Melantha Sapphyros 💙🌹</meta:title>
     <meta:published>2026-11-05T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -184,7 +198,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261104-1/</loc>
-    <lastmod>2026-11-04T22:28:22Z</lastmod>
+    <lastmod>2026-11-18T21:04:14Z</lastmod>
     <meta:title>673: Leopard 2A8 🐆🛡</meta:title>
     <meta:published>2026-11-04T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -198,7 +212,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261103-1/</loc>
-    <lastmod>2026-11-03T17:16:00Z</lastmod>
+    <lastmod>2026-11-18T21:04:10Z</lastmod>
     <meta:title>672: Black Seadevil 🐟🌑</meta:title>
     <meta:published>2026-11-03T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -212,7 +226,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261102-1/</loc>
-    <lastmod>2026-11-02T21:12:32Z</lastmod>
+    <lastmod>2026-11-18T21:04:05Z</lastmod>
     <meta:title>671: Haunted Manor 🏚️🌕</meta:title>
     <meta:published>2026-11-02T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -226,7 +240,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261101-1/</loc>
-    <lastmod>2026-11-01T16:24:11Z</lastmod>
+    <lastmod>2026-11-18T21:45:03Z</lastmod>
     <meta:title>670: Restless Spirit 🪦🏛️</meta:title>
     <meta:published>2026-11-01T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
