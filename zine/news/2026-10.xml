@@ -6,7 +6,7 @@
     <meta:title>Zine Monthly Review – October 2026</meta:title>
     <meta:published>2026-10-31T11:30:00Z</meta:published>
     <meta:category>News</meta:category>
-    <meta:tags>["#October2026", "DailyAnimeArt", "MonthlyReview", "RSSGallery", "TheRiftwalkers"]</meta:tags>
+    <meta:tags>["#DailyAnimeArt", "#MonthlyReview", "#October2026", "#RSSGallery", "#TheRiftwalkers"]</meta:tags>
     <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/646-Master-of-the-Rift-🎸🌀.png</meta:og_image>
     <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/646-Master-of-the-Rift-🎸🌀-960x640.png</meta:thumbnail_image>
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/646-Master-of-the-Rift-🎸🌀-225x150.png</meta:mosaic_image>
@@ -15,26 +15,12 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zine.trevorion.io/crown-of-ashes-a-dark-elven-lyric-video-takes-the-stage/</loc>
-    <lastmod>2026-11-08T07:23:48Z</lastmod>
-    <meta:title>Crown of Ashes – A Dark Elven Lyric Video Takes the Stage</meta:title>
-    <meta:published>2026-10-31T11:00:00Z</meta:published>
-    <meta:category>News</meta:category>
-    <meta:tags>["#LyricVideo", "#Warvenger", "CrownOfAshes", "TheRiftwalkers"]</meta:tags>
-    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-vF6-EG1NAs8.jpg</meta:og_image>
-    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-vF6-EG1NAs8-960x540.jpg</meta:thumbnail_image>
-    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-vF6-EG1NAs8-225x150.jpg</meta:mosaic_image>
-    <image:image>
-      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-vF6-EG1NAs8.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zine.trevorion.io/algorithm-of-the-damned-ai-slop-gets-a-metal-reckoning/</loc>
     <lastmod>2026-11-08T07:20:54Z</lastmod>
     <meta:title>Algorithm of the Damned – AI Slop Gets a Metal Reckoning</meta:title>
     <meta:published>2026-10-31T11:00:00Z</meta:published>
     <meta:category>News</meta:category>
-    <meta:tags>["#AISlop", "#LyricVideo", "AlgorithmOfTheDamned", "TheRiftwalkers"]</meta:tags>
+    <meta:tags>["#AISlop", "#AlgorithmOfTheDamned", "#LyricVideo", "#TheRiftwalkers"]</meta:tags>
     <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-lasJI_09ezw.jpg</meta:og_image>
     <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-lasJI_09ezw-960x540.jpg</meta:thumbnail_image>
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-lasJI_09ezw-225x150.jpg</meta:mosaic_image>
@@ -43,17 +29,17 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zine.trevorion.io/the-ledger-s-open-a-gothic-lyric-video-premieres/</loc>
-    <lastmod>2026-11-08T07:28:47Z</lastmod>
-    <meta:title>The Ledger’s Open – A Gothic Lyric Video Premieres</meta:title>
-    <meta:published>2026-10-24T10:00:00Z</meta:published>
+    <loc>https://zine.trevorion.io/crown-of-ashes-a-dark-elven-lyric-video-takes-the-stage/</loc>
+    <lastmod>2026-11-08T07:23:48Z</lastmod>
+    <meta:title>Crown of Ashes – A Dark Elven Lyric Video Takes the Stage</meta:title>
+    <meta:published>2026-10-31T11:00:00Z</meta:published>
     <meta:category>News</meta:category>
-    <meta:tags>["#LyricVideo", "GothicMetal", "TheLedgersOpen", "TheRiftwalkers"]</meta:tags>
-    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-De-_FbskGC4.jpg</meta:og_image>
-    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-De-_FbskGC4-960x540.jpg</meta:thumbnail_image>
-    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-De-_FbskGC4-225x150.jpg</meta:mosaic_image>
+    <meta:tags>["#CrownOfAshes", "#LyricVideo", "#TheRiftwalkers", "#Warvenger"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-vF6-EG1NAs8.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-vF6-EG1NAs8-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-vF6-EG1NAs8-225x150.jpg</meta:mosaic_image>
     <image:image>
-      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-De-_FbskGC4.jpg</image:loc>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-vF6-EG1NAs8.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -62,7 +48,7 @@
     <meta:title>Master of the Rift – The Lyric Video Arrives on YouTube</meta:title>
     <meta:published>2026-10-24T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
-    <meta:tags>["#LyricVideo", "MasterOfTheRift", "OriginalMusic", "TheRiftwalkers"]</meta:tags>
+    <meta:tags>["#LyricVideo", "#MasterOfTheRift", "#OriginalMusic", "#TheRiftwalkers"]</meta:tags>
     <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-TAAsZ8BF6Oc.jpg</meta:og_image>
     <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-TAAsZ8BF6Oc-960x540.jpg</meta:thumbnail_image>
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-TAAsZ8BF6Oc-225x150.jpg</meta:mosaic_image>
@@ -71,17 +57,17 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zine.trevorion.io/sitemap-and-rss-the-creative-archive-restored/</loc>
-    <lastmod>2026-11-08T06:45:11Z</lastmod>
-    <meta:title>Sitemap and RSS – The Creative Archive Restored</meta:title>
-    <meta:published>2026-10-12T10:00:00Z</meta:published>
+    <loc>https://zine.trevorion.io/the-ledger-s-open-a-gothic-lyric-video-premieres/</loc>
+    <lastmod>2026-11-08T07:28:47Z</lastmod>
+    <meta:title>The Ledger’s Open – A Gothic Lyric Video Premieres</meta:title>
+    <meta:published>2026-10-24T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
-    <meta:tags>["#Milestone", "#Trevorion", "RSSRestoration", "SitemapIntegration"]</meta:tags>
-    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Sitemap-The-Cartographer.png</meta:og_image>
-    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Sitemap-The-Cartographer-960x640.png</meta:thumbnail_image>
-    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Sitemap-The-Cartographer-225x150.png</meta:mosaic_image>
+    <meta:tags>["#GothicMetal", "#LyricVideo", "#TheLedgersOpen", "#TheRiftwalkers"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-De-_FbskGC4.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-De-_FbskGC4-960x540.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-De-_FbskGC4-225x150.jpg</meta:mosaic_image>
     <image:image>
-      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/11/Sitemap-The-Cartographer.png</image:loc>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/11/zine-youtube-De-_FbskGC4.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -90,7 +76,7 @@
     <meta:title>Trevorion Zine Launches Its YouTube Channel</meta:title>
     <meta:published>2026-10-12T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
-    <meta:tags>["#Milestone", "#Trevorion", "ChannelLaunch", "YouTubeChannel"]</meta:tags>
+    <meta:tags>["#ChannelLaunch", "#Milestone", "#Trevorion", "#YouTubeChannel"]</meta:tags>
     <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/YouTube-Banner.png</meta:og_image>
     <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/YouTube-Banner-960x540.png</meta:thumbnail_image>
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/YouTube-Banner-225x150.png</meta:mosaic_image>
@@ -99,12 +85,26 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zine.trevorion.io/sitemap-and-rss-the-creative-archive-restored/</loc>
+    <lastmod>2026-11-08T06:45:11Z</lastmod>
+    <meta:title>Sitemap and RSS – The Creative Archive Restored</meta:title>
+    <meta:published>2026-10-12T10:00:00Z</meta:published>
+    <meta:category>News</meta:category>
+    <meta:tags>["#Milestone", "#RSSRestoration", "#SitemapIntegration", "#Trevorion"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Sitemap-The-Cartographer.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Sitemap-The-Cartographer-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/Sitemap-The-Cartographer-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/11/Sitemap-The-Cartographer.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/master-of-the-rift-the-original-band-takes-the-stage/</loc>
     <lastmod>2026-11-08T06:44:25Z</lastmod>
     <meta:title>Master of the Rift – The Original Band Takes the Stage</meta:title>
     <meta:published>2026-10-08T10:00:00Z</meta:published>
     <meta:category>News</meta:category>
-    <meta:tags>["#Milestone", "#Trevorion", "OriginalMusic", "RSSGallery"]</meta:tags>
+    <meta:tags>["#Milestone", "#OriginalMusic", "#RSSGallery", "#Trevorion"]</meta:tags>
     <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/10/646-Master-of-the-Rift-🎸🌀.png</meta:og_image>
     <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/10/646-Master-of-the-Rift-🎸🌀-960x640.png</meta:thumbnail_image>
     <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/10/646-Master-of-the-Rift-🎸🌀-225x150.png</meta:mosaic_image>
