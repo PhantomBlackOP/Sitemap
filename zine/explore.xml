@@ -2,6 +2,13 @@
 <urlset xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!--2026-->
   <url>
+    <loc>https://zine.trevorion.io/explore/?digest=2026-W48&amp;dpage=1</loc>
+    <lastmod>2026-11-23T17:05:25Z</lastmod>
+    <meta:title>Week 48</meta:title>
+    <meta:category>Explore</meta:category>
+    <meta:period>2026-W48</meta:period>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/explore/?digest=2026-W47&amp;dpage=1</loc>
     <lastmod>2026-11-22T21:24:24Z</lastmod>
     <meta:title>Week 47</meta:title>
@@ -578,42 +585,42 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W17&amp;dpage=1</loc>
-    <lastmod>2026-11-23T09:44:05Z</lastmod>
+    <lastmod>2026-11-23T17:25:56Z</lastmod>
     <meta:title>Week 17</meta:title>
     <meta:category>Explore</meta:category>
     <meta:period>2025-W17</meta:period>
   </url>
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W16&amp;dpage=1</loc>
-    <lastmod>2026-06-22T08:12:40Z</lastmod>
+    <lastmod>2026-11-23T22:14:39Z</lastmod>
     <meta:title>Week 16</meta:title>
     <meta:category>Explore</meta:category>
     <meta:period>2025-W16</meta:period>
   </url>
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W15&amp;dpage=1</loc>
-    <lastmod>2026-11-19T00:37:44Z</lastmod>
+    <lastmod>2026-11-24T02:02:03Z</lastmod>
     <meta:title>Week 15</meta:title>
     <meta:category>Explore</meta:category>
     <meta:period>2025-W15</meta:period>
   </url>
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W14&amp;dpage=1</loc>
-    <lastmod>2026-11-08T07:16:57Z</lastmod>
+    <lastmod>2026-11-24T08:29:41Z</lastmod>
     <meta:title>Week 14</meta:title>
     <meta:category>Explore</meta:category>
     <meta:period>2025-W14</meta:period>
   </url>
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W13&amp;dpage=1</loc>
-    <lastmod>2026-02-12T12:35:27Z</lastmod>
+    <lastmod>2026-11-24T09:15:37Z</lastmod>
     <meta:title>Week 13</meta:title>
     <meta:category>Explore</meta:category>
     <meta:period>2025-W13</meta:period>
   </url>
   <url>
     <loc>https://zine.trevorion.io/explore/?digest=2025-W12&amp;dpage=1</loc>
-    <lastmod>2026-02-12T15:06:06Z</lastmod>
+    <lastmod>2026-11-24T09:15:52Z</lastmod>
     <meta:title>Week 12</meta:title>
     <meta:category>Explore</meta:category>
     <meta:period>2025-W12</meta:period>
