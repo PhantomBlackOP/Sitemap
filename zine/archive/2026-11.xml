@@ -1,8 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:meta="https://sitemap.trevorion.io/ns/meta" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zine.trevorion.io/20261125-1/</loc>
+    <lastmod>2026-11-25T21:53:20Z</lastmod>
+    <meta:title>694: Cryogenic Stasis ❄️🧬</meta:title>
+    <meta:published>2026-11-25T11:30:00Z</meta:published>
+    <meta:category>Daily</meta:category>
+    <meta:tags>["#Cryopod", "#Cryosuit", "#DeepFreeze", "#LifeSupport", "#SuspendedAnimation"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/11/694-Cryogenic-Stasis-❄️🧬.png</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/11/694-Cryogenic-Stasis-❄️🧬-960x640.png</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/11/694-Cryogenic-Stasis-❄️🧬-225x150.png</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/11/694-Cryogenic-Stasis-❄️🧬.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zine.trevorion.io/20261124-1/</loc>
-    <lastmod>2026-11-24T18:10:34Z</lastmod>
+    <lastmod>2026-11-25T21:17:52Z</lastmod>
     <meta:title>693: Bǎihé Tuánshàn (百合團扇) 🪭🌸</meta:title>
     <meta:published>2026-11-24T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -16,7 +30,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261123-1/</loc>
-    <lastmod>2026-11-23T17:05:25Z</lastmod>
+    <lastmod>2026-11-25T21:17:56Z</lastmod>
     <meta:title>692: Garden Stroll 🌸🌿</meta:title>
     <meta:published>2026-11-23T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -30,7 +44,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261122-1/</loc>
-    <lastmod>2026-11-22T19:28:10Z</lastmod>
+    <lastmod>2026-11-25T21:18:01Z</lastmod>
     <meta:title>691: Indigo Welcome 🏮🌸</meta:title>
     <meta:published>2026-11-22T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -44,7 +58,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261121-1/</loc>
-    <lastmod>2026-11-21T17:30:46Z</lastmod>
+    <lastmod>2026-11-26T00:27:36Z</lastmod>
     <meta:title>690: Eastern Rosella 🦜🌿</meta:title>
     <meta:published>2026-11-21T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -58,7 +72,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261120-1/</loc>
-    <lastmod>2026-11-20T18:50:06Z</lastmod>
+    <lastmod>2026-11-26T00:58:27Z</lastmod>
     <meta:title>689: Matryoshka 🪆🌻</meta:title>
     <meta:published>2026-11-20T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -72,7 +86,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261119-1/</loc>
-    <lastmod>2026-11-19T18:25:01Z</lastmod>
+    <lastmod>2026-11-26T00:34:55Z</lastmod>
     <meta:title>688: The Bookmobile 📚🚌</meta:title>
     <meta:published>2026-11-19T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -86,7 +100,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261118-1/</loc>
-    <lastmod>2026-11-18T19:17:33Z</lastmod>
+    <lastmod>2026-11-26T01:12:02Z</lastmod>
     <meta:title>687: Golden Twist 🥨☀</meta:title>
     <meta:published>2026-11-18T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -114,7 +128,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261116-1/</loc>
-    <lastmod>2026-11-16T22:16:23Z</lastmod>
+    <lastmod>2026-11-26T00:35:04Z</lastmod>
     <meta:title>685: Red Orbit 🪀☀️</meta:title>
     <meta:published>2026-11-16T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -128,7 +142,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261115-1/</loc>
-    <lastmod>2026-11-15T17:44:10Z</lastmod>
+    <lastmod>2026-11-26T00:35:08Z</lastmod>
     <meta:title>684: Golden Strings 🎶🪉</meta:title>
     <meta:published>2026-11-15T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
@@ -142,7 +156,7 @@
   </url>
   <url>
     <loc>https://zine.trevorion.io/20261114-1/</loc>
-    <lastmod>2026-11-14T20:56:41Z</lastmod>
+    <lastmod>2026-11-26T01:22:37Z</lastmod>
     <meta:title>683: Igloo ❄️🧭</meta:title>
     <meta:published>2026-11-14T11:30:00Z</meta:published>
     <meta:category>Daily</meta:category>
