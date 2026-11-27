@@ -14,4 +14,18 @@
       <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/02/image-19.png</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>https://zine.trevorion.io/papa-pun-5/</loc>
+    <lastmod>2026-11-26T21:18:22Z</lastmod>
+    <meta:title>Star Pun!</meta:title>
+    <meta:published>2025-05-05T10:00:00Z</meta:published>
+    <meta:category>Comics</meta:category>
+    <meta:tags>["#Comic", "#Dad", "#DadJoke", "#PapaPun", "#Retro", "#Son", "#StarWars", "#Wordplay"]</meta:tags>
+    <meta:og_image>https://zine.trevorion.io/wp-content/uploads/2026/06/Star-Wars-scaled.jpg</meta:og_image>
+    <meta:thumbnail_image>https://zine.trevorion.io/wp-content/uploads/2026/06/Star-Wars-427x640.jpg</meta:thumbnail_image>
+    <meta:mosaic_image>https://zine.trevorion.io/wp-content/uploads/2026/06/Star-Wars-225x150.jpg</meta:mosaic_image>
+    <image:image>
+      <image:loc>https://zine.trevorion.io/wp-content/uploads/2026/06/Star-Wars-scaled.jpg</image:loc>
+    </image:image>
+  </url>
 </urlset>
