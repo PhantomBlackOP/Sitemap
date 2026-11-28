@@ -994,7 +994,7 @@
       "taxonomy": "category"
     }
   },
-  "last_sync": "2026-11-27T11:41:31Z",
+  "last_sync": "2026-11-28T11:16:52Z",
   "pages": {
     "120": {
       "date_gmt": "2025-08-19T03:50:57",
@@ -6190,6 +6190,31 @@
       "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/Zine-Daily-Storytelling-Project-960x640.jpg",
       "title": {
         "rendered": "From Images to Stories: Zine Completes Its Daily Storytelling Project"
+      }
+    },
+    "24089": {
+      "categories": [
+        8
+      ],
+      "date_gmt": "2026-11-27T11:30:00",
+      "featured_media": 24090,
+      "id": 24089,
+      "image_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/696-Crimson-Crossing-☔🚦.png",
+      "link": "https://zine.trevorion.io/20261127-1/",
+      "modified_gmt": "2026-11-27T22:38:37",
+      "mosaic_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/696-Crimson-Crossing-☔🚦-225x150.png",
+      "slug": "20261127-1",
+      "status": "publish",
+      "tags": [
+        36,
+        2536,
+        12032,
+        12030,
+        12031
+      ],
+      "thumbnail_url": "https://zine.trevorion.io/wp-content/uploads/2026/11/696-Crimson-Crossing-☔🚦-960x640.png",
+      "title": {
+        "rendered": "696: Crimson Crossing ☔🚦"
       }
     },
     "2415": {
@@ -23698,6 +23723,18 @@
     "12029": {
       "id": 12029,
       "name": "ZineMilestones"
+    },
+    "12030": {
+      "id": 12030,
+      "name": "#SchoolUniform"
+    },
+    "12031": {
+      "id": 12031,
+      "name": "#ZebraCrossing"
+    },
+    "12032": {
+      "id": 12032,
+      "name": "#RedUmbrella"
     },
     "1206": {
       "id": 1206,
